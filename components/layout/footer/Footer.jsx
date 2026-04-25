@@ -1,5 +1,8 @@
+import Image from "next/image";
+import Link from "next/link";
 import { MapPin } from "lucide-react";
 import { site } from "@/content/site";
+import { Logo } from "@/components/layout/Logo";
 import { FooterColumn } from "./FooterColumn";
 import { SocialLinks } from "./SocialLinks";
 
@@ -19,9 +22,25 @@ export function Footer() {
     <footer className="w-full border-t border-gold bg-navy">
       {/* Top: brand mark + socials */}
       <div className="mx-auto flex max-w-7xl flex-col items-center border-b border-gold/30 px-6 pt-12 pb-8 md:px-8">
-        <span className="mb-6 text-2xl font-bold uppercase tracking-[0.2em] text-gold">
+        <Link
+          href="/"
+          aria-label={site.fullName}
+          className="mb-4 inline-block transition-transform duration-300 hover:scale-105"
+        >
+          {/* JPG has a white background — wrapping in `rounded-full bg-white`
+              treats it as an intentional circular badge against the navy.
+              Swap for a transparent SVG/PNG to render the medallion bare. */}
+          <Image
+            src="/images/nfsc-logo.jpg"
+            alt=""
+            width={160}
+            height={160}
+            className="h-20 w-20 rounded-full bg-white object-cover shadow-lg shadow-black/30"
+          />
+        </Link>
+        {/* <span className="mb-6 mt-1 text-2xl font-bold uppercase tracking-[0.2em] text-gold">
           {site.name}
-        </span>
+        </span> */}
         <SocialLinks items={site.footer.socials} />
       </div>
 
@@ -29,8 +48,7 @@ export function Footer() {
       <div className="mx-auto grid max-w-7xl grid-cols-1 gap-12 px-6 py-12 sm:grid-cols-2 md:px-8 lg:grid-cols-4">
         {/* About */}
         <div>
-          <h3 className="mb-2 text-xl font-bold text-gold">{site.name}</h3>
-          <p className="mb-4 text-sm text-white">{site.fullName}</p>
+          <Logo variant="footer" className="mb-4" />
           <p className="text-sm leading-relaxed text-white/50">
             {site.footer.about}
           </p>
