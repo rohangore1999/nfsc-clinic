@@ -1,7 +1,8 @@
 "use client";
 
+import Image from "next/image";
 import { motion, useReducedMotion } from "motion/react";
-import { Building2, MapPin } from "lucide-react";
+import { MapPin } from "lucide-react";
 import { site } from "@/content/site";
 import { GoldLink } from "@/components/cta/GoldLink";
 import { InlineBookingForm } from "./InlineBookingForm";
@@ -94,28 +95,27 @@ export function CtaBanner() {
             </motion.p>
           </motion.div>
 
-          {/* Image / placeholder column */}
+          {/* Image column */}
           <motion.div
             {...sectionRevealProps}
             variants={reduceMotion ? undefined : imageVariant}
             className="w-full flex-1 md:-mt-16"
           >
-            <div className="aspect-[4/3] w-full overflow-hidden rounded-2xl border border-white/10 bg-white/5 shadow-2xl shadow-black/40">
-              {/* TODO: swap for <Image src="/images/clinic-interior.jpg" ... /> when real photo lands */}
-              <div className="flex h-full w-full items-center justify-center bg-gradient-to-br from-white/5 to-white/[0.02]">
-                <Building2
-                  className="h-20 w-20 text-gold/30"
-                  strokeWidth={1}
-                  aria-hidden="true"
-                />
-              </div>
+            <div className="relative aspect-[4/3] w-full overflow-hidden rounded-2xl border border-white/10 bg-white/5 shadow-2xl shadow-black/40">
+              <Image
+                src="/images/nfsc-contact-us.jpg"
+                alt={`${site.fullName} clinic interior`}
+                fill
+                sizes="(min-width: 768px) 50vw, 100vw"
+                className="object-cover"
+              />
             </div>
           </motion.div>
         </div>
 
         {/* Visit Our Clinic */}
         <div className="mt-16 flex flex-col items-center text-center">
-          <GoldLink href="/contact">
+          <GoldLink href={site.contact.mapDirectionsUrl}>
             <MapPin
               className="h-4 w-4"
               strokeWidth={1.5}

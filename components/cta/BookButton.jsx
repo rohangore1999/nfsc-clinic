@@ -8,14 +8,15 @@ import { cn } from "@/lib/utils";
  * @param {Object} props
  * @param {"outline"|"solid"} [props.variant]
  * @param {"sm"|"lg"} [props.size]
- * @param {string} [props.href]   - default: /contact
+ * @param {string} [props.href]   - default: "#contact" (scrolls to the
+ *                                  site-wide CTA banner on the current page)
  * @param {string} [props.label]  - default: "Book Appointment"
  * @param {string} [props.className]
  */
 export function BookButton({
   variant = "outline",
   size = "sm",
-  href = "/contact",
+  href = "#contact",
   label = "Book Appointment",
   className,
 }) {

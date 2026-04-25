@@ -1,7 +1,8 @@
 "use client";
 
+import Image from "next/image";
 import { motion, useReducedMotion } from "motion/react";
-import { Building2, Compass, Sparkles, HeartHandshake } from "lucide-react";
+import { Compass, Sparkles, HeartHandshake } from "lucide-react";
 import { site } from "@/content/site";
 import { IconFeatureList } from "@/components/ui/IconFeatureList";
 
@@ -68,15 +69,14 @@ export function ClinicOverview() {
           variants={reduceMotion ? undefined : imageVariant}
           className="relative"
         >
-          <div className="h-[400px] w-full overflow-hidden rounded-sm border border-hairline bg-background md:h-[600px]">
-            {/* TODO: swap for <Image src="/images/clinic-reception.jpg" ... /> when photo lands */}
-            <div className="flex h-full w-full items-center justify-center bg-gradient-to-br from-section-alt to-hairline">
-              <Building2
-                className="h-20 w-20 text-gold/30"
-                strokeWidth={1}
-                aria-hidden="true"
-              />
-            </div>
+          <div className="relative h-[400px] w-full overflow-hidden rounded-sm border border-hairline bg-background md:h-[600px]">
+            <Image
+              src="/images/nfsc-about.jpg"
+              alt={`${site.fullName} — ${site.about.clinic.title}`}
+              fill
+              sizes="(min-width: 768px) 50vw, 100vw"
+              className="object-cover"
+            />
           </div>
           <div
             aria-hidden="true"

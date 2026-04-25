@@ -83,16 +83,31 @@ export function Footer() {
             <li className="text-gold">{site.contact.hours}</li>
           </ul>
 
-          {/* Map placeholder — swap for <iframe src="<google-maps-embed>" /> when real coords ready */}
+          {/* Live Google Maps embed. Filter tints the light-themed Google map
+              toward the dark navy footer palette so it doesn't clash. */}
           <div className="aspect-video w-full overflow-hidden rounded-lg border border-white/10 bg-white/5">
-            <div className="flex h-full w-full items-center justify-center">
-              <MapPin
-                className="h-8 w-8 text-gold/40"
-                strokeWidth={1.25}
-                aria-hidden="true"
-              />
-            </div>
+            <iframe
+              title={`${site.fullName} — clinic location`}
+              src={site.contact.mapEmbedUrl}
+              loading="lazy"
+              referrerPolicy="no-referrer-when-downgrade"
+              className="h-full w-full"
+              style={{
+                filter:
+                  "invert(90%) hue-rotate(180deg) contrast(85%) grayscale(60%)",
+              }}
+            />
           </div>
+
+          <a
+            href={site.contact.mapDirectionsUrl}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="mt-3 inline-flex items-center gap-1.5 text-xs font-medium uppercase tracking-[0.18em] text-gold transition-colors duration-200 hover:text-white"
+          >
+            <MapPin className="h-3.5 w-3.5" strokeWidth={1.5} aria-hidden="true" />
+            Get Directions
+          </a>
         </div>
       </div>
 

@@ -14,7 +14,7 @@ export function GoogleReviewCta() {
       className="bg-background px-6 pb-20 md:px-8"
     >
       <a
-        href={cta.href}
+        href={site.contact.mapDirectionsUrl}
         target="_blank"
         rel="noopener noreferrer"
         className={cn(

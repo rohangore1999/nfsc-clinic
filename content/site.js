@@ -465,17 +465,25 @@ export const site = {
     googleCta: {
       title: "See all our reviews on Google",
       subtitle: "We value every patient's feedback",
-      // TODO: replace with real Google Business Profile URL
-      href: "https://google.com/maps",
+      // Reuses site.contact.mapDirectionsUrl — the Google Maps place page
+      // shows the clinic's reviews tab. Single source of truth.
     },
   },
 
-  // TODO: replace placeholders with real clinic details before launch
   contact: {
-    address: "TBD — Mumbai address",
-    phone: "+91 XXXXX XXXXX",
-    email: "TBD@nfsc.example",
-    hours: "Mon–Sat • 10AM–7PM",
+    address:
+      "1st floor, Avenue Building, Hemukalani Cross Rd 4, near KES International School, Sambhav Darshan, Hemu Colony, Irani Wadi, Kandivali West, Mumbai, Maharashtra 400067",
+    postalCode: "400067",
+    phone: "+91 7020089539",
+    email: "nikhilangre597@gmail.com",
+    hours: "Mon–Sun • 10AM–8PM",
+    // Iframe-friendly embed (q-based search lands on the clinic pin without an API key).
+    mapEmbedUrl:
+      "https://maps.google.com/maps?q=NFSC+-+Dr.+Nikhil+Face+Surgical+%26+Aesthetic+Centre%2C+Kandivali+West%2C+Mumbai&output=embed",
+    // Full Google Maps URL with lat/long + CID — used by both the footer
+    // "Get Directions" link and the CTA banner "Visit Our Clinic" button.
+    mapDirectionsUrl:
+      "https://www.google.com/maps?ll=19.200452,72.841788&z=15&t=m&hl=en-GB&gl=US&mapclient=embed&cid=3538749345988090820",
   },
 
   footer: {
