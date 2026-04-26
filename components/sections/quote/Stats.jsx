@@ -3,15 +3,8 @@
 import { Fragment, useEffect, useRef, useState } from "react";
 import { animate, useInView, useReducedMotion } from "motion/react";
 import { cn } from "@/lib/utils";
-
-const EASE = [0.16, 1, 0.3, 1];
-
-/** Splits "10+" → { value: 10, suffix: "+" }; falls back to a string if no leading digits. */
-function parseStat(raw) {
-  const match = String(raw).match(/^(\d+)(.*)$/);
-  if (!match) return { value: 0, suffix: String(raw) };
-  return { value: Number(match[1]), suffix: match[2] ?? "" };
-}
+import { EASE } from "@/lib/motion";
+import { parseStat } from "@/lib/strings";
 
 /**
  * Animated counter that rolls from 0 → value once it scrolls into view.

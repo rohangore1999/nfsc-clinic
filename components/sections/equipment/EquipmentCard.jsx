@@ -3,8 +3,7 @@
 import { motion } from "motion/react";
 import { Microscope, Zap, RotateCw } from "lucide-react";
 import { cn } from "@/lib/utils";
-
-const EASE = [0.16, 1, 0.3, 1];
+import { EASE } from "@/lib/motion";
 
 const ICON_MAP = {
   microscope: Microscope,

@@ -1,8 +1,7 @@
 "use client";
 
 import { motion, useReducedMotion } from "motion/react";
-
-const EASE = [0.16, 1, 0.3, 1];
+import { EASE } from "@/lib/motion";
 
 /**
  * Long-form narrative paragraph for a treatment category.

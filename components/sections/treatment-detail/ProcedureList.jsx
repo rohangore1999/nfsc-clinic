@@ -1,31 +1,16 @@
 "use client";
 
 import { motion, useReducedMotion } from "motion/react";
+import {
+  itemVariant,
+  containerVariant,
+  makeContainerVariant,
+  SCROLL_VIEWPORT,
+} from "@/lib/motion";
+import { toSlug } from "@/lib/strings";
 
-const EASE = [0.16, 1, 0.3, 1];
-
-/** Slugify a procedure title for use as an in-page anchor (#rhinoplasty, #hair-transplant). */
-function toSlug(s) {
-  return s
-    .toLowerCase()
-    .replace(/[^a-z0-9]+/g, "-")
-    .replace(/^-|-$/g, "");
-}
-
-const headerVariant = {
-  hidden: {},
-  show: { transition: { staggerChildren: 0.08, delayChildren: 0.1 } },
-};
-
-const itemVariant = {
-  hidden: { opacity: 0, y: 16 },
-  show: { opacity: 1, y: 0, transition: { duration: 0.6, ease: EASE } },
-};
-
-const gridVariant = {
-  hidden: {},
-  show: { transition: { staggerChildren: 0.06, delayChildren: 0.2 } },
-};
+// Slightly tighter stagger for the procedure grid than the default header.
+const gridVariant = makeContainerVariant({ stagger: 0.06, delay: 0.2 });
 
 /**
  * Procedure list — header + 2-col grid of named procedures with descriptions.
@@ -43,9 +28,9 @@ export function ProcedureList({ procedures }) {
     : {
         initial: "hidden",
         whileInView: "show",
-        viewport: { once: true, amount: 0.2 },
+        viewport: SCROLL_VIEWPORT,
       };
-  const headerProps = reduceMotion ? {} : { variants: headerVariant };
+  const headerProps = reduceMotion ? {} : { variants: containerVariant };
   const itemProps = reduceMotion ? {} : { variants: itemVariant };
   const gridProps = reduceMotion ? {} : { variants: gridVariant };
 

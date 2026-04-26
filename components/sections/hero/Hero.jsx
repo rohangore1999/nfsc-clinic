@@ -5,18 +5,12 @@ import { Star } from "lucide-react";
 import { site } from "@/content/site";
 import { BookButton } from "@/components/cta/BookButton";
 import { CallButton } from "@/components/cta/CallButton";
+import { EASE, makeContainerVariant } from "@/lib/motion";
 import { TreatmentPills } from "./TreatmentPills";
 import { TreatmentCardsGrid } from "./TreatmentCardsGrid";
 import { TrustIconsRow } from "./TrustIconsRow";
 
-const EASE = [0.16, 1, 0.3, 1];
-
-const containerVariant = {
-  hidden: {},
-  show: {
-    transition: { staggerChildren: 0.05, delayChildren: 0.05 },
-  },
-};
+const containerVariant = makeContainerVariant({ stagger: 0.05, delay: 0.05 });
 
 const itemVariant = {
   hidden: { opacity: 0, y: 12 },

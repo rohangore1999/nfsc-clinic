@@ -2,8 +2,7 @@
 
 import { motion, useReducedMotion } from "motion/react";
 import { cn } from "@/lib/utils";
-
-const EASE = [0.16, 1, 0.3, 1];
+import { EASE, makeContainerVariant } from "@/lib/motion";
 
 // Sequential pulse with extended trailing fade.
 // Each pill follows a 5-stage envelope:
@@ -27,12 +26,7 @@ const GLOW_ON = "0 0 30px 3px rgba(201, 160, 79, 0.45)";
 // so the disappearance isn't perceived as a clip.
 const GLOW_EMBER = "0 0 14px 1px rgba(201, 160, 79, 0.08)";
 
-const containerVariant = {
-  hidden: {},
-  show: {
-    transition: { staggerChildren: 0.04, delayChildren: 0.1 },
-  },
-};
+const containerVariant = makeContainerVariant({ stagger: 0.04, delay: 0.1 });
 
 function makePillVariant(reduceMotion, count) {
   // Total wall-clock cycle = (count - 1) * STAGGER + ACTIVE

@@ -6,8 +6,8 @@ import { ChevronLeft, ChevronRight, Quote as QuoteIcon, User } from "lucide-reac
 import { site } from "@/content/site";
 import { StarRow } from "@/components/ui/StarRow";
 import { cn } from "@/lib/utils";
+import { EASE } from "@/lib/motion";
 
-const EASE = [0.16, 1, 0.3, 1];
 const AUTOPLAY_MS = 6000;
 
 /**

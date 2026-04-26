@@ -4,29 +4,14 @@ import { motion, useReducedMotion } from "motion/react";
 import { site } from "@/content/site";
 import { WhyChooseCard } from "./WhyChooseCard";
 import { KeywordRow } from "./KeywordRow";
-
-const EASE = [0.16, 1, 0.3, 1];
-
-// Outer stagger: title → subtitle → divider → grid → keywords.
-const containerVariant = {
-  hidden: {},
-  show: {
-    transition: { staggerChildren: 0.08, delayChildren: 0.1 },
-  },
-};
-
-const itemVariant = {
-  hidden: { opacity: 0, y: 16 },
-  show: { opacity: 1, y: 0, transition: { duration: 0.6, ease: EASE } },
-};
+import {
+  containerVariant,
+  itemVariant,
+  makeContainerVariant,
+} from "@/lib/motion";
 
 // Nested stagger inside the grid so each card reveals after the heading row.
-const cardsContainerVariant = {
-  hidden: {},
-  show: {
-    transition: { staggerChildren: 0.08 },
-  },
-};
+const cardsContainerVariant = makeContainerVariant({ stagger: 0.08, delay: 0 });
 
 export function WhyChoose() {
   const reduceMotion = useReducedMotion();

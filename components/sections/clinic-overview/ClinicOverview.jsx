@@ -5,29 +5,13 @@ import { motion, useReducedMotion } from "motion/react";
 import { Compass, Sparkles, HeartHandshake } from "lucide-react";
 import { site } from "@/content/site";
 import { IconFeatureList } from "@/components/ui/IconFeatureList";
-
-const EASE = [0.16, 1, 0.3, 1];
+import { containerVariant, itemVariant, imageVariant } from "@/lib/motion";
 
 // Resolve icon strings from content/site.js to lucide components.
 const ICON_MAP = {
   compass: Compass,
   sparkles: Sparkles,
   heartHandshake: HeartHandshake,
-};
-
-const containerVariant = {
-  hidden: {},
-  show: { transition: { staggerChildren: 0.08, delayChildren: 0.1 } },
-};
-
-const itemVariant = {
-  hidden: { opacity: 0, y: 16 },
-  show: { opacity: 1, y: 0, transition: { duration: 0.6, ease: EASE } },
-};
-
-const imageVariant = {
-  hidden: { opacity: 0, scale: 1.03 },
-  show: { opacity: 1, scale: 1, transition: { duration: 0.9, ease: EASE } },
 };
 
 /**

@@ -3,8 +3,7 @@
 import { motion } from "motion/react";
 import { Award, User } from "lucide-react";
 import { cn } from "@/lib/utils";
-
-const EASE = [0.16, 1, 0.3, 1];
+import { EASE } from "@/lib/motion";
 
 const cardVariant = {
   hidden: { opacity: 0, y: 24 },

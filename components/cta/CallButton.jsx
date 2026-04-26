@@ -1,6 +1,7 @@
 import { Phone } from "lucide-react";
 import { site } from "@/content/site";
 import { cn } from "@/lib/utils";
+import { cleanPhone } from "@/lib/strings";
 
 /**
  * Reusable "Call Now" CTA. Opens the device dialer via tel: link.
@@ -18,8 +19,7 @@ export function CallButton({
   label = "Call Now",
   className,
 }) {
-  // Strip non-digits + leading "+" preserved for tel: URI
-  const tel = `tel:${site.contact.phone.replace(/[^\d+]/g, "")}`;
+  const tel = `tel:${cleanPhone(site.contact.phone)}`;
 
   const base =
     "inline-flex items-center justify-center gap-2 whitespace-nowrap font-medium uppercase tracking-[0.15em] " +

@@ -4,23 +4,7 @@ import { motion, useReducedMotion } from "motion/react";
 import { User } from "lucide-react";
 import { site } from "@/content/site";
 import { cn } from "@/lib/utils";
-
-const EASE = [0.16, 1, 0.3, 1];
-
-const containerVariant = {
-  hidden: {},
-  show: { transition: { staggerChildren: 0.08, delayChildren: 0.1 } },
-};
-
-const itemVariant = {
-  hidden: { opacity: 0, y: 16 },
-  show: { opacity: 1, y: 0, transition: { duration: 0.6, ease: EASE } },
-};
-
-const imageVariant = {
-  hidden: { opacity: 0, scale: 1.03 },
-  show: { opacity: 1, scale: 1, transition: { duration: 0.9, ease: EASE } },
-};
+import { containerVariant, itemVariant, imageVariant } from "@/lib/motion";
 
 /**
  * About → Lead Surgeon Dr. Nikhil section.

@@ -4,8 +4,7 @@ import { useState } from "react";
 import { motion } from "motion/react";
 import { StarRow } from "@/components/ui/StarRow";
 import { cn } from "@/lib/utils";
-
-const EASE = [0.16, 1, 0.3, 1];
+import { EASE } from "@/lib/motion";
 
 const cardVariant = {
   hidden: { opacity: 0, y: 16 },

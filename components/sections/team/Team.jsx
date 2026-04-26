@@ -3,23 +3,14 @@
 import { motion, useReducedMotion } from "motion/react";
 import { site } from "@/content/site";
 import { TeamMemberCard } from "./TeamMemberCard";
+import {
+  containerVariant as headerVariant,
+  itemVariant,
+  makeContainerVariant,
+} from "@/lib/motion";
 
-const EASE = [0.16, 1, 0.3, 1];
-
-const headerVariant = {
-  hidden: {},
-  show: { transition: { staggerChildren: 0.08, delayChildren: 0.1 } },
-};
-
-const itemVariant = {
-  hidden: { opacity: 0, y: 16 },
-  show: { opacity: 1, y: 0, transition: { duration: 0.6, ease: EASE } },
-};
-
-const gridVariant = {
-  hidden: {},
-  show: { transition: { staggerChildren: 0.08, delayChildren: 0.2 } },
-};
+// Cards stagger after header reveals.
+const gridVariant = makeContainerVariant({ stagger: 0.08, delay: 0.2 });
 
 /**
  * About → Our Team section.

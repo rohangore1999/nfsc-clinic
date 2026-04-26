@@ -4,6 +4,7 @@ import { useMemo, useState } from "react";
 import { ArrowRight, ChevronDown } from "lucide-react";
 import { site } from "@/content/site";
 import { cn } from "@/lib/utils";
+import { validateContactForm, FIELD_LIMITS } from "@/lib/validation";
 
 const inputBase = cn(
   "w-full rounded-lg bg-white/10 px-4 py-3 text-white",
@@ -20,43 +21,6 @@ function fieldCls(hasError, extra) {
       : "border border-white/20 focus:border-gold",
     extra
   );
-}
-
-const PHONE_RE = /^[0-9+\-\s()]{6,20}$/;
-const EMAIL_RE = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
-
-const ALLOWED_TREATMENTS = new Set([
-  "Facial Surgery",
-  "Hair Treatment",
-  "Other",
-]);
-
-function validate({ name, phone, email, treatment, message }) {
-  const errs = {};
-  const n = (name || "").trim();
-  const p = (phone || "").trim();
-  const e = (email || "").trim();
-  const m = message || "";
-
-  if (!n) errs.name = "Please enter your name.";
-  else if (n.length > 100) errs.name = "Name is too long.";
-
-  if (!p) errs.phone = "Please enter your phone number.";
-  else if (!PHONE_RE.test(p))
-    errs.phone = "Please enter a valid phone number.";
-
-  // Email is optional — only validate format when present.
-  if (e && !EMAIL_RE.test(e))
-    errs.email = "Please enter a valid email address.";
-
-  if (!treatment) errs.treatment = "Please pick a treatment of interest.";
-  else if (!ALLOWED_TREATMENTS.has(treatment))
-    errs.treatment = "Please pick a valid treatment.";
-
-  if (m.length > 1000)
-    errs.message = "Message is too long (max 1000 characters).";
-
-  return errs;
 }
 
 const INITIAL_VALUES = {
@@ -98,7 +62,7 @@ export function InlineBookingForm() {
   const [submitted, setSubmitted] = useState(false);
   const [serverError, setServerError] = useState(null);
 
-  const errors = useMemo(() => validate(values), [values]);
+  const errors = useMemo(() => validateContactForm(values), [values]);
   const hasErrors = Object.keys(errors).length > 0;
 
   function handleChange(event) {
@@ -183,7 +147,7 @@ export function InlineBookingForm() {
           required
           placeholder={site.ctaBanner.fields.name}
           autoComplete="name"
-          maxLength={100}
+          maxLength={FIELD_LIMITS.name}
           value={values.name}
           onChange={handleChange}
           onBlur={handleBlur}
@@ -207,7 +171,7 @@ export function InlineBookingForm() {
           inputMode="tel"
           placeholder={site.ctaBanner.fields.phone}
           autoComplete="tel"
-          maxLength={20}
+          maxLength={FIELD_LIMITS.phone}
           value={values.phone}
           onChange={handleChange}
           onBlur={handleBlur}
@@ -230,7 +194,7 @@ export function InlineBookingForm() {
           inputMode="email"
           placeholder={site.ctaBanner.fields.email}
           autoComplete="email"
-          maxLength={120}
+          maxLength={FIELD_LIMITS.email}
           value={values.email}
           onChange={handleChange}
           onBlur={handleBlur}
@@ -295,7 +259,7 @@ export function InlineBookingForm() {
         <textarea
           name="message"
           rows={4}
-          maxLength={1000}
+          maxLength={FIELD_LIMITS.message}
           placeholder={site.ctaBanner.fields.message}
           value={values.message}
           onChange={handleChange}

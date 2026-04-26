@@ -4,8 +4,7 @@ import { useState } from "react";
 import { motion, AnimatePresence, useReducedMotion } from "motion/react";
 import { ChevronDown } from "lucide-react";
 import { cn } from "@/lib/utils";
-
-const EASE = [0.16, 1, 0.3, 1];
+import { EASE } from "@/lib/motion";
 
 /**
  * Reusable FAQ accordion. Click a question to expand its answer; clicking

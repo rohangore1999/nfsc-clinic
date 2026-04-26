@@ -2,8 +2,7 @@
 
 import { motion, useReducedMotion } from "motion/react";
 import { Scissors, Wind } from "lucide-react";
-
-const EASE = [0.16, 1, 0.3, 1];
+import { EASE } from "@/lib/motion";
 
 const ICON_MAP = {
   "facial-surgery": Scissors,

@@ -2,20 +2,7 @@
 
 import { motion, useReducedMotion } from "motion/react";
 import { Breadcrumb } from "@/components/ui/Breadcrumb";
-
-const EASE = [0.16, 1, 0.3, 1];
-
-const containerVariant = {
-  hidden: {},
-  show: {
-    transition: { staggerChildren: 0.08, delayChildren: 0.1 },
-  },
-};
-
-const itemVariant = {
-  hidden: { opacity: 0, y: 16 },
-  show: { opacity: 1, y: 0, transition: { duration: 0.6, ease: EASE } },
-};
+import { containerVariant, itemVariant } from "@/lib/motion";
 
 /**
  * Default decoration: 3 gold dots with decreasing opacity.
