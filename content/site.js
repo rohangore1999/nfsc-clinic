@@ -147,7 +147,9 @@ export const site = {
     fields: {
       name: "Your Name",
       phone: "Phone Number",
+      email: "Email Address",
       treatment: "Treatment Interest",
+      message: "Tell us about your goals (optional)",
       submit: "Book Now",
     },
     fallback: "or call",
