@@ -215,9 +215,6 @@ export const site = {
       eyebrow: "Lead Surgeon",
     },
     philosophy: {
-      eyebrow: "Believe",
-      heading: "The Art of Surgery",
-      body: "Surgery, at its finest, is a quiet discipline. Every contour is studied, every line considered, every result earned through restraint. We believe precision and artistry are not opposing forces. They are the same hand at work.",
       image: "/images/nikhil/about-nikhil2.jpg",
       imageAlt: "Dr. Nikhil at work, the art of surgery",
     },

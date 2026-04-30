@@ -55,7 +55,7 @@ export function ClinicOverview() {
         >
           <div className="relative h-[400px] w-full overflow-hidden rounded-sm border border-hairline bg-background md:h-[600px]">
             <Image
-              src="/images/nfsc-about.jpg"
+              src="/images/nfsc-about.jpeg"
               alt={`${site.fullName} — ${site.about.clinic.title}`}
               fill
               sizes="(min-width: 768px) 50vw, 100vw"

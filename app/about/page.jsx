@@ -8,7 +8,6 @@ import { Equipment } from "@/components/sections/equipment/Equipment";
 import { Values } from "@/components/sections/values/Values";
 import { DoctorProfile } from "@/components/sections/doctor-profile/DoctorProfile";
 import { AboutPhilosophy } from "@/components/sections/about-philosophy/AboutPhilosophy";
-import { AboutQuote } from "@/components/sections/about-quote/AboutQuote";
 import { Team } from "@/components/sections/team/Team";
 
 export const metadata = buildMetadata({
@@ -38,10 +37,9 @@ export default function AboutPage() {
         <ClinicOverview />
         <Equipment />
         <DoctorProfile />
-        <AboutQuote />
+        <AboutPhilosophy />
         <Team />
         <Values />
-        <AboutPhilosophy />
       </main>
     </>
   );

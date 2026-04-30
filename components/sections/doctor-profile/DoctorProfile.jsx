@@ -104,7 +104,7 @@ export function DoctorProfile() {
           {/* Portrait container — height follows image aspect ratio */}
           <div className="relative z-10 w-full overflow-hidden rounded-sm border border-hairline bg-background">
             <Image
-              src="/images/nikhil/about-nikhil3.jpg"
+              src="/images/nikhil/about-nikhil4.jpeg"
               alt={`${site.doctor.name} — ${site.about.doctorProfile.eyebrow}`}
               width={3000}
               height={4000}

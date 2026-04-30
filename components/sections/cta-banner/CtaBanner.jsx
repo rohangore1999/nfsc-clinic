@@ -36,6 +36,29 @@ export function CtaBanner() {
       className="relative scroll-mt-24 bg-navy px-6 pt-24 pb-16 md:px-8 md:py-32"
     >
       <div className="mx-auto max-w-6xl">
+        {/* Banner header — heading + subtitle span the full width above the
+            form/image row so the row below is a clean side-by-side pair. */}
+        <motion.div
+          {...sectionRevealProps}
+          {...containerProps}
+          className="mb-12 text-center md:mb-16 md:text-left"
+        >
+          <motion.h2
+            {...itemProps}
+            id="cta-banner-heading"
+            className="mb-4 font-serif text-3xl font-semibold text-gold md:text-4xl lg:text-5xl"
+          >
+            {site.ctaBanner.title}
+          </motion.h2>
+
+          <motion.p
+            {...itemProps}
+            className="text-lg font-light text-white/60"
+          >
+            {site.ctaBanner.subtitle}
+          </motion.p>
+        </motion.div>
+
         <div className="flex flex-col-reverse items-center gap-12 md:flex-row md:gap-12">
           {/* Form column */}
           <motion.div
@@ -43,21 +66,6 @@ export function CtaBanner() {
             {...containerProps}
             className="flex-1 w-full text-center md:text-left"
           >
-            <motion.h2
-              {...itemProps}
-              id="cta-banner-heading"
-              className="mb-4 font-serif text-3xl font-semibold text-gold md:text-4xl lg:text-5xl"
-            >
-              {site.ctaBanner.title}
-            </motion.h2>
-
-            <motion.p
-              {...itemProps}
-              className="mb-8 text-lg font-light text-white/60"
-            >
-              {site.ctaBanner.subtitle}
-            </motion.p>
-
             <motion.div
               {...itemProps}
               className="mx-auto md:mx-0"
@@ -79,15 +87,15 @@ export function CtaBanner() {
             </motion.p>
           </motion.div>
 
-          {/* Image column */}
+          {/* Image column — vertically centered against the form fields */}
           <motion.div
             {...sectionRevealProps}
             variants={reduceMotion ? undefined : imageVariant}
-            className="w-full flex-1 md:-mt-16"
+            className="w-full flex-1 md:mb-[60px]"
           >
             <div className="relative aspect-[4/3] w-full overflow-hidden rounded-2xl border border-white/10 bg-white/5 shadow-2xl shadow-black/40">
               <Image
-                src="/images/nfsc-contact-us.jpg"
+                src="/images/nfsc-contact-us.jpeg"
                 alt={`${site.fullName} clinic interior`}
                 fill
                 sizes="(min-width: 768px) 50vw, 100vw"

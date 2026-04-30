@@ -2,14 +2,15 @@
 
 import Image from "next/image";
 import { motion, useReducedMotion } from "motion/react";
+import { Quote as QuoteIcon } from "lucide-react";
 import { site } from "@/content/site";
 import { containerVariant, itemVariant, imageVariant } from "@/lib/motion";
 
 /**
- * About → Philosophy section ("Believe — The Art of Surgery").
- * Mirrors DoctorProfile: image LEFT / content RIGHT on desktop,
- * image first on mobile. Same offset gold border treatment so the
- * pair reads as a spread.
+ * About → Philosophy section.
+ * Pairs Dr. Nikhil's portrait with his philosophy quote so the words
+ * feel personal rather than disembodied. Replaces the standalone
+ * AboutQuote section.
  */
 export function AboutPhilosophy() {
   const reduceMotion = useReducedMotion();
@@ -28,7 +29,7 @@ export function AboutPhilosophy() {
   return (
     <section
       aria-labelledby="about-philosophy-heading"
-      className="bg-section-alt px-6 py-24 md:px-8 md:py-32"
+      className="bg-background px-6 py-24 md:px-8 md:py-32"
     >
       <div className="mx-auto grid max-w-6xl items-center gap-12 md:grid-cols-2 md:gap-16">
         {/* Portrait — left on desktop, first on mobile */}
@@ -55,38 +56,39 @@ export function AboutPhilosophy() {
           </div>
         </motion.div>
 
-        {/* Content — right on desktop, second on mobile */}
+        {/* Quote — right on desktop, second on mobile */}
         <motion.div
           {...sectionRevealProps}
           {...containerProps}
           className="order-2 md:pl-4 lg:pl-12"
         >
-          <motion.p
-            {...itemProps}
-            className="mb-4 text-xs font-medium uppercase tracking-[0.2em] text-gold"
-          >
-            {site.about.philosophy.eyebrow}
-          </motion.p>
+          <motion.div {...itemProps} className="mb-6">
+            <QuoteIcon
+              className="h-10 w-10 text-gold/50"
+              strokeWidth={1.25}
+              aria-hidden="true"
+            />
+          </motion.div>
 
-          <motion.h2
+          <motion.blockquote
             {...itemProps}
             id="about-philosophy-heading"
-            className="mb-6 font-serif text-3xl font-semibold leading-tight text-navy md:text-4xl lg:text-5xl"
+            className="text-2xl font-light leading-relaxed text-navy md:text-3xl lg:text-4xl"
           >
-            {site.about.philosophy.heading}
-          </motion.h2>
+            &ldquo;{site.doctor.philosophyQuote}&rdquo;
+          </motion.blockquote>
 
           <motion.div
             {...itemProps}
             aria-hidden="true"
-            className="mb-8 h-px w-[80px] bg-gold"
+            className="my-8 h-px w-[80px] bg-gold"
           />
 
           <motion.p
             {...itemProps}
-            className="text-lg font-light leading-relaxed text-text-secondary"
+            className="text-xs font-medium uppercase tracking-[0.2em] text-text-muted"
           >
-            {site.about.philosophy.body}
+            — {site.doctor.name}
           </motion.p>
         </motion.div>
       </div>

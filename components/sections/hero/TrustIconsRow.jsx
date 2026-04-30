@@ -41,8 +41,12 @@ export function TrustIconsRow({ className }) {
                 aria-hidden="true"
               />
             ) : null}
-            <span className="text-[10px] font-medium uppercase tracking-[0.18em] text-text-muted md:text-xs">
-              {label}
+            <span className="text-[10px] font-medium uppercase leading-tight tracking-[0.18em] text-text-muted md:text-xs">
+              {label.split(" ").map((word) => (
+                <span key={word} className="block">
+                  {word}
+                </span>
+              ))}
             </span>
           </li>
         );
