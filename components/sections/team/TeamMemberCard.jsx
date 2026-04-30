@@ -1,5 +1,6 @@
 "use client";
 
+import Image from "next/image";
 import { motion } from "motion/react";
 import { Award, User } from "lucide-react";
 import { cn } from "@/lib/utils";
@@ -15,8 +16,8 @@ const cardVariant = {
  * Top: 3:4 portrait area with dark gradient overlay + floating name/role.
  * Bottom: degree, 3 specialty pills, gold "Award" + experience line.
  *
- * Portrait is currently a gradient placeholder; swap the inner div for
- * <Image src="/images/team/<slug>.jpg" ... /> when photos arrive.
+ * If `image` is provided, renders an <Image>; otherwise shows the
+ * gradient placeholder with a User icon.
  */
 export function TeamMemberCard({
   name,
@@ -24,6 +25,7 @@ export function TeamMemberCard({
   degree,
   specialties,
   experience,
+  image,
   className,
 }) {
   return (
@@ -39,18 +41,27 @@ export function TeamMemberCard({
     >
       {/* Portrait */}
       <div className="relative aspect-[3/4] overflow-hidden bg-gradient-to-br from-section-alt to-hairline">
-        {/* TODO: swap for <Image src="/images/team/<slug>.jpg" alt={name} fill ... /> */}
-        <div className="flex h-full w-full items-center justify-center">
-          <User
-            className="h-16 w-16 text-gold/30"
-            strokeWidth={1}
-            aria-hidden="true"
+        {image ? (
+          <Image
+            src={image}
+            alt={name}
+            fill
+            sizes="(min-width: 1024px) 25vw, (min-width: 640px) 50vw, 100vw"
+            className="object-cover"
           />
-        </div>
-        {/* Dark gradient overlay so floating name/role is legible */}
+        ) : (
+          <div className="flex h-full w-full items-center justify-center">
+            <User
+              className="h-16 w-16 text-gold/30"
+              strokeWidth={1}
+              aria-hidden="true"
+            />
+          </div>
+        )}
+        {/* Bottom-only scrim so floating name/role stays legible without darkening the whole image */}
         <div
           aria-hidden="true"
-          className="absolute inset-0 bg-gradient-to-t from-navy/90 via-navy/40 to-transparent"
+          className="absolute inset-x-0 bottom-0 h-2/5 bg-gradient-to-t from-navy/85 to-transparent"
         />
         {/* Floating name + role */}
         <div className="absolute bottom-4 left-4 right-4">

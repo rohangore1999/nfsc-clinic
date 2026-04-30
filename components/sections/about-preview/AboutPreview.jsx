@@ -1,7 +1,7 @@
 "use client";
 
+import Image from "next/image";
 import { motion, useReducedMotion } from "motion/react";
-import { User } from "lucide-react";
 import { site } from "@/content/site";
 import { GoldLink } from "@/components/cta/GoldLink";
 import { CheckBullets } from "./CheckBullets";
@@ -12,9 +12,6 @@ import { containerVariant, itemVariant, imageVariant as portraitVariant } from "
  * Layout (Stitch): content right + portrait left on desktop, content above
  * portrait on mobile. Achieved with `md:flex-row-reverse` — content is first
  * in DOM order (top on mobile, right on desktop).
- *
- * Portrait area is currently a placeholder; swap the inner div for
- * <Image src="/images/dr-nikhil.jpg" ... /> when the photo arrives.
  */
 export function AboutPreview() {
   const reduceMotion = useReducedMotion();
@@ -85,12 +82,14 @@ export function AboutPreview() {
           className="w-full max-w-md flex-1"
         >
           <div className="aspect-[3/4] border border-hairline bg-background p-4">
-            {/* TODO: replace placeholder with <Image src="/images/dr-nikhil.jpg" ... /> */}
-            <div className="relative flex h-full w-full items-center justify-center overflow-hidden bg-gradient-to-br from-section-alt to-hairline">
-              <User
-                className="h-20 w-20 text-gold/30"
-                strokeWidth={1}
-                aria-hidden="true"
+            <div className="relative h-full w-full overflow-hidden">
+              <Image
+                src="/images/nikhil/about-nikhil.jpg"
+                alt={`${site.doctor.name} — portrait`}
+                fill
+                sizes="(min-width: 768px) 28rem, 100vw"
+                className="object-cover"
+                priority
               />
             </div>
           </div>

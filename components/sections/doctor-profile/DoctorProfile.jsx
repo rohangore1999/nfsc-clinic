@@ -1,7 +1,7 @@
 "use client";
 
+import Image from "next/image";
 import { motion, useReducedMotion } from "motion/react";
-import { User } from "lucide-react";
 import { site } from "@/content/site";
 import { cn } from "@/lib/utils";
 import { containerVariant, itemVariant, imageVariant } from "@/lib/motion";
@@ -101,16 +101,16 @@ export function DoctorProfile() {
             aria-hidden="true"
             className="pointer-events-none absolute inset-0 z-0 translate-x-4 translate-y-4 rounded-sm border border-gold"
           />
-          {/* Portrait container */}
-          <div className="relative z-10 h-[400px] w-full overflow-hidden rounded-sm border border-hairline bg-background md:h-[600px]">
-            {/* TODO: swap for <Image src="/images/dr-nikhil-portrait.jpg" ... /> */}
-            <div className="flex h-full w-full items-center justify-center bg-gradient-to-br from-section-alt to-hairline">
-              <User
-                className="h-20 w-20 text-gold/30"
-                strokeWidth={1}
-                aria-hidden="true"
-              />
-            </div>
+          {/* Portrait container — height follows image aspect ratio */}
+          <div className="relative z-10 w-full overflow-hidden rounded-sm border border-hairline bg-background">
+            <Image
+              src="/images/nikhil/about-nikhil3.jpg"
+              alt={`${site.doctor.name} — ${site.about.doctorProfile.eyebrow}`}
+              width={3000}
+              height={4000}
+              sizes="(min-width: 768px) 50vw, 100vw"
+              className="h-auto w-full"
+            />
           </div>
         </motion.div>
       </div>

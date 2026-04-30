@@ -64,11 +64,11 @@ export function Team() {
           />
         </motion.div>
 
-        {/* 4-up grid */}
+        {/* Member grid — auto-fits up to 4 columns based on roster size */}
         <motion.div
           {...sectionRevealProps}
           {...gridProps}
-          className="grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-4"
+          className="mx-auto grid max-w-3xl grid-cols-1 gap-8 md:grid-cols-2"
         >
           {site.about.team.members.map((member) => (
             <TeamMemberCard key={member.name} {...member} />
