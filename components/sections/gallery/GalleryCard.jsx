@@ -1,5 +1,6 @@
 "use client";
 
+import Image from "next/image";
 import { motion } from "motion/react";
 import { ArrowLeftRight, User } from "lucide-react";
 import { cn } from "@/lib/utils";
@@ -18,7 +19,7 @@ const cardVariant = {
  * Image halves are currently gradient placeholders. When real photos arrive,
  * replace each placeholder div with <Image src={beforeUrl|afterUrl} ... />.
  */
-export function GalleryCard({ title, category, timeline, onClick, className }) {
+export function GalleryCard({ title, category, timeline, image, onClick, className }) {
   return (
     <motion.div
       variants={cardVariant}
@@ -41,50 +42,65 @@ export function GalleryCard({ title, category, timeline, onClick, className }) {
         className
       )}
     >
-      {/* Split before/after image area */}
       <div className="relative aspect-[4/3] w-full overflow-hidden">
-        <div className="absolute inset-0 flex">
-          {/* TODO: swap each placeholder for <Image src={...} alt="Before" /> */}
-          <div className="flex h-full w-1/2 items-center justify-center bg-gradient-to-br from-section-alt to-hairline">
-            <User
-              className="h-12 w-12 text-gold/30"
-              strokeWidth={1}
-              aria-hidden="true"
-            />
+        {category === "Clinic" ? (
+          <div className="absolute inset-0 flex items-center justify-center bg-gradient-to-br from-section-alt to-hairline">
+            {image ? (
+              <Image src={image} alt={title} fill className="object-cover" />
+            ) : (
+              <User
+                className="h-12 w-12 text-gold/30"
+                strokeWidth={1}
+                aria-hidden="true"
+              />
+            )}
           </div>
-          <div className="flex h-full w-1/2 items-center justify-center bg-gradient-to-bl from-section-alt to-hairline">
-            <User
-              className="h-12 w-12 text-gold/40"
-              strokeWidth={1}
+        ) : (
+          <>
+            <div className="absolute inset-0 flex">
+              {/* TODO: swap each placeholder for <Image src={...} alt="Before" /> */}
+              <div className="flex h-full w-1/2 items-center justify-center bg-gradient-to-br from-section-alt to-hairline">
+                <User
+                  className="h-12 w-12 text-gold/30"
+                  strokeWidth={1}
+                  aria-hidden="true"
+                />
+              </div>
+              <div className="flex h-full w-1/2 items-center justify-center bg-gradient-to-bl from-section-alt to-hairline">
+                <User
+                  className="h-12 w-12 text-gold/40"
+                  strokeWidth={1}
+                  aria-hidden="true"
+                />
+              </div>
+            </div>
+
+            {/* Center gold divider */}
+            <div
               aria-hidden="true"
+              className="absolute inset-y-0 left-1/2 z-10 w-px bg-gold"
             />
-          </div>
-        </div>
 
-        {/* Center gold divider */}
-        <div
-          aria-hidden="true"
-          className="absolute inset-y-0 left-1/2 z-10 w-px bg-gold"
-        />
+            {/* Swap handle (decorative — actual lightbox interaction comes later) */}
+            <div
+              aria-hidden="true"
+              className="absolute left-1/2 top-1/2 z-20 flex h-8 w-8 -translate-x-1/2 -translate-y-1/2 items-center justify-center rounded-full border border-gold bg-background shadow-md"
+            >
+              <ArrowLeftRight
+                className="h-4 w-4 text-gold"
+                strokeWidth={1.5}
+              />
+            </div>
 
-        {/* Swap handle (decorative — actual lightbox interaction comes later) */}
-        <div
-          aria-hidden="true"
-          className="absolute left-1/2 top-1/2 z-20 flex h-8 w-8 -translate-x-1/2 -translate-y-1/2 items-center justify-center rounded-full border border-gold bg-background shadow-md"
-        >
-          <ArrowLeftRight
-            className="h-4 w-4 text-gold"
-            strokeWidth={1.5}
-          />
-        </div>
-
-        {/* Before / After badges */}
-        <span className="absolute left-4 top-4 z-20 rounded-full bg-navy/80 px-3 py-1 text-xs font-medium uppercase tracking-[0.18em] text-white shadow-sm backdrop-blur-sm">
-          Before
-        </span>
-        <span className="absolute right-4 top-4 z-20 rounded-full bg-navy/80 px-3 py-1 text-xs font-medium uppercase tracking-[0.18em] text-gold shadow-sm backdrop-blur-sm">
-          After
-        </span>
+            {/* Before / After badges */}
+            <span className="absolute left-4 top-4 z-20 rounded-full bg-navy/80 px-3 py-1 text-xs font-medium uppercase tracking-[0.18em] text-white shadow-sm backdrop-blur-sm">
+              Before
+            </span>
+            <span className="absolute right-4 top-4 z-20 rounded-full bg-navy/80 px-3 py-1 text-xs font-medium uppercase tracking-[0.18em] text-gold shadow-sm backdrop-blur-sm">
+              After
+            </span>
+          </>
+        )}
       </div>
 
       {/* Footer */}

@@ -1,8 +1,9 @@
 "use client";
 
+import Image from "next/image";
 import { useEffect } from "react";
 import { Dialog } from "@base-ui/react/dialog";
-import { ChevronLeft, ChevronRight, X } from "lucide-react";
+import { ChevronLeft, ChevronRight, X, User } from "lucide-react";
 import { cn } from "@/lib/utils";
 import { BeforeAfterSlider } from "./BeforeAfterSlider";
 
@@ -116,10 +117,24 @@ export function GalleryLightbox({ open, items, index, onClose, onPrev, onNext })
           {/* Slider + meta */}
           <div className="w-full max-w-4xl">
             {item ? (
-              <BeforeAfterSlider
-                key={item.title}
-                title={item.title}
-              />
+              item.category === "Clinic" ? (
+                <div className="relative aspect-[4/3] w-full select-none overflow-hidden rounded-lg bg-gradient-to-br from-section-alt to-hairline flex items-center justify-center">
+                  {item.image ? (
+                    <Image src={item.image} alt={item.title} fill className="object-cover" />
+                  ) : (
+                    <User
+                      className="h-24 w-24 text-gold/30"
+                      strokeWidth={1}
+                      aria-hidden="true"
+                    />
+                  )}
+                </div>
+              ) : (
+                <BeforeAfterSlider
+                  key={item.title}
+                  title={item.title}
+                />
+              )
             ) : null}
             <div className="mt-6 text-center text-white">
               <h2 className="font-serif text-2xl font-semibold md:text-3xl">
