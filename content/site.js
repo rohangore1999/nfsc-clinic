@@ -11,23 +11,85 @@ export const site = {
   city: "Mumbai",
 
   doctor: {
-    name: "Dr. Nikhil",
+    name: "Dr. Nikhil Angre, MDS | F.F.P.S | F.H.R.S",
     credentials: "MDS — Oral & Maxillofacial Surgery",
-    degree: "MDS, Maxillofacial Surgery",
-    experienceLine: "10+ Years Surgical Experience",
+    degree: "Maxillofacial Surgeon | Fellow in Facial Plastic Surgery & Hair Transplant Surgery",
+    experienceLine: "5+ Years Surgical Experience",
     role: "Maxillofacial & Aesthetic Surgeon",
     bioShort:
       "Personalized facial surgery and hair restoration by Dr. Nikhil — combining surgical precision with artistic vision in a calm, premium environment.",
     bioLong:
       "A pioneer in facial surgical aesthetics, Dr. Nikhil combines artistic vision with meticulous surgical precision to deliver natural, transformative results.",
     bioFull:
-      "With over a decade of specialized experience in facial aesthetics and reconstructive surgery, Dr. Nikhil brings a blend of artistic vision and rigorous medical precision to every procedure. His philosophy centers on enhancing natural beauty while prioritizing structural integrity and patient safety.",
+      "Dr. Nikhil Angre, MDS, a skilled Maxillofacial Surgeon with specialized fellowship training in Facial Plastic Surgery and Hair Transplant Surgery. With over 5 years of clinical and surgical experience, Dr. Nikhil Angre specializes in a comprehensive range of facial cosmetic, reconstructive, and maxillofacial procedures. His approach combines precision, innovation, and patient-centered care to help individuals achieve enhanced facial harmony, confidence, and quality of life.",
+    expertiseTitle: "Areas of Expertise",
+    expertiseAreas: [
+      {
+        title: "Facial Plastic & Cosmetic Surgery",
+        description: "Dr. Nikhil Angre offers advanced facial rejuvenation and contouring procedures, including:",
+        bullets: [
+          "Facelift Surgery",
+          "Blepharoplasty (Eyelid Surgery)",
+          "Chin Augmentation",
+          "Otoplasty (Ear Reshaping Surgery)",
+          "Earlobe Repair & Reconstruction",
+          "Facial Fat Grafting",
+          "Malar (Cheek) Implants",
+          "V-Line Jaw Contouring Surgery",
+          "Lip Reduction Surgery",
+          "Lip Lift Surgery",
+        ]
+      },
+      {
+        title: "Maxillofacial Surgery & Reconstruction",
+        description: "Expert management of complex facial and jaw conditions, including:",
+        bullets: [
+          "Maxillofacial Trauma Surgery",
+          "Facial Reconstruction Procedures",
+          "Orthognathic (Jaw Correction) Surgery",
+          "Jaw Cysts and Tumor Management",
+          "Oral and Maxillofacial Reconstructive Surgery",
+        ]
+      },
+      {
+        title: "Non-Surgical Facial Aesthetics",
+        description: "Customized aesthetic treatments designed to enhance facial features with minimal downtime:",
+        bullets: [
+          "Botox Treatments",
+          "Dermal Fillers",
+          "Facial Rejuvenation Procedures",
+          "Anti-Aging Aesthetic Solutions",
+        ]
+      },
+      {
+        title: "Hair Restoration",
+        description: "Advanced hair restoration and hair transplant procedures tailored to individual needs, focusing on natural hairline design and long-term results.",
+        bullets: [
+          "Hair Transplant Surgery",
+          "Beard Transplant Surgery",
+          "Eyebrow Transplant Surgery",
+          "Hair Regrowth Therapy",
+        ]
+      }
+    ],
+    whyChooseTitle: "Why Choose Dr. Nikhil Angre?",
+    whyChooseParagraphs: [
+      "Dr. Nikhil Angre, MDS, is a skilled Maxillofacial Surgeon with fellowship training in Facial Plastic Surgery and Hair Transplant Surgery. With over 5 years of experience, he specializes exclusively in facial cosmetic, reconstructive, and aesthetic procedures, offering personalized treatment plans tailored to each patient’s unique facial structure and goals.",
+      "At NFSC – Dr. Nikhil Face Surgical & Aesthetic Centre, Kandivali West, patients benefit from advanced treatments including Facelift, Rhinoplasty, Blepharoplasty, Chin Augmentation, V-Line Jaw Contouring, Buccal Fat Removal, Facial Fat Grafting, Hair Transplant Surgery, Botox, Fillers, and Maxillofacial Reconstruction.",
+      "Dr. Angre combines surgical precision, artistic vision, and advanced techniques to achieve natural-looking, balanced, and long-lasting results. His expertise in both cosmetic and reconstructive facial surgery ensures comprehensive care with a strong focus on safety, aesthetics, and patient satisfaction."
+    ],
+    whyChoosePatientsld: "Why Patients Trust Dr. Nikhil Angre",
+    //whyChooseConclusion: "Book your consultation today at NFSC – Dr. Nikhil Face Surgical & Aesthetic Centre, Kandivali.",//
     bullets: [
       "Board Certified Facial Plastic Surgeon",
       "International Fellowship Trained",
       "Renowned for Minimally Invasive Techniques",
     ],
-    specialties: ["Rhinoplasty", "Facial Contouring", "Orthognathic Surgery"],
+    specialties: ["Fellowship-Trained Facial Plastic Surgeon", "5+ Years of Surgical Experience", "Specialized Facial Cosmetic & Reconstructive Expertise", "Personalized Treatment Planning", "Advanced Surgical Techniques Natural-Looking Results", "State-of-the-Art Facility in Kandivali West", "Patient-Centered Care and Ethical Practice"],
+    whyChoosePatientstext: [
+      "Transforming Faces. Restoring Confidence. Enhancing Lives.",
+      "NFSC – Dr. Nikhil Face Surgical & Aesthetic Centre, Kandivali West, Mumbai."
+    ],
     quote:
       "Every face tells a story. My role is to help you tell yours with confidence.",
     philosophyQuote:
@@ -137,8 +199,8 @@ export const site = {
   },
 
   stats: [
-    { number: "10+", label: "Years of Surgical Experience" },
-    { number: "500+", label: "Successful Procedures (Career Total)" },
+    { number: "5+", label: "Years of Surgical Experience" },
+    { number: "200+", label: "Successful Procedures (Career Total)" },
   ],
 
   ctaBanner: {
@@ -280,7 +342,7 @@ export const site = {
     title: "Transformations",
     subtitleParts: ["Real patients", "Real results", "Real confidence"],
     filters: [
-      "All",
+      "Clinic",
       "Facial Surgery",
       "Hair Treatments",
       "Rhinoplasty",
@@ -329,6 +391,25 @@ export const site = {
         category: "Hair Treatments",
         timeline: "5 months post-procedure",
       },
+      { title: "Reception 1", category: "Clinic", timeline: "Facility", image: "/images/Clinic/Reception1.jpeg" },
+      { title: "Reception 2", category: "Clinic", timeline: "Facility", image: "/images/Clinic/Reception2.jpeg" },
+      { title: "Reception 3", category: "Clinic", timeline: "Facility", image: "/images/Clinic/Reception3.jpeg" },
+      { title: "Dermatology 1", category: "Clinic", timeline: "Facility", image: "/images/Clinic/DermatRoom1.jpeg" },
+      { title: "Dermatology 2", category: "Clinic", timeline: "Facility", image: "/images/Clinic/DermatRoom2.jpeg" },
+      { title: "Surgery 1", category: "Clinic", timeline: "Facility", image: "/images/Clinic/SurgeryRoom1.jpeg" },
+      { title: "Surgery 2", category: "Clinic", timeline: "Facility", image: "/images/Clinic/SurgeryRoom2.jpeg" },
+      { title: "Smile Studio 1", category: "Clinic", timeline: "Facility", image: "/images/Clinic/SmileStudio1.jpeg" },
+      { title: "Smile Studio 2", category: "Clinic", timeline: "Facility", image: "/images/Clinic/SmileStudio2.jpeg" },
+      { title: "Doctor's Consultation", category: "Clinic", timeline: "Facility", image: "/images/Clinic/NikhilRoom.jpeg" },
+      { title: "Waiting Area 1", category: "Clinic", timeline: "Facility", image: "/images/Clinic/WaitingRoom1.jpeg" },
+      { title: "Waiting Area 2", category: "Clinic", timeline: "Facility", image: "/images/Clinic/WaitingRoom2.jpeg" },
+      { title: "Clinic Image 13", category: "Clinic", timeline: "Facility" },
+      { title: "Clinic Image 14", category: "Clinic", timeline: "Facility" },
+      { title: "Clinic Image 15", category: "Clinic", timeline: "Facility" },
+      { title: "Clinic Image 16", category: "Clinic", timeline: "Facility" },
+      { title: "Clinic Image 17", category: "Clinic", timeline: "Facility" },
+      { title: "Clinic Image 18", category: "Clinic", timeline: "Facility" },
+      { title: "Clinic Image 19", category: "Clinic", timeline: "Facility" },
     ],
     disclaimer:
       "All photos are of real patients of Dr. Nikhil Face Surgical & Aesthetic Centre. These images have not been retouched or altered in any way. Results may vary depending on individual anatomy and post-operative care.",
@@ -506,10 +587,13 @@ export const site = {
       { label: "Contact", href: "#contact" },
     ],
     treatments: [
-      { label: "Facial Surgery", href: "/treatments/facial-surgery" },
-      { label: "Hair Treatments", href: "/treatments/hair-treatments" },
-      { label: "Rhinoplasty", href: "/treatments/facial-surgery#rhinoplasty" },
-      { label: "Hair Transplant", href: "/treatments/hair-treatments#hair-transplant" },
+      { label: "Facial plastic Surgery", href: "/treatments/facial-plastic-surgery" },
+      { label: "Non-Surgical Facial Aesthetics", href: "/treatments/non-surgical-facial-aesthetics" },
+      { label: "Cosmetic Treatments", href: "/treatments/cosmetic-treatments" },
+      { label: "Maxillofacial & Oral Surgery", href: "/treatments/maxillofacial-and-oral-surgery" },
+      { label: "Dental", href: "/treatments/dental" },
+      { label: "Dermatology", href: "/treatments/dermatology" },
+      { label: "Hair Treatment", href: "/treatments/hair-treatments" },
     ],
   },
 };

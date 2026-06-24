@@ -20,15 +20,12 @@ import { GalleryLightbox } from "./GalleryLightbox";
  * No load-more / pagination — all items render at once per project decision.
  */
 export function Gallery() {
-  const [filter, setFilter] = useState("All");
+  const [filter, setFilter] = useState(site.gallery.filters[0]);
   const [lightboxIndex, setLightboxIndex] = useState(null);
 
-  const filtered =
-    filter === "All"
-      ? site.gallery.items
-      : site.gallery.items.filter(
-          (item) => item.category === filter || item.title === filter
-        );
+  const filtered = site.gallery.items.filter(
+    (item) => item.category === filter || item.title === filter
+  );
 
   function handleFilterChange(next) {
     setFilter(next);

@@ -58,7 +58,7 @@ export default async function TreatmentDetailPage({ params }) {
         />
         <TreatmentHero slug={slug} />
         <TreatmentDescription description={data.description} />
-        <ProcedureList procedures={data.procedures} />
+        <ProcedureList procedures={data.procedures} categorySlug={slug} />
         <FaqAccordion faqs={data.faqs} />
       </main>
     </>

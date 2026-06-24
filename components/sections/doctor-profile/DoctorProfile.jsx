@@ -22,10 +22,10 @@ export function DoctorProfile() {
   const sectionRevealProps = reduceMotion
     ? {}
     : {
-        initial: "hidden",
-        whileInView: "show",
-        viewport: { once: true, amount: 0.2 },
-      };
+      initial: "hidden",
+      whileInView: "show",
+      viewport: { once: true, amount: 0.2 },
+    };
 
   const containerProps = reduceMotion ? {} : { variants: containerVariant };
   const itemProps = reduceMotion ? {} : { variants: itemVariant };
@@ -71,6 +71,59 @@ export function DoctorProfile() {
             {site.doctor.bioFull}
           </motion.p>
 
+          {site.doctor.expertiseAreas && site.doctor.expertiseAreas.length > 0 && (
+            <motion.div {...itemProps} className="mb-8">
+              <h3 className="mb-6 font-serif text-2xl font-semibold text-navy">
+                {site.doctor.expertiseTitle || "Areas of Expertise"}
+              </h3>
+
+              <div className="space-y-6">
+                {site.doctor.expertiseAreas.map((area, idx) => (
+                  <div key={idx}>
+                    <h4 className="mb-2 font-serif text-xl font-medium text-navy">
+                      {area.title}
+                    </h4>
+                    {area.description && (
+                      <p className="mb-3 text-lg font-light leading-relaxed text-text-secondary">
+                        {area.description}
+                      </p>
+                    )}
+                    {area.bullets && area.bullets.length > 0 && (
+                      <ul className="list-inside list-disc space-y-1 text-lg font-light text-text-secondary">
+                        {area.bullets.map((bullet, bIdx) => (
+                          <li key={bIdx}>{bullet}</li>
+                        ))}
+                      </ul>
+                    )}
+                  </div>
+                ))}
+              </div>
+            </motion.div>
+          )}
+
+          {site.doctor.whyChooseTitle && (
+            <motion.div {...itemProps} className="mb-8">
+              <h3 className="mb-4 font-serif text-2xl font-semibold text-navy">
+                {site.doctor.whyChooseTitle}
+              </h3>
+              <div className="space-y-4 text-lg font-light leading-relaxed text-text-secondary">
+                {site.doctor.whyChooseParagraphs?.map((p, idx) => (
+                  <p key={idx}>{p}</p>
+                ))}
+                {(site.doctor.whyChoosePatientsld || site.doctor.whyChooseConclusion) && (
+                  <p>
+                    {site.doctor.whyChoosePatientsld && (
+                      <strong className="mb-4 font-serif text-2xl font-semibold text-navy">
+                        {site.doctor.whyChoosePatientsld}
+                      </strong>
+                    )}
+                    {site.doctor.whyChooseConclusion}
+                  </p>
+                )}
+              </div>
+            </motion.div>
+          )}
+
           <motion.div
             {...itemProps}
             className="flex flex-wrap gap-3"
@@ -88,6 +141,15 @@ export function DoctorProfile() {
               </span>
             ))}
           </motion.div>
+
+          {/* Patient Text mapped under specialties */}
+          {site.doctor.whyChoosePatientstext && site.doctor.whyChoosePatientstext.length > 0 && (
+            <motion.div {...itemProps} className="mt-8 space-y-4 text-lg font-light leading-relaxed text-text-secondary">
+              {site.doctor.whyChoosePatientstext.map((text, idx) => (
+                <p key={idx}>{text}</p>
+              ))}
+            </motion.div>
+          )}
         </motion.div>
 
         {/* Portrait — right on desktop, first on mobile */}
