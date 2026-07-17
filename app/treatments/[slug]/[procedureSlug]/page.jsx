@@ -4,6 +4,7 @@ import { JsonLd } from "@/components/seo/JsonLd";
 import { breadcrumbSchema } from "@/lib/schema";
 import { treatmentsDetail, treatmentSlugs } from "@/content/treatments-detail";
 import { PageHero } from "@/components/sections/page-hero/PageHero";
+import { TreatmentHero } from "@/components/sections/treatment-detail/TreatmentHero";
 import { ProcedureDetailContent } from "@/components/sections/treatment-detail/ProcedureDetailContent";
 import { toSlug } from "@/lib/strings";
 
@@ -77,6 +78,7 @@ export default async function ProcedureDetailPage({ params }) {
           title={procedure.title}
           subtitle={procedure.description}
         />
+        <TreatmentHero slug={procedureSlug} />
         <ProcedureDetailContent
           description={detail.intro || procedure.description}
           bullets={detail.bullets || []}

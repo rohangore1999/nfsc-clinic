@@ -1,5 +1,6 @@
 "use client";
 
+import Image from "next/image";
 import { motion } from "motion/react";
 import { Microscope, Zap, RotateCw } from "lucide-react";
 import { cn } from "@/lib/utils";
@@ -24,7 +25,7 @@ const cardVariant = {
  * Image area is currently a gradient placeholder; swap for next/image when
  * real photography lands.
  */
-export function EquipmentCard({ icon, title, description, tag, className }) {
+export function EquipmentCard({ icon, title, description, tag, image, className }) {
   const Icon = ICON_MAP[icon];
 
   return (
@@ -40,15 +41,25 @@ export function EquipmentCard({ icon, title, description, tag, className }) {
     >
       {/* Image / placeholder */}
       <div className="relative h-48 w-full overflow-hidden bg-gradient-to-br from-section-alt to-hairline">
-        <div className="flex h-full w-full items-center justify-center">
-          {Icon ? (
-            <Icon
-              className="h-14 w-14 text-gold/40 transition-transform duration-700 group-hover:scale-110"
-              strokeWidth={1.25}
-              aria-hidden="true"
-            />
-          ) : null}
-        </div>
+        {image ? (
+          <Image
+            src={image}
+            alt={title}
+            fill
+            sizes="(min-width: 768px) 33vw, 100vw"
+            className="object-cover transition-transform duration-700 group-hover:scale-105"
+          />
+        ) : (
+          <div className="flex h-full w-full items-center justify-center">
+            {Icon ? (
+              <Icon
+                className="h-14 w-14 text-gold/40 transition-transform duration-700 group-hover:scale-110"
+                strokeWidth={1.25}
+                aria-hidden="true"
+              />
+            ) : null}
+          </div>
+        )}
       </div>
 
       {/* Content */}

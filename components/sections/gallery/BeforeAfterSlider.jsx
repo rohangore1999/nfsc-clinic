@@ -1,5 +1,6 @@
 "use client";
 
+import Image from "next/image";
 import { useRef, useState } from "react";
 import { ArrowLeftRight, User } from "lucide-react";
 import { cn } from "@/lib/utils";
@@ -9,15 +10,14 @@ import { cn } from "@/lib/utils";
  * Drag (mouse or touch) the gold handle / anywhere in the image to reveal
  * more of the "before" or "after" side. Keyboard: ←/→ moves 5%, Home/End jumps.
  *
- * Both halves are gradient placeholders today. When real photos arrive,
- * replace the two `placeholder-half` divs with <Image src={...} />.
- *
  * @param {Object} props
  * @param {string} props.title       - used for aria-label
+ * @param {string} [props.imageBefore] - path to before image
+ * @param {string} [props.imageAfter]  - path to after image
  * @param {number} [props.initialPosition=50]
  * @param {string} [props.className]
  */
-export function BeforeAfterSlider({ title, initialPosition = 50, className }) {
+export function BeforeAfterSlider({ title, imageBefore, imageAfter, initialPosition = 50, className }) {
   const [position, setPosition] = useState(initialPosition);
   const ref = useRef(null);
 
@@ -79,12 +79,15 @@ export function BeforeAfterSlider({ title, initialPosition = 50, className }) {
     >
       {/* After half — full-bleed base layer */}
       <div className="absolute inset-0 flex items-center justify-center bg-gradient-to-br from-gold/10 to-gold/30">
-        {/* TODO: replace with <Image src={item.imageAfter} alt="After" fill className="object-cover" /> */}
-        <User
-          className="h-24 w-24 text-gold/70"
-          strokeWidth={1}
-          aria-hidden="true"
-        />
+        {imageAfter ? (
+          <Image src={imageAfter} alt={`${title} - After`} fill className="object-cover pointer-events-none" />
+        ) : (
+          <User
+            className="h-24 w-24 text-gold/70"
+            strokeWidth={1}
+            aria-hidden="true"
+          />
+        )}
       </div>
 
       {/* Before half — overlay, clipped to slider position */}
@@ -92,12 +95,15 @@ export function BeforeAfterSlider({ title, initialPosition = 50, className }) {
         className="absolute inset-0 flex items-center justify-center bg-gradient-to-br from-section-alt to-hairline"
         style={{ clipPath: `inset(0 ${100 - position}% 0 0)` }}
       >
-        {/* TODO: replace with <Image src={item.imageBefore} alt="Before" fill className="object-cover" /> */}
-        <User
-          className="h-24 w-24 text-text-muted"
-          strokeWidth={1}
-          aria-hidden="true"
-        />
+        {imageBefore ? (
+          <Image src={imageBefore} alt={`${title} - Before`} fill className="object-cover pointer-events-none" />
+        ) : (
+          <User
+            className="h-24 w-24 text-text-muted"
+            strokeWidth={1}
+            aria-hidden="true"
+          />
+        )}
       </div>
 
       {/* Divider line */}
