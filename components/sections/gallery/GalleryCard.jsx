@@ -114,11 +114,11 @@ export function GalleryCard({ title, category, timeline, image, imageBefore, ima
 
       {/* Footer */}
       <div className="flex flex-col gap-3 p-6">
-        <div className="flex items-center justify-between gap-3">
-          <h3 className="font-serif text-2xl font-semibold text-navy">
+        <div className="flex flex-wrap items-center justify-between gap-2">
+          <h3 className="min-w-0 font-serif text-xl font-semibold text-navy md:text-2xl">
             {title}
           </h3>
-          <span className="rounded-full border border-gold px-3 py-1 text-[0.65rem] font-medium uppercase tracking-[0.15em] text-gold">
+          <span className="shrink-0 rounded-full border border-gold px-3 py-1 text-[0.65rem] font-medium uppercase tracking-[0.15em] text-gold">
             {category}
           </span>
         </div>

@@ -136,7 +136,7 @@ export function InlineBookingForm() {
     <form
       onSubmit={onSubmit}
       noValidate
-      className="flex w-full max-w-md flex-col gap-4"
+      className="flex w-full flex-col gap-4"
       aria-label="Book a free consultation"
     >
       {/* Name */}
