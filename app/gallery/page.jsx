@@ -7,8 +7,8 @@ import { Gallery } from "@/components/sections/gallery/Gallery";
 import { TrustStrip } from "@/components/sections/gallery/TrustStrip";
 
 export const metadata = buildMetadata({
-  title: "Gallery",
-  description: `Real before-and-after transformations from ${site.doctor.name} — facial surgery, hair restoration, and aesthetic procedures at NFSC, ${site.city}.`,
+  title: "Before & After Gallery — Facial Surgery Results Mumbai",
+  description: `Before-and-after results from ${site.doctor.name} — facial surgery, hair restoration and aesthetic procedures at NFSC, ${site.city}.`,
   path: "/gallery",
 });
 

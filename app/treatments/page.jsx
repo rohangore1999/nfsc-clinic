@@ -6,7 +6,7 @@ import { PageHero } from "@/components/sections/page-hero/PageHero";
 import { Treatments } from "@/components/sections/treatments/Treatments";
 
 export const metadata = buildMetadata({
-  title: "Treatments",
+  title: "Facial Surgery & Aesthetic Treatments Mumbai",
   description: `Explore the full range of facial surgery and hair restoration procedures offered by ${site.doctor.name} at NFSC, ${site.city}.`,
   path: "/treatments",
 });

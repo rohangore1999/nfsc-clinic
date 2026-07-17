@@ -11,7 +11,7 @@ import { AboutPhilosophy } from "@/components/sections/about-philosophy/AboutPhi
 import { Team } from "@/components/sections/team/Team";
 
 export const metadata = buildMetadata({
-  title: "About",
+  title: "About Dr. Nikhil — Maxillofacial & Aesthetic Surgeon Mumbai",
   description: `Meet ${site.doctor.name} and learn about NFSC — a premium facial surgery and aesthetic clinic in ${site.city}.`,
   path: "/about",
 });

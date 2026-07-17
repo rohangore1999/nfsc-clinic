@@ -25,7 +25,7 @@ export async function generateMetadata({ params }) {
   const data = treatmentsDetail[slug];
   if (!data) return {};
   return buildMetadata({
-    title: data.title,
+    title: `${data.title} Mumbai — Dr. Nikhil Angre`,
     description: data.intro,
     path: `/treatments/${slug}`,
   });

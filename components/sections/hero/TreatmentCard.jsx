@@ -20,7 +20,7 @@ const ICON_MAP = {
  *
  * Modular: when real photography arrives, swap the gradient block for next/image.
  */
-export function TreatmentCard({ title, href, icon, image, className }) {
+export function TreatmentCard({ title, href, icon, image, priority = false, className }) {
   const Icon = ICON_MAP[icon];
 
   return (
@@ -43,6 +43,8 @@ export function TreatmentCard({ title, href, icon, image, className }) {
               src={image}
               alt={title}
               fill
+              sizes="(min-width: 768px) 33vw, 100vw"
+              priority={priority}
               className="object-cover transition-transform duration-700 group-hover:scale-105"
             />
           ) : (

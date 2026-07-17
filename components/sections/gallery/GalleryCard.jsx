@@ -46,7 +46,7 @@ export function GalleryCard({ title, category, timeline, image, imageBefore, ima
         {category === "Clinic" ? (
           <div className="absolute inset-0 flex items-center justify-center bg-gradient-to-br from-section-alt to-hairline">
             {image ? (
-              <Image src={image} alt={title} fill className="object-cover" />
+              <Image src={image} alt={title} fill sizes="(min-width: 768px) 33vw, 100vw" className="object-cover" />
             ) : (
               <User
                 className="h-12 w-12 text-gold/30"
@@ -61,7 +61,7 @@ export function GalleryCard({ title, category, timeline, image, imageBefore, ima
               {/* Left half: Before */}
               <div className="relative h-full w-1/2 overflow-hidden bg-gradient-to-br from-section-alt to-hairline flex items-center justify-center">
                 {imageBefore ? (
-                  <Image src={imageBefore} alt={`${title} - Before`} fill className="object-cover" />
+                  <Image src={imageBefore} alt={`${title} - Before`} fill sizes="(min-width: 768px) 17vw, 50vw" className="object-cover" />
                 ) : (
                   <User
                     className="h-12 w-12 text-gold/30"
@@ -73,7 +73,7 @@ export function GalleryCard({ title, category, timeline, image, imageBefore, ima
               {/* Right half: After */}
               <div className="relative h-full w-1/2 overflow-hidden bg-gradient-to-bl from-section-alt to-hairline flex items-center justify-center">
                 {imageAfter ? (
-                  <Image src={imageAfter} alt={`${title} - After`} fill className="object-cover" />
+                  <Image src={imageAfter} alt={`${title} - After`} fill sizes="(min-width: 768px) 17vw, 50vw" className="object-cover" />
                 ) : (
                   <User
                     className="h-12 w-12 text-gold/40"

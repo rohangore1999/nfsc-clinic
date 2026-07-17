@@ -40,7 +40,7 @@ export async function generateMetadata({ params }) {
   const match = findProcedure(slug, procedureSlug);
   if (!match) return {};
   return buildMetadata({
-    title: match.procedure.title,
+    title: `${match.procedure.title} Mumbai — Dr. Nikhil Angre`,
     description: match.procedure.description,
     path: `/treatments/${slug}/${procedureSlug}`,
   });
