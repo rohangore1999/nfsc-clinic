@@ -11,7 +11,7 @@ const ICON_MAP = {
   "hair-treatments": Wind,
 };
 
-const extensions = ["jpeg", "jpg", "png", "webp"];
+const extensions = ["png", "jpeg", "jpg", "webp"];
 
 /**
  * Inner image loader — keyed on `slug` by the parent so React remounts it
