@@ -7,7 +7,7 @@ import { Gallery } from "@/components/sections/gallery/Gallery";
 import { TrustStrip } from "@/components/sections/gallery/TrustStrip";
 
 export const metadata = buildMetadata({
-  title: "Before & After Gallery — Facial Surgery Results Mumbai",
+  title: "Before & After Gallery — Surgery Results Mumbai",
   description: `Before-and-after results from ${site.doctor.name} — facial surgery, hair restoration and aesthetic procedures at NFSC, ${site.city}.`,
   path: "/gallery",
 });
@@ -21,7 +21,7 @@ export default function GalleryPage() {
           { name: "Gallery", path: "/gallery" },
         ])}
       />
-      <main>
+      <main id="main-content">
         <PageHero
           breadcrumbs={[
             { label: "Home", href: "/" },

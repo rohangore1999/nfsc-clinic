@@ -181,7 +181,7 @@ export const site = {
     rows: [
       {
         index: "01",
-        slug: "facial-surgery",
+        slug: "facial-plastic-surgery",
         label: "FACIAL SURGERY",
         title: "Facial Surgery",
         icon: "scissors",

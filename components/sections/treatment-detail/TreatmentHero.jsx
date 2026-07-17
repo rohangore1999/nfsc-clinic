@@ -17,7 +17,7 @@ const extensions = ["png", "jpeg", "jpg", "webp"];
  * Inner image loader — keyed on `slug` by the parent so React remounts it
  * whenever the slug changes, resetting extIndex/hasError automatically.
  */
-function HeroImage({ slug, Icon }) {
+function HeroImage({ slug, title, Icon }) {
   const [extIndex, setExtIndex] = useState(0);
   const [hasError, setHasError] = useState(false);
 
@@ -38,7 +38,7 @@ function HeroImage({ slug, Icon }) {
   return (
     <Image
       src={`/images/treatments/${slug}.${extensions[extIndex]}`}
-      alt={`${slug} treatment`}
+      alt={title ? `${title} treatment at NFSC, Mumbai` : `${slug} treatment`}
       fill
       className="object-cover"
       sizes="(max-width: 1200px) 100vw, 1200px"
@@ -62,7 +62,7 @@ function HeroImage({ slug, Icon }) {
  * @param {Object} props
  * @param {string} props.slug - drives the image filename and fallback icon
  */
-export function TreatmentHero({ slug }) {
+export function TreatmentHero({ slug, title }) {
   const reduceMotion = useReducedMotion();
   const Icon = ICON_MAP[slug];
 
@@ -83,7 +83,7 @@ export function TreatmentHero({ slug }) {
         {...animateProps}
         className="relative mx-auto aspect-[16/9] max-w-6xl overflow-hidden rounded-2xl border border-hairline bg-background"
       >
-        <HeroImage key={slug} slug={slug} Icon={Icon} />
+        <HeroImage key={slug} slug={slug} title={title} Icon={Icon} />
       </motion.div>
     </section>
   );

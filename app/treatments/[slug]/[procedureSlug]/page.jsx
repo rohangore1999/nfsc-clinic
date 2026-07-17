@@ -1,7 +1,7 @@
 import { notFound } from "next/navigation";
 import { buildMetadata } from "@/lib/seo";
 import { JsonLd } from "@/components/seo/JsonLd";
-import { breadcrumbSchema } from "@/lib/schema";
+import { breadcrumbSchema, procedureSchema } from "@/lib/schema";
 import { treatmentsDetail, treatmentSlugs } from "@/content/treatments-detail";
 import { PageHero } from "@/components/sections/page-hero/PageHero";
 import { TreatmentHero } from "@/components/sections/treatment-detail/TreatmentHero";
@@ -40,8 +40,11 @@ export async function generateMetadata({ params }) {
   const match = findProcedure(slug, procedureSlug);
   if (!match) return {};
   return buildMetadata({
-    title: `${match.procedure.title} Mumbai — Dr. Nikhil Angre`,
-    description: match.procedure.description,
+    title: `${match.procedure.title} — Mumbai`,
+    description:
+      match.procedure.description.length > 155
+        ? match.procedure.description.slice(0, 152) + "…"
+        : match.procedure.description,
     path: `/treatments/${slug}/${procedureSlug}`,
   });
 }
@@ -67,7 +70,14 @@ export default async function ProcedureDetailPage({ params }) {
           },
         ])}
       />
-      <main>
+      <JsonLd
+        data={procedureSchema({
+          name: procedure.title,
+          slug: `${slug}/${procedureSlug}`,
+          description: procedure.description,
+        })}
+      />
+      <main id="main-content">
         <PageHero
           breadcrumbs={[
             { label: "Home", href: "/" },
@@ -78,7 +88,7 @@ export default async function ProcedureDetailPage({ params }) {
           title={procedure.title}
           subtitle={procedure.description}
         />
-        <TreatmentHero slug={procedureSlug} />
+        <TreatmentHero slug={procedureSlug} title={procedure.title} />
         <ProcedureDetailContent
           description={detail.intro || procedure.description}
           bullets={detail.bullets || []}

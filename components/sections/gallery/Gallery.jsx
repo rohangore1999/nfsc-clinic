@@ -1,11 +1,16 @@
 "use client";
 
 import { useState } from "react";
+import dynamic from "next/dynamic";
 import { motion, AnimatePresence } from "motion/react";
 import { site } from "@/content/site";
 import { GalleryFilters } from "./GalleryFilters";
 import { GalleryCard } from "./GalleryCard";
-import { GalleryLightbox } from "./GalleryLightbox";
+
+const GalleryLightbox = dynamic(() =>
+  import("./GalleryLightbox").then((mod) => mod.GalleryLightbox),
+  { ssr: false }
+);
 
 /**
  * /gallery — sticky filter row + filtered before/after grid + lightbox.

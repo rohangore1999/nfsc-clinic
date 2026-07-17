@@ -25,7 +25,7 @@ export async function generateMetadata({ params }) {
   const data = treatmentsDetail[slug];
   if (!data) return {};
   return buildMetadata({
-    title: `${data.title} Mumbai — Dr. Nikhil Angre`,
+    title: `${data.title} — Mumbai`,
     description: data.intro,
     path: `/treatments/${slug}`,
   });
@@ -46,7 +46,7 @@ export default async function TreatmentDetailPage({ params }) {
         ])}
       />
       <JsonLd data={faqSchema(data.faqs)} />
-      <main>
+        <main id="main-content">
         <PageHero
           breadcrumbs={[
             { label: "Home", href: "/" },
@@ -56,7 +56,7 @@ export default async function TreatmentDetailPage({ params }) {
           title={data.title}
           subtitle={data.intro}
         />
-        <TreatmentHero slug={slug} />
+        <TreatmentHero slug={slug} title={data.title} />
         <TreatmentDescription description={data.description} />
         <ProcedureList procedures={data.procedures} categorySlug={slug} />
         <FaqAccordion faqs={data.faqs} />

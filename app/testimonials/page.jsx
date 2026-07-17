@@ -9,7 +9,7 @@ import { ReviewsGrid } from "@/components/sections/testimonials/ReviewsGrid";
 import { GoogleReviewCta } from "@/components/sections/testimonials/GoogleReviewCta";
 
 export const metadata = buildMetadata({
-  title: "Patient Reviews & Testimonials — Facial Surgery Mumbai",
+  title: "Patient Reviews — Facial Surgery Mumbai",
   description: `Patient stories and reviews from ${site.doctor.name}'s facial surgery and hair restoration patients at NFSC, ${site.city}.`,
   path: "/testimonials",
 });
@@ -23,7 +23,7 @@ export default function TestimonialsPage() {
           { name: "Testimonials", path: "/testimonials" },
         ])}
       />
-      <main>
+      <main id="main-content">
         <PageHero
           breadcrumbs={[
             { label: "Home", href: "/" },

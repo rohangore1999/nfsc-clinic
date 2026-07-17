@@ -11,7 +11,7 @@ import { AboutPhilosophy } from "@/components/sections/about-philosophy/AboutPhi
 import { Team } from "@/components/sections/team/Team";
 
 export const metadata = buildMetadata({
-  title: "About Dr. Nikhil — Maxillofacial & Aesthetic Surgeon Mumbai",
+  title: "About Dr. Nikhil — Facial Surgeon Mumbai",
   description: `Meet ${site.doctor.name} and learn about NFSC — a premium facial surgery and aesthetic clinic in ${site.city}.`,
   path: "/about",
 });
@@ -26,7 +26,7 @@ export default function AboutPage() {
         ])}
       />
       <JsonLd data={physicianSchema()} />
-      <main>
+      <main id="main-content">
         <PageHero
           breadcrumbs={[
             { label: "Home", href: "/" },

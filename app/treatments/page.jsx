@@ -20,7 +20,7 @@ export default function TreatmentsIndexPage() {
           { name: "Treatments", path: "/treatments" },
         ])}
       />
-      <main>
+      <main id="main-content">
         <PageHero
           breadcrumbs={[
             { label: "Home", href: "/" },

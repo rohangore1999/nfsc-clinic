@@ -62,9 +62,9 @@ export function TreatmentCard({ title, href, icon, image, priority = false, clas
 
         {/* Title + arrow */}
         <div className="flex flex-1 flex-col items-center text-center">
-          <h3 className="font-serif text-lg font-semibold tracking-wide text-navy">
+          <h2 className="font-serif text-lg font-semibold tracking-wide text-navy">
             {title}
-          </h3>
+          </h2>
           <ArrowRight
             className="mt-3 h-5 w-5 text-gold transition-transform duration-300 group-hover:translate-x-1"
             strokeWidth={1.5}

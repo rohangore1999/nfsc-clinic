@@ -28,7 +28,7 @@ export const treatmentsDetail = {
             "Tip refinement, bridge reshaping, and nostril adjustment",
             "Revision rhinoplasty for prior unsatisfactory results",
             "Minimal scarring with discreet incision placement",
-            "Recovery guidance with structured post-operative follow-up",
+            "Recovery guidance with structured post-operative follow-up"
           ],
           additionalInfo: "Most patients resume daily activities within 7–10 days. Subtle swelling resolves progressively over 6–12 months as the nose settles into its final refined shape.",
         },
@@ -45,7 +45,7 @@ export const treatmentsDetail = {
             "Natural-looking results with long-lasting improvement",
             "Incisions concealed within the hairline and natural creases",
             "Can be combined with neck lift or eyelid surgery",
-            "Tailored to individual aging patterns and facial structure",
+            "Tailored to individual aging patterns and facial structure"
           ],
           additionalInfo: "Recovery typically involves 10–14 days of visible swelling. Final results become apparent over 3–6 months as tissues settle into their rejuvenated position.",
         },
@@ -70,7 +70,7 @@ export const treatmentsDetail = {
                 "Prominent neck bands or muscle laxity",
                 "Poor jawline definition",
                 "Signs of aging in the neck and lower face",
-                "Good overall health and realistic expectations",
+                "Good overall health and realistic expectations"
               ],
             },
             {
@@ -84,7 +84,7 @@ export const treatmentsDetail = {
                 "Eliminates neck wrinkles and folds",
                 "Creates a more youthful and elegant neck contour",
                 "Provides long-lasting and natural-looking results",
-                "Enhances overall facial appearance",
+                "Enhances overall facial appearance"
               ],
             },
             {
@@ -97,7 +97,7 @@ export const treatmentsDetail = {
                 "Removal of excess skin",
                 "Tightening of neck muscles (Platysmaplasty)",
                 "Liposuction of excess neck fat",
-                "Contouring of the jawline and neck region",
+                "Contouring of the jawline and neck region"
               ],
               outro:
                 "In many cases, neck lift surgery may be combined with: Facelift Surgery, Chin Augmentation, Facial Fat Grafting, or Liposuction of the Chin and Neck. This comprehensive approach provides optimal facial rejuvenation and balanced results.",
@@ -106,7 +106,7 @@ export const treatmentsDetail = {
               type: "text",
               heading: "Recovery After Neck Lift Surgery",
               content: [
-                "Most patients can resume light daily activities within 7–10 days. Mild swelling and bruising are expected during the initial recovery period and gradually subside over the following weeks. Final results continue to improve as healing progresses, revealing a smoother and more youthful neck contour.",
+                "Most patients can resume light daily activities within 7–10 days. Mild swelling and bruising are expected during the initial recovery period and gradually subside over the following weeks. Final results continue to improve as healing progresses, revealing a smoother and more youthful neck contour."
               ],
             },
             {
@@ -119,7 +119,7 @@ export const treatmentsDetail = {
                 "Extent of correction required",
                 "Surgical complexity",
                 "Combination with other facial procedures",
-                "Hospital and anesthesia requirements",
+                "Hospital and anesthesia requirements"
               ],
               outro:
                 "A detailed treatment plan and cost estimate are provided during your consultation with Dr. Nikhil Angre.",
@@ -135,23 +135,16 @@ export const treatmentsDetail = {
                 "Personalized Surgical Planning",
                 "Natural-Looking Results",
                 "Advanced Facial Contouring Techniques",
-                "Comprehensive Pre- and Post-Operative Care",
+                "Comprehensive Pre- and Post-Operative Care"
               ],
             },
             {
               type: "text",
               heading: "Book a Neck Lift Consultation in Kandivali West",
               content: [
-                "If you are looking for the best neck lift surgeon in Kandivali West, Mumbai, consult Dr. Nikhil Angre at NFSC – Dr. Nikhil Face Surgical & Aesthetic Centre. Discover how neck lift surgery can help restore a youthful neckline, improve jawline definition, and enhance your overall facial appearance.",
+                "If you are looking for the best neck lift surgeon in Kandivali West, Mumbai, consult Dr. Nikhil Angre at NFSC – Dr. Nikhil Face Surgical & Aesthetic Centre. Discover how neck lift surgery can help restore a youthful neckline, improve jawline definition, and enhance your overall facial appearance."
               ],
-            },
-            {
-              type: "text",
-              heading: "SEO Keywords",
-              content: [
-                "Neck Lift Surgery in Kandivali West, Neck Lift Surgery Mumbai, Turkey Neck Correction, Double Chin Liposuction, Jawline Contouring Mumbai, Best Neck Lift Surgeon Mumbai, Neck Lift Cost Mumbai, Dr. Nikhil Angre.",
-              ],
-            },
+            }
           ],
         },
       },
@@ -175,7 +168,7 @@ export const treatmentsDetail = {
                 "Tightening loose eyelid skin",
                 "Improving eyelid contour and definition",
                 "Creating a more youthful and refreshed appearance",
-                "Correcting vision obstruction caused by drooping upper eyelids",
+                "Correcting vision obstruction caused by drooping upper eyelids"
               ],
             },
             {
@@ -190,7 +183,7 @@ export const treatmentsDetail = {
                 "Under-eye bags",
                 "Tired or aged-looking eyes",
                 "Loose lower eyelid skin",
-                "Vision impairment due to heavy upper eyelids",
+                "Vision impairment due to heavy upper eyelids"
               ],
               outro:
                 "A consultation with Dr. Nikhil Angre will help determine the most suitable treatment plan for your concerns.",
@@ -207,7 +200,7 @@ export const treatmentsDetail = {
                 "Creates a more alert and energetic look",
                 "Can improve peripheral vision in selected patients",
                 "Provides long-lasting results",
-                "Minimal visible scarring",
+                "Minimal visible scarring"
               ],
             },
             {
@@ -217,24 +210,24 @@ export const treatmentsDetail = {
               rows: [
                 [
                   "Upper Eyelid Blepharoplasty",
-                  "Removes excess skin and fat from the upper eyelids to correct drooping and hooding.",
+                  "Removes excess skin and fat from the upper eyelids to correct drooping and hooding."
                 ],
                 [
                   "Lower Eyelid Blepharoplasty",
-                  "Reduces under-eye bags, puffiness, and loose skin for a smoother appearance.",
+                  "Reduces under-eye bags, puffiness, and loose skin for a smoother appearance."
                 ],
                 [
                   "Quad Blepharoplasty",
-                  "A combination of upper and lower eyelid surgery for complete eye rejuvenation.",
+                  "A combination of upper and lower eyelid surgery for complete eye rejuvenation."
                 ],
                 [
                   "Asian Blepharoplasty",
-                  "Customized eyelid enhancement tailored to individual aesthetic goals.",
+                  "Customized eyelid enhancement tailored to individual aesthetic goals."
                 ],
                 [
                   "Blepharoplasty with Facial Rejuvenation",
-                  "Can be combined with Facelift, Brow Lift, Fat Grafting, Botox®, or Fillers for comprehensive facial rejuvenation.",
-                ],
+                  "Can be combined with Facelift, Brow Lift, Fat Grafting, Botox®, or Fillers for comprehensive facial rejuvenation."
+                ]
               ],
             },
             {
@@ -242,14 +235,14 @@ export const treatmentsDetail = {
               heading: "Blepharoplasty Procedure",
               content: [
                 "Blepharoplasty is usually performed under local anesthesia with sedation or general anesthesia, depending on the extent of surgery. Incisions are carefully placed within the natural eyelid creases or inside the lower eyelid to minimize visible scarring.",
-                "Excess skin, fat, and tissue are precisely removed or repositioned to create a smoother, youthful, and natural eyelid contour. Most patients experience mild swelling and bruising, which gradually subsides over the following weeks.",
+                "Excess skin, fat, and tissue are precisely removed or repositioned to create a smoother, youthful, and natural eyelid contour. Most patients experience mild swelling and bruising, which gradually subsides over the following weeks."
               ],
             },
             {
               type: "text",
               heading: "Recovery After Blepharoplasty",
               content: [
-                "Most patients can resume light daily activities within a few days. Temporary swelling, bruising, and mild discomfort are expected during the initial recovery period. Final results become increasingly visible as healing progresses, revealing brighter, more youthful-looking eyes.",
+                "Most patients can resume light daily activities within a few days. Temporary swelling, bruising, and mild discomfort are expected during the initial recovery period. Final results become increasingly visible as healing progresses, revealing brighter, more youthful-looking eyes."
               ],
             },
             {
@@ -264,7 +257,7 @@ export const treatmentsDetail = {
                 "Complexity of the procedure",
                 "Anesthesia and facility charges",
                 "Additional facial rejuvenation procedures",
-                "Individual surgical requirements",
+                "Individual surgical requirements"
               ],
               outro:
                 "A detailed consultation is recommended to receive a personalized treatment plan and accurate cost estimate.",
@@ -281,30 +274,23 @@ export const treatmentsDetail = {
                 "Advanced Eyelid Rejuvenation Techniques",
                 "Modern Surgical Facility in Kandivali West, Mumbai",
                 "Comprehensive Pre- and Post-Operative Care",
-                "Focus on Patient Safety and Satisfaction",
+                "Focus on Patient Safety and Satisfaction"
               ],
             },
             {
               type: "text",
               heading: "Best Blepharoplasty Surgeon in Kandivali West, Mumbai",
               content: [
-                "If you are looking for Blepharoplasty Surgery in Kandivali West, Mumbai, consult Dr. Nikhil Angre at NFSC – Dr. Nikhil Face Surgical & Aesthetic Centre. Whether you want to eliminate droopy eyelids, reduce under-eye bags, or achieve a fresher and more youthful appearance, we offer customized eyelid surgery solutions designed to deliver safe, natural, and long-lasting results.",
+                "If you are looking for Blepharoplasty Surgery in Kandivali West, Mumbai, consult Dr. Nikhil Angre at NFSC – Dr. Nikhil Face Surgical & Aesthetic Centre. Whether you want to eliminate droopy eyelids, reduce under-eye bags, or achieve a fresher and more youthful appearance, we offer customized eyelid surgery solutions designed to deliver safe, natural, and long-lasting results."
               ],
             },
             {
               type: "text",
               heading: "Book Your Eyelid Surgery Consultation Today",
               content: [
-                "Rejuvenate your eyes and refresh your appearance with advanced Blepharoplasty Surgery in Mumbai. Schedule your consultation with Dr. Nikhil Angre and discover how eyelid surgery can help you look more youthful, rested, and confident.",
+                "Rejuvenate your eyes and refresh your appearance with advanced Blepharoplasty Surgery in Mumbai. Schedule your consultation with Dr. Nikhil Angre and discover how eyelid surgery can help you look more youthful, rested, and confident."
               ],
-            },
-            {
-              type: "text",
-              heading: "SEO Keywords",
-              content: [
-                "Blepharoplasty Surgery in Kandivali West, Eyelid Surgery Mumbai, Upper Eyelid Surgery, Lower Eyelid Surgery, Under Eye Bag Removal, Best Blepharoplasty Surgeon in Mumbai, Eyelid Rejuvenation Surgery, Cosmetic Eye Surgery, Facial Plastic Surgeon Kandivali West, Dr. Nikhil Angre.",
-              ],
-            },
+            }
           ],
         },
       },
@@ -329,7 +315,7 @@ export const treatmentsDetail = {
                 "Chin narrowing",
                 "Facial asymmetry correction",
                 "Lower face slimming",
-                "Combination facial contouring procedures",
+                "Combination facial contouring procedures"
               ],
               outro:
                 "The goal is to create a balanced facial appearance with improved proportions and jawline definition.",
@@ -346,7 +332,7 @@ export const treatmentsDetail = {
                 "Facial asymmetry",
                 "Desire for a slimmer facial appearance",
                 "Excessively masculine jaw contours",
-                "Disproportionate chin and jawline structure",
+                "Disproportionate chin and jawline structure"
               ],
               outro:
                 "A detailed facial analysis by Dr. Nikhil Angre helps determine the most appropriate surgical plan for achieving your desired outcome.",
@@ -362,7 +348,7 @@ export const treatmentsDetail = {
                 "Reduces a broad or square jaw appearance",
                 "Refines chin contour",
                 "Provides permanent facial contouring results",
-                "Improves overall facial aesthetics and confidence",
+                "Improves overall facial aesthetics and confidence"
               ],
             },
             {
@@ -375,7 +361,7 @@ export const treatmentsDetail = {
                 "Chin Contouring Surgery - Refining the size, width, and projection of the chin for improved facial balance.",
                 "Mandibular Contouring - Reshaping the lower jawbone to achieve a narrower and more defined appearance.",
                 "Facial Asymmetry Correction - Addressing uneven jaw or chin contours to improve facial harmony.",
-                "Combined Facial Contouring Procedures",
+                "Combined Facial Contouring Procedures"
               ],
               outro:
                 "V-Line Surgery can be combined with: Chin Augmentation, Facial Fat Grafting, Buccal Fat Removal, Rhinoplasty, Facelift Surgery, or Orthognathic Jaw Surgery.",
@@ -385,7 +371,7 @@ export const treatmentsDetail = {
               heading: "V-Line Jaw Surgery Procedure",
               content: [
                 "The procedure is generally performed under general anesthesia. Incisions are usually placed inside the mouth, resulting in no visible external scars. The jawbone and chin are carefully reshaped using advanced maxillofacial surgical techniques to create the desired contour.",
-                "As a specialist in maxillofacial and facial plastic surgery, Dr. Nikhil Angre focuses on achieving natural-looking results that complement each patient's unique facial structure.",
+                "As a specialist in maxillofacial and facial plastic surgery, Dr. Nikhil Angre focuses on achieving natural-looking results that complement each patient's unique facial structure."
               ],
             },
             {
@@ -393,7 +379,7 @@ export const treatmentsDetail = {
               heading: "Recovery After V-Line Jaw Contouring Surgery",
               content: [
                 "Following surgery, temporary swelling and mild discomfort are expected. Most patients can resume routine activities within a few weeks, while facial contours continue to refine as swelling subsides over the following months.",
-                "Post-operative instructions and regular follow-up appointments help ensure optimal healing and long-term results.",
+                "Post-operative instructions and regular follow-up appointments help ensure optimal healing and long-term results."
               ],
             },
             {
@@ -408,7 +394,7 @@ export const treatmentsDetail = {
                 "Facial asymmetry correction",
                 "Surgical technique used",
                 "Hospital and anesthesia charges",
-                "Additional facial contouring procedures",
+                "Additional facial contouring procedures"
               ],
               outro:
                 "A comprehensive consultation is recommended for an accurate treatment plan and personalized cost estimate.",
@@ -425,30 +411,23 @@ export const treatmentsDetail = {
                 "State-of-the-Art Surgical Facility",
                 "Comprehensive Patient Care",
                 "Focus on Facial Harmony, Safety, and Precision",
-                "Located in Kandivali West, Mumbai",
+                "Located in Kandivali West, Mumbai"
               ],
             },
             {
               type: "text",
               heading: "Best V-Line Jaw Contouring Surgeon in Kandivali West, Mumbai",
               content: [
-                "If you are looking for V-Line Jaw Contouring Surgery in Kandivali West, Mumbai, consult Dr. Nikhil Angre at NFSC – Dr. Nikhil Face Surgical & Aesthetic Centre. Whether you want to achieve a slimmer jawline, improve facial proportions, or enhance facial symmetry, we offer personalized surgical solutions designed to deliver safe, natural, and long-lasting results.",
+                "If you are looking for V-Line Jaw Contouring Surgery in Kandivali West, Mumbai, consult Dr. Nikhil Angre at NFSC – Dr. Nikhil Face Surgical & Aesthetic Centre. Whether you want to achieve a slimmer jawline, improve facial proportions, or enhance facial symmetry, we offer personalized surgical solutions designed to deliver safe, natural, and long-lasting results."
               ],
             },
             {
               type: "text",
               heading: "Book Your Consultation Today",
               content: [
-                "Transform your facial profile with advanced V-Line Jaw Contouring Surgery in Mumbai. Schedule a consultation with Dr. Nikhil Angre and discover how facial contouring can help you achieve a more refined, balanced, and confident appearance.",
+                "Transform your facial profile with advanced V-Line Jaw Contouring Surgery in Mumbai. Schedule a consultation with Dr. Nikhil Angre and discover how facial contouring can help you achieve a more refined, balanced, and confident appearance."
               ],
-            },
-            {
-              type: "text",
-              heading: "SEO Keywords",
-              content: [
-                "V-Line Surgery in Kandivali West, V-Line Jaw Contouring Surgery Mumbai, Facial Slimming Mumbai, Jawline Reshaping Mumbai, Chin Reshaping Mumbai, Jaw Reduction Surgery, Best V-Line Surgeon Mumbai, V-Line Surgery Cost Mumbai, Dr. Nikhil Angre.",
-              ],
-            },
+            }
           ],
         },
       },
@@ -470,7 +449,7 @@ export const treatmentsDetail = {
                 "Chin Implants",
                 "Sliding Genioplasty (Chin Bone Advancement Surgery)",
                 "Chin Reshaping Procedures",
-                "Combined Chin and Jawline Contouring",
+                "Combined Chin and Jawline Contouring"
               ],
               outro:
                 "The treatment is customized according to the patient's facial anatomy, profile analysis, and aesthetic goals.",
@@ -487,7 +466,7 @@ export const treatmentsDetail = {
                 "Small or underdeveloped chin",
                 "Desire for a sharper side profile",
                 "Double chin appearance due to chin deficiency",
-                "Facial asymmetry involving the chin",
+                "Facial asymmetry involving the chin"
               ],
               outro:
                 "A detailed facial assessment by Dr. Nikhil Angre helps determine the most appropriate surgical technique for optimal results.",
@@ -504,7 +483,7 @@ export const treatmentsDetail = {
                 "Reduces the appearance of a weak chin",
                 "Corrects chin asymmetry",
                 "Provides long-lasting and natural-looking results",
-                "Boosts confidence and facial aesthetics",
+                "Boosts confidence and facial aesthetics"
               ],
             },
             {
@@ -514,20 +493,20 @@ export const treatmentsDetail = {
               rows: [
                 [
                   "Chin Implant Surgery",
-                  "A biocompatible implant is placed to enhance chin projection and definition.",
+                  "A biocompatible implant is placed to enhance chin projection and definition."
                 ],
                 [
                   "Sliding Genioplasty",
-                  "An advanced procedure that repositions the patient's own chin bone to improve chin projection and facial balance.",
+                  "An advanced procedure that repositions the patient's own chin bone to improve chin projection and facial balance."
                 ],
                 [
                   "Chin Reduction Surgery",
-                  "For patients with an excessively prominent chin requiring contour correction.",
+                  "For patients with an excessively prominent chin requiring contour correction."
                 ],
                 [
                   "Chin Reshaping Surgery",
-                  "Customized contouring to improve chin shape, symmetry, and aesthetics.",
-                ],
+                  "Customized contouring to improve chin shape, symmetry, and aesthetics."
+                ]
               ],
             },
             {
@@ -542,7 +521,7 @@ export const treatmentsDetail = {
                 "Facelift Surgery",
                 "Neck Lift Surgery",
                 "Facial Fat Grafting",
-                "Orthognathic Jaw Surgery",
+                "Orthognathic Jaw Surgery"
               ],
             },
             {
@@ -550,7 +529,7 @@ export const treatmentsDetail = {
               heading: "Chin Implant Surgery Procedure",
               content: [
                 "The procedure is generally performed under local anesthesia with sedation or general anesthesia, depending on the surgical plan. Incisions are usually placed inside the mouth or discreetly beneath the chin to minimize visible scarring.",
-                "The implant or chin bone is carefully positioned to create a balanced and proportionate facial profile. Dr. Nikhil Angre utilizes precise facial measurements and aesthetic analysis to achieve natural and personalized results.",
+                "The implant or chin bone is carefully positioned to create a balanced and proportionate facial profile. Dr. Nikhil Angre utilizes precise facial measurements and aesthetic analysis to achieve natural and personalized results."
               ],
             },
             {
@@ -558,7 +537,7 @@ export const treatmentsDetail = {
               heading: "Recovery After Chin Augmentation Surgery",
               content: [
                 "Most patients experience mild swelling and discomfort during the initial recovery period. Swelling gradually subsides over the following weeks, revealing improved facial contours and chin definition.",
-                "Patients can usually return to routine activities within a short period, depending on the extent of the procedure.",
+                "Patients can usually return to routine activities within a short period, depending on the extent of the procedure."
               ],
             },
             {
@@ -573,7 +552,7 @@ export const treatmentsDetail = {
                 "Sliding genioplasty requirements",
                 "Complexity of correction",
                 "Hospital and anesthesia charges",
-                "Additional facial contouring procedures",
+                "Additional facial contouring procedures"
               ],
               outro:
                 "A personalized consultation is recommended to determine the most suitable treatment plan and provide an accurate cost estimate.",
@@ -590,30 +569,23 @@ export const treatmentsDetail = {
                 "Natural-Looking Results",
                 "State-of-the-Art Surgical Facility",
                 "Comprehensive Pre- and Post-Operative Care",
-                "Located in Kandivali West, Mumbai",
+                "Located in Kandivali West, Mumbai"
               ],
             },
             {
               type: "text",
               heading: "Best Chin Augmentation Surgeon in Kandivali West, Mumbai",
               content: [
-                "If you are looking for Chin Augmentation Surgery in Kandivali West, Mumbai, consult Dr. Nikhil Angre at NFSC – Dr. Nikhil Face Surgical & Aesthetic Centre. Whether you desire a stronger jawline, improved facial profile, or enhanced facial balance, we offer personalized chin enhancement procedures designed to achieve safe, natural, and long-lasting results.",
+                "If you are looking for Chin Augmentation Surgery in Kandivali West, Mumbai, consult Dr. Nikhil Angre at NFSC – Dr. Nikhil Face Surgical & Aesthetic Centre. Whether you desire a stronger jawline, improved facial profile, or enhanced facial balance, we offer personalized chin enhancement procedures designed to achieve safe, natural, and long-lasting results."
               ],
             },
             {
               type: "text",
               heading: "Book Your Chin Augmentation Consultation Today",
               content: [
-                "Enhance your facial profile and achieve better facial harmony with advanced Chin Implant and Chin Augmentation Surgery in Mumbai. Schedule a consultation with Dr. Nikhil Angre and discover how chin enhancement can transform your appearance and confidence.",
+                "Enhance your facial profile and achieve better facial harmony with advanced Chin Implant and Chin Augmentation Surgery in Mumbai. Schedule a consultation with Dr. Nikhil Angre and discover how chin enhancement can transform your appearance and confidence."
               ],
-            },
-            {
-              type: "text",
-              heading: "SEO Keywords",
-              content: [
-                "Chin Augmentation Surgery in Kandivali West, Chin Implant Surgery Mumbai, Genioplasty Mumbai, Sliding Genioplasty, Weak Chin Correction, Jawline Definition, Best Chin Implant Surgeon Mumbai, Chin Augmentation Cost Mumbai, Dr. Nikhil Angre.",
-              ],
-            },
+            }
           ],
         },
       },
@@ -637,7 +609,7 @@ export const treatmentsDetail = {
                 "Restore lost facial volume",
                 "Create youthful facial contours",
                 "Improve facial profile balance",
-                "Correct flat or underdeveloped cheeks",
+                "Correct flat or underdeveloped cheeks"
               ],
             },
             {
@@ -652,7 +624,7 @@ export const treatmentsDetail = {
                 "Facial asymmetry involving the cheeks",
                 "Desire for enhanced cheekbone definition",
                 "Naturally underdeveloped cheekbones",
-                "A preference for permanent cheek augmentation",
+                "A preference for permanent cheek augmentation"
               ],
               outro:
                 "A detailed facial assessment by Dr. Nikhil Angre helps determine the ideal implant size and shape to complement your facial structure.",
@@ -669,7 +641,7 @@ export const treatmentsDetail = {
                 "Improves mid-face definition",
                 "Restores facial fullness",
                 "Produces natural-looking results",
-                "Increases self-confidence and facial aesthetics",
+                "Increases self-confidence and facial aesthetics"
               ],
             },
             {
@@ -684,7 +656,7 @@ export const treatmentsDetail = {
                 "Age-related cheek volume loss",
                 "Weak facial contours",
                 "Facial asymmetry",
-                "Lack of cheekbone prominence",
+                "Lack of cheekbone prominence"
               ],
             },
             {
@@ -694,20 +666,20 @@ export const treatmentsDetail = {
               rows: [
                 [
                   "Malar (Cheekbone) Implants",
-                  "Enhance the prominence and projection of the cheekbones.",
+                  "Enhance the prominence and projection of the cheekbones."
                 ],
                 [
                   "Submalar Implants",
-                  "Improve volume in the lower cheek area and address hollow cheeks.",
+                  "Improve volume in the lower cheek area and address hollow cheeks."
                 ],
                 [
                   "Combined Cheek & Mid-Face Augmentation",
-                  "Provides comprehensive facial contour enhancement for balanced facial aesthetics.",
+                  "Provides comprehensive facial contour enhancement for balanced facial aesthetics."
                 ],
                 [
                   "Cheek Augmentation with Fat Grafting",
-                  "Combines implants and fat transfer for additional volume and soft tissue enhancement.",
-                ],
+                  "Combines implants and fat transfer for additional volume and soft tissue enhancement."
+                ]
               ],
             },
             {
@@ -715,7 +687,7 @@ export const treatmentsDetail = {
               heading: "Malar Implant Surgery Procedure",
               content: [
                 "The surgery is typically performed under local anesthesia with sedation or general anesthesia. Small incisions are usually placed inside the mouth, eliminating visible external scars. The implants are carefully positioned over the cheekbones to achieve optimal projection, symmetry, and facial harmony.",
-                "As a facial plastic and maxillofacial surgeon, Dr. Nikhil Angre utilizes advanced surgical planning and precision techniques to ensure natural-looking outcomes tailored to each patient's facial anatomy.",
+                "As a facial plastic and maxillofacial surgeon, Dr. Nikhil Angre utilizes advanced surgical planning and precision techniques to ensure natural-looking outcomes tailored to each patient's facial anatomy."
               ],
             },
             {
@@ -723,7 +695,7 @@ export const treatmentsDetail = {
               heading: "Recovery After Cheek Implant Surgery",
               content: [
                 "Most patients experience temporary swelling and mild discomfort during the first few days following surgery. Swelling gradually improves over several weeks, revealing enhanced cheek contours and improved facial definition.",
-                "Patients can typically return to normal daily activities within a short recovery period, depending on the extent of the procedure.",
+                "Patients can typically return to normal daily activities within a short recovery period, depending on the extent of the procedure."
               ],
             },
             {
@@ -738,7 +710,7 @@ export const treatmentsDetail = {
                 "Facial asymmetry correction requirements",
                 "Hospital and anesthesia charges",
                 "Additional facial contouring procedures",
-                "Individual treatment goals",
+                "Individual treatment goals"
               ],
               outro:
                 "A comprehensive consultation is recommended to determine the most suitable treatment plan and provide an accurate cost estimate.",
@@ -755,30 +727,23 @@ export const treatmentsDetail = {
                 "Natural and Long-Lasting Results",
                 "State-of-the-Art Surgical Facility",
                 "Comprehensive Pre- and Post-Operative Care",
-                "Located in Kandivali West, Mumbai",
+                "Located in Kandivali West, Mumbai"
               ],
             },
             {
               type: "text",
               heading: "Best Cheek Implant Surgeon in Kandivali West, Mumbai",
               content: [
-                "If you are considering Malar (Cheek) Implant Surgery in Kandivali West, Mumbai, consult Dr. Nikhil Angre at NFSC – Dr. Nikhil Face Surgical & Aesthetic Centre. Whether you wish to enhance cheekbone definition, restore facial volume, or improve facial proportions, we offer personalized cheek augmentation solutions designed to deliver safe, natural, and aesthetically pleasing results.",
+                "If you are considering Malar (Cheek) Implant Surgery in Kandivali West, Mumbai, consult Dr. Nikhil Angre at NFSC – Dr. Nikhil Face Surgical & Aesthetic Centre. Whether you wish to enhance cheekbone definition, restore facial volume, or improve facial proportions, we offer personalized cheek augmentation solutions designed to deliver safe, natural, and aesthetically pleasing results."
               ],
             },
             {
               type: "text",
               heading: "Book Your Cheek Augmentation Consultation Today",
               content: [
-                "Achieve stronger facial contours and enhanced cheekbone definition with advanced Malar Implant Surgery in Mumbai. Schedule your consultation with Dr. Nikhil Angre and discover how cheek augmentation can create a more youthful, balanced, and attractive appearance.",
+                "Achieve stronger facial contours and enhanced cheekbone definition with advanced Malar Implant Surgery in Mumbai. Schedule your consultation with Dr. Nikhil Angre and discover how cheek augmentation can create a more youthful, balanced, and attractive appearance."
               ],
-            },
-            {
-              type: "text",
-              heading: "SEO Keywords",
-              content: [
-                "Cheek Implant Surgery in Kandivali West, Cheek Augmentation Mumbai, Malar Implants Mumbai, Submalar Implants, Hollow Cheek Correction, Best Cheek Implant Surgeon Mumbai, Cheek Implant Cost Mumbai, Dr. Nikhil Angre.",
-              ],
-            },
+            }
           ],
         },
       },
@@ -801,7 +766,7 @@ export const treatmentsDetail = {
                 "Large forehead genetics",
                 "Receding hairline",
                 "Facial disproportion",
-                "Cosmetic concerns regarding facial balance",
+                "Cosmetic concerns regarding facial balance"
               ],
             },
             {
@@ -815,7 +780,7 @@ export const treatmentsDetail = {
                 "Good scalp elasticity",
                 "Stable hair growth pattern",
                 "Desire for improved facial proportions",
-                "Interest in permanent forehead reduction",
+                "Interest in permanent forehead reduction"
               ],
               outro:
                 "A detailed consultation with Dr. Nikhil Angre helps determine whether forehead reduction surgery or hair transplantation would be the most suitable treatment option.",
@@ -832,7 +797,7 @@ export const treatmentsDetail = {
                 "Enhances facial aesthetics",
                 "Provides permanent results",
                 "Can be combined with brow lift procedures",
-                "Improves self-confidence",
+                "Improves self-confidence"
               ],
             },
             {
@@ -843,7 +808,7 @@ export const treatmentsDetail = {
                 "Large Forehead - Reduces excessive forehead height for improved facial harmony.",
                 "High Hairline - Lowers the hairline to create balanced facial proportions.",
                 "Facial Imbalance - Improves overall facial aesthetics by reducing upper facial dominance.",
-                "Receding Hairline (Selected Cases) - Can improve the appearance of a receded frontal hairline when appropriate.",
+                "Receding Hairline (Selected Cases) - Can improve the appearance of a receded frontal hairline when appropriate."
               ],
             },
             {
@@ -855,7 +820,7 @@ export const treatmentsDetail = {
                 ["Hairline Effect", "Lowers entire hairline", "Adds hair density"],
                 ["Main Focus", "Reduces forehead height significantly", "Best for mild hairline lowering"],
                 ["Procedure", "One surgical procedure", "Multiple sessions may be required"],
-                ["Suitability", "Suitable for patients with good scalp laxity", "Suitable for broader patient groups"],
+                ["Suitability", "Suitable for patients with good scalp laxity", "Suitable for broader patient groups"]
               ],
               outro: "In some cases, a combination of both procedures may provide optimal results.",
             },
@@ -864,7 +829,7 @@ export const treatmentsDetail = {
               heading: "Forehead Reduction Surgery Procedure",
               content: [
                 "The procedure is typically performed under local anesthesia with sedation or general anesthesia. An incision is carefully placed along the natural hairline, allowing the scalp to be advanced forward. Excess forehead skin is removed, and the hairline is repositioned to a lower, more aesthetically pleasing position.",
-                "Dr. Nikhil Angre uses meticulous surgical techniques to ensure minimal visible scarring and natural-looking results.",
+                "Dr. Nikhil Angre uses meticulous surgical techniques to ensure minimal visible scarring and natural-looking results."
               ],
             },
             {
@@ -872,7 +837,7 @@ export const treatmentsDetail = {
               heading: "Recovery After Forehead Reduction Surgery",
               content: [
                 "Most patients experience mild swelling and discomfort during the initial recovery period. Sutures are typically removed within one to two weeks, and most individuals can resume routine activities shortly thereafter.",
-                "As healing progresses, the scar becomes less noticeable and is usually well-concealed within the hairline.",
+                "As healing progresses, the scar becomes less noticeable and is usually well-concealed within the hairline."
               ],
             },
             {
@@ -887,7 +852,7 @@ export const treatmentsDetail = {
                 "Complexity of the procedure",
                 "Hospital and anesthesia charges",
                 "Combination with other facial aesthetic procedures",
-                "Individual treatment goals",
+                "Individual treatment goals"
               ],
               outro:
                 "A personalized consultation is recommended for an accurate assessment and treatment plan.",
@@ -904,7 +869,7 @@ export const treatmentsDetail = {
                 "Blepharoplasty (Eyelid Surgery)",
                 "Facial Fat Grafting",
                 "Rhinoplasty",
-                "Facial Contouring Procedures",
+                "Facial Contouring Procedures"
               ],
               outro:
                 "Combining procedures can further enhance overall facial harmony and rejuvenation.",
@@ -922,23 +887,23 @@ export const treatmentsDetail = {
                 "Minimal Visible Scarring",
                 "State-of-the-Art Surgical Facility",
                 "Comprehensive Patient Care",
-                "Located in Kandivali West, Mumbai",
+                "Located in Kandivali West, Mumbai"
               ],
             },
             {
               type: "text",
               heading: "Best Forehead Reduction Surgeon in Kandivali West, Mumbai",
               content: [
-                "If you are looking for Forehead Reduction Surgery in Kandivali West, Mumbai, consult Dr. Nikhil Angre at NFSC – Dr. Nikhil Face Surgical & Aesthetic Centre. Whether you wish to lower a high hairline, reduce forehead size, or improve facial balance, we offer customized treatment plans designed to deliver safe, natural, and long-lasting results.",
+                "If you are looking for Forehead Reduction Surgery in Kandivali West, Mumbai, consult Dr. Nikhil Angre at NFSC – Dr. Nikhil Face Surgical & Aesthetic Centre. Whether you wish to lower a high hairline, reduce forehead size, or improve facial balance, we offer customized treatment plans designed to deliver safe, natural, and long-lasting results."
               ],
             },
             {
               type: "text",
               heading: "Book Your Forehead Reduction Consultation Today",
               content: [
-                "Enhance your facial proportions and confidence with advanced Forehead Reduction Surgery in Mumbai. Schedule a consultation with Dr. Nikhil Angre and discover how hairline lowering surgery can help you achieve a more balanced and attractive facial appearance.",
+                "Enhance your facial proportions and confidence with advanced Forehead Reduction Surgery in Mumbai. Schedule a consultation with Dr. Nikhil Angre and discover how hairline lowering surgery can help you achieve a more balanced and attractive facial appearance."
               ],
-            },
+            }
           ],
         },
       },
@@ -1093,13 +1058,6 @@ export const treatmentsDetail = {
               content: [
                 "Rejuvenate your appearance naturally with advanced Facial Fat Grafting Surgery in Mumbai. Schedule a consultation with Dr. Nikhil Angre and discover how facial fat transfer can restore youthful fullness, improve facial harmony, and enhance your confidence."
               ]
-            },
-            {
-              type: "text",
-              heading: "SEO Keywords",
-              content: [
-                "Facial Fat Grafting Surgery in Kandivali West, Facial Fat Transfer Mumbai, Fat Grafting to Face, Facial Rejuvenation Surgery Mumbai, Natural Facial Volume Restoration, Fat Transfer to Cheeks, Under Eye Fat Grafting, Best Facial Fat Grafting Surgeon Mumbai, Facial Plastic Surgery Kandivali West, Facial Fat Transfer Cost Mumbai, Dr. Nikhil Angre."
-              ]
             }
           ]
         },
@@ -1122,7 +1080,7 @@ export const treatmentsDetail = {
                 "Under-chin area",
                 "Upper neck",
                 "Jawline region",
-                "Submental area (double chin)",
+                "Submental area (double chin)"
               ],
               outro:
                 "The procedure improves the transition between the face and neck, enhancing facial contours and creating a more youthful profile.",
@@ -1139,7 +1097,7 @@ export const treatmentsDetail = {
                 "Full or heavy-looking neck",
                 "Good skin elasticity",
                 "Stable body weight",
-                "Desire for a slimmer facial profile",
+                "Desire for a slimmer facial profile"
               ],
               outro:
                 "A consultation with Dr. Nikhil Angre will help determine whether neck liposuction alone or a combination procedure such as a neck lift is best suited for your concerns.",
@@ -1156,7 +1114,7 @@ export const treatmentsDetail = {
                 "Enhances facial profile",
                 "Provides long-lasting results",
                 "Minimal scarring",
-                "Quick recovery compared to more extensive procedures",
+                "Quick recovery compared to more extensive procedures"
               ],
             },
             {
@@ -1167,7 +1125,7 @@ export const treatmentsDetail = {
                 "Double Chin Removal - Reduces excess fat beneath the chin to create a slimmer appearance.",
                 "Poor Jawline Definition - Improves jawline visibility and contour.",
                 "Full Neck Appearance - Removes localized fat deposits for a more elegant neck profile.",
-                "Facial Contouring Enhancement - Creates better balance between the face, chin, and neck.",
+                "Facial Contouring Enhancement - Creates better balance between the face, chin, and neck."
               ],
             },
             {
@@ -1179,7 +1137,7 @@ export const treatmentsDetail = {
                 ["Ideal Candidates", "Ideal for younger patients with good skin elasticity", "Suitable for significant skin laxity"],
                 ["Incisions Required", "Minimal incisions", "More extensive procedure"],
                 ["Recovery Time", "Faster recovery", "Longer recovery period"],
-                ["Key Benefit", "Improves jawline definition", "Addresses aging neck changes"],
+                ["Key Benefit", "Improves jawline definition", "Addresses aging neck changes"]
               ],
               outro: "In some cases, combining neck liposuction with a neck lift can provide the most comprehensive rejuvenation results.",
             },
@@ -1189,7 +1147,7 @@ export const treatmentsDetail = {
               content: [
                 "The procedure is usually performed under local anesthesia with sedation or general anesthesia, depending on the extent of treatment. Small, discreet incisions are made beneath the chin and around the neck area.",
                 "A specialized liposuction cannula is used to gently remove excess fat while sculpting the neck and jawline for optimal contour. The incisions are extremely small and heal with minimal visible scarring.",
-                "Dr. Nikhil Angre carefully tailors each procedure to preserve natural facial harmony and achieve balanced, aesthetically pleasing results.",
+                "Dr. Nikhil Angre carefully tailors each procedure to preserve natural facial harmony and achieve balanced, aesthetically pleasing results."
               ],
             },
             {
@@ -1197,7 +1155,7 @@ export const treatmentsDetail = {
               heading: "Recovery After Neck Liposuction",
               content: [
                 "Most patients experience mild swelling and bruising for several days after surgery. A compression garment may be recommended to support healing and contour formation.",
-                "Patients can typically return to work and routine activities within a few days, while final neck definition continues to improve over several weeks as swelling subsides.",
+                "Patients can typically return to work and routine activities within a few days, while final neck definition continues to improve over several weeks as swelling subsides."
               ],
             },
             {
@@ -1212,7 +1170,7 @@ export const treatmentsDetail = {
                 "Individual anatomy",
                 "Type of anesthesia used",
                 "Hospital and facility charges",
-                "Combination with other facial contouring procedures",
+                "Combination with other facial contouring procedures"
               ],
               outro:
                 "A detailed consultation is recommended for a personalized treatment plan and accurate cost estimate.",
@@ -1229,7 +1187,7 @@ export const treatmentsDetail = {
                 "Buccal Fat Removal",
                 "Facial Fat Grafting",
                 "V-Line Jaw Contouring Surgery",
-                "Rhinoplasty",
+                "Rhinoplasty"
               ],
               outro: "These combination procedures can significantly improve overall facial balance and profile aesthetics.",
             },
@@ -1246,30 +1204,23 @@ export const treatmentsDetail = {
                 "Minimal Scarring",
                 "Modern Surgical Facility",
                 "Comprehensive Patient Care",
-                "Conveniently Located in Kandivali West, Mumbai",
+                "Conveniently Located in Kandivali West, Mumbai"
               ],
             },
             {
               type: "text",
               heading: "Best Neck Liposuction Surgeon in Kandivali West, Mumbai",
               content: [
-                "If you are looking for Neck Liposuction in Kandivali West, Mumbai, consult Dr. Nikhil Angre at NFSC – Dr. Nikhil Face Surgical & Aesthetic Centre. Whether you want to eliminate a double chin, define your jawline, or achieve a slimmer neck profile, we provide customized neck contouring solutions designed to deliver safe, natural, and long-lasting results.",
+                "If you are looking for Neck Liposuction in Kandivali West, Mumbai, consult Dr. Nikhil Angre at NFSC – Dr. Nikhil Face Surgical & Aesthetic Centre. Whether you want to eliminate a double chin, define your jawline, or achieve a slimmer neck profile, we provide customized neck contouring solutions designed to deliver safe, natural, and long-lasting results."
               ],
             },
             {
               type: "text",
               heading: "Book Your Neck Liposuction Consultation Today",
               content: [
-                "Transform your facial profile and restore jawline definition with advanced Neck Liposuction Surgery in Mumbai. Schedule your consultation with Dr. Nikhil Angre and discover how neck contouring can help you achieve a more youthful, sculpted, and confident appearance.",
+                "Transform your facial profile and restore jawline definition with advanced Neck Liposuction Surgery in Mumbai. Schedule your consultation with Dr. Nikhil Angre and discover how neck contouring can help you achieve a more youthful, sculpted, and confident appearance."
               ],
-            },
-            {
-              type: "text",
-              heading: "SEO Keywords",
-              content: [
-                "Neck Liposuction in Kandivali West, Double Chin Removal Mumbai, Submental Liposuction Mumbai, Neck Fat Removal, Jawline Contouring Mumbai, Best Neck Liposuction Surgeon Mumbai, Neck Liposuction Cost Mumbai, Dr. Nikhil Angre.",
-              ],
-            },
+            }
           ],
         },
       },
@@ -1293,7 +1244,7 @@ export const treatmentsDetail = {
                 "Enhance smile aesthetics",
                 "Improve lip definition",
                 "Reduce the distance between the nose and upper lip",
-                "Provide permanent lip enhancement",
+                "Provide permanent lip enhancement"
               ],
               outro:
                 "Unlike lip fillers, a lip lift offers long-lasting structural improvement and does not require regular maintenance treatments.",
@@ -1310,7 +1261,7 @@ export const treatmentsDetail = {
                 "Age-related lip thinning",
                 "Desire for permanent lip enhancement",
                 "Dissatisfaction with temporary lip fillers",
-                "Good overall health",
+                "Good overall health"
               ],
               outro:
                 "A consultation with Dr. Nikhil Angre will help determine whether a lip lift is the ideal treatment for your aesthetic goals.",
@@ -1327,7 +1278,7 @@ export const treatmentsDetail = {
                 "Provides permanent results",
                 "Reduces dependence on lip fillers",
                 "Creates a more youthful facial appearance",
-                "Improves overall facial harmony",
+                "Improves overall facial harmony"
               ],
             },
             {
@@ -1338,7 +1289,7 @@ export const treatmentsDetail = {
                 "Bullhorn Lip Lift - The most commonly performed technique, involving a concealed incision beneath the nose to elevate the upper lip and improve lip show.",
                 "Central Lip Lift - Focuses on enhancing the central portion of the upper lip for improved definition and contour.",
                 "Corner Lip Lift - Lifts downturned corners of the mouth to create a happier and more youthful appearance.",
-                "Combination Lip Enhancement - Can be combined with lip fillers, facial fat grafting, facelift surgery, or other facial rejuvenation procedures for comprehensive aesthetic enhancement.",
+                "Combination Lip Enhancement - Can be combined with lip fillers, facial fat grafting, facelift surgery, or other facial rejuvenation procedures for comprehensive aesthetic enhancement."
               ],
             },
             {
@@ -1346,7 +1297,7 @@ export const treatmentsDetail = {
               heading: "Lip Lift Surgery Procedure",
               content: [
                 "Lip lift surgery is typically performed under local anesthesia as a day-care procedure. A carefully planned incision is placed discreetly beneath the base of the nose. A small strip of skin is removed, allowing the upper lip to be elevated into a more youthful position.",
-                "Dr. Nikhil Angre uses precise facial aesthetic measurements and advanced surgical techniques to achieve balanced, natural-looking, and symmetrical results.",
+                "Dr. Nikhil Angre uses precise facial aesthetic measurements and advanced surgical techniques to achieve balanced, natural-looking, and symmetrical results."
               ],
             },
             {
@@ -1354,7 +1305,7 @@ export const treatmentsDetail = {
               heading: "Recovery After Lip Lift Surgery",
               content: [
                 "Most patients experience mild swelling and discomfort during the first few days after surgery. Sutures are usually removed within one week, and normal daily activities can often be resumed shortly thereafter.",
-                "As healing progresses, the scar becomes less noticeable and is typically well hidden along the natural contour beneath the nose.",
+                "As healing progresses, the scar becomes less noticeable and is typically well hidden along the natural contour beneath the nose."
               ],
             },
             {
@@ -1368,7 +1319,7 @@ export const treatmentsDetail = {
                 "Complexity of correction required",
                 "Individual facial anatomy",
                 "Additional aesthetic procedures performed simultaneously",
-                "Facility and anesthesia charges",
+                "Facility and anesthesia charges"
               ],
               outro:
                 "A detailed consultation with Dr. Nikhil Angre is recommended for a personalized treatment plan and accurate cost estimate.",
@@ -1382,7 +1333,7 @@ export const treatmentsDetail = {
                 ["Lip Position", "Improves lip position", "Adds volume only"],
                 ["Tooth Show", "Enhances tooth show", "Does not change lip position"],
                 ["Frequency", "One-time procedure", "Requires maintenance sessions"],
-                ["Mechanism", "Natural structural enhancement", "Volume-based enhancement"],
+                ["Mechanism", "Natural structural enhancement", "Volume-based enhancement"]
               ],
               outro: "Many patients choose a lip lift when seeking a permanent solution for lip enhancement and facial rejuvenation.",
             },
@@ -1398,30 +1349,23 @@ export const treatmentsDetail = {
                 "Natural-Looking Results",
                 "Minimal Visible Scarring",
                 "Comprehensive Patient Care",
-                "Modern Surgical Facility in Kandivali West, Mumbai",
+                "Modern Surgical Facility in Kandivali West, Mumbai"
               ],
             },
             {
               type: "text",
               heading: "Best Lip Lift Surgeon in Kandivali West, Mumbai",
               content: [
-                "If you are looking for Lip Lift Surgery in Kandivali West, Mumbai, consult Dr. Nikhil Angre at NFSC – Dr. Nikhil Face Surgical & Aesthetic Centre. Whether you desire fuller lips, improved smile aesthetics, or permanent lip enhancement, we offer customized treatment plans designed to achieve beautiful, natural, and long-lasting results.",
+                "If you are looking for Lip Lift Surgery in Kandivali West, Mumbai, consult Dr. Nikhil Angre at NFSC – Dr. Nikhil Face Surgical & Aesthetic Centre. Whether you desire fuller lips, improved smile aesthetics, or permanent lip enhancement, we offer customized treatment plans designed to achieve beautiful, natural, and long-lasting results."
               ],
             },
             {
               type: "text",
               heading: "Book Your Lip Lift Consultation Today",
               content: [
-                "Enhance your smile and facial attractiveness with advanced Lip Lift Surgery in Mumbai. Schedule your consultation with Dr. Nikhil Angre and discover how a lip lift can help you achieve youthful, balanced, and naturally beautiful lips.",
+                "Enhance your smile and facial attractiveness with advanced Lip Lift Surgery in Mumbai. Schedule your consultation with Dr. Nikhil Angre and discover how a lip lift can help you achieve youthful, balanced, and naturally beautiful lips."
               ],
-            },
-            {
-              type: "text",
-              heading: "SEO Keywords",
-              content: [
-                "Lip Lift Surgery in Kandivali West, Permanent Lip Enhancement Mumbai, Bullhorn Lip Lift Mumbai, Corner Lip Lift, Philtrum Shortening Surgery, Best Lip Lift Surgeon Mumbai, Lip Lift Surgery Cost Mumbai, Dr. Nikhil Angre.",
-              ],
-            },
+            }
           ],
         },
       },
@@ -1445,7 +1389,7 @@ export const treatmentsDetail = {
                 "Enhance cheekbone prominence",
                 "Improve jawline definition",
                 "Reduce facial heaviness",
-                "Achieve a more sculpted appearance",
+                "Achieve a more sculpted appearance"
               ],
             },
             {
@@ -1460,7 +1404,7 @@ export const treatmentsDetail = {
                 "Desire for a slimmer facial profile",
                 "Good skin elasticity",
                 "Stable body weight",
-                "Realistic aesthetic expectations",
+                "Realistic aesthetic expectations"
               ],
               outro:
                 "A detailed facial assessment by Dr. Nikhil Angre helps determine whether buccal fat removal is the right treatment for your facial structure and goals.",
@@ -1477,7 +1421,7 @@ export const treatmentsDetail = {
                 "Permanent reduction of cheek fullness",
                 "No visible external scars",
                 "Short recovery period",
-                "Natural-looking results",
+                "Natural-looking results"
               ],
             },
             {
@@ -1488,7 +1432,7 @@ export const treatmentsDetail = {
                 "Chubby Cheeks - Reduces excessive cheek fullness for a more refined facial appearance.",
                 "Round Face Appearance - Improves facial contours by creating better definition between the cheeks and jawline.",
                 "Poor Cheekbone Definition - Enhances cheekbone prominence by reducing lower cheek volume.",
-                "Facial Contouring Concerns - Provides a slimmer and more sculpted facial profile.",
+                "Facial Contouring Concerns - Provides a slimmer and more sculpted facial profile."
               ],
             },
             {
@@ -1497,7 +1441,7 @@ export const treatmentsDetail = {
               content: [
                 "The surgery is typically performed under local anesthesia or sedation as a day-care procedure. Small incisions are made inside the mouth, allowing access to the buccal fat pads. The desired amount of fat is carefully removed to achieve balanced and natural facial contours.",
                 "Since all incisions are inside the mouth, there are no visible external scars.",
-                "Dr. Nikhil Angre uses a conservative and customized approach to ensure the face remains youthful and harmonious while avoiding an overly hollow appearance.",
+                "Dr. Nikhil Angre uses a conservative and customized approach to ensure the face remains youthful and harmonious while avoiding an overly hollow appearance."
               ],
             },
             {
@@ -1505,7 +1449,7 @@ export const treatmentsDetail = {
               heading: "Recovery After Buccal Fat Removal",
               content: [
                 "Most patients experience mild swelling and discomfort for a few days following surgery. Swelling gradually subsides over several weeks, and facial contours continue to improve as healing progresses.",
-                "Patients can generally return to work and routine activities within a few days, depending on individual recovery.",
+                "Patients can generally return to work and routine activities within a few days, depending on individual recovery."
               ],
             },
             {
@@ -1519,7 +1463,7 @@ export const treatmentsDetail = {
                 "Individual facial anatomy",
                 "Type of anesthesia used",
                 "Facility charges",
-                "Combination with other facial contouring procedures",
+                "Combination with other facial contouring procedures"
               ],
               outro:
                 "A personalized consultation is recommended to determine the ideal treatment plan and provide an accurate cost estimate.",
@@ -1536,7 +1480,7 @@ export const treatmentsDetail = {
                 "Malar (Cheek) Implants",
                 "Neck Liposuction",
                 "Facelift Surgery",
-                "Rhinoplasty",
+                "Rhinoplasty"
               ],
               outro: "These combination procedures can create a more balanced and aesthetically pleasing facial profile.",
             },
@@ -1552,30 +1496,23 @@ export const treatmentsDetail = {
                 "No Visible External Scars",
                 "Natural-Looking Results",
                 "Comprehensive Pre- and Post-Operative Care",
-                "Modern Surgical Facility in Kandivali West, Mumbai",
+                "Modern Surgical Facility in Kandivali West, Mumbai"
               ],
             },
             {
               type: "text",
               heading: "Best Buccal Fat Removal Surgeon in Kandivali West, Mumbai",
               content: [
-                "If you are looking for Buccal Fat Removal Surgery in Kandivali West, Mumbai, consult Dr. Nikhil Angre at NFSC – Dr. Nikhil Face Surgical & Aesthetic Centre. Whether you want slimmer cheeks, enhanced cheekbones, or a more defined jawline, we offer personalized facial contouring treatments designed to achieve safe, natural, and long-lasting results.",
+                "If you are looking for Buccal Fat Removal Surgery in Kandivali West, Mumbai, consult Dr. Nikhil Angre at NFSC – Dr. Nikhil Face Surgical & Aesthetic Centre. Whether you want slimmer cheeks, enhanced cheekbones, or a more defined jawline, we offer personalized facial contouring treatments designed to achieve safe, natural, and long-lasting results."
               ],
             },
             {
               type: "text",
               heading: "Book Your Cheek Reduction Consultation Today",
               content: [
-                "Enhance your facial definition and achieve a slimmer, sculpted appearance with advanced Buccal Fat Removal Surgery in Mumbai. Schedule a consultation with Dr. Nikhil Angre and discover how cheek reduction surgery can help you achieve a more refined and confident look.",
+                "Enhance your facial definition and achieve a slimmer, sculpted appearance with advanced Buccal Fat Removal Surgery in Mumbai. Schedule a consultation with Dr. Nikhil Angre and discover how cheek reduction surgery can help you achieve a more refined and confident look."
               ],
-            },
-            {
-              type: "text",
-              heading: "SEO Keywords",
-              content: [
-                "Buccal Fat Removal in Kandivali West, Cheek Reduction Surgery Mumbai, Face Slimming Surgery Mumbai, Cheek Slimming, Best Buccal Fat Removal Surgeon Mumbai, Buccal Fat Removal Cost Mumbai, Dr. Nikhil Angre.",
-              ],
-            },
+            }
           ],
         },
       },
@@ -1601,7 +1538,7 @@ export const treatmentsDetail = {
                 "Acne scars",
                 "Hypertrophic scars",
                 "Contracture scars",
-                "Irregular or widened scars",
+                "Irregular or widened scars"
               ],
             },
             {
@@ -1617,7 +1554,7 @@ export const treatmentsDetail = {
                 "Post-traumatic scars",
                 "Surgical scars causing cosmetic concerns",
                 "Scar-related facial asymmetry",
-                "Functional limitations due to scar contracture",
+                "Functional limitations due to scar contracture"
               ],
               outro:
                 "A consultation with Dr. Nikhil Angre helps determine the most effective treatment approach based on scar type, location, and skin characteristics.",
@@ -1634,7 +1571,7 @@ export const treatmentsDetail = {
                 "Improves scar color and shape",
                 "Corrects scar-related deformities",
                 "Improves facial symmetry",
-                "Provides long-lasting results",
+                "Provides long-lasting results"
               ],
             },
             {
@@ -1648,7 +1585,7 @@ export const treatmentsDetail = {
                 "Acne Scars - Treatment of depressed, atrophic, or irregular acne scars.",
                 "Hypertrophic Scars - Management of thickened and raised scars.",
                 "Burn Scars - Improvement of burn-related scar tissue and contour irregularities.",
-                "Contracture Scars - Release and correction of scars that restrict movement or distort facial features.",
+                "Contracture Scars - Release and correction of scars that restrict movement or distort facial features."
               ],
             },
             {
@@ -1664,7 +1601,7 @@ export const treatmentsDetail = {
                 "Microneedling",
                 "PRP (Platelet-Rich Plasma) Therapy",
                 "Chemical Peels",
-                "Combination Scar Revision Procedures",
+                "Combination Scar Revision Procedures"
               ],
               outro: "Dr. Nikhil Angre develops a customized treatment plan to achieve the best possible aesthetic outcome.",
             },
@@ -1673,7 +1610,7 @@ export const treatmentsDetail = {
               heading: "Scar Revision Surgery Procedure",
               content: [
                 "Scar revision surgery is usually performed under local anesthesia and may be completed as a day-care procedure. The existing scar tissue is carefully revised and closed using advanced plastic surgery techniques to create a finer and less noticeable scar.",
-                "For complex scars, additional treatments such as laser therapy, microneedling, or PRP may be recommended to optimize results.",
+                "For complex scars, additional treatments such as laser therapy, microneedling, or PRP may be recommended to optimize results."
               ],
             },
             {
@@ -1681,7 +1618,7 @@ export const treatmentsDetail = {
               heading: "Recovery After Scar Revision Surgery",
               content: [
                 "Most patients experience mild swelling and redness during the initial healing phase. Recovery varies depending on the size and location of the scar. Over time, the revised scar gradually softens and blends more naturally with the surrounding skin.",
-                "Following post-operative instructions and sun protection measures helps maximize healing and cosmetic outcomes.",
+                "Following post-operative instructions and sun protection measures helps maximize healing and cosmetic outcomes."
               ],
             },
             {
@@ -1696,7 +1633,7 @@ export const treatmentsDetail = {
                 "Complexity of revision required",
                 "Number of treatment sessions",
                 "Additional procedures performed",
-                "Individual treatment goals",
+                "Individual treatment goals"
               ],
               outro: "A detailed consultation is recommended to provide an accurate treatment plan and cost estimate.",
             },
@@ -1712,33 +1649,26 @@ export const treatmentsDetail = {
                 "Comprehensive Scar Assessment",
                 "Modern Surgical Facility",
                 "Patient-Centered Care",
-                "Conveniently Located in Kandivali West, Mumbai",
+                "Conveniently Located in Kandivali West, Mumbai"
               ],
             },
             {
               type: "text",
               heading: "Best Scar Revision Surgeon in Kandivali West, Mumbai",
               content: [
-                "If you are looking for Scar Revision Surgery in Kandivali West, Mumbai, consult Dr. Nikhil Angre at NFSC – Dr. Nikhil Face Surgical & Aesthetic Centre. Whether you have facial scars, surgical scars, acne scars, or traumatic scars, we offer customized scar correction treatments designed to improve appearance and restore confidence.",
+                "If you are looking for Scar Revision Surgery in Kandivali West, Mumbai, consult Dr. Nikhil Angre at NFSC – Dr. Nikhil Face Surgical & Aesthetic Centre. Whether you have facial scars, surgical scars, acne scars, or traumatic scars, we offer customized scar correction treatments designed to improve appearance and restore confidence."
               ],
             },
             {
               type: "text",
               heading: "Book Your Scar Revision Consultation Today",
               content: [
-                "Take the first step toward smoother, healthier-looking skin with advanced Scar Revision Surgery in Mumbai. Schedule your consultation with Dr. Nikhil Angre and discover the most effective treatment options for your scar concerns.",
+                "Take the first step toward smoother, healthier-looking skin with advanced Scar Revision Surgery in Mumbai. Schedule your consultation with Dr. Nikhil Angre and discover the most effective treatment options for your scar concerns."
               ],
-            },
-            {
-              type: "text",
-              heading: "SEO Keywords",
-              content: [
-                "Scar Revision Surgery in Kandivali West, Scar Removal Mumbai, Scar Correction Mumbai, Keloid Treatment Mumbai, Acne Scar Removal, Best Scar Revision Surgeon Mumbai, Scar Revision Cost Mumbai, Dr. Nikhil Angre.",
-              ],
-            },
+            }
           ],
         },
-      },
+      }
     ],
     faqs: [
       {
@@ -1765,7 +1695,7 @@ export const treatmentsDetail = {
         question: "Is general anesthesia required?",
         answer:
           "It depends on the procedure. Smaller refinements can be performed under local anesthesia with sedation; larger reconstructive procedures require general anesthesia administered by a board-certified anesthesiologist.",
-      },
+      }
     ],
   },
   "non-surgical-facial-aesthetics": {
@@ -1799,7 +1729,7 @@ export const treatmentsDetail = {
                 "Improve neck bands",
                 "Slim the jawline (Masseter Botox)",
                 "Reduce excessive sweating (Hyperhidrosis)",
-                "Create a refreshed and youthful appearance",
+                "Create a refreshed and youthful appearance"
               ],
             },
             {
@@ -1810,7 +1740,7 @@ export const treatmentsDetail = {
               content: [
                 "Upper Face - Forehead Wrinkles, Frown Lines, Crow's Feet, and Brow Lift.",
                 "Lower Face - Bunny Lines, Chin Dimpling, Lip Lines, and Downturned Mouth Corners.",
-                "Jawline & Neck - Jawline Slimming, Masseter Reduction, Neck Band Treatment, and Facial Contouring.",
+                "Jawline & Neck - Jawline Slimming, Masseter Reduction, Neck Band Treatment, and Facial Contouring."
               ],
             },
             {
@@ -1825,7 +1755,7 @@ export const treatmentsDetail = {
                 "Crow's feet around the eyes",
                 "Frown lines between the eyebrows",
                 "Jawline enlargement due to teeth grinding",
-                "Excessive sweating",
+                "Excessive sweating"
               ],
               outro: "Botox is suitable for both men and women seeking non-surgical facial rejuvenation.",
             },
@@ -1841,7 +1771,7 @@ export const treatmentsDetail = {
                 "Smoothens wrinkles and fine lines",
                 "Prevents deeper wrinkle formation",
                 "Enhances facial appearance",
-                "Safe and effective treatment",
+                "Safe and effective treatment"
               ],
             },
             {
@@ -1849,7 +1779,7 @@ export const treatmentsDetail = {
               heading: "Botox Procedure",
               content: [
                 "Botox treatment is performed in the clinic and typically takes 10–20 minutes. Small amounts of Botox are precisely injected into targeted muscles using fine needles. Most patients experience minimal discomfort and can immediately return to their daily activities.",
-                "Results generally begin to appear within 3–7 days and continue to improve over the following two weeks.",
+                "Results generally begin to appear within 3–7 days and continue to improve over the following two weeks."
               ],
             },
             {
@@ -1857,7 +1787,7 @@ export const treatmentsDetail = {
               heading: "How Long Does Botox Last?",
               content: [
                 "Botox results typically last between 4 to 6 Months.",
-                "Regular maintenance treatments can help prolong results and prevent the progression of facial aging signs.",
+                "Regular maintenance treatments can help prolong results and prevent the progression of facial aging signs."
               ],
             },
             {
@@ -1871,7 +1801,7 @@ export const treatmentsDetail = {
                 "Units of Botox required",
                 "Individual facial anatomy",
                 "Treatment goals",
-                "Type of correction required",
+                "Type of correction required"
               ],
               outro:
                 "A personalized consultation with Dr. Nikhil Angre is recommended to determine the ideal treatment plan.",
@@ -1888,30 +1818,23 @@ export const treatmentsDetail = {
                 "Advanced Injection Techniques",
                 "Safe and Ethical Practice",
                 "State-of-the-Art Aesthetic Facility",
-                "Located in Kandivali West, Mumbai",
+                "Located in Kandivali West, Mumbai"
               ],
             },
             {
               type: "text",
               heading: "Best Botox Treatment in Kandivali West, Mumbai",
               content: [
-                "If you are looking for Botox Treatment in Kandivali West, Mumbai, consult Dr. Nikhil Angre at NFSC – Dr. Nikhil Face Surgical & Aesthetic Centre. Whether you want to reduce wrinkles, prevent signs of aging, achieve a slimmer jawline, or rejuvenate your appearance, we offer customized Botox treatments designed to deliver safe, effective, and natural-looking results.",
+                "If you are looking for Botox Treatment in Kandivali West, Mumbai, consult Dr. Nikhil Angre at NFSC – Dr. Nikhil Face Surgical & Aesthetic Centre. Whether you want to reduce wrinkles, prevent signs of aging, achieve a slimmer jawline, or rejuvenate your appearance, we offer customized Botox treatments designed to deliver safe, effective, and natural-looking results."
               ],
             },
             {
               type: "text",
               heading: "Book Your Botox Consultation Today",
               content: [
-                "Refresh your appearance and boost your confidence with advanced Botox Treatment in Mumbai. Schedule your consultation with Dr. Nikhil Angre and discover how non-surgical facial rejuvenation can help you look younger, fresher, and more confident.",
+                "Refresh your appearance and boost your confidence with advanced Botox Treatment in Mumbai. Schedule your consultation with Dr. Nikhil Angre and discover how non-surgical facial rejuvenation can help you look younger, fresher, and more confident."
               ],
-            },
-            {
-              type: "text",
-              heading: "SEO Keywords",
-              content: [
-                "Botox Treatment in Kandivali West, Anti-Wrinkle Treatment Mumbai, Jawline Slimming Botox, Masseter Botox Mumbai, Brow Lift Botox, Forehead Lines Treatment, Best Botox Doctor Mumbai, Botox Cost Mumbai, Dr. Nikhil Angre.",
-              ],
-            },
+            }
           ],
         },
       },
@@ -1936,7 +1859,7 @@ export const treatmentsDetail = {
                 "Define the jawline",
                 "Reduce smile lines and wrinkles",
                 "Correct under-eye hollows",
-                "Improve facial symmetry",
+                "Improve facial symmetry"
               ],
             },
             {
@@ -1949,7 +1872,7 @@ export const treatmentsDetail = {
                 "Chin Fillers - Improved chin projection, facial profile balancing, and non-surgical chin enhancement.",
                 "Jawline Fillers - Jawline definition, facial contouring, and sharper lower face appearance.",
                 "Under-Eye Fillers - Tear trough correction, reduction of hollow eyes, and refreshed appearance.",
-                "Nasolabial Fold Fillers - Softening smile lines and overall facial rejuvenation.",
+                "Nasolabial Fold Fillers - Softening smile lines and overall facial rejuvenation."
               ],
             },
             {
@@ -1965,7 +1888,7 @@ export const treatmentsDetail = {
                 "Weak chin projection",
                 "Poor jawline definition",
                 "Facial asymmetry",
-                "Early signs of facial aging",
+                "Early signs of facial aging"
               ],
               outro: "Dermal fillers are suitable for both men and women seeking non-surgical facial enhancement.",
             },
@@ -1981,7 +1904,7 @@ export const treatmentsDetail = {
                 "Improved facial balance and symmetry",
                 "Reversible and customizable",
                 "Quick in-office procedure",
-                "Long-lasting results",
+                "Long-lasting results"
               ],
             },
             {
@@ -1989,7 +1912,7 @@ export const treatmentsDetail = {
               heading: "Dermal Filler Procedure",
               content: [
                 "The treatment is performed in the clinic and typically takes 15–30 minutes. Using advanced injection techniques, Dr. Nikhil Angre strategically places fillers in targeted areas to achieve balanced, natural, and aesthetically pleasing results.",
-                "Most patients can resume normal activities immediately after treatment.",
+                "Most patients can resume normal activities immediately after treatment."
               ],
             },
             {
@@ -1997,7 +1920,7 @@ export const treatmentsDetail = {
               heading: "How Long Do Fillers Last?",
               content: [
                 "Depending on the type of filler and treatment area, results generally last 6 to 18 Months.",
-                "Regular maintenance sessions can help preserve results and maintain facial rejuvenation.",
+                "Regular maintenance sessions can help preserve results and maintain facial rejuvenation."
               ],
             },
             {
@@ -2011,7 +1934,7 @@ export const treatmentsDetail = {
                 "Amount of filler required",
                 "Type of filler used",
                 "Individual aesthetic goals",
-                "Number of syringes needed",
+                "Number of syringes needed"
               ],
               outro:
                 "A personalized consultation is recommended to determine the ideal treatment plan and provide an accurate cost estimate.",
@@ -2025,7 +1948,7 @@ export const treatmentsDetail = {
                 ["Aesthetic Goal", "Enhance facial contours", "Reduce dynamic wrinkles"],
                 ["Treatment Areas", "Lips, cheeks, chin, jawline", "Forehead lines and crow's feet"],
                 ["Onset of Results", "Immediate results", "Results develop over several days"],
-                ["Duration", "Last 6–18 months", "Last 4–6 months"],
+                ["Duration", "Last 6–18 months", "Last 4–6 months"]
               ],
               outro: "Many patients benefit from combining Botox and fillers for complete facial rejuvenation.",
             },
@@ -2041,30 +1964,23 @@ export const treatmentsDetail = {
                 "Premium Quality Fillers",
                 "Advanced Injection Techniques",
                 "Safe and Ethical Practice",
-                "State-of-the-Art Aesthetic Facility in Kandivali West",
+                "State-of-the-Art Aesthetic Facility in Kandivali West"
               ],
             },
             {
               type: "text",
               heading: "Best Dermal Fillers Treatment in Kandivali West, Mumbai",
               content: [
-                "If you are looking for Dermal Fillers in Kandivali West, Mumbai, consult Dr. Nikhil Angre at NFSC – Dr. Nikhil Face Surgical & Aesthetic Centre. Whether you want fuller lips, defined cheeks, a stronger jawline, or overall facial rejuvenation, we offer customized filler treatments designed to enhance your natural beauty with safe and effective results.",
+                "If you are looking for Dermal Fillers in Kandivali West, Mumbai, consult Dr. Nikhil Angre at NFSC – Dr. Nikhil Face Surgical & Aesthetic Centre. Whether you want fuller lips, defined cheeks, a stronger jawline, or overall facial rejuvenation, we offer customized filler treatments designed to enhance your natural beauty with safe and effective results."
               ],
             },
             {
               type: "text",
               heading: "Book Your Fillers Consultation Today",
               content: [
-                "Enhance your facial features and restore youthful volume with advanced Dermal Filler Treatment in Mumbai. Schedule your consultation with Dr. Nikhil Angre and discover how non-surgical facial contouring can help you achieve a refreshed, confident, and naturally beautiful appearance.",
+                "Enhance your facial features and restore youthful volume with advanced Dermal Filler Treatment in Mumbai. Schedule your consultation with Dr. Nikhil Angre and discover how non-surgical facial contouring can help you achieve a refreshed, confident, and naturally beautiful appearance."
               ],
-            },
-            {
-              type: "text",
-              heading: "SEO Keywords",
-              content: [
-                "Dermal Fillers in Kandivali West, Lip Fillers Mumbai, Cheek Fillers Mumbai, Jawline Fillers, Under Eye Fillers, Tear Trough Fillers, Best Dermal Filler Doctor Mumbai, Dermal Fillers Cost Mumbai, Dr. Nikhil Angre.",
-              ],
-            },
+            }
           ],
         },
       },
@@ -2089,7 +2005,7 @@ export const treatmentsDetail = {
                 "Elevate drooping brows",
                 "Reduce facial laxity",
                 "Enhance facial contours",
-                "Promote collagen formation",
+                "Promote collagen formation"
               ],
             },
             {
@@ -2101,7 +2017,7 @@ export const treatmentsDetail = {
                 "Jawline Thread Lift - Improves jawline definition and reduces jowl appearance.",
                 "Neck Thread Lift - Tightens loose neck skin and improves neck contour.",
                 "Brow Lift - Elevates drooping eyebrows and opens / refreshes the eye area.",
-                "Full Face Thread Lift - Comprehensive facial rejuvenation for a natural lifting effect.",
+                "Full Face Thread Lift - Comprehensive facial rejuvenation for a natural lifting effect."
               ],
             },
             {
@@ -2116,7 +2032,7 @@ export const treatmentsDetail = {
                 "Mild jowls",
                 "Loose skin around the jawline",
                 "Sagging cheeks",
-                "Desire for non-surgical facial rejuvenation",
+                "Desire for non-surgical facial rejuvenation"
               ],
               outro: "Thread Lift is ideal for patients seeking visible improvement with minimal recovery time.",
             },
@@ -2132,7 +2048,7 @@ export const treatmentsDetail = {
                 "No major scars",
                 "Quick in-office procedure",
                 "Natural-looking results",
-                "Improves skin firmness and elasticity",
+                "Improves skin firmness and elasticity"
               ],
             },
             {
@@ -2140,7 +2056,7 @@ export const treatmentsDetail = {
               heading: "Thread Lift Procedure",
               content: [
                 "The procedure is performed under local anesthesia and typically takes 30 to 60 minutes. Fine absorbable threads are strategically inserted beneath the skin to lift and support sagging tissues. The threads gradually dissolve over time while stimulating collagen production, helping maintain long-term skin tightening and rejuvenation.",
-                "Patients can usually return to normal activities within a few days.",
+                "Patients can usually return to normal activities within a few days."
               ],
             },
             {
@@ -2148,7 +2064,7 @@ export const treatmentsDetail = {
               heading: "How Long Do Thread Lift Results Last?",
               content: [
                 "Results are visible immediately after treatment and continue to improve over the following months as collagen production increases.",
-                "Results typically last between 12 to 24 months. Longevity depends on skin quality, age, lifestyle, and the number of threads used.",
+                "Results typically last between 12 to 24 months. Longevity depends on skin quality, age, lifestyle, and the number of threads used."
               ],
             },
             {
@@ -2162,7 +2078,7 @@ export const treatmentsDetail = {
                 "Number of threads required",
                 "Extent of facial lifting needed",
                 "Type of thread used",
-                "Individual treatment goals",
+                "Individual treatment goals"
               ],
               outro:
                 "A personalized consultation with Dr. Nikhil Angre is recommended to determine the most suitable treatment plan and provide an accurate cost estimate.",
@@ -2176,7 +2092,7 @@ export const treatmentsDetail = {
                 ["Downtime", "Minimal downtime", "Longer recovery period"],
                 ["Lifting Effect", "Mild to moderate lifting", "Significant lifting and rejuvenation"],
                 ["Scars", "No major scars", "Surgical incisions required"],
-                ["Longevity", "Results last 1–2 years", "Long-lasting results"],
+                ["Longevity", "Results last 1–2 years", "Long-lasting results"]
               ],
               outro: "Thread Lift is an excellent option for patients who want facial rejuvenation without undergoing surgery.",
             },
@@ -2192,33 +2108,26 @@ export const treatmentsDetail = {
                 "Natural-Looking Results",
                 "Safe and Minimally Invasive Procedure",
                 "Modern Aesthetic Facility",
-                "Located in Kandivali West, Mumbai",
+                "Located in Kandivali West, Mumbai"
               ],
             },
             {
               type: "text",
               heading: "Best Thread Lift Treatment in Kandivali West, Mumbai",
               content: [
-                "If you are looking for Thread Lift Treatment in Kandivali West, Mumbai, consult Dr. Nikhil Angre at NFSC – Dr. Nikhil Face Surgical & Aesthetic Centre. Whether you want to lift sagging cheeks, define your jawline, or achieve a youthful appearance without surgery, we provide customized thread lift treatments designed to deliver safe, effective, and natural-looking results.",
+                "If you are looking for Thread Lift Treatment in Kandivali West, Mumbai, consult Dr. Nikhil Angre at NFSC – Dr. Nikhil Face Surgical & Aesthetic Centre. Whether you want to lift sagging cheeks, define your jawline, or achieve a youthful appearance without surgery, we provide customized thread lift treatments designed to deliver safe, effective, and natural-looking results."
               ],
             },
             {
               type: "text",
               heading: "Book Your Thread Lift Consultation Today",
               content: [
-                "Rejuvenate your appearance with advanced Thread Lift Treatment in Mumbai. Schedule your consultation with Dr. Nikhil Angre and discover how non-surgical facial lifting can help you achieve firmer skin, improved facial contours, and a more youthful look.",
+                "Rejuvenate your appearance with advanced Thread Lift Treatment in Mumbai. Schedule your consultation with Dr. Nikhil Angre and discover how non-surgical facial lifting can help you achieve firmer skin, improved facial contours, and a more youthful look."
               ],
-            },
-            {
-              type: "text",
-              heading: "SEO Keywords",
-              content: [
-                "Thread Lift in Kandivali West, Non-Surgical Facelift Mumbai, PDO Thread Lift Mumbai, Brow Lift Thread Lift, Jawline Tightening, Best Thread Lift Clinic Mumbai, Thread Lift Cost Mumbai, Dr. Nikhil Angre.",
-              ],
-            },
+            }
           ],
         },
-      },
+      }
     ],
     faqs: [
       {
@@ -2235,7 +2144,7 @@ export const treatmentsDetail = {
         question: "Are these treatments safe?",
         answer:
           "Yes, when administered by our qualified and experienced professionals, these treatments are highly safe. We use FDA-approved products and adhere to strict medical standards.",
-      },
+      }
     ],
   },
 
@@ -2270,7 +2179,7 @@ export const treatmentsDetail = {
                 "Improve acne and acne marks",
                 "Enhance skin texture",
                 "Promote collagen production",
-                "Restore a youthful glow",
+                "Restore a youthful glow"
               ],
             },
             {
@@ -2286,7 +2195,7 @@ export const treatmentsDetail = {
                 "Reduces pigmentation and tanning",
                 "Stimulates collagen production",
                 "No downtime",
-                "Suitable for all skin types",
+                "Suitable for all skin types"
               ],
             },
             {
@@ -2299,7 +2208,7 @@ export const treatmentsDetail = {
                 "Acne & Acne-Prone Skin - Reduces excess oil production and improves active acne.",
                 "Enlarged Pores - Minimizes pore size for smoother skin.",
                 "Acne Marks - Improves superficial acne scars and post-inflammatory pigmentation.",
-                "Oily Skin - Controls excessive sebum production and reduces shine.",
+                "Oily Skin - Controls excessive sebum production and reduces shine."
               ],
             },
             {
@@ -2315,7 +2224,7 @@ export const treatmentsDetail = {
                 "Mild pigmentation",
                 "Dull complexion",
                 "Fine lines and early aging signs",
-                "Desire for non-surgical skin rejuvenation",
+                "Desire for non-surgical skin rejuvenation"
               ],
               outro: "The treatment is safe for most skin types and can be customized based on individual skin concerns.",
             },
@@ -2325,7 +2234,7 @@ export const treatmentsDetail = {
               content: [
                 "The procedure begins with the application of a specialized carbon lotion over the face. The carbon particles penetrate deep into the pores and absorb oil, dirt, and impurities.",
                 "A medical-grade laser is then passed over the skin, targeting the carbon particles. This process gently exfoliates the skin, removes dead skin cells, and stimulates collagen production, resulting in brighter, smoother, and healthier-looking skin.",
-                "The treatment typically takes 20–30 minutes and requires no recovery period.",
+                "The treatment typically takes 20–30 minutes and requires no recovery period."
               ],
             },
             {
@@ -2333,7 +2242,7 @@ export const treatmentsDetail = {
               heading: "Recovery After Hollywood Peel",
               content: [
                 "One of the biggest advantages of Carbon Laser Toning is that there is virtually no downtime. Patients can usually return to work and daily activities immediately after treatment.",
-                "Mild redness may occur temporarily but usually subsides within a few hours.",
+                "Mild redness may occur temporarily but usually subsides within a few hours."
               ],
             },
             {
@@ -2347,7 +2256,7 @@ export const treatmentsDetail = {
                 "Number of sessions required",
                 "Treatment area",
                 "Individual skin goals",
-                "Combination with other skin rejuvenation procedures",
+                "Combination with other skin rejuvenation procedures"
               ],
               outro: "A personalized consultation is recommended to determine the ideal treatment plan.",
             },
@@ -2360,7 +2269,7 @@ export const treatmentsDetail = {
                 "Acne management",
                 "Pigmentation reduction",
                 "Open pore improvement",
-                "Long-term skin rejuvenation",
+                "Long-term skin rejuvenation"
               ],
               outro: "The number of sessions varies depending on the patient's skin condition and desired results.",
             },
@@ -2376,30 +2285,23 @@ export const treatmentsDetail = {
                 "Minimal Downtime",
                 "Personalized Treatment Plans",
                 "Modern Aesthetic Facility",
-                "Conveniently Located in Kandivali West, Mumbai",
+                "Conveniently Located in Kandivali West, Mumbai"
               ],
             },
             {
               type: "text",
               heading: "Best Hollywood Peel Treatment in Kandivali West, Mumbai",
               content: [
-                "If you are looking for Carbon Laser Toning in Kandivali West, Mumbai, consult Dr. Nikhil Angre at NFSC – Dr. Nikhil Face Surgical & Aesthetic Centre. Whether you want brighter skin, reduced pigmentation, acne control, or an instant glow, we provide customized laser skin rejuvenation treatments designed to deliver safe, effective, and visible results.",
+                "If you are looking for Carbon Laser Toning in Kandivali West, Mumbai, consult Dr. Nikhil Angre at NFSC – Dr. Nikhil Face Surgical & Aesthetic Centre. Whether you want brighter skin, reduced pigmentation, acne control, or an instant glow, we provide customized laser skin rejuvenation treatments designed to deliver safe, effective, and visible results."
               ],
             },
             {
               type: "text",
               heading: "Book Your Carbon Laser Facial Consultation Today",
               content: [
-                "Reveal brighter, smoother, and healthier-looking skin with advanced Hollywood Peel Treatment in Mumbai. Schedule your consultation with Dr. Nikhil Angre and discover how Carbon Laser Toning can help you achieve radiant, youthful, and glowing skin.",
+                "Reveal brighter, smoother, and healthier-looking skin with advanced Hollywood Peel Treatment in Mumbai. Schedule your consultation with Dr. Nikhil Angre and discover how Carbon Laser Toning can help you achieve radiant, youthful, and glowing skin."
               ],
-            },
-            {
-              type: "text",
-              heading: "SEO Keywords",
-              content: [
-                "Carbon Laser Toning in Kandivali West, Hollywood Peel Mumbai, Carbon Laser Facial Mumbai, Laser Skin Rejuvenation, Open Pores Treatment, Skin Brightening Treatment, Best Laser Toning Doctor Mumbai, Hollywood Peel Cost Mumbai, Dr. Nikhil Angre.",
-              ],
-            },
+            }
           ],
         },
       },
@@ -2424,7 +2326,7 @@ export const treatmentsDetail = {
                 "Minimize fine lines",
                 "Improve skin texture",
                 "Reduce enlarged pores",
-                "Even out skin tone",
+                "Even out skin tone"
               ],
             },
             {
@@ -2440,7 +2342,7 @@ export const treatmentsDetail = {
                 "Reduces open pores",
                 "Enhances collagen production",
                 "Quick procedure with minimal downtime",
-                "Suitable for most skin types",
+                "Suitable for most skin types"
               ],
             },
             {
@@ -2453,7 +2355,7 @@ export const treatmentsDetail = {
                 "Tanning & Sun Damage - Improves skin brightness and reverses signs of sun exposure.",
                 "Oily Skin & Open Pores - Controls excess oil production and minimizes enlarged pores.",
                 "Fine Lines & Early Aging - Stimulates skin renewal and improves overall skin quality.",
-                "Dull & Uneven Skin Tone - Restores a healthy, glowing complexion.",
+                "Dull & Uneven Skin Tone - Restores a healthy, glowing complexion."
               ],
             },
             {
@@ -2466,7 +2368,7 @@ export const treatmentsDetail = {
                 "Salicylic Peel - Excellent for acne-prone and oily skin.",
                 "Lactic Peel - Gentle peel for sensitive skin and hydration.",
                 "Mandelic Peel - Suitable for acne, pigmentation, and darker skin tones.",
-                "Combination Peels - Customized formulations for multiple skin concerns.",
+                "Combination Peels - Customized formulations for multiple skin concerns."
               ],
             },
             {
@@ -2482,7 +2384,7 @@ export const treatmentsDetail = {
                 "Oily skin",
                 "Enlarged pores",
                 "Dull complexion",
-                "Early signs of aging",
+                "Early signs of aging"
               ],
               outro: "A detailed skin analysis by Dr. Nikhil Angre helps determine the most suitable peel for your skin type and concerns.",
             },
@@ -2491,7 +2393,7 @@ export const treatmentsDetail = {
               heading: "Chemical Peel Procedure",
               content: [
                 "The procedure begins with cleansing the skin followed by the application of a carefully selected chemical solution. The peel remains on the skin for a controlled period before being neutralized or removed.",
-                "The treatment usually takes 20–30 minutes and is performed as an outpatient procedure with minimal discomfort.",
+                "The treatment usually takes 20–30 minutes and is performed as an outpatient procedure with minimal discomfort."
               ],
             },
             {
@@ -2499,7 +2401,7 @@ export const treatmentsDetail = {
               heading: "Recovery After Chemical Peel",
               content: [
                 "Recovery depends on the type and strength of the peel used. Mild redness, dryness, or peeling may occur for a few days as the skin renews itself.",
-                "Most patients can resume normal daily activities immediately or within a short period.",
+                "Most patients can resume normal daily activities immediately or within a short period."
               ],
             },
             {
@@ -2513,7 +2415,7 @@ export const treatmentsDetail = {
                 "Severity of skin concerns",
                 "Number of sessions required",
                 "Treatment area",
-                "Customized treatment combinations",
+                "Customized treatment combinations"
               ],
               outro: "A personalized consultation is recommended for an accurate treatment plan and cost estimate.",
             },
@@ -2522,7 +2424,7 @@ export const treatmentsDetail = {
               listType: "unordered",
               heading: "How Many Sessions Are Required?",
               content: [
-                "Many patients notice brighter skin after the first session. However, for concerns such as acne, pigmentation, melasma, and acne scars, a series of treatments may be recommended for optimal results.",
+                "Many patients notice brighter skin after the first session. However, for concerns such as acne, pigmentation, melasma, and acne scars, a series of treatments may be recommended for optimal results."
               ],
             },
             {
@@ -2537,30 +2439,23 @@ export const treatmentsDetail = {
                 "Personalized Treatment Plans",
                 "Modern Aesthetic Facility",
                 "Minimal Downtime Procedures",
-                "Conveniently Located in Kandivali West, Mumbai",
+                "Conveniently Located in Kandivali West, Mumbai"
               ],
             },
             {
               type: "text",
               heading: "Best Chemical Peel Treatment in Kandivali West, Mumbai",
               content: [
-                "If you are looking for Chemical Peel Treatment in Kandivali West, Mumbai, consult Dr. Nikhil Angre at NFSC – Dr. Nikhil Face Surgical & Aesthetic Centre. Whether you want brighter skin, acne control, pigmentation reduction, or overall skin rejuvenation, we offer customized chemical peel treatments designed to deliver safe, effective, and visible results.",
+                "If you are looking for Chemical Peel Treatment in Kandivali West, Mumbai, consult Dr. Nikhil Angre at NFSC – Dr. Nikhil Face Surgical & Aesthetic Centre. Whether you want brighter skin, acne control, pigmentation reduction, or overall skin rejuvenation, we offer customized chemical peel treatments designed to deliver safe, effective, and visible results."
               ],
             },
             {
               type: "text",
               heading: "Book Your Chemical Peel Consultation Today",
               content: [
-                "Transform your skin with advanced Chemical Peel Treatment in Mumbai. Schedule your consultation with Dr. Nikhil Angre and discover how professional skin peeling can help you achieve clearer, smoother, healthier, and more radiant skin.",
+                "Transform your skin with advanced Chemical Peel Treatment in Mumbai. Schedule your consultation with Dr. Nikhil Angre and discover how professional skin peeling can help you achieve clearer, smoother, healthier, and more radiant skin."
               ],
-            },
-            {
-              type: "text",
-              heading: "SEO Keywords",
-              content: [
-                "Chemical Peel in Kandivali West, Skin Brightening Treatment Mumbai, Pigmentation Treatment Mumbai, Glycolic Peel Mumbai, Salicylic Peel, Melasma Treatment, Best Chemical Peel Doctor Mumbai, Chemical Peel Cost Mumbai, Dr. Nikhil Angre.",
-              ],
-            },
+            }
           ],
         },
       },
@@ -2587,7 +2482,7 @@ export const treatmentsDetail = {
                 "Minimizes enlarged pores",
                 "Reduces mild pigmentation",
                 "Suitable for all skin types",
-                "No downtime",
+                "No downtime"
               ],
             },
             {
@@ -2604,7 +2499,7 @@ export const treatmentsDetail = {
                 "Brighter and healthier complexion",
                 "Improved skin firmness",
                 "Anti-aging benefits",
-                "Collagen stimulation",
+                "Collagen stimulation"
               ],
             },
             {
@@ -2617,7 +2512,7 @@ export const treatmentsDetail = {
                 "Pigmentation & Uneven Skin Tone - Helps improve overall skin clarity and brightness.",
                 "Enlarged Pores - Reduces pore congestion and improves skin smoothness.",
                 "Fine Lines & Early Aging - Stimulates collagen production and improves skin texture.",
-                "Acne-Prone Skin - Supports healthier skin by reducing oil buildup and impurities.",
+                "Acne-Prone Skin - Supports healthier skin by reducing oil buildup and impurities."
               ],
             },
             {
@@ -2632,7 +2527,7 @@ export const treatmentsDetail = {
                 "Open pores",
                 "Mild pigmentation",
                 "Early signs of aging",
-                "Individuals seeking instant skin rejuvenation",
+                "Individuals seeking instant skin rejuvenation"
               ],
               outro: "These treatments are particularly popular before weddings, parties, photoshoots, and special events due to their immediate glow-enhancing effects.",
             },
@@ -2641,14 +2536,14 @@ export const treatmentsDetail = {
               heading: "HydraFacial & Meso Facial Procedure",
               content: [
                 "The treatment begins with a detailed skin assessment. HydraFacial includes cleansing, exfoliation, extraction, and serum infusion. Meso Facial involves the delivery of skin-boosting nutrients into the skin to improve hydration and rejuvenation.",
-                "The procedure usually takes 45–60 minutes and is comfortable with minimal discomfort.",
+                "The procedure usually takes 45–60 minutes and is comfortable with minimal discomfort."
               ],
             },
             {
               type: "text",
               heading: "Recovery After Treatment",
               content: [
-                "One of the major advantages of HydraFacial and Meso Facial is that there is little to no downtime. Most patients notice immediate improvement in skin texture, hydration, and brightness and can return to their daily activities immediately after treatment.",
+                "One of the major advantages of HydraFacial and Meso Facial is that there is little to no downtime. Most patients notice immediate improvement in skin texture, hydration, and brightness and can return to their daily activities immediately after treatment."
               ],
             },
             {
@@ -2662,7 +2557,7 @@ export const treatmentsDetail = {
                 "Skin condition and concerns",
                 "Customized serums used",
                 "Number of sessions required",
-                "Combination with other skin treatments",
+                "Combination with other skin treatments"
               ],
               outro: "A personalized consultation is recommended to determine the most suitable treatment plan.",
             },
@@ -2678,30 +2573,23 @@ export const treatmentsDetail = {
                 "Performed Under Expert Medical Supervision",
                 "Modern Aesthetic Facility",
                 "Minimal Downtime Procedures",
-                "Located in Kandivali West, Mumbai",
+                "Located in Kandivali West, Mumbai"
               ],
             },
             {
               type: "text",
               heading: "Best HydraFacial & Meso Facial Treatment in Kandivali West, Mumbai",
               content: [
-                "If you are looking for HydraFacial or Meso Facial Treatment in Kandivali West, Mumbai, consult Dr. Nikhil Angre at NFSC – Dr. Nikhil Face Surgical & Aesthetic Centre. Whether you want glowing skin, deep hydration, anti-aging benefits, or overall skin rejuvenation, we offer customized facial treatments designed to deliver visible and long-lasting results.",
+                "If you are looking for HydraFacial or Meso Facial Treatment in Kandivali West, Mumbai, consult Dr. Nikhil Angre at NFSC – Dr. Nikhil Face Surgical & Aesthetic Centre. Whether you want glowing skin, deep hydration, anti-aging benefits, or overall skin rejuvenation, we offer customized facial treatments designed to deliver visible and long-lasting results."
               ],
             },
             {
               type: "text",
               heading: "Book Your Skin Rejuvenation Consultation Today",
               content: [
-                "Refresh, hydrate, and rejuvenate your skin with advanced HydraFacial and Meso Facial Treatments in Mumbai. Schedule your consultation with Dr. Nikhil Angre and experience healthier, smoother, and naturally radiant skin.",
+                "Refresh, hydrate, and rejuvenate your skin with advanced HydraFacial and Meso Facial Treatments in Mumbai. Schedule your consultation with Dr. Nikhil Angre and experience healthier, smoother, and naturally radiant skin."
               ],
-            },
-            {
-              type: "text",
-              heading: "SEO Keywords",
-              content: [
-                "HydraFacial in Kandivali West, MediFacial Mumbai, Meso Facial Mumbai, Mesotherapy Facial Mumbai, Skin Hydration Treatment, Facial Glow Treatment, Best HydraFacial Doctor Mumbai, HydraFacial Cost Mumbai, Dr. Nikhil Angre.",
-              ],
-            },
+            }
           ],
         },
       },
@@ -2727,7 +2615,7 @@ export const treatmentsDetail = {
                 "Reduces ingrown hairs",
                 "Improves skin texture",
                 "Quick treatment sessions",
-                "Suitable for both men and women",
+                "Suitable for both men and women"
               ],
             },
             {
@@ -2736,7 +2624,7 @@ export const treatmentsDetail = {
               heading: "Technologies Available at NFSC",
               content: [
                 "Diode Laser Hair Reduction - Highly effective for facial and body hair, suitable for most skin types, fast treatment sessions, and incorporates cooling technology for comfort.",
-                "Long Pulse Nd:YAG Laser Hair Reduction - One of the safest and most effective laser technologies for darker Indian skin tones, penetrating deeper while minimizing burn or pigmentation risk. Performed by an M.D. Dermatologist.",
+                "Long Pulse Nd:YAG Laser Hair Reduction - One of the safest and most effective laser technologies for darker Indian skin tones, penetrating deeper while minimizing burn or pigmentation risk. Performed by an M.D. Dermatologist."
               ],
             },
             {
@@ -2745,7 +2633,7 @@ export const treatmentsDetail = {
               heading: "Areas Commonly Treated",
               content: [
                 "Facial Hair Reduction - Upper Lip, Chin, Sideburns, Full Face, and Beard Shaping.",
-                "Body Hair Reduction - Underarms, Arms, Legs, Chest, Back, Abdomen, Bikini Line, Neck, and Shoulders.",
+                "Body Hair Reduction - Underarms, Arms, Legs, Chest, Back, Abdomen, Bikini Line, Neck, and Shoulders."
               ],
             },
             {
@@ -2759,7 +2647,7 @@ export const treatmentsDetail = {
                 "Unwanted hair growth",
                 "Sensitive skin irritated by shaving or waxing",
                 "Men seeking beard or body contouring",
-                "Women with hormonal hair growth concerns",
+                "Women with hormonal hair growth concerns"
               ],
               outro: "A detailed consultation helps determine the most suitable laser technology based on skin type, hair thickness, and treatment goals.",
             },
@@ -2768,7 +2656,7 @@ export const treatmentsDetail = {
               heading: "How Does Laser Hair Reduction Work?",
               content: [
                 "The laser emits controlled energy that is absorbed by the pigment (melanin) in the hair follicle. The heat generated damages the follicle, reducing its ability to produce new hair.",
-                "Since hair grows in different phases, multiple sessions are required for optimal long-term results.",
+                "Since hair grows in different phases, multiple sessions are required for optimal long-term results."
               ],
             },
             {
@@ -2776,7 +2664,7 @@ export const treatmentsDetail = {
               heading: "How Many Sessions Are Required?",
               content: [
                 "Most patients require 6–10 Sessions for optimal results.",
-                "The exact number depends on hair thickness, density, skin type, hormonal factors, and treatment area. Periodic maintenance sessions may be recommended for long-term results.",
+                "The exact number depends on hair thickness, density, skin type, hormonal factors, and treatment area. Periodic maintenance sessions may be recommended for long-term results."
               ],
             },
             {
@@ -2786,7 +2674,7 @@ export const treatmentsDetail = {
               intro: "The cost of Laser Hair Reduction depends on the technology used and area of coverage:",
               content: [
                 "Diode Laser Hair Reduction: ₹1,500 – ₹12,000 Per Session (depending on treatment area, hair density, number of sessions, and facial vs body treatment).",
-                "Long Pulse Nd:YAG Laser Hair Reduction: ₹20,000 – ₹45,000 Per Session (performed by an M.D. Dermatologist using advanced medical-grade laser technology, depending on area treated, hair type, density, complexity, and number of sessions).",
+                "Long Pulse Nd:YAG Laser Hair Reduction: ₹20,000 – ₹45,000 Per Session (performed by an M.D. Dermatologist using advanced medical-grade laser technology, depending on area treated, hair type, density, complexity, and number of sessions)."
               ],
               outro: "A personalized consultation is recommended for an accurate treatment plan and pricing estimate.",
             },
@@ -2802,30 +2690,23 @@ export const treatmentsDetail = {
                 "Safe for Indian Skin Types",
                 "Customized Treatment Protocols",
                 "Modern Aesthetic & Dermatology Facility",
-                "Conveniently Located in Kandivali West, Mumbai",
+                "Conveniently Located in Kandivali West, Mumbai"
               ],
             },
             {
               type: "text",
               heading: "Best Laser Hair Reduction Clinic in Kandivali West, Mumbai",
               content: [
-                "If you are looking for Laser Hair Reduction in Kandivali West, Mumbai, consult the experts at NFSC – Dr. Nikhil Face Surgical & Aesthetic Centre. Whether you want facial hair reduction, body hair removal, or treatment for stubborn hair growth, we offer advanced laser technologies that deliver safe, effective, and long-lasting results.",
+                "If you are looking for Laser Hair Reduction in Kandivali West, Mumbai, consult the experts at NFSC – Dr. Nikhil Face Surgical & Aesthetic Centre. Whether you want facial hair reduction, body hair removal, or treatment for stubborn hair growth, we offer advanced laser technologies that deliver safe, effective, and long-lasting results."
               ],
             },
             {
               type: "text",
               heading: "Book Your Laser Hair Reduction Consultation Today",
               content: [
-                "Say goodbye to unwanted hair and enjoy smoother, more confident skin with advanced Diode Laser Hair Reduction and Long Pulse Nd:YAG Laser Hair Reduction in Mumbai. Schedule your consultation at NFSC and discover the benefits of modern laser hair removal technology.",
+                "Say goodbye to unwanted hair and enjoy smoother, more confident skin with advanced Diode Laser Hair Reduction and Long Pulse Nd:YAG Laser Hair Reduction in Mumbai. Schedule your consultation at NFSC and discover the benefits of modern laser hair removal technology."
               ],
-            },
-            {
-              type: "text",
-              heading: "SEO Keywords",
-              content: [
-                "Laser Hair Reduction in Kandivali West, Laser Hair Removal Mumbai, Diode Laser Hair Reduction Mumbai, Nd YAG Laser Hair Removal, Beard Shaping Laser, Underarm Laser Hair Removal, Best Laser Hair Reduction Clinic Mumbai, Laser Hair Removal Cost Mumbai, Dr. Nikhil Angre.",
-              ],
-            },
+            }
           ],
         },
       },
@@ -2851,7 +2732,7 @@ export const treatmentsDetail = {
                 "Reduce pigmentation",
                 "Improve skin texture",
                 "Shrink enlarged pores",
-                "Treat stretch marks",
+                "Treat stretch marks"
               ],
             },
             {
@@ -2867,7 +2748,7 @@ export const treatmentsDetail = {
                 "Tightens mild skin laxity",
                 "Reduces enlarged pores",
                 "Long-lasting results",
-                "Suitable for face, neck, and selected body areas",
+                "Suitable for face, neck, and selected body areas"
               ],
             },
             {
@@ -2881,7 +2762,7 @@ export const treatmentsDetail = {
                 "Pigmentation & Sun Damage - Improves uneven skin tone and mild pigmentation.",
                 "Open Pores - Reduces enlarged pores for smoother skin.",
                 "Skin Rejuvenation - Enhances overall skin quality, firmness, and radiance.",
-                "Stretch Marks - Improves the appearance of stretch marks with multiple treatment sessions.",
+                "Stretch Marks - Improves the appearance of stretch marks with multiple treatment sessions."
               ],
             },
             {
@@ -2897,7 +2778,7 @@ export const treatmentsDetail = {
                 "Mild pigmentation",
                 "Surgical or traumatic scars",
                 "Sun-damaged skin",
-                "Early signs of aging",
+                "Early signs of aging"
               ],
               outro: "A detailed skin evaluation at NFSC helps determine whether CO₂ laser treatment is suitable for your skin type and concerns.",
             },
@@ -2906,7 +2787,7 @@ export const treatmentsDetail = {
               heading: "CO₂ Fractional Laser Procedure",
               content: [
                 "Before the procedure, a topical anesthetic cream is applied to ensure comfort. The CO₂ fractional laser is then passed over the treatment area, creating controlled microthermal zones that stimulate collagen remodeling and skin renewal.",
-                "The treatment usually takes 30–60 minutes, depending on the size of the area being treated.",
+                "The treatment usually takes 30–60 minutes, depending on the size of the area being treated."
               ],
             },
             {
@@ -2918,7 +2799,7 @@ export const treatmentsDetail = {
                 "Mild redness",
                 "Swelling",
                 "Skin peeling",
-                "Temporary sensitivity",
+                "Temporary sensitivity"
               ],
             },
             {
@@ -2930,7 +2811,7 @@ export const treatmentsDetail = {
                 "Acne Scars: 3–6 sessions",
                 "Skin Rejuvenation: 2–4 sessions",
                 "Scar Reduction: 3–6 sessions",
-                "Pigmentation: 2–5 sessions",
+                "Pigmentation: 2–5 sessions"
               ],
             },
             {
@@ -2944,7 +2825,7 @@ export const treatmentsDetail = {
                 "Severity of skin concerns",
                 "Number of sessions required",
                 "Customized treatment protocol",
-                "Combination with other skin rejuvenation procedures",
+                "Combination with other skin rejuvenation procedures"
               ],
               outro: "A personalized consultation is recommended to determine the most suitable treatment plan and provide an accurate cost estimate.",
             },
@@ -2960,30 +2841,23 @@ export const treatmentsDetail = {
                 "Modern Laser Facility",
                 "Evidence-Based Treatment Protocols",
                 "Personalized Aftercare Guidance",
-                "Conveniently Located in Kandivali West, Mumbai",
+                "Conveniently Located in Kandivali West, Mumbai"
               ],
             },
             {
               type: "text",
               heading: "Best CO₂ Fractional Laser Treatment in Kandivali West, Mumbai",
               content: [
-                "If you are looking for CO₂ Fractional Laser Treatment in Kandivali West, Mumbai, consult Dr. Nikhil Angre at NFSC – Dr. Nikhil Face Surgical & Aesthetic Centre. Whether you want to reduce acne scars, improve skin texture, minimize wrinkles, or achieve overall skin rejuvenation, we offer advanced laser treatments tailored to your individual needs.",
+                "If you are looking for CO₂ Fractional Laser Treatment in Kandivali West, Mumbai, consult Dr. Nikhil Angre at NFSC – Dr. Nikhil Face Surgical & Aesthetic Centre. Whether you want to reduce acne scars, improve skin texture, minimize wrinkles, or achieve overall skin rejuvenation, we offer advanced laser treatments tailored to your individual needs."
               ],
             },
             {
               type: "text",
               heading: "Book Your CO₂ Laser Consultation Today",
               content: [
-                "Reveal smoother, healthier, and younger-looking skin with advanced CO₂ Fractional Laser Treatment in Mumbai. Schedule your consultation at NFSC and discover how laser skin resurfacing can help restore your confidence and enhance your natural beauty.",
+                "Reveal smoother, healthier, and younger-looking skin with advanced CO₂ Fractional Laser Treatment in Mumbai. Schedule your consultation at NFSC and discover how laser skin resurfacing can help restore your confidence and enhance your natural beauty."
               ],
-            },
-            {
-              type: "text",
-              heading: "SEO Keywords",
-              content: [
-                "CO2 Fractional Laser in Kandivali West, Laser Skin Resurfacing Mumbai, Acne Scar Treatment Mumbai, Laser Scar Reduction, Stretch Marks Treatment, Best Laser Resurfacing Doctor Mumbai, CO2 Laser Cost Mumbai, Dr. Nikhil Angre.",
-              ],
-            },
+            }
           ],
         },
       },
@@ -3008,7 +2882,7 @@ export const treatmentsDetail = {
                 "Improve skin texture",
                 "Reduce fine lines and wrinkles",
                 "Improve pigmentation",
-                "Enhance overall skin quality",
+                "Enhance overall skin quality"
               ],
             },
             {
@@ -3024,7 +2898,7 @@ export const treatmentsDetail = {
                 "Minimal downtime",
                 "Safe for Indian skin types",
                 "Non-surgical skin rejuvenation",
-                "Long-lasting results",
+                "Long-lasting results"
               ],
             },
             {
@@ -3038,7 +2912,7 @@ export const treatmentsDetail = {
                 "Skin Laxity - Tightens mild to moderate loose skin on the face and neck.",
                 "Uneven Texture - Improves roughness and overall skin quality.",
                 "Pigmentation & Acne Marks - Enhances skin tone and reduces post-inflammatory pigmentation.",
-                "Stretch Marks - May help improve the appearance of stretch marks with multiple sessions.",
+                "Stretch Marks - May help improve the appearance of stretch marks with multiple sessions."
               ],
             },
             {
@@ -3052,7 +2926,7 @@ export const treatmentsDetail = {
                 "Individuals experiencing early signs of aging",
                 "Patients seeking non-surgical skin tightening",
                 "People with uneven skin texture",
-                "Those looking for collagen-boosting skin rejuvenation",
+                "Those looking for collagen-boosting skin rejuvenation"
               ],
               outro: "A thorough skin evaluation is performed before treatment to determine suitability and customize the treatment plan.",
             },
@@ -3062,7 +2936,7 @@ export const treatmentsDetail = {
               content: [
                 "The procedure begins with the application of a topical numbing cream for patient comfort. The MNRF device is then used to create controlled microchannels in the skin while delivering radiofrequency energy into deeper layers.",
                 "The treatment usually takes 30–60 minutes, depending on the area being treated.",
-                "The controlled stimulation promotes collagen remodeling and skin regeneration, leading to progressive improvement over the following weeks and months.",
+                "The controlled stimulation promotes collagen remodeling and skin regeneration, leading to progressive improvement over the following weeks and months."
               ],
             },
             {
@@ -3070,7 +2944,7 @@ export const treatmentsDetail = {
               heading: "Recovery After MNRF Treatment",
               content: [
                 "Patients may experience mild redness, swelling, or sensitivity for 1–3 days after treatment. Most individuals can return to routine activities within 24–48 hours.",
-                "Visible improvements begin after a few weeks, with continued enhancement as collagen production increases.",
+                "Visible improvements begin after a few weeks, with continued enhancement as collagen production increases."
               ],
             },
             {
@@ -3082,7 +2956,7 @@ export const treatmentsDetail = {
                 "Severity of acne scars",
                 "Skin condition",
                 "Treatment goals",
-                "Degree of skin laxity",
+                "Degree of skin laxity"
               ],
               outro: "Sessions are usually spaced 4–6 weeks apart for best results.",
             },
@@ -3096,7 +2970,7 @@ export const treatmentsDetail = {
                 "Area being treated",
                 "Severity of skin concerns",
                 "Number of sessions required",
-                "Customized treatment protocol",
+                "Customized treatment protocol"
               ],
               outro: "A personalized consultation is recommended for an accurate treatment plan and cost estimate.",
             },
@@ -3112,30 +2986,23 @@ export const treatmentsDetail = {
                 "Personalized Skin Assessment",
                 "Modern Dermatology & Aesthetic Facility",
                 "Evidence-Based Treatment Protocols",
-                "Located in Kandivali West, Mumbai",
+                "Located in Kandivali West, Mumbai"
               ],
             },
             {
               type: "text",
               heading: "Best MNRF Treatment in Kandivali West, Mumbai",
               content: [
-                "If you are looking for MNRF Treatment in Kandivali West, Mumbai, visit NFSC – Dr. Nikhil Face Surgical & Aesthetic Centre. Whether you want acne scar reduction, skin tightening, pore reduction, or overall skin rejuvenation, our customized MNRF treatments are designed to deliver safe, effective, and visible results.",
+                "If you are looking for MNRF Treatment in Kandivali West, Mumbai, visit NFSC – Dr. Nikhil Face Surgical & Aesthetic Centre. Whether you want acne scar reduction, skin tightening, pore reduction, or overall skin rejuvenation, our customized MNRF treatments are designed to deliver safe, effective, and visible results."
               ],
             },
             {
               type: "text",
               heading: "Book Your MNRF Consultation Today",
               content: [
-                "Transform your skin with advanced Microneedling Radiofrequency (MNRF) Treatment in Mumbai. Schedule your consultation at NFSC and discover how MNRF can help you achieve smoother, firmer, healthier, and more youthful-looking skin.",
+                "Transform your skin with advanced Microneedling Radiofrequency (MNRF) Treatment in Mumbai. Schedule your consultation at NFSC and discover how MNRF can help you achieve smoother, firmer, healthier, and more youthful-looking skin."
               ],
-            },
-            {
-              type: "text",
-              heading: "SEO Keywords",
-              content: [
-                "MNRF in Kandivali West, Microneedling Radiofrequency Mumbai, Acne Scar MNRF Mumbai, Skin Tightening Treatment, MNRF Cost Mumbai, Open Pores MNRF, Best Dermatologist MNRF Mumbai, Dr. Nikhil Angre.",
-              ],
-            },
+            }
           ],
         },
       },
@@ -3159,7 +3026,7 @@ export const treatmentsDetail = {
                 "Professional tattoos",
                 "Amateur tattoos",
                 "Cosmetic tattoos",
-                "Unwanted permanent makeup",
+                "Unwanted permanent makeup"
               ],
             },
             {
@@ -3174,7 +3041,7 @@ export const treatmentsDetail = {
                 "Gradual fading of tattoo pigments",
                 "Improves skin appearance",
                 "Can remove partial or complete tattoos",
-                "Helps prepare skin for tattoo cover-ups",
+                "Helps prepare skin for tattoo cover-ups"
               ],
             },
             {
@@ -3186,7 +3053,7 @@ export const treatmentsDetail = {
                 "Amateur Tattoos - Often easier to remove due to superficial pigment placement.",
                 "Cosmetic Tattoos - Includes eyebrow tattoos, lip tattoos, and permanent makeup correction.",
                 "Multicolored Tattoos - Advanced laser technology can target various tattoo ink colors.",
-                "Unwanted Name Tattoos - One of the most common reasons patients seek tattoo removal.",
+                "Unwanted Name Tattoos - One of the most common reasons patients seek tattoo removal."
               ],
             },
             {
@@ -3200,7 +3067,7 @@ export const treatmentsDetail = {
                 "Have faded or distorted tattoo designs",
                 "Need tattoo removal for professional reasons",
                 "Want to remove cosmetic tattoo pigments",
-                "Have realistic expectations regarding treatment outcomes",
+                "Have realistic expectations regarding treatment outcomes"
               ],
               outro: "A consultation with our M.D. Dermatologist helps determine the number of sessions required based on tattoo size, color, age, and depth.",
             },
@@ -3209,7 +3076,7 @@ export const treatmentsDetail = {
               heading: "How Does Laser Tattoo Removal Work?",
               content: [
                 "The laser emits specific wavelengths of light that target tattoo pigments beneath the skin. The pigment absorbs the laser energy and breaks into microscopic fragments.",
-                "Over the following weeks, the body's natural immune system gradually clears these fragmented pigments, causing the tattoo to fade progressively after each session.",
+                "Over the following weeks, the body's natural immune system gradually clears these fragmented pigments, causing the tattoo to fade progressively after each session."
               ],
             },
             {
@@ -3217,7 +3084,7 @@ export const treatmentsDetail = {
               heading: "Tattoo Removal Procedure",
               content: [
                 "The treatment is performed in a clinical setting using advanced laser technology. Protective measures are taken to ensure patient comfort and safety throughout the procedure.",
-                "Depending on the tattoo size and complexity, sessions typically last between 15 to 45 minutes. Most patients require multiple sessions to achieve significant fading or complete removal.",
+                "Depending on the tattoo size and complexity, sessions typically last between 15 to 45 minutes. Most patients require multiple sessions to achieve significant fading or complete removal."
               ],
             },
             {
@@ -3229,7 +3096,7 @@ export const treatmentsDetail = {
                 "Mild redness",
                 "Temporary swelling",
                 "Slight skin sensitivity",
-                "Mild crusting in some cases",
+                "Mild crusting in some cases"
               ],
             },
             {
@@ -3239,7 +3106,7 @@ export const treatmentsDetail = {
               intro: "The number of sessions varies depending on size, ink color, depth, age, location, and skin type. Most patients require:",
               content: [
                 "4–10 sessions",
-                "Professional and multicolored tattoos may require additional treatments for optimal results.",
+                "Professional and multicolored tattoos may require additional treatments for optimal results."
               ],
             },
             {
@@ -3253,7 +3120,7 @@ export const treatmentsDetail = {
                 "Number of colors present",
                 "Location of the tattoo",
                 "Number of sessions required",
-                "Complexity of removal",
+                "Complexity of removal"
               ],
               outro: "A detailed consultation is recommended for a personalized treatment plan and accurate cost estimate.",
             },
@@ -3269,30 +3136,23 @@ export const treatmentsDetail = {
                 "Minimal Risk of Scarring",
                 "Modern Dermatology & Aesthetic Facility",
                 "High Standards of Patient Safety",
-                "Conveniently Located in Kandivali West, Mumbai",
+                "Conveniently Located in Kandivali West, Mumbai"
               ],
             },
             {
               type: "text",
               heading: "Best Tattoo Removal Treatment in Kandivali West, Mumbai",
               content: [
-                "If you are looking for Tattoo Removal Treatment in Kandivali West, Mumbai, visit NFSC – Dr. Nikhil Face Surgical & Aesthetic Centre. Whether you want complete tattoo removal, partial fading, or preparation for a cover-up tattoo, our advanced laser treatments are designed to provide safe, effective, and predictable results.",
+                "If you are looking for Tattoo Removal Treatment in Kandivali West, Mumbai, visit NFSC – Dr. Nikhil Face Surgical & Aesthetic Centre. Whether you want complete tattoo removal, partial fading, or preparation for a cover-up tattoo, our advanced laser treatments are designed to provide safe, effective, and predictable results."
               ],
             },
             {
               type: "text",
               heading: "Book Your Tattoo Removal Consultation Today",
               content: [
-                "Remove unwanted tattoos safely and confidently with advanced Laser Tattoo Removal Treatment in Mumbai. Schedule your consultation at NFSC and take the first step toward clearer, tattoo-free skin.",
+                "Remove unwanted tattoos safely and confidently with advanced Laser Tattoo Removal Treatment in Mumbai. Schedule your consultation at NFSC and take the first step toward clearer, tattoo-free skin."
               ],
-            },
-            {
-              type: "text",
-              heading: "SEO Keywords",
-              content: [
-                "Laser Tattoo Removal in Kandivali West, Tattoo Removal Mumbai, Best Laser Tattoo Removal Clinic, Permanent Makeup Correction, Tattoo Removal Cost Mumbai, Dr. Nikhil Angre.",
-              ],
-            },
+            }
           ],
         },
       },
@@ -3320,7 +3180,7 @@ export const treatmentsDetail = {
                 "Acne scars",
                 "Mild pigmentation",
                 "Sun-damaged skin",
-                "Early signs of aging",
+                "Early signs of aging"
               ],
             },
             {
@@ -3337,7 +3197,7 @@ export const treatmentsDetail = {
                 "Meso Facial (Mesotherapy)",
                 "Laser Skin Rejuvenation",
                 "Botox® and Dermal Fillers (for selected patients)",
-                "Medical-Grade Skincare Programs",
+                "Medical-Grade Skincare Programs"
               ],
             },
             {
@@ -3354,7 +3214,7 @@ export const treatmentsDetail = {
                 "Reduces enlarged pores",
                 "Improves acne scars",
                 "Enhances overall skin quality",
-                "Minimal downtime",
+                "Minimal downtime"
               ],
             },
             {
@@ -3370,7 +3230,7 @@ export const treatmentsDetail = {
                 "Enlarged pores",
                 "Acne scars",
                 "Uneven skin texture",
-                "Desire for non-surgical facial rejuvenation",
+                "Desire for non-surgical facial rejuvenation"
               ],
               outro: "These treatments are suitable for both men and women of various age groups.",
             },
@@ -3380,7 +3240,7 @@ export const treatmentsDetail = {
               content: [
                 "Following a comprehensive skin assessment, our dermatologist will recommend the most appropriate treatment or combination of treatments.",
                 "Most sessions take 30–60 minutes, depending on the selected procedure and treatment area.",
-                "The treatments are comfortable, minimally invasive, and usually require little to no downtime.",
+                "The treatments are comfortable, minimally invasive, and usually require little to no downtime."
               ],
             },
             {
@@ -3388,7 +3248,7 @@ export const treatmentsDetail = {
               heading: "Recovery & Results",
               content: [
                 "Recovery varies depending on the treatment performed. Mild redness or swelling may occur temporarily but usually resolves within a few hours to a few days.",
-                "Many patients notice improvements in skin glow and texture after the first session, while collagen remodeling and skin tightening continue to improve over the following weeks and months. Multiple sessions may be recommended for optimal and long-lasting results.",
+                "Many patients notice improvements in skin glow and texture after the first session, while collagen remodeling and skin tightening continue to improve over the following weeks and months. Multiple sessions may be recommended for optimal and long-lasting results."
               ],
             },
             {
@@ -3402,7 +3262,7 @@ export const treatmentsDetail = {
                 "Skin condition",
                 "Area being treated",
                 "Number of sessions required",
-                "Combination therapies recommended",
+                "Combination therapies recommended"
               ],
               outro: "A personalized consultation is recommended to create an individualized treatment plan and provide an accurate cost estimate.",
             },
@@ -3418,30 +3278,23 @@ export const treatmentsDetail = {
                 "Customized Anti-Aging Treatment Plans",
                 "Medical-Grade Equipment",
                 "Comprehensive Facial Rejuvenation Solutions",
-                "Modern Aesthetic Centre in Kandivali West, Mumbai",
+                "Modern Aesthetic Centre in Kandivali West, Mumbai"
               ],
             },
             {
               type: "text",
               heading: "Best Skin Tightening Treatment in Kandivali West, Mumbai",
               content: [
-                "If you are looking for Skin Tightening & Rejuvenation Treatment in Kandivali West, Mumbai, visit NFSC – Dr. Nikhil Face Surgical & Aesthetic Centre. Our customized anti-aging treatments help improve skin firmness, reduce wrinkles, enhance texture, and restore a youthful glow with safe, non-surgical techniques.",
+                "If you are looking for Skin Tightening & Rejuvenation Treatment in Kandivali West, Mumbai, visit NFSC – Dr. Nikhil Face Surgical & Aesthetic Centre. Our customized anti-aging treatments help improve skin firmness, reduce wrinkles, enhance texture, and restore a youthful glow with safe, non-surgical techniques."
               ],
             },
             {
               type: "text",
               heading: "Book Your Skin Rejuvenation Consultation Today",
               content: [
-                "Rejuvenate your skin and restore your confidence with advanced Skin Tightening & Rejuvenation Treatments in Mumbai. Schedule your consultation at NFSC and discover a personalized treatment plan designed to achieve naturally youthful, firmer, and healthier-looking skin.",
+                "Rejuvenate your skin and restore your confidence with advanced Skin Tightening & Rejuvenation Treatments in Mumbai. Schedule your consultation at NFSC and discover a personalized treatment plan designed to achieve naturally youthful, firmer, and healthier-looking skin."
               ],
-            },
-            {
-              type: "text",
-              heading: "SEO Keywords",
-              content: [
-                "Skin Tightening in Kandivali West, Non-Surgical Skin Tightening Mumbai, Skin Rejuvenation Mumbai, Anti-Aging Treatment Mumbai, Face Tightening Treatment, Best Skin Tightening Doctor Mumbai, Skin Rejuvenation Cost Mumbai, Dr. Nikhil Angre.",
-              ],
-            },
+            }
           ],
         },
       },
@@ -3467,7 +3320,7 @@ export const treatmentsDetail = {
                 "Reduces acne pigmentation",
                 "Improves skin texture",
                 "Boosts confidence",
-                "Safe for Indian skin types",
+                "Safe for Indian skin types"
               ],
             },
             {
@@ -3480,7 +3333,7 @@ export const treatmentsDetail = {
                 "Post-Inflammatory Hyperpigmentation (PIH) - Dark marks left behind after acne, injuries, burns, or skin inflammation.",
                 "Freckles - Small pigmented spots that become more noticeable with sun exposure.",
                 "Uneven Skin Tone - Generalized pigmentation causing dullness and patchy complexion.",
-                "Acne Marks - Residual pigmentation following acne breakouts.",
+                "Acne Marks - Residual pigmentation following acne breakouts."
               ],
             },
             {
@@ -3496,7 +3349,7 @@ export const treatmentsDetail = {
                 "Medical-Grade Skin Brightening Treatments",
                 "Prescription Depigmenting Creams",
                 "Customized Skincare Programs",
-                "Combination Therapies for Stubborn Pigmentation",
+                "Combination Therapies for Stubborn Pigmentation"
               ],
             },
             {
@@ -3512,7 +3365,7 @@ export const treatmentsDetail = {
                 "Freckles",
                 "Post-inflammatory pigmentation",
                 "Dull skin",
-                "Hyperpigmentation due to aging or hormonal changes",
+                "Hyperpigmentation due to aging or hormonal changes"
               ],
               outro: "Both men and women can benefit from customized pigmentation treatment.",
             },
@@ -3521,7 +3374,7 @@ export const treatmentsDetail = {
               heading: "Pigmentation Treatment Procedure",
               content: [
                 "Following a comprehensive skin assessment, an individualized treatment plan is created. Depending on your condition, treatment may involve laser therapy, chemical peels, skin-brightening procedures, or medical skincare.",
-                "Most sessions take 20–45 minutes, depending on the treatment performed.",
+                "Most sessions take 20–45 minutes, depending on the treatment performed."
               ],
             },
             {
@@ -3529,7 +3382,7 @@ export const treatmentsDetail = {
               heading: "Recovery After Treatment",
               content: [
                 "Recovery varies depending on the treatment selected. Mild redness or temporary peeling may occur after certain procedures, while others involve virtually no downtime.",
-                "Following sunscreen use, skincare recommendations, and follow-up appointments is essential for achieving optimal and long-lasting results.",
+                "Following sunscreen use, skincare recommendations, and follow-up appointments is essential for achieving optimal and long-lasting results."
               ],
             },
             {
@@ -3543,7 +3396,7 @@ export const treatmentsDetail = {
                 "Severity of the condition",
                 "Treatment modality used",
                 "Number of sessions required",
-                "Customized skincare protocol",
+                "Customized skincare protocol"
               ],
               outro: "A consultation with our M.D. Dermatologist is recommended to determine the most effective treatment plan and provide an accurate cost estimate.",
             },
@@ -3559,30 +3412,23 @@ export const treatmentsDetail = {
                 "Medical-Grade Skincare Solutions",
                 "Modern Dermatology & Aesthetic Facility",
                 "Comprehensive Skin Analysis",
-                "Conveniently Located in Kandivali West, Mumbai",
+                "Conveniently Located in Kandivali West, Mumbai"
               ],
             },
             {
               type: "text",
               heading: "Best Pigmentation Treatment in Kandivali West, Mumbai",
               content: [
-                "If you are looking for Pigmentation Treatment in Kandivali West, Mumbai, visit NFSC – Dr. Nikhil Face Surgical & Aesthetic Centre. Whether you are dealing with melasma, acne marks, sunspots, or uneven skin tone, our personalized treatment plans are designed to restore brighter, healthier, and more even-toned skin safely and effectively.",
+                "If you are looking for Pigmentation Treatment in Kandivali West, Mumbai, visit NFSC – Dr. Nikhil Face Surgical & Aesthetic Centre. Whether you are dealing with melasma, acne marks, sunspots, or uneven skin tone, our personalized treatment plans are designed to restore brighter, healthier, and more even-toned skin safely and effectively."
               ],
             },
             {
               type: "text",
               heading: "Book Your Pigmentation Consultation Today",
               content: [
-                "Achieve clear, radiant, and even-toned skin with advanced Pigmentation Treatment in Mumbai. Schedule your consultation at NFSC and let our experienced team help you regain your confidence with customized skin care solutions.",
+                "Achieve clear, radiant, and even-toned skin with advanced Pigmentation Treatment in Mumbai. Schedule your consultation at NFSC and let our experienced team help you regain your confidence with customized skin care solutions."
               ],
-            },
-            {
-              type: "text",
-              heading: "SEO Keywords",
-              content: [
-                "Pigmentation Treatment in Kandivali West, Melasma Treatment Mumbai, Dark Spots Removal Mumbai, Sunspots Treatment, Acne Marks Treatment, Best Dermatologist for Pigmentation Mumbai, Pigmentation Treatment Cost Mumbai, Dr. Nikhil Angre.",
-              ],
-            },
+            }
           ],
         },
       },
@@ -3606,7 +3452,7 @@ export const treatmentsDetail = {
                 "Reduce dullness",
                 "Support healthy skin",
                 "Reduce oxidative stress",
-                "Promote overall skin rejuvenation",
+                "Promote overall skin rejuvenation"
               ],
               outro: "Note: Individual results vary, and glutathione should not be considered a guaranteed skin-whitening treatment. It is most effective when combined with a healthy lifestyle, sun protection, and a personalized skincare routine.",
             },
@@ -3622,7 +3468,7 @@ export const treatmentsDetail = {
                 "Helps reduce oxidative damage",
                 "Complements pigmentation treatment programs",
                 "Minimal downtime",
-                "Suitable for both men and women",
+                "Suitable for both men and women"
               ],
             },
             {
@@ -3636,7 +3482,7 @@ export const treatmentsDetail = {
                 "Mild pigmentation",
                 "Sun-damaged skin",
                 "Desire for skin rejuvenation",
-                "Oxidative stress due to lifestyle or environmental exposure",
+                "Oxidative stress due to lifestyle or environmental exposure"
               ],
               outro: "A consultation is essential to determine whether glutathione therapy is appropriate for your skin concerns and overall health.",
             },
@@ -3651,7 +3497,7 @@ export const treatmentsDetail = {
                 "HydraFacial",
                 "Meso Facial",
                 "Medical-Grade Skincare Programs",
-                "Laser Pigmentation Treatments",
+                "Laser Pigmentation Treatments"
               ],
               outro: "Each session generally takes 20–40 minutes.",
             },
@@ -3660,7 +3506,7 @@ export const treatmentsDetail = {
               heading: "How Many Sessions Are Required?",
               content: [
                 "The number of sessions depends on skin condition, treatment goals, lifestyle factors, and individual response to treatment.",
-                "Many patients undergo a series of sessions followed by maintenance treatments as advised by the treating doctor.",
+                "Many patients undergo a series of sessions followed by maintenance treatments as advised by the treating doctor."
               ],
             },
             {
@@ -3673,7 +3519,7 @@ export const treatmentsDetail = {
                 "Type of glutathione formulation used",
                 "Combination with Vitamin C or other nutrients",
                 "Number of sessions required",
-                "Individual treatment goals",
+                "Individual treatment goals"
               ],
               outro: "A personalized consultation is recommended to develop a customized treatment plan and provide an accurate cost estimate.",
             },
@@ -3689,30 +3535,23 @@ export const treatmentsDetail = {
                 "Comprehensive Facial Aesthetic Care",
                 "Modern Aesthetic Facility",
                 "Safe Treatment Protocols",
-                "Conveniently Located in Kandivali West, Mumbai",
+                "Conveniently Located in Kandivali West, Mumbai"
               ],
             },
             {
               type: "text",
               heading: "Best Glutathione Therapy in Kandivali West, Mumbai",
               content: [
-                "If you are looking for Glutathione Therapy in Kandivali West, Mumbai, visit NFSC – Dr. Nikhil Face Surgical & Aesthetic Centre. Whether your goal is brighter skin, improved skin health, or overall rejuvenation, our customized treatment plans are designed to safely enhance your skin's appearance while maintaining realistic expectations.",
+                "If you are looking for Glutathione Therapy in Kandivali West, Mumbai, visit NFSC – Dr. Nikhil Face Surgical & Aesthetic Centre. Whether your goal is brighter skin, improved skin health, or overall rejuvenation, our customized treatment plans are designed to safely enhance your skin's appearance while maintaining realistic expectations."
               ],
             },
             {
               type: "text",
               heading: "Book Your Glutathione Therapy Consultation Today",
               content: [
-                "Refresh your skin from within with advanced Glutathione Therapy in Mumbai. Schedule your consultation at NFSC and learn how a personalized skin rejuvenation program can help you achieve healthier, more radiant skin.",
+                "Refresh your skin from within with advanced Glutathione Therapy in Mumbai. Schedule your consultation at NFSC and learn how a personalized skin rejuvenation program can help you achieve healthier, more radiant skin."
               ],
-            },
-            {
-              type: "text",
-              heading: "SEO Keywords",
-              content: [
-                "Glutathione Therapy in Kandivali West, Glutathione Injection Mumbai, Skin Brightening Treatment Mumbai, Antioxidant Skin Care, Glutathione Cost Mumbai, Skin Radiance Therapy, Best Doctor for Glutathione Mumbai, Dr. Nikhil Angre.",
-              ],
-            },
+            }
           ],
         },
       },
@@ -3739,7 +3578,7 @@ export const treatmentsDetail = {
                 "Acne Marks",
                 "Uneven Skin Tone",
                 "Facial Pigmentation",
-                "Hormonal Pigmentation",
+                "Hormonal Pigmentation"
               ],
             },
             {
@@ -3755,7 +3594,7 @@ export const treatmentsDetail = {
                 "Safe for Indian skin types",
                 "Stimulates healthier skin renewal",
                 "Improves skin texture and radiance",
-                "Non-surgical treatment with long-lasting results",
+                "Non-surgical treatment with long-lasting results"
               ],
             },
             {
@@ -3770,7 +3609,7 @@ export const treatmentsDetail = {
                 "Uneven skin tone",
                 "Acne-related pigmentation",
                 "Dark facial patches",
-                "Pigmentation resistant to topical creams",
+                "Pigmentation resistant to topical creams"
               ],
               outro: "A detailed skin evaluation by our M.D. Dermatologist is essential to determine whether Cosmelan® is the most appropriate treatment for your skin concerns.",
             },
@@ -3781,7 +3620,7 @@ export const treatmentsDetail = {
               intro: "Cosmelan® treatment consists of two phases:",
               content: [
                 "Phase 1 – In-Clinic Treatment: A professional Cosmelan® mask is applied to the skin in the clinic. The mask remains on the skin for several hours, depending on your skin type and pigmentation severity, before being washed off at home according to medical instructions.",
-                "Phase 2 – Home Maintenance Program: After the initial treatment, patients follow a customized skincare routine using prescribed Cosmelan® products. This maintenance phase is essential for regulating melanin production, enhancing results, and reducing the risk of pigmentation recurrence.",
+                "Phase 2 – Home Maintenance Program: After the initial treatment, patients follow a customized skincare routine using prescribed Cosmelan® products. This maintenance phase is essential for regulating melanin production, enhancing results, and reducing the risk of pigmentation recurrence."
               ],
             },
             {
@@ -3793,7 +3632,7 @@ export const treatmentsDetail = {
                 "Mild redness",
                 "Dryness",
                 "Peeling",
-                "Temporary skin sensitivity",
+                "Temporary skin sensitivity"
               ],
             },
             {
@@ -3801,7 +3640,7 @@ export const treatmentsDetail = {
               heading: "When Will I See Results?",
               content: [
                 "Many patients notice visible improvement within 2–4 weeks, with continued enhancement over the following months as pigmentation gradually fades and the skin becomes brighter and more even-toned.",
-                "Results vary depending on the severity of pigmentation, skin type, and adherence to the prescribed home-care program.",
+                "Results vary depending on the severity of pigmentation, skin type, and adherence to the prescribed home-care program."
               ],
             },
             {
@@ -3815,7 +3654,7 @@ export const treatmentsDetail = {
                 "Individual skin condition",
                 "Customized treatment protocol",
                 "Included post-treatment skincare products",
-                "Follow-up visits and maintenance plan",
+                "Follow-up visits and maintenance plan"
               ],
               outro: "A personalized consultation with our M.D. Dermatologist is recommended to determine the most suitable treatment plan and provide an accurate cost estimate.",
             },
@@ -3831,33 +3670,26 @@ export const treatmentsDetail = {
                 "Personalized Aftercare Program",
                 "Evidence-Based Treatment Protocols",
                 "Modern Dermatology & Aesthetic Facility",
-                "Conveniently Located in Kandivali West, Mumbai",
+                "Conveniently Located in Kandivali West, Mumbai"
               ],
             },
             {
               type: "text",
               heading: "Best Cosmelan® Treatment in Kandivali West, Mumbai",
               content: [
-                "If you are looking for Cosmelan® Treatment in Kandivali West, Mumbai, visit NFSC – Dr. Nikhil Face Surgical & Aesthetic Centre. Whether you are struggling with melasma, stubborn pigmentation, acne marks, or uneven skin tone, our customized Cosmelan® treatment protocol is designed to deliver safe, effective, and long-lasting results.",
+                "If you are looking for Cosmelan® Treatment in Kandivali West, Mumbai, visit NFSC – Dr. Nikhil Face Surgical & Aesthetic Centre. Whether you are struggling with melasma, stubborn pigmentation, acne marks, or uneven skin tone, our customized Cosmelan® treatment protocol is designed to deliver safe, effective, and long-lasting results."
               ],
             },
             {
               type: "text",
               heading: "Book Your Cosmelan® Consultation Today",
               content: [
-                "Restore your confidence with clearer, brighter, and more even-toned skin through advanced Cosmelan® Pigmentation Treatment in Mumbai. Schedule your consultation at NFSC and let our experienced team create a personalized treatment plan to help you achieve healthier, radiant skin.",
+                "Restore your confidence with clearer, brighter, and more even-toned skin through advanced Cosmelan® Pigmentation Treatment in Mumbai. Schedule your consultation at NFSC and let our experienced team create a personalized treatment plan to help you achieve healthier, radiant skin."
               ],
-            },
-            {
-              type: "text",
-              heading: "SEO Keywords",
-              content: [
-                "Cosmelan Peel in Kandivali West, Cosmelan Treatment Mumbai, Melasma Treatment Cosmelan, Pigmentation Treatment Mumbai, Best Dermatologist for Cosmelan Mumbai, Cosmelan Cost Mumbai, Dr. Nikhil Angre.",
-              ],
-            },
+            }
           ],
         },
-      },
+      }
     ],
     faqs: [
       {
@@ -3869,7 +3701,7 @@ export const treatmentsDetail = {
         question: "Can these treatments be combined?",
         answer:
           "Yes, combining treatments can often enhance results. During your consultation, we can create a customized plan that safely integrates multiple approaches for the best possible outcome.",
-      },
+      }
     ],
   },
 
@@ -3904,7 +3736,7 @@ export const treatmentsDetail = {
                 "Nasal Bones",
                 "Frontal Bone (Forehead)",
                 "Facial Soft Tissue Injuries",
-                "Complex Facial Fractures",
+                "Complex Facial Fractures"
               ],
             },
             {
@@ -3915,7 +3747,7 @@ export const treatmentsDetail = {
               content: [
                 "Facial Bone Fractures - Mandibular (jaw), maxillary, zygomatic (cheekbone), orbital (eye socket), nasal, and frontal bone fractures.",
                 "Soft Tissue Injuries - Facial lacerations, lip injuries, eyelid injuries, nose injuries, and facial nerve injuries.",
-                "Facial Reconstruction - Post-traumatic facial deformities, facial asymmetry, bone defects, soft tissue reconstruction, and scar revision.",
+                "Facial Reconstruction - Post-traumatic facial deformities, facial asymmetry, bone defects, soft tissue reconstruction, and scar revision."
               ],
             },
             {
@@ -3933,7 +3765,7 @@ export const treatmentsDetail = {
                 "Loose or displaced teeth",
                 "Nosebleeds after injury",
                 "Facial numbness",
-                "Facial cuts or deep wounds",
+                "Facial cuts or deep wounds"
               ],
             },
             {
@@ -3950,7 +3782,7 @@ export const treatmentsDetail = {
                 "Soft Tissue Repair",
                 "Scar Revision",
                 "Bone Grafting (when required)",
-                "Facial Reconstructive Surgery",
+                "Facial Reconstructive Surgery"
               ],
             },
             {
@@ -3960,7 +3792,7 @@ export const treatmentsDetail = {
               intro: "The choice of anesthesia depends on the type, location, and complexity of the injury. Dr. Nikhil Angre will recommend the safest and most appropriate approach based on your condition:",
               content: [
                 "Local Anesthesia - Minor facial injuries, small fractures, soft tissue repairs, and selected procedures can often be performed under local anesthesia.",
-                "General Anesthesia - Complex facial fractures, multiple fractures, extensive reconstruction, or procedures requiring precise alignment of facial bones are usually performed under general anesthesia.",
+                "General Anesthesia - Complex facial fractures, multiple fractures, extensive reconstruction, or procedures requiring precise alignment of facial bones are usually performed under general anesthesia."
               ],
             },
             {
@@ -3975,7 +3807,7 @@ export const treatmentsDetail = {
                 "Improves breathing",
                 "Reduces long-term complications",
                 "Minimizes facial deformity",
-                "Enhances cosmetic outcomes",
+                "Enhances cosmetic outcomes"
               ],
             },
             {
@@ -3983,7 +3815,7 @@ export const treatmentsDetail = {
               heading: "Recovery After Surgery",
               content: [
                 "Recovery depends on the severity of the injury and the procedure performed. Patients may experience temporary swelling, bruising, mild discomfort, restricted mouth opening, and temporary dietary modifications.",
-                "Most fractures heal over 6–8 weeks, while complete recovery varies depending on the complexity of reconstruction. Regular follow-up appointments ensure proper healing and optimal functional and aesthetic outcomes.",
+                "Most fractures heal over 6–8 weeks, while complete recovery varies depending on the complexity of reconstruction. Regular follow-up appointments ensure proper healing and optimal functional and aesthetic outcomes."
               ],
             },
             {
@@ -3999,7 +3831,7 @@ export const treatmentsDetail = {
                 "Hospital admission requirements",
                 "Titanium plates and screws",
                 "Bone grafting or reconstructive procedures",
-                "Complexity of surgery",
+                "Complexity of surgery"
               ],
             },
             {
@@ -4015,30 +3847,23 @@ export const treatmentsDetail = {
                 "Personalized Surgical Planning",
                 "Modern Surgical Protocols",
                 "Comprehensive Post-Operative Care",
-                "State-of-the-Art Facility in Kandivali West, Mumbai",
+                "State-of-the-Art Facility in Kandivali West, Mumbai"
               ],
             },
             {
               type: "text",
               heading: "Best Craniomaxillofacial Trauma Surgeon in Kandivali West, Mumbai",
               content: [
-                "If you are looking for expert treatment for facial fractures, jaw fractures, orbital injuries, facial reconstruction, or post-traumatic facial deformities, consult Dr. Nikhil Angre at NFSC – Dr. Nikhil Face Surgical & Aesthetic Centre, Kandivali West. Our goal is to restore facial function, appearance, and confidence using advanced reconstructive surgical techniques.",
+                "If you are looking for expert treatment for facial fractures, jaw fractures, orbital injuries, facial reconstruction, or post-traumatic facial deformities, consult Dr. Nikhil Angre at NFSC – Dr. Nikhil Face Surgical & Aesthetic Centre, Kandivali West. Our goal is to restore facial function, appearance, and confidence using advanced reconstructive surgical techniques."
               ],
             },
             {
               type: "text",
               heading: "Book Your Consultation Today",
               content: [
-                "If you or a loved one has sustained a facial injury, early diagnosis and treatment are essential for the best possible recovery. Schedule a consultation with Dr. Nikhil Angre for comprehensive evaluation and expert management of craniomaxillofacial trauma and reconstructive surgery.",
+                "If you or a loved one has sustained a facial injury, early diagnosis and treatment are essential for the best possible recovery. Schedule a consultation with Dr. Nikhil Angre for comprehensive evaluation and expert management of craniomaxillofacial trauma and reconstructive surgery."
               ],
-            },
-            {
-              type: "text",
-              heading: "SEO Keywords",
-              content: [
-                "Facial Fracture Surgery Kandivali, Maxillofacial Trauma Surgeon Mumbai, Jaw Fracture Treatment, Cheekbone Fracture Surgery, Orbital Fracture Repair, Facial Reconstruction Surgery, Dr. Nikhil Angre.",
-              ],
-            },
+            }
           ],
         },
       },
@@ -4063,7 +3888,7 @@ export const treatmentsDetail = {
                 "Speech",
                 "Breathing",
                 "Facial aesthetics",
-                "Jaw joint function",
+                "Jaw joint function"
               ],
             },
             {
@@ -4078,7 +3903,7 @@ export const treatmentsDetail = {
                 "Crossbite - Improves jaw alignment and chewing function.",
                 "Facial Asymmetry - Corrects uneven jaw growth and restores facial symmetry.",
                 "Obstructive Sleep Apnea (Selected Cases) - Jaw advancement surgery may help improve airway size in carefully selected patients.",
-                "Difficulty in Chewing or Speaking - Improves oral function and overall quality of life.",
+                "Difficulty in Chewing or Speaking - Improves oral function and overall quality of life."
               ],
             },
             {
@@ -4095,7 +3920,7 @@ export const treatmentsDetail = {
                 "Difficulty speaking",
                 "Chronic mouth breathing",
                 "Sleep-related breathing problems",
-                "Excessive tooth wear due to poor bite",
+                "Excessive tooth wear due to poor bite"
               ],
             },
             {
@@ -4111,7 +3936,7 @@ export const treatmentsDetail = {
                 "Better breathing in selected patients",
                 "Reduces jaw joint strain",
                 "Long-lasting functional and cosmetic results",
-                "Boosts self-confidence",
+                "Boosts self-confidence"
               ],
             },
             {
@@ -4120,7 +3945,7 @@ export const treatmentsDetail = {
               content: [
                 "Orthognathic surgery is performed under general anesthesia in a hospital setting. Depending on the condition, surgery may involve Upper Jaw Surgery (Le Fort I Osteotomy), Lower Jaw Surgery (Bilateral Sagittal Split Osteotomy – BSSO), or Double Jaw Surgery (Bimaxillary Surgery). Genioplasty (Chin Surgery) may also be performed when required for optimal facial balance.",
                 "The jaws are repositioned and stabilized using medical-grade titanium plates and screws, which are biocompatible and generally remain permanently unless removal is medically indicated.",
-                "The surgery typically takes 3–6 hours, depending on the complexity of the case.",
+                "The surgery typically takes 3–6 hours, depending on the complexity of the case."
               ],
             },
             {
@@ -4128,7 +3953,7 @@ export const treatmentsDetail = {
               heading: "Recovery After Orthognathic Surgery",
               content: [
                 "Patients are usually admitted to the hospital for 1–3 days after surgery. Recovery includes mild to moderate facial swelling, temporary numbness in certain areas, and a soft or liquid diet for several weeks.",
-                "Most patients return to work or studies within 2–4 weeks, while complete bone healing generally occurs over 3–6 months. Regular follow-up visits are scheduled to monitor progress.",
+                "Most patients return to work or studies within 2–4 weeks, while complete bone healing generally occurs over 3–6 months. Regular follow-up visits are scheduled to monitor progress."
               ],
             },
             {
@@ -4144,7 +3969,7 @@ export const treatmentsDetail = {
                 "Titanium plates and screws",
                 "Pre-operative investigations",
                 "Duration of surgery",
-                "Post-operative hospital stay",
+                "Post-operative hospital stay"
               ],
             },
             {
@@ -4160,30 +3985,23 @@ export const treatmentsDetail = {
                 "Comprehensive Care with Orthodontic Coordination",
                 "Personalized Treatment Plans",
                 "Modern Surgical Techniques",
-                "State-of-the-Art Facility in Kandivali West, Mumbai",
+                "State-of-the-Art Facility in Kandivali West, Mumbai"
               ],
             },
             {
               type: "text",
               heading: "Best Orthognathic Surgeon in Kandivali West, Mumbai",
               content: [
-                "If you are looking for Orthognathic Surgery in Kandivali West, Mumbai, consult Dr. Nikhil Angre at NFSC – Dr. Nikhil Face Surgical & Aesthetic Centre. Whether you have a misaligned bite, jaw asymmetry, or facial imbalance, we provide advanced corrective jaw surgery to restore facial harmony, improve function, and enhance confidence.",
+                "If you are looking for Orthognathic Surgery in Kandivali West, Mumbai, consult Dr. Nikhil Angre at NFSC – Dr. Nikhil Face Surgical & Aesthetic Centre. Whether you have a misaligned bite, jaw asymmetry, or facial imbalance, we provide advanced corrective jaw surgery to restore facial harmony, improve function, and enhance confidence."
               ],
             },
             {
               type: "text",
               heading: "Book Your Orthognathic Surgery Consultation Today",
               content: [
-                "Take the first step toward a healthier bite and a more balanced facial profile. Schedule your consultation with Dr. Nikhil Angre to learn how Orthognathic Surgery can improve your oral function, facial aesthetics, and overall quality of life.",
+                "Take the first step toward a healthier bite and a more balanced facial profile. Schedule your consultation with Dr. Nikhil Angre to learn how Orthognathic Surgery can improve your oral function, facial aesthetics, and overall quality of life."
               ],
-            },
-            {
-              type: "text",
-              heading: "SEO Keywords",
-              content: [
-                "Orthognathic Surgery Kandivali, Corrective Jaw Surgery Mumbai, Jaw Correction Surgeon, Underbite Correction, Overbite Surgery, Facial Asymmetry Correction, Orthognathic Surgery Cost Mumbai, Dr. Nikhil Angre.",
-              ],
-            },
+            }
           ],
         },
       },
@@ -4207,7 +4025,7 @@ export const treatmentsDetail = {
                 "Benign tumors",
                 "Cystic lesions",
                 "Soft tissue tumors",
-                "Bone lesions",
+                "Bone lesions"
               ],
             },
             {
@@ -4219,7 +4037,7 @@ export const treatmentsDetail = {
                 "Jaw Cysts - Dentigerous cyst, radicular cyst, residual cyst, odontogenic keratocyst (OKC), and lateral periodontal cyst.",
                 "Benign Jaw Tumors - Ameloblastoma, odontoma, cementoblastoma, ossifying fibroma, central giant cell lesion, and fibrous dysplasia (selected cases).",
                 "Soft Tissue Lesions - Fibroma, mucocele, lipoma, pyogenic granuloma, and salivary gland lesions.",
-                "Bone Lesions - Jaw bone tumors, benign bone growths, and cystic bone defects.",
+                "Bone Lesions - Jaw bone tumors, benign bone growths, and cystic bone defects."
               ],
               outro: "Patients with suspected malignant tumors are appropriately evaluated and referred or managed through a multidisciplinary oncology team when required.",
             },
@@ -4238,7 +4056,7 @@ export const treatmentsDetail = {
                 "Recurrent jaw infections",
                 "Facial asymmetry",
                 "Numbness of the lips or chin",
-                "Jaw cyst detected on dental X-ray",
+                "Jaw cyst detected on dental X-ray"
               ],
             },
             {
@@ -4252,7 +4070,7 @@ export const treatmentsDetail = {
                 "OPG (Orthopantomogram)",
                 "CBCT (Cone Beam CT Scan)",
                 "CT Scan or MRI (when indicated)",
-                "Biopsy and Histopathological Examination",
+                "Biopsy and Histopathological Examination"
               ],
             },
             {
@@ -4269,7 +4087,7 @@ export const treatmentsDetail = {
                 "Extraction of Associated Teeth",
                 "Bone Grafting",
                 "Soft Tissue Reconstruction",
-                "Biopsy Procedures",
+                "Biopsy Procedures"
               ],
             },
             {
@@ -4279,7 +4097,7 @@ export const treatmentsDetail = {
               intro: "The type of anesthesia depends on the complexity of the procedure. Dr. Nikhil Angre will recommend the safest and most appropriate anesthesia based on your diagnosis and surgical requirements:",
               content: [
                 "Local Anesthesia - Minor cyst removal, biopsies, and small soft tissue lesions can often be treated comfortably under local anesthesia as daycare procedures.",
-                "General Anesthesia - Large jaw cysts, extensive tumors, multiple lesions, reconstructive surgery, or procedures involving significant bone removal are usually performed under general anesthesia in a hospital setting.",
+                "General Anesthesia - Large jaw cysts, extensive tumors, multiple lesions, reconstructive surgery, or procedures involving significant bone removal are usually performed under general anesthesia in a hospital setting."
               ],
             },
             {
@@ -4294,7 +4112,7 @@ export const treatmentsDetail = {
                 "Restores jaw function",
                 "Maintains facial symmetry",
                 "Allows early diagnosis of serious conditions",
-                "Improves long-term oral health",
+                "Improves long-term oral health"
               ],
             },
             {
@@ -4303,7 +4121,7 @@ export const treatmentsDetail = {
               content: [
                 "Recovery depends on the size and complexity of the surgery. Patients may experience mild swelling, temporary discomfort, limited mouth opening, a soft diet for a few days, and temporary numbness in selected cases.",
                 "Most patients resume normal daily activities within 3–7 days after minor procedures, while larger reconstructive surgeries may require a longer recovery period.",
-                "Regular follow-up visits and histopathology review are important to monitor healing and detect any recurrence when necessary.",
+                "Regular follow-up visits and histopathology review are important to monitor healing and detect any recurrence when necessary."
               ],
             },
             {
@@ -4320,7 +4138,7 @@ export const treatmentsDetail = {
                 "Bone grafting or reconstruction",
                 "Histopathology examination",
                 "Complexity of surgery",
-                "Post-operative care",
+                "Post-operative care"
               ],
             },
             {
@@ -4336,30 +4154,23 @@ export const treatmentsDetail = {
                 "Personalized Treatment Planning",
                 "Focus on Functional & Aesthetic Outcomes",
                 "Modern Surgical Protocols",
-                "State-of-the-Art Facility in Kandivali West, Mumbai",
+                "State-of-the-Art Facility in Kandivali West, Mumbai"
               ],
             },
             {
               type: "text",
               heading: "Best Maxillofacial Cyst & Tumor Surgeon in Kandivali West, Mumbai",
               content: [
-                "If you are looking for expert treatment for jaw cysts, oral tumors, benign maxillofacial tumors, or facial bone lesions, consult Dr. Nikhil Angre at NFSC – Dr. Nikhil Face Surgical & Aesthetic Centre. We provide comprehensive diagnosis, surgical treatment, and follow-up care to restore oral health, jaw function, and facial aesthetics.",
+                "If you are looking for expert treatment for jaw cysts, oral tumors, benign maxillofacial tumors, or facial bone lesions, consult Dr. Nikhil Angre at NFSC – Dr. Nikhil Face Surgical & Aesthetic Centre. We provide comprehensive diagnosis, surgical treatment, and follow-up care to restore oral health, jaw function, and facial aesthetics."
               ],
             },
             {
               type: "text",
               heading: "Book Your Consultation Today",
               content: [
-                "Early diagnosis is the key to successful treatment of jaw cysts and maxillofacial tumors. Schedule your consultation with Dr. Nikhil Angre for a comprehensive evaluation and personalized treatment plan tailored to your condition.",
+                "Early diagnosis is the key to successful treatment of jaw cysts and maxillofacial tumors. Schedule your consultation with Dr. Nikhil Angre for a comprehensive evaluation and personalized treatment plan tailored to your condition."
               ],
-            },
-            {
-              type: "text",
-              heading: "SEO Keywords",
-              content: [
-                "Jaw Cyst Surgery Kandivali, Maxillofacial Tumor Treatment, Ameloblastoma Surgery Mumbai, Odontoma Removal, OKC Treatment Jaw, Best Maxillofacial Surgeon Mumbai, Jaw Tumor Cost Mumbai, Dr. Nikhil Angre.",
-              ],
-            },
+            }
           ],
         },
       },
@@ -4388,7 +4199,7 @@ export const treatmentsDetail = {
                 "Post-surgical infections",
                 "Infected facial wounds",
                 "Poor oral hygiene",
-                "Weakened immune system or uncontrolled diabetes",
+                "Weakened immune system or uncontrolled diabetes"
               ],
             },
             {
@@ -4406,7 +4217,7 @@ export const treatmentsDetail = {
                 "Parapharyngeal Space Infection",
                 "Retropharyngeal Space Infection",
                 "Deep Neck Space Infection",
-                "Ludwig's Angina (Emergency Condition)",
+                "Ludwig's Angina (Emergency Condition)"
               ],
             },
             {
@@ -4425,7 +4236,7 @@ export const treatmentsDetail = {
                 "Tooth pain with swelling",
                 "Pus discharge",
                 "Swollen lymph nodes",
-                "Difficulty eating or speaking",
+                "Difficulty eating or speaking"
               ],
             },
             {
@@ -4439,7 +4250,7 @@ export const treatmentsDetail = {
                 "CBCT Scan",
                 "CT Scan with Contrast (for deep infections)",
                 "Blood Investigations",
-                "Pus Culture and Sensitivity (when indicated)",
+                "Pus Culture and Sensitivity (when indicated)"
               ],
             },
             {
@@ -4449,7 +4260,7 @@ export const treatmentsDetail = {
               intro: "Treatment depends on the severity and location of the infection, and includes both medical and surgical management:",
               content: [
                 "Medical Management - Intravenous or oral antibiotics, pain management, anti-inflammatory medications, and hydration/supportive care.",
-                "Surgical Management - Incision and Drainage (I&D) of pus, removal of the infected tooth, drain placement, debridement of infected tissue, and surgical management of deep neck space infections or associated bone infections.",
+                "Surgical Management - Incision and Drainage (I&D) of pus, removal of the infected tooth, drain placement, debridement of infected tissue, and surgical management of deep neck space infections or associated bone infections."
               ],
             },
             {
@@ -4459,7 +4270,7 @@ export const treatmentsDetail = {
               intro: "The type of anesthesia depends on the extent of the infection. Dr. Nikhil Angre will determine the safest treatment approach based on your clinical condition:",
               content: [
                 "Local Anesthesia - Small localized abscesses and uncomplicated facial infections may be treated under local anesthesia as daycare procedures.",
-                "General Anesthesia - Extensive facial infections, deep neck space infections, multiple abscesses, airway compromise, or complex surgical drainage usually require general anesthesia in a hospital setting.",
+                "General Anesthesia - Extensive facial infections, deep neck space infections, multiple abscesses, airway compromise, or complex surgical drainage usually require general anesthesia in a hospital setting."
               ],
             },
             {
@@ -4474,7 +4285,7 @@ export const treatmentsDetail = {
                 "Preserves facial structures",
                 "Prevents bone destruction",
                 "Faster recovery",
-                "Reduces risk of life-threatening complications",
+                "Reduces risk of life-threatening complications"
               ],
             },
             {
@@ -4482,7 +4293,7 @@ export const treatmentsDetail = {
               heading: "Recovery After Surgery",
               content: [
                 "Recovery depends on the severity of the infection. Following surgery, patients may require antibiotics, regular wound dressings, drain care (if placed), soft diet during healing, and dental treatment to remove the source of infection.",
-                "Most patients experience significant improvement within a few days after adequate drainage and antibiotic therapy. Follow-up appointments are scheduled to ensure proper healing.",
+                "Most patients experience significant improvement within a few days after adequate drainage and antibiotic therapy. Follow-up appointments are scheduled to ensure proper healing."
               ],
             },
             {
@@ -4499,7 +4310,7 @@ export const treatmentsDetail = {
                 "Diagnostic imaging",
                 "Surgical drainage complexity",
                 "ICU care (if required)",
-                "Duration of hospitalization",
+                "Duration of hospitalization"
               ],
             },
             {
@@ -4515,30 +4326,23 @@ export const treatmentsDetail = {
                 "Early Diagnosis and Emergency Management",
                 "Personalized Treatment Plans",
                 "Modern Surgical Facility",
-                "Located in Kandivali West, Mumbai",
+                "Located in Kandivali West, Mumbai"
               ],
             },
             {
               type: "text",
               heading: "Best Maxillofacial Space Infection Specialist in Kandivali West, Mumbai",
               content: [
-                "If you are experiencing facial swelling, jaw infection, dental abscess, or deep neck infection, consult Dr. Nikhil Angre at NFSC – Dr. Nikhil Face Surgical & Aesthetic Centre. We provide prompt diagnosis and advanced surgical care to effectively treat infections while minimizing complications and restoring your oral and facial health.",
+                "If you are experiencing facial swelling, jaw infection, dental abscess, or deep neck infection, consult Dr. Nikhil Angre at NFSC – Dr. Nikhil Face Surgical & Aesthetic Centre. We provide prompt diagnosis and advanced surgical care to effectively treat infections while minimizing complications and restoring your oral and facial health."
               ],
             },
             {
               type: "text",
               heading: "Book Your Consultation Today",
               content: [
-                "Facial and deep neck infections should never be ignored. Early diagnosis and timely treatment can prevent serious complications. Schedule your consultation with Dr. Nikhil Angre for expert evaluation and personalized management of maxillofacial space infections.",
+                "Facial and deep neck infections should never be ignored. Early diagnosis and timely treatment can prevent serious complications. Schedule your consultation with Dr. Nikhil Angre for expert evaluation and personalized management of maxillofacial space infections."
               ],
-            },
-            {
-              type: "text",
-              heading: "SEO Keywords",
-              content: [
-                "Facial Space Infection Kandivali, Submandibular Abscess Treatment, Facial Abscess Drainage Mumbai, Deep Neck Infection Surgery, Ludwig's Angina Treatment, Maxillofacial Surgeon Mumbai, Dental Infection Cost, Dr. Nikhil Angre.",
-              ],
-            },
+            }
           ],
         },
       },
@@ -4564,7 +4368,7 @@ export const treatmentsDetail = {
                 "Atrophic (shrunken) upper jaw",
                 "Patients wishing to avoid bone grafting",
                 "Full mouth rehabilitation cases",
-                "Maxillary defects following trauma or tumor surgery (selected cases)",
+                "Maxillary defects following trauma or tumor surgery (selected cases)"
               ],
               outro: "A detailed clinical examination and 3D CBCT scan are performed to determine the most suitable treatment approach.",
             },
@@ -4581,7 +4385,7 @@ export const treatmentsDetail = {
                 "Better speech and comfort",
                 "Faster rehabilitation compared to staged bone grafting",
                 "Long-term predictable outcomes",
-                "Restores facial support and confidence",
+                "Restores facial support and confidence"
               ],
             },
             {
@@ -4595,7 +4399,7 @@ export const treatmentsDetail = {
                 "Failed implant rehabilitation",
                 "Failed sinus graft procedures",
                 "Complex implant cases",
-                "Patients seeking fixed teeth instead of removable dentures",
+                "Patients seeking fixed teeth instead of removable dentures"
               ],
             },
             {
@@ -4609,7 +4413,7 @@ export const treatmentsDetail = {
                 "CBCT (3D Cone Beam CT Scan)",
                 "Bone Quality Analysis",
                 "Digital Implant Planning",
-                "Medical Evaluation",
+                "Medical Evaluation"
               ],
               outro: "Advanced digital planning ensures accurate implant positioning, improved safety, and predictable outcomes.",
             },
@@ -4623,7 +4427,7 @@ export const treatmentsDetail = {
                 "Pterygoid implants",
                 "Full-arch implant rehabilitation",
                 "Immediate loading (selected cases)",
-                "Fixed prosthetic rehabilitation",
+                "Fixed prosthetic rehabilitation"
               ],
               outro: "The surgery is performed using strict sterile protocols to maximize implant success and patient safety.",
             },
@@ -4634,7 +4438,7 @@ export const treatmentsDetail = {
               intro: "The choice of anesthesia depends on the complexity of the surgery. Dr. Nikhil Angre will recommend the safest and most appropriate anesthesia based on your treatment plan:",
               content: [
                 "Local Anesthesia - Selected implant procedures can be comfortably performed under local anesthesia with or without conscious sedation.",
-                "General Anesthesia - Complex full-mouth rehabilitation, multiple zygomatic implants, extensive reconstructive cases, or medically indicated procedures may be performed under general anesthesia in a hospital setting.",
+                "General Anesthesia - Complex full-mouth rehabilitation, multiple zygomatic implants, extensive reconstructive cases, or medically indicated procedures may be performed under general anesthesia in a hospital setting."
               ],
             },
             {
@@ -4642,7 +4446,7 @@ export const treatmentsDetail = {
               heading: "Recovery After Surgery",
               content: [
                 "Most patients experience mild swelling, temporary facial discomfort, minor bruising, and a soft diet for a few days before a gradual return to normal activities. Depending on the treatment plan, temporary or immediate fixed teeth may be provided during healing.",
-                "Complete healing and implant integration generally occur over 3–6 months, after which the final prosthesis is placed if not immediately loaded.",
+                "Complete healing and implant integration generally occur over 3–6 months, after which the final prosthesis is placed if not immediately loaded."
               ],
             },
             {
@@ -4659,7 +4463,7 @@ export const treatmentsDetail = {
                 "Complexity of surgery",
                 "Digital surgical planning",
                 "Immediate loading protocol",
-                "Final prosthetic rehabilitation",
+                "Final prosthetic rehabilitation"
               ],
             },
             {
@@ -4675,30 +4479,23 @@ export const treatmentsDetail = {
                 "Precision Surgical Techniques",
                 "Personalized Treatment Plans",
                 "Comprehensive Pre- and Post-Operative Care",
-                "Modern Surgical Facility in Kandivali West, Mumbai",
+                "Modern Surgical Facility in Kandivali West, Mumbai"
               ],
             },
             {
               type: "text",
               heading: "Best Zygomatic & Pterygoid Implant Specialist in Kandivali West, Mumbai",
               content: [
-                "If you have been told that you do not have enough bone for conventional dental implants, consult Dr. Nikhil Angre at NFSC – Dr. Nikhil Face Surgical & Aesthetic Centre. Advanced Zygomatic and Pterygoid Implants can help restore your smile, chewing ability, and confidence without the need for extensive bone grafting in many cases.",
+                "If you have been told that you do not have enough bone for conventional dental implants, consult Dr. Nikhil Angre at NFSC – Dr. Nikhil Face Surgical & Aesthetic Centre. Advanced Zygomatic and Pterygoid Implants can help restore your smile, chewing ability, and confidence without the need for extensive bone grafting in many cases."
               ],
             },
             {
               type: "text",
               heading: "Book Your Consultation Today",
               content: [
-                "Take the first step toward fixed, functional teeth with advanced Zygomatic & Pterygoid Implant Surgery. Schedule your consultation with Dr. Nikhil Angre for a comprehensive evaluation and a personalized implant rehabilitation plan.",
+                "Take the first step toward fixed, functional teeth with advanced Zygomatic & Pterygoid Implant Surgery. Schedule your consultation with Dr. Nikhil Angre for a comprehensive evaluation and a personalized implant rehabilitation plan."
               ],
-            },
-            {
-              type: "text",
-              heading: "SEO Keywords",
-              content: [
-                "Zygomatic Implants Kandivali, Pterygoid Implants Mumbai, Cheekbone Implant Surgery, Advanced Dental Implants, Full Arch Implant Cost, Dental Implant Specialist Mumbai, Failed Implant Treatment, Dr. Nikhil Angre.",
-              ],
-            },
+            }
           ],
         },
       },
@@ -4718,7 +4515,7 @@ export const treatmentsDetail = {
                 "Patient-specific implants (PSIs) are custom-made implants manufactured from detailed 3D CT scan data. Using computer-assisted design (CAD/CAM), each implant is tailored to fit the patient's unique facial bone structure. PSIs allow surgeons to restore complex facial anatomy with greater precision than conventional implants. Key materials used include:",
               content: [
                 "Medical-grade Titanium - Highly biocompatible and structurally robust.",
-                "PEEK (Polyether Ether Ketone) - Strong, biocompatible polymer with bone-like stiffness.",
+                "PEEK (Polyether Ether Ketone) - Strong, biocompatible polymer with bone-like stiffness."
               ],
             },
             {
@@ -4730,7 +4527,7 @@ export const treatmentsDetail = {
                 "Congenital Facial Deformities - Facial asymmetry, craniofacial developmental abnormalities, and hemifacial microsomia (selected cases).",
                 "Post-Tumor Reconstruction - Jaw reconstruction after tumor removal, cranial bone reconstruction, and facial bone defects.",
                 "Revision Surgery - Failed previous facial reconstruction, correction of facial contour irregularities, and implant revision surgery.",
-                "Facial Aesthetic Enhancement - Chin augmentation, cheek (malar) augmentation, jawline enhancement, orbital rim augmentation, forehead contour correction, and custom facial contouring.",
+                "Facial Aesthetic Enhancement - Chin augmentation, cheek (malar) augmentation, jawline enhancement, orbital rim augmentation, forehead contour correction, and custom facial contouring."
               ],
             },
             {
@@ -4747,7 +4544,7 @@ export const treatmentsDetail = {
                 "Better long-term stability",
                 "Reduced operating time in many cases",
                 "Advanced 3D digital planning",
-                "Natural-looking facial contours",
+                "Natural-looking facial contours"
               ],
             },
             {
@@ -4761,7 +4558,7 @@ export const treatmentsDetail = {
                 "Digital Facial Analysis",
                 "Virtual Surgical Planning (VSP)",
                 "CAD/CAM Implant Design",
-                "Computer-Guided Surgical Planning",
+                "Computer-Guided Surgical Planning"
               ],
               outro: "This technology enables precise implant design before surgery, improving surgical accuracy and patient outcomes.",
             },
@@ -4775,7 +4572,7 @@ export const treatmentsDetail = {
                 "Facial bone reconstruction",
                 "Titanium fixation using plates and screws when indicated",
                 "Correction of facial asymmetry",
-                "Soft tissue contour refinement",
+                "Soft tissue contour refinement"
               ],
               outro: "Every procedure is carefully planned to restore both facial function and natural aesthetics.",
             },
@@ -4786,7 +4583,7 @@ export const treatmentsDetail = {
               intro: "The type of anesthesia depends on the complexity of the surgery. Dr. Nikhil Angre will recommend the safest anesthesia based on your treatment needs:",
               content: [
                 "Local Anesthesia - Small cosmetic implant procedures involving the chin or limited facial areas may be performed under local anesthesia with sedation in selected cases.",
-                "General Anesthesia - Complex facial reconstruction, multiple implant placement, trauma reconstruction, cranial surgery, or extensive corrective procedures are generally performed under general anesthesia in a hospital setting.",
+                "General Anesthesia - Complex facial reconstruction, multiple implant placement, trauma reconstruction, cranial surgery, or extensive corrective procedures are generally performed under general anesthesia in a hospital setting."
               ],
             },
             {
@@ -4794,7 +4591,7 @@ export const treatmentsDetail = {
               heading: "Recovery After Surgery",
               content: [
                 "Recovery varies depending on the complexity of the procedure. Patients may experience mild to moderate swelling, temporary bruising, mild discomfort, and temporary numbness in selected cases.",
-                "Most patients can return to light daily activities within 1–2 weeks, while complete healing and implant integration continue over several months. Regular follow-up appointments ensure optimal healing and long-term outcomes.",
+                "Most patients can return to light daily activities within 1–2 weeks, while complete healing and implant integration continue over several months. Regular follow-up appointments ensure optimal healing and long-term outcomes."
               ],
             },
             {
@@ -4811,7 +4608,7 @@ export const treatmentsDetail = {
                 "Local or General Anesthesia",
                 "Hospital charges",
                 "Digital surgical planning",
-                "Reconstruction requirements",
+                "Reconstruction requirements"
               ],
             },
             {
@@ -4827,30 +4624,23 @@ export const treatmentsDetail = {
                 "Precision Facial Contouring Techniques",
                 "Personalized Treatment Plans",
                 "Modern Surgical Protocols",
-                "State-of-the-Art Facility in Kandivali West, Mumbai",
+                "State-of-the-Art Facility in Kandivali West, Mumbai"
               ],
             },
             {
               type: "text",
               heading: "Best Patient-Specific Facial Implant Surgeon in Kandivali West, Mumbai",
               content: [
-                "If you are looking for custom facial implants, facial reconstruction after trauma, jaw reconstruction, orbital reconstruction, or correction of facial asymmetry, consult Dr. Nikhil Angre at NFSC – Dr. Nikhil Face Surgical & Aesthetic Centre. We combine advanced digital planning with customized implant technology to achieve precise, functional, and natural-looking facial reconstruction.",
+                "If you are looking for custom facial implants, facial reconstruction after trauma, jaw reconstruction, orbital reconstruction, or correction of facial asymmetry, consult Dr. Nikhil Angre at NFSC – Dr. Nikhil Face Surgical & Aesthetic Centre. We combine advanced digital planning with customized implant technology to achieve precise, functional, and natural-looking facial reconstruction."
               ],
             },
             {
               type: "text",
               heading: "Book Your Consultation Today",
               content: [
-                "Restore facial balance, confidence, and function with advanced Patient-Specific Craniomaxillofacial Implants. Schedule your consultation with Dr. Nikhil Angre for a personalized evaluation and customized surgical treatment plan.",
+                "Restore facial balance, confidence, and function with advanced Patient-Specific Craniomaxillofacial Implants. Schedule your consultation with Dr. Nikhil Angre for a personalized evaluation and customized surgical treatment plan."
               ],
-            },
-            {
-              type: "text",
-              heading: "SEO Keywords",
-              content: [
-                "Patient Specific Implants Kandivali, Custom Facial Implants Mumbai, PSI Facial Reconstruction, Custom Titanium Implant, Custom PEEK Implant, Facial Asymmetry Correction, Custom Facial Reconstruction Cost, Dr. Nikhil Angre.",
-              ],
-            },
+            }
           ],
         },
       },
@@ -4870,7 +4660,7 @@ export const treatmentsDetail = {
                 "Tongue tie, medically known as Ankyloglossia, is a congenital condition in which the lingual frenulum is unusually short, thick, or tight, restricting the normal movement of the tongue. Depending on the severity, tongue tie may cause difficulty with feeding in infants, speech articulation in children, and functional limitations in adults.",
               content: [
                 "Congenital tight lingual frenulum restricting tongue movement.",
-                "Can range from mild to severe, affecting infants, children, and adults.",
+                "Can range from mild to severe, affecting infants, children, and adults."
               ],
             },
             {
@@ -4880,7 +4670,7 @@ export const treatmentsDetail = {
               content: [
                 "In Infants - Difficulty breastfeeding, poor latch, prolonged feeding time, poor weight gain, clicking sounds during feeding, and maternal nipple pain.",
                 "In Children - Delayed or unclear speech, difficulty pronouncing certain sounds, difficulty licking lips or ice cream, trouble sticking the tongue out, and difficulty maintaining oral hygiene.",
-                "In Adults - Speech difficulties, restricted tongue movement, difficulty eating certain foods, oral hygiene problems, difficulty wearing dentures, and social or functional discomfort.",
+                "In Adults - Speech difficulties, restricted tongue movement, difficulty eating certain foods, oral hygiene problems, difficulty wearing dentures, and social or functional discomfort."
               ],
             },
             {
@@ -4893,7 +4683,7 @@ export const treatmentsDetail = {
                 "Children with speech concerns related to tongue mobility",
                 "Adults with restricted tongue movement",
                 "Patients with oral hygiene challenges due to tongue restriction",
-                "Individuals experiencing functional limitations caused by a tight lingual frenulum",
+                "Individuals experiencing functional limitations caused by a tight lingual frenulum"
               ],
             },
             {
@@ -4909,7 +4699,7 @@ export const treatmentsDetail = {
                 "Increases tongue flexibility",
                 "Simple and minimally invasive procedure",
                 "Quick recovery",
-                "Long-lasting results",
+                "Long-lasting results"
               ],
               outro: "Note: In children with speech difficulties, speech therapy may still be recommended after surgery depending on the individual's needs.",
             },
@@ -4921,7 +4711,7 @@ export const treatmentsDetail = {
               content: [
                 "Conventional Surgical Frenectomy",
                 "Electrocautery Frenectomy",
-                "Laser Frenectomy (where available)",
+                "Laser Frenectomy (where available)"
               ],
             },
             {
@@ -4931,7 +4721,7 @@ export const treatmentsDetail = {
               intro: "The choice of anesthesia depends on the patient's age, cooperation, and the complexity of the procedure. Dr. Nikhil Angre will recommend the most suitable anesthesia option after clinical evaluation:",
               content: [
                 "Local Anesthesia - Most older children and adults can comfortably undergo tongue tie surgery under local anesthesia as a daycare procedure.",
-                "General Anesthesia - Infants, very young children, anxious patients, or selected complex cases may require general anesthesia for safety and comfort.",
+                "General Anesthesia - Infants, very young children, anxious patients, or selected complex cases may require general anesthesia for safety and comfort."
               ],
             },
             {
@@ -4939,7 +4729,7 @@ export const treatmentsDetail = {
               heading: "Recovery After Tongue Tie Surgery",
               content: [
                 "Recovery is generally quick. Patients may experience mild discomfort, temporary swelling, and minor soreness. Most patients return to normal activities within 24–48 hours, with improved tongue movement visible within a few days.",
-                "Following surgery, tongue mobility exercises may be advised to optimize healing and reduce the risk of tissue reattachment.",
+                "Following surgery, tongue mobility exercises may be advised to optimize healing and reduce the risk of tissue reattachment."
               ],
             },
             {
@@ -4954,7 +4744,7 @@ export const treatmentsDetail = {
                 "Surgical technique used",
                 "Local or General Anesthesia",
                 "Hospital or daycare facility charges",
-                "Post-operative follow-up",
+                "Post-operative follow-up"
               ],
             },
             {
@@ -4970,33 +4760,26 @@ export const treatmentsDetail = {
                 "Personalized Treatment Plans",
                 "Safe Daycare Procedures",
                 "Compassionate Patient Care",
-                "Conveniently Located in Kandivali West, Mumbai",
+                "Conveniently Located in Kandivali West, Mumbai"
               ],
             },
             {
               type: "text",
               heading: "Best Tongue Tie Surgeon in Kandivali West, Mumbai",
               content: [
-                "If you or your child has difficulty with breastfeeding, speech, eating, or tongue movement due to a tongue tie, consult Dr. Nikhil Angre at NFSC – Dr. Nikhil Face Surgical & Aesthetic Centre. We provide safe and effective tongue tie surgery to improve oral function and enhance quality of life.",
+                "If you or your child has difficulty with breastfeeding, speech, eating, or tongue movement due to a tongue tie, consult Dr. Nikhil Angre at NFSC – Dr. Nikhil Face Surgical & Aesthetic Centre. We provide safe and effective tongue tie surgery to improve oral function and enhance quality of life."
               ],
             },
             {
               type: "text",
               heading: "Book Your Consultation Today",
               content: [
-                "Early diagnosis and treatment of tongue tie can improve feeding, speech, and overall oral function. Schedule your consultation with Dr. Nikhil Angre for expert evaluation and personalized treatment.",
+                "Early diagnosis and treatment of tongue tie can improve feeding, speech, and overall oral function. Schedule your consultation with Dr. Nikhil Angre for expert evaluation and personalized treatment."
               ],
-            },
-            {
-              type: "text",
-              heading: "SEO Keywords",
-              content: [
-                "Tongue Tie Surgery Kandivali, Lingual Frenectomy Mumbai, Ankyloglossia Treatment, Tongue Tie Release Baby, Frenotomy Cost Mumbai, Pediatric Tongue Tie Doctor, Dr. Nikhil Angre.",
-              ],
-            },
+            }
           ],
         },
-      },
+      }
     ],
     faqs: [
       {
@@ -5008,7 +4791,7 @@ export const treatmentsDetail = {
         question: "Will I need to stay in the hospital?",
         answer:
           "Major procedures like orthognathic surgery often require a brief hospital stay (1-2 days). Less invasive procedures may be performed on an outpatient basis.",
-      },
+      }
     ],
   },
 
@@ -5037,7 +4820,7 @@ export const treatmentsDetail = {
                 "Smile Designing is a comprehensive treatment plan that combines one or more cosmetic and restorative dental procedures to improve the appearance of your smile. It focuses on correcting the size, shape, color, alignment, and proportion of the teeth while ensuring healthy gums and proper bite function. Each treatment plan is customized according to the patient's facial profile, lip position, smile line, tooth proportions, and aesthetic goals.",
               content: [
                 "Tailored to correct tooth color, alignment, spacing, size, and proportions.",
-                "Designed based on facial profile, lip position, smile line, and patient goals.",
+                "Designed based on facial profile, lip position, smile line, and patient goals."
               ],
             },
             {
@@ -5055,7 +4838,7 @@ export const treatmentsDetail = {
                 "Missing teeth",
                 "Gummy smile",
                 "Uneven gum line",
-                "Old or damaged dental restorations",
+                "Old or damaged dental restorations"
               ],
               outro: "Whether you want a subtle enhancement or a complete smile transformation, smile designing can help achieve a more attractive and harmonious appearance.",
             },
@@ -5075,7 +4858,7 @@ export const treatmentsDetail = {
                 "Crown Lengthening",
                 "Tooth Reshaping (Enameloplasty)",
                 "Smile Correction After Trauma",
-                "Full Mouth Rehabilitation (when required)",
+                "Full Mouth Rehabilitation (when required)"
               ],
               outro: "A detailed evaluation helps determine the most suitable combination of treatments for your needs.",
             },
@@ -5092,7 +4875,7 @@ export const treatmentsDetail = {
                 "Improves bite and chewing function",
                 "Enhances self-confidence",
                 "Provides natural-looking, long-lasting results",
-                "Customized to your facial features",
+                "Customized to your facial features"
               ],
             },
             {
@@ -5107,7 +4890,7 @@ export const treatmentsDetail = {
                 "Bite Analysis",
                 "Digital X-rays",
                 "CBCT Scan (when required)",
-                "Treatment Planning",
+                "Treatment Planning"
               ],
               outro: "Digital planning allows patients to better understand the expected outcome before treatment begins.",
             },
@@ -5116,7 +4899,7 @@ export const treatmentsDetail = {
               heading: "Smile Designing Procedure",
               content: [
                 "The treatment process depends on the procedures included in your smile makeover. Some patients may achieve their desired results in a few appointments, while others may require staged treatment over several weeks or months.",
-                "Our approach prioritizes both aesthetics and long-term oral health to deliver a smile that looks natural and functions comfortably.",
+                "Our approach prioritizes both aesthetics and long-term oral health to deliver a smile that looks natural and functions comfortably."
               ],
             },
             {
@@ -5126,7 +4909,7 @@ export const treatmentsDetail = {
               intro: "The type of anesthesia depends on the procedures being performed. Dr. Nikhil Angre will recommend the most appropriate anesthesia based on your personalized treatment plan:",
               content: [
                 "Local Anesthesia - Most cosmetic dental procedures, including veneers, crowns, gum contouring, bonding, and implants, are comfortably performed under local anesthesia.",
-                "General Anesthesia - General anesthesia is rarely required but may be recommended for extensive full-mouth rehabilitation, multiple surgical procedures, medically complex patients, or individuals with severe dental anxiety.",
+                "General Anesthesia - General anesthesia is rarely required but may be recommended for extensive full-mouth rehabilitation, multiple surgical procedures, medically complex patients, or individuals with severe dental anxiety."
               ],
             },
             {
@@ -5134,7 +4917,7 @@ export const treatmentsDetail = {
               heading: "Recovery After Smile Designing",
               content: [
                 "Recovery varies depending on the treatment performed. Patients may experience mild sensitivity after teeth whitening, minor discomfort after gum procedures, temporary soreness following implant surgery, and minimal downtime for most cosmetic procedures.",
-                "Most patients return to normal daily activities immediately or within a few days. Maintaining good oral hygiene and regular dental check-ups helps preserve the results for many years.",
+                "Most patients return to normal daily activities immediately or within a few days. Maintaining good oral hygiene and regular dental check-ups helps preserve the results for many years."
               ],
             },
             {
@@ -5150,7 +4933,7 @@ export const treatmentsDetail = {
                 "Dental implant requirements",
                 "Orthodontic treatment (if needed)",
                 "Gum correction procedures",
-                "Full-mouth rehabilitation complexity",
+                "Full-mouth rehabilitation complexity"
               ],
             },
             {
@@ -5166,30 +4949,23 @@ export const treatmentsDetail = {
                 "Advanced Dental and Maxillofacial Techniques",
                 "Personalized Treatment Plans",
                 "Modern Clinical Infrastructure",
-                "Conveniently Located in Kandivali West, Mumbai",
+                "Conveniently Located in Kandivali West, Mumbai"
               ],
             },
             {
               type: "text",
               heading: "Best Smile Designing Clinic in Kandivali West, Mumbai",
               content: [
-                "If you are looking for Smile Designing in Kandivali West, Mumbai, consult Dr. Nikhil Angre at NFSC – Dr. Nikhil Face Surgical & Aesthetic Centre. Whether you want whiter teeth, veneers, dental implants, or a complete smile makeover, we offer personalized treatment plans to help you achieve a confident, natural-looking smile.",
+                "If you are looking for Smile Designing in Kandivali West, Mumbai, consult Dr. Nikhil Angre at NFSC – Dr. Nikhil Face Surgical & Aesthetic Centre. Whether you want whiter teeth, veneers, dental implants, or a complete smile makeover, we offer personalized treatment plans to help you achieve a confident, natural-looking smile."
               ],
             },
             {
               type: "text",
               heading: "Book Your Smile Designing Consultation Today",
               content: [
-                "Take the first step toward your dream smile with a customized Smile Designing Treatment at NFSC. Schedule your consultation with Dr. Nikhil Angre and discover how a personalized smile makeover can improve both your appearance and confidence.",
+                "Take the first step toward your dream smile with a customized Smile Designing Treatment at NFSC. Schedule your consultation with Dr. Nikhil Angre and discover how a personalized smile makeover can improve both your appearance and confidence."
               ],
-            },
-            {
-              type: "text",
-              heading: "SEO Keywords",
-              content: [
-                "Smile Designing Kandivali, Smile Makeover Mumbai, Cosmetic Dentistry Mumbai, Teeth Whitening Kandivali, Veneers Cost Mumbai, Best Dentist Kandivali, Custom Smile Correction, Dr. Nikhil Angre.",
-              ],
-            },
+            }
           ],
         },
       },
@@ -5210,7 +4986,7 @@ export const treatmentsDetail = {
               content: [
                 "Biocompatible titanium fixture acting as a tooth root.",
                 "Integrates directly with the jawbone (osseointegration) for stability.",
-                "Supports custom crowns, bridges, or dentures without altering adjacent teeth.",
+                "Supports custom crowns, bridges, or dentures without altering adjacent teeth."
               ],
             },
             {
@@ -5224,7 +5000,7 @@ export const treatmentsDetail = {
                 "Complete tooth loss",
                 "Loose or uncomfortable dentures",
                 "Broken or non-restorable teeth requiring extraction",
-                "Adequate jawbone or are candidates for bone augmentation procedures",
+                "Adequate jawbone or are candidates for bone augmentation procedures"
               ],
               outro: "A comprehensive evaluation, including digital imaging, is performed to determine your suitability for implant treatment.",
             },
@@ -5241,7 +5017,7 @@ export const treatmentsDetail = {
                 "Comfortable and stable",
                 "Long-lasting with proper care",
                 "Improves confidence and smile aesthetics",
-                "Does not require trimming adjacent healthy teeth",
+                "Does not require trimming adjacent healthy teeth"
               ],
             },
             {
@@ -5258,7 +5034,7 @@ export const treatmentsDetail = {
                 "Immediate Dental Implants (Selected Cases)",
                 "Immediate Loading Implants (Selected Cases)",
                 "Bone Grafting & Sinus Lift Procedures (When Required)",
-                "Zygomatic & Pterygoid Implants for Severe Bone Loss",
+                "Zygomatic & Pterygoid Implants for Severe Bone Loss"
               ],
               outro: "Each treatment plan is tailored to the patient's oral health, bone quality, and aesthetic goals.",
             },
@@ -5268,7 +5044,7 @@ export const treatmentsDetail = {
               content: [
                 "The treatment begins with a detailed consultation and diagnostic assessment, including clinical oral examination, digital dental X-rays, CBCT (3D Cone Beam CT Scan), bone quality assessment, and digital implant planning.",
                 "The implant is surgically placed into the jawbone under local anesthesia. After a healing period of approximately 3–6 months, during which the implant fuses with the bone (osseointegration), a custom-made crown or prosthesis is securely attached.",
-                "In selected patients with sufficient bone quality, immediate implant placement or same-day temporary teeth may be possible.",
+                "In selected patients with sufficient bone quality, immediate implant placement or same-day temporary teeth may be possible."
               ],
             },
             {
@@ -5276,7 +5052,7 @@ export const treatmentsDetail = {
               heading: "Recovery After Dental Implant Surgery",
               content: [
                 "Most patients experience mild swelling, minor discomfort, temporary tenderness, and minimal bleeding for the first 24 hours. Most individuals can resume normal daily activities within 1–2 days.",
-                "Following the recommended oral hygiene instructions and attending regular follow-up appointments are essential for long-term implant success.",
+                "Following the recommended oral hygiene instructions and attending regular follow-up appointments are essential for long-term implant success."
               ],
             },
             {
@@ -5292,7 +5068,7 @@ export const treatmentsDetail = {
                 "Need for bone grafting or sinus lift",
                 "Type of crown or prosthesis",
                 "Complexity of the case",
-                "Additional surgical procedures, if required",
+                "Additional surgical procedures, if required"
               ],
             },
             {
@@ -5308,30 +5084,23 @@ export const treatmentsDetail = {
                 "Customized Treatment Plans",
                 "High-Quality Implant Systems",
                 "Comprehensive Bone Reconstruction Solutions",
-                "State-of-the-Art Facility in Kandivali West, Mumbai",
+                "State-of-the-Art Facility in Kandivali West, Mumbai"
               ],
             },
             {
               type: "text",
               heading: "Best Dental Implant Clinic in Kandivali West, Mumbai",
               content: [
-                "If you are looking for Dental Implants in Kandivali West, Mumbai, consult Dr. Nikhil Angre at NFSC – Dr. Nikhil Face Surgical & Aesthetic Centre. We provide advanced implant dentistry to restore missing teeth with stable, functional, and natural-looking results, helping you regain your smile and confidence.",
+                "If you are looking for Dental Implants in Kandivali West, Mumbai, consult Dr. Nikhil Angre at NFSC – Dr. Nikhil Face Surgical & Aesthetic Centre. We provide advanced implant dentistry to restore missing teeth with stable, functional, and natural-looking results, helping you regain your smile and confidence."
               ],
             },
             {
               type: "text",
               heading: "Book Your Dental Implant Consultation Today",
               content: [
-                "Replace missing teeth with a permanent, reliable solution. Schedule your consultation with Dr. Nikhil Angre to learn how Dental Implants can restore your smile, improve oral function, and enhance your quality of life.",
+                "Replace missing teeth with a permanent, reliable solution. Schedule your consultation with Dr. Nikhil Angre to learn how Dental Implants can restore your smile, improve oral function, and enhance your quality of life."
               ],
-            },
-            {
-              type: "text",
-              heading: "SEO Keywords",
-              content: [
-                "Dental Implants Kandivali, Permanent Tooth Replacement Mumbai, Best Dental Implant Clinic, Tooth Implant Cost Mumbai, Single Tooth Implant, Full Mouth Dental Implants, Osseointegrated Implants, Dr. Nikhil Angre.",
-              ],
-            },
+            }
           ],
         },
       },
@@ -5351,7 +5120,7 @@ export const treatmentsDetail = {
                 "Orthodontic treatment uses braces or clear aligners to gradually move teeth into their ideal position. Properly aligned teeth improve your smile, make oral hygiene easier, enhance chewing efficiency, and reduce the risk of future dental problems. Key options include:",
               content: [
                 "Clear Aligners - Transparent, removable trays that gently shift teeth into alignment. They are comfortable, nearly invisible, and allow you to eat and brush your teeth without restrictions.",
-                "Dental Braces - Brackets and wires used to move teeth into proper alignment. Highly effective for treating mild to complex orthodontic problems and achieving a beautiful smile.",
+                "Dental Braces - Brackets and wires used to move teeth into proper alignment. Highly effective for treating mild to complex orthodontic problems and achieving a beautiful smile."
               ],
             },
             {
@@ -5367,7 +5136,7 @@ export const treatmentsDetail = {
                 "Protruding front teeth",
                 "Misaligned teeth",
                 "Mild jaw alignment problems",
-                "Relapse after previous orthodontic treatment",
+                "Relapse after previous orthodontic treatment"
               ],
               outro: "Early orthodontic evaluation can also help guide jaw growth and tooth eruption in children.",
             },
@@ -5383,7 +5152,7 @@ export const treatmentsDetail = {
                 "Reduced risk of tooth decay and gum disease",
                 "Improved speech and chewing",
                 "Increased self-confidence",
-                "Long-lasting results with proper retention",
+                "Long-lasting results with proper retention"
               ],
             },
             {
@@ -5398,7 +5167,7 @@ export const treatmentsDetail = {
                 "Self-Ligating Braces",
                 "Retainers",
                 "Orthodontic Correction Before Jaw Surgery",
-                "Comprehensive Smile Makeover Planning",
+                "Comprehensive Smile Makeover Planning"
               ],
               outro: "The choice of treatment depends on the severity of the orthodontic problem, age, treatment goals, and patient preference.",
             },
@@ -5412,7 +5181,7 @@ export const treatmentsDetail = {
                 "Teenagers requiring orthodontic correction",
                 "Adults seeking cosmetic smile improvement",
                 "Patients preparing for smile designing",
-                "Patients requiring orthodontics before orthognathic (jaw correction) surgery",
+                "Patients requiring orthodontics before orthognathic (jaw correction) surgery"
               ],
               outro: "A detailed orthodontic assessment helps determine the most appropriate treatment plan.",
             },
@@ -5421,7 +5190,7 @@ export const treatmentsDetail = {
               heading: "Treatment Process",
               content: [
                 "Orthodontic treatment begins with a comprehensive evaluation including clinical examination, digital smile analysis, dental X-rays, CBCT scan (when required), digital intraoral scanning, and custom treatment planning.",
-                "Clear aligners are fabricated using advanced digital technology, while braces are carefully adjusted during regular follow-up visits to guide tooth movement. Treatment duration typically ranges from 6 to 24 months, depending on the complexity of the case.",
+                "Clear aligners are fabricated using advanced digital technology, while braces are carefully adjusted during regular follow-up visits to guide tooth movement. Treatment duration typically ranges from 6 to 24 months, depending on the complexity of the case."
               ],
             },
             {
@@ -5429,7 +5198,7 @@ export const treatmentsDetail = {
               heading: "Recovery & Aftercare",
               content: [
                 "Patients may experience mild discomfort or pressure during the first few days after receiving aligners or after brace adjustments. This is temporary and indicates that the teeth are moving as planned.",
-                "Maintaining excellent oral hygiene, attending regular appointments, and following treatment instructions are essential for achieving the best results. After treatment, retainers are recommended to help maintain the new tooth positions.",
+                "Maintaining excellent oral hygiene, attending regular appointments, and following treatment instructions are essential for achieving the best results. After treatment, retainers are recommended to help maintain the new tooth positions."
               ],
             },
             {
@@ -5445,7 +5214,7 @@ export const treatmentsDetail = {
                 "Brand of clear aligners",
                 "Number of aligner trays required",
                 "Additional orthodontic procedures",
-                "Retainers and follow-up care",
+                "Retainers and follow-up care"
               ],
             },
             {
@@ -5460,30 +5229,23 @@ export const treatmentsDetail = {
                 "Multidisciplinary Dental & Maxillofacial Care",
                 "Personalized Smile Makeover Solutions",
                 "Comfortable and Patient-Centered Care",
-                "Modern Dental Facility in Kandivali West, Mumbai",
+                "Modern Dental Facility in Kandivali West, Mumbai"
               ],
             },
             {
               type: "text",
               heading: "Best Aligners & Braces Clinic in Kandivali West, Mumbai",
               content: [
-                "If you are looking for Clear Aligners or Braces in Kandivali West, Mumbai, visit NFSC – Dr. Nikhil Face Surgical & Aesthetic Centre. Whether you need orthodontic treatment for cosmetic reasons or to correct bite problems, our personalized treatment plans are designed to help you achieve a healthy, confident, and beautifully aligned smile.",
+                "If you are looking for Clear Aligners or Braces in Kandivali West, Mumbai, visit NFSC – Dr. Nikhil Face Surgical & Aesthetic Centre. Whether you need orthodontic treatment for cosmetic reasons or to correct bite problems, our personalized treatment plans are designed to help you achieve a healthy, confident, and beautifully aligned smile."
               ],
             },
             {
               type: "text",
               heading: "Book Your Orthodontic Consultation Today",
               content: [
-                "Start your journey toward a straighter smile with advanced Aligners & Braces Treatment at NFSC. Schedule your consultation today to explore the best orthodontic solution for your needs and achieve lasting results.",
+                "Start your journey toward a straighter smile with advanced Aligners & Braces Treatment at NFSC. Schedule your consultation today to explore the best orthodontic solution for your needs and achieve lasting results."
               ],
-            },
-            {
-              type: "text",
-              heading: "SEO Keywords",
-              content: [
-                "Clear Aligners Kandivali, Dental Braces Mumbai, Invisible Braces Cost, Orthodontic Treatment Kandivali, Ceramic Braces, Underbite Correction, Teeth Straightening Mumbai, Dr. Nikhil Angre.",
-              ],
-            },
+            }
           ],
         },
       },
@@ -5504,7 +5266,7 @@ export const treatmentsDetail = {
               content: [
                 "Extraction of third molars that are impacted, infected, or decayed.",
                 "Can involve simple extraction or surgical extraction under gum tissue.",
-                "Prevents damage to adjacent teeth and bone loss.",
+                "Prevents damage to adjacent teeth and bone loss."
               ],
             },
             {
@@ -5523,7 +5285,7 @@ export const treatmentsDetail = {
                 "Crowding of teeth",
                 "Difficulty opening the mouth",
                 "Food trapping around the wisdom tooth",
-                "Orthodontic treatment requiring removal",
+                "Orthodontic treatment requiring removal"
               ],
               outro: "Not all wisdom teeth need to be removed. A thorough clinical examination and digital imaging help determine whether extraction is necessary.",
             },
@@ -5538,7 +5300,7 @@ export const treatmentsDetail = {
                 "Vertical Impaction",
                 "Distoangular Impaction",
                 "Soft Tissue Impaction",
-                "Complete Bony Impaction",
+                "Complete Bony Impaction"
               ],
               outro: "The complexity of surgery depends on the position of the tooth and its relationship to surrounding structures.",
             },
@@ -5554,7 +5316,7 @@ export const treatmentsDetail = {
                 "Prevents gum disease around impacted teeth",
                 "Improves oral hygiene",
                 "Prevents food trapping",
-                "Supports long-term dental health",
+                "Supports long-term dental health"
               ],
             },
             {
@@ -5566,7 +5328,7 @@ export const treatmentsDetail = {
                 "Clinical Oral Examination",
                 "Digital Dental X-rays",
                 "OPG (Orthopantomogram)",
-                "CBCT Scan (for complex or high-risk cases)",
+                "CBCT Scan (for complex or high-risk cases)"
               ],
               outro: "These investigations help assess the position of the wisdom tooth, root anatomy, and proximity to important nerves and sinuses.",
             },
@@ -5576,7 +5338,7 @@ export const treatmentsDetail = {
               content: [
                 "Most wisdom tooth extractions are performed under local anesthesia, ensuring a comfortable and pain-free experience. For impacted teeth, a small incision may be made in the gum, and the tooth may be sectioned into smaller pieces for safe removal.",
                 "The procedure generally takes 20 to 60 minutes, depending on the complexity of the case.",
-                "In selected patients with multiple impacted teeth, severe anxiety, or complex surgical needs, sedation or general anesthesia may be considered.",
+                "In selected patients with multiple impacted teeth, severe anxiety, or complex surgical needs, sedation or general anesthesia may be considered."
               ],
             },
             {
@@ -5585,7 +5347,7 @@ export const treatmentsDetail = {
               content: [
                 "Recovery is usually straightforward. Patients may experience mild pain or discomfort, swelling for 2–3 days, temporary difficulty opening the mouth, and minor bleeding during the first 24 hours.",
                 "Most patients return to normal daily activities within 2–3 days, while complete healing of the extraction site occurs over several weeks.",
-                "Following post-operative instructions, maintaining oral hygiene, and attending follow-up appointments help ensure smooth healing.",
+                "Following post-operative instructions, maintaining oral hygiene, and attending follow-up appointments help ensure smooth healing."
               ],
             },
             {
@@ -5601,7 +5363,7 @@ export const treatmentsDetail = {
                 "Need for CBCT imaging",
                 "Type of anesthesia",
                 "Surgical difficulty",
-                "Post-operative care",
+                "Post-operative care"
               ],
             },
             {
@@ -5616,30 +5378,23 @@ export const treatmentsDetail = {
                 "Minimally Invasive Surgical Techniques",
                 "Comfortable and Safe Treatment",
                 "Personalized Post-Operative Care",
-                "Modern Surgical Facility in Kandivali West, Mumbai",
+                "Modern Surgical Facility in Kandivali West, Mumbai"
               ],
             },
             {
               type: "text",
               heading: "Best Wisdom Tooth Removal Clinic in Kandivali West, Mumbai",
               content: [
-                "If you are experiencing wisdom tooth pain, swelling, infection, or an impacted wisdom tooth, consult Dr. Nikhil Angre at NFSC – Dr. Nikhil Face Surgical & Aesthetic Centre. We provide safe, effective, and comfortable wisdom tooth removal to relieve pain, prevent complications, and restore your oral health.",
+                "If you are experiencing wisdom tooth pain, swelling, infection, or an impacted wisdom tooth, consult Dr. Nikhil Angre at NFSC – Dr. Nikhil Face Surgical & Aesthetic Centre. We provide safe, effective, and comfortable wisdom tooth removal to relieve pain, prevent complications, and restore your oral health."
               ],
             },
             {
               type: "text",
               heading: "Book Your Consultation Today",
               content: [
-                "Don't ignore persistent wisdom tooth pain or swelling. Early treatment can prevent serious dental complications. Schedule your consultation with Dr. Nikhil Angre for expert evaluation and painless wisdom tooth removal.",
+                "Don't ignore persistent wisdom tooth pain or swelling. Early treatment can prevent serious dental complications. Schedule your consultation with Dr. Nikhil Angre for expert evaluation and painless wisdom tooth removal."
               ],
-            },
-            {
-              type: "text",
-              heading: "SEO Keywords",
-              content: [
-                "Wisdom Tooth Removal Kandivali, Impacted Wisdom Tooth Extraction Mumbai, Wisdom Tooth Pain, Tooth Extraction Cost Mumbai, Oral Surgeon Kandivali, Wisdom Tooth Infection, Dr. Nikhil Angre.",
-              ],
-            },
+            }
           ],
         },
       },
@@ -5658,7 +5413,7 @@ export const treatmentsDetail = {
               intro: "Veneers and laminates are designed to provide a natural-looking, durable, and long-lasting smile makeover:",
               content: [
                 "Dental Veneers - Thin, custom-made shells crafted from porcelain or high-quality composite materials that are bonded to the front surface of the teeth to improve their appearance.",
-                "Dental Laminates - Ultra-thin porcelain veneers that require minimal or no tooth preparation in suitable cases, preserving more of the natural tooth structure while delivering excellent aesthetic results.",
+                "Dental Laminates - Ultra-thin porcelain veneers that require minimal or no tooth preparation in suitable cases, preserving more of the natural tooth structure while delivering excellent aesthetic results."
               ],
             },
             {
@@ -5675,7 +5430,7 @@ export const treatmentsDetail = {
                 "Mildly crooked teeth",
                 "Irregular smile line",
                 "Old, unattractive fillings",
-                "Teeth that do not respond to whitening treatments",
+                "Teeth that do not respond to whitening treatments"
               ],
               outro: "A detailed consultation helps determine whether veneers, laminates, or another cosmetic treatment is best suited to your needs.",
             },
@@ -5692,7 +5447,7 @@ export const treatmentsDetail = {
                 "Minimally invasive treatment",
                 "Stain-resistant porcelain options",
                 "Long-lasting aesthetic results",
-                "Boosts confidence and facial aesthetics",
+                "Boosts confidence and facial aesthetics"
               ],
             },
             {
@@ -5705,7 +5460,7 @@ export const treatmentsDetail = {
                 "Ceramic Veneers",
                 "Composite Veneers",
                 "Ultra-Thin Dental Laminates",
-                "Minimal Preparation Veneers",
+                "Minimal Preparation Veneers"
               ],
               outro: "The most suitable option is selected based on your smile goals, tooth condition, and budget.",
             },
@@ -5721,7 +5476,7 @@ export const treatmentsDetail = {
                 "Bite Assessment",
                 "Digital X-rays (when required)",
                 "Shade Selection",
-                "Customized Smile Design",
+                "Customized Smile Design"
               ],
               outro: "Our treatment planning focuses on creating a smile that complements your facial features while maintaining optimal oral health.",
             },
@@ -5730,7 +5485,7 @@ export const treatmentsDetail = {
               heading: "Veneers & Laminates Procedure",
               content: [
                 "The treatment process usually involves a smile consultation and planning, followed by minimal or no tooth preparation (for laminates in selected cases).",
-                "Digital impressions are then taken, custom veneers are fabricated in the laboratory, a trial fitting is performed, and finally they are bonded using advanced adhesive techniques. The entire procedure is generally completed in 2–3 appointments, depending on the complexity of the case.",
+                "Digital impressions are then taken, custom veneers are fabricated in the laboratory, a trial fitting is performed, and finally they are bonded using advanced adhesive techniques. The entire procedure is generally completed in 2–3 appointments, depending on the complexity of the case."
               ],
             },
             {
@@ -5738,7 +5493,7 @@ export const treatmentsDetail = {
               heading: "Recovery After Treatment",
               content: [
                 "Recovery is minimal, and most patients return to their normal routine immediately after the procedure. Patients are advised to maintain excellent oral hygiene, avoid biting very hard objects with veneered teeth, and visit for regular dental check-ups.",
-                "Using a night guard is also recommended if teeth grinding is present. With proper care, porcelain veneers can last for many years.",
+                "Using a night guard is also recommended if teeth grinding is present. With proper care, porcelain veneers can last for many years."
               ],
             },
             {
@@ -5753,7 +5508,7 @@ export const treatmentsDetail = {
                 "Number of teeth treated",
                 "Complexity of smile design",
                 "Laboratory fabrication",
-                "Additional cosmetic procedures, if required",
+                "Additional cosmetic procedures, if required"
               ],
             },
             {
@@ -5768,30 +5523,23 @@ export const treatmentsDetail = {
                 "Natural-Looking Results",
                 "Personalized Treatment Plans",
                 "Comfortable and Modern Dental Care",
-                "State-of-the-Art Facility in Kandivali West, Mumbai",
+                "State-of-the-Art Facility in Kandivali West, Mumbai"
               ],
             },
             {
               type: "text",
               heading: "Best Dental Veneers Clinic in Kandivali West, Mumbai",
               content: [
-                "If you are looking for Dental Veneers, Porcelain Veneers, Ceramic Veneers, or Dental Laminates in Kandivali West, Mumbai, visit NFSC – Dr. Nikhil Face Surgical & Aesthetic Centre. We provide personalized smile makeover treatments designed to enhance your smile naturally while preserving healthy tooth structure.",
+                "If you are looking for Dental Veneers, Porcelain Veneers, Ceramic Veneers, or Dental Laminates in Kandivali West, Mumbai, visit NFSC – Dr. Nikhil Face Surgical & Aesthetic Centre. We provide personalized smile makeover treatments designed to enhance your smile naturally while preserving healthy tooth structure."
               ],
             },
             {
               type: "text",
               heading: "Book Your Smile Makeover Consultation Today",
               content: [
-                "Transform your smile with beautifully crafted Dental Veneers & Laminates. Schedule your consultation at NFSC – Dr. Nikhil Face Surgical & Aesthetic Centre to discover the best cosmetic dental solution for achieving a confident, radiant smile.",
+                "Transform your smile with beautifully crafted Dental Veneers & Laminates. Schedule your consultation at NFSC – Dr. Nikhil Face Surgical & Aesthetic Centre to discover the best cosmetic dental solution for achieving a confident, radiant smile."
               ],
-            },
-            {
-              type: "text",
-              heading: "SEO Keywords",
-              content: [
-                "Dental Veneers Kandivali, Porcelain Veneers Mumbai, Dental Laminates Cost, Hollywood Smile Makeover, Ceramic Veneers Kandivali, Composite Veneers Mumbai, Smile Correction, Dr. Nikhil Angre.",
-              ],
-            },
+            }
           ],
         },
       },
@@ -5813,7 +5561,7 @@ export const treatmentsDetail = {
               content: [
                 "Removes infected or damaged pulp tissue.",
                 "Disinfects and seals the root canal space to prevent re-infection.",
-                "Preserves your natural tooth structure and avoids extraction.",
+                "Preserves your natural tooth structure and avoids extraction."
               ],
             },
             {
@@ -5830,7 +5578,7 @@ export const treatmentsDetail = {
                 "Swollen or tender gums",
                 "Tooth discoloration due to nerve damage",
                 "Cracked or fractured tooth involving the pulp",
-                "Infection following dental trauma",
+                "Infection following dental trauma"
               ],
               outro: "Early treatment can prevent the spread of infection and save the affected tooth.",
             },
@@ -5847,7 +5595,7 @@ export const treatmentsDetail = {
                 "Preserves jawbone health",
                 "Prevents infection from spreading",
                 "Long-lasting results with proper restoration",
-                "Restores oral health and comfort",
+                "Restores oral health and comfort"
               ],
             },
             {
@@ -5860,7 +5608,7 @@ export const treatmentsDetail = {
                 "Local anesthesia for a completely pain-free procedure.",
                 "Removal of infected pulp tissue, followed by cleaning and shaping of the root canals.",
                 "Thorough disinfection and filling/sealing with a biocompatible material.",
-                "Placement of a permanent filling or a dental crown.",
+                "Placement of a permanent filling or a dental crown."
               ],
               outro: "Most root canal treatments are completed in one or two appointments, depending on the severity of the infection.",
             },
@@ -5869,7 +5617,7 @@ export const treatmentsDetail = {
               heading: "Is Root Canal Treatment Painful?",
               content: [
                 "Modern Root Canal Treatment is performed under local anesthesia, making the procedure comfortable and virtually painless. Most patients experience immediate relief from the pain caused by infection once treatment is completed.",
-                "Mild tenderness for a few days after the procedure is normal and usually resolves with prescribed medication.",
+                "Mild tenderness for a few days after the procedure is normal and usually resolves with prescribed medication."
               ],
             },
             {
@@ -5877,7 +5625,7 @@ export const treatmentsDetail = {
               heading: "Recovery After Root Canal Treatment",
               content: [
                 "Recovery is generally quick. Patients are advised to avoid chewing on the treated tooth until the final restoration (like a crown) is completed, maintain good oral hygiene, brush and floss regularly, and attend follow-up appointments.",
-                "Most patients return to their normal routine on the same day or the following day.",
+                "Most patients return to their normal routine on the same day or the following day."
               ],
             },
             {
@@ -5892,7 +5640,7 @@ export const treatmentsDetail = {
                 "Front tooth, premolar, or molar treatment",
                 "Need for re-root canal (Retreatment)",
                 "Requirement for a dental crown",
-                "Diagnostic X-rays and additional procedures",
+                "Diagnostic X-rays and additional procedures"
               ],
             },
             {
@@ -5907,30 +5655,23 @@ export const treatmentsDetail = {
                 "Personalized Treatment Plans",
                 "High Standards of Sterilization",
                 "Comfortable Patient Experience",
-                "Conveniently Located in Kandivali West, Mumbai",
+                "Conveniently Located in Kandivali West, Mumbai"
               ],
             },
             {
               type: "text",
               heading: "Best Root Canal Treatment in Kandivali West, Mumbai",
               content: [
-                "If you are suffering from tooth pain, deep cavities, or dental infection, visit NFSC – Dr. Nikhil Face Surgical & Aesthetic Centre for expert Root Canal Treatment. Our advanced techniques help preserve your natural teeth while relieving pain and restoring normal function.",
+                "If you are suffering from tooth pain, deep cavities, or dental infection, visit NFSC – Dr. Nikhil Face Surgical & Aesthetic Centre for expert Root Canal Treatment. Our advanced techniques help preserve your natural teeth while relieving pain and restoring normal function."
               ],
             },
             {
               type: "text",
               heading: "Book Your Root Canal Consultation Today",
               content: [
-                "Don't let tooth pain affect your daily life. Early treatment can save your natural tooth and prevent more extensive dental procedures. Schedule your consultation at NFSC – Dr. Nikhil Face Surgical & Aesthetic Centre for safe, effective, and painless Root Canal Treatment.",
+                "Don't let tooth pain affect your daily life. Early treatment can save your natural tooth and prevent more extensive dental procedures. Schedule your consultation at NFSC – Dr. Nikhil Face Surgical & Aesthetic Centre for safe, effective, and painless Root Canal Treatment."
               ],
-            },
-            {
-              type: "text",
-              heading: "SEO Keywords",
-              content: [
-                "Root Canal Treatment Kandivali, Painless RCT Mumbai, Endodontist Kandivali, Root Canal Cost Mumbai, Single Sitting RCT, Save Natural Tooth, Dental Abscess Treatment, Dr. Nikhil Angre.",
-              ],
-            },
+            }
           ],
         },
       },
@@ -5949,7 +5690,7 @@ export const treatmentsDetail = {
               intro: "Dental crowns and bridges are key elements of restorative dental care:",
               content: [
                 "Dental Crown (Tooth Cap) - Custom-made restoration covering a damaged or weakened tooth to restore its shape, strength, size, appearance, and protect it from further damage. Commonly recommended after Root Canal Treatment (RCT), large fillings, fractures, or cosmetic enhancements.",
-                "Dental Bridge - Fixed prosthesis used to replace one or more missing teeth. It consists of artificial teeth (pontics) supported by crowns placed on adjacent natural teeth or dental implants.",
+                "Dental Bridge - Fixed prosthesis used to replace one or more missing teeth. It consists of artificial teeth (pontics) supported by crowns placed on adjacent natural teeth or dental implants."
               ],
             },
             {
@@ -5963,7 +5704,7 @@ export const treatmentsDetail = {
                 "Porcelain-Fused-to-Metal (PFM) Crowns",
                 "Metal Crowns",
                 "E-Max (Lithium Disilicate) Crowns",
-                "Implant-Supported Crowns",
+                "Implant-Supported Crowns"
               ],
             },
             {
@@ -5976,7 +5717,7 @@ export const treatmentsDetail = {
                 "Cantilever Bridges",
                 "Maryland Bridges",
                 "Implant-Supported Bridges",
-                "Full-Arch Fixed Bridges",
+                "Full-Arch Fixed Bridges"
               ],
             },
             {
@@ -5992,7 +5733,7 @@ export const treatmentsDetail = {
                 "Worn-down teeth",
                 "Weak or cracked teeth",
                 "Cosmetic smile correction",
-                "Replacement of old or damaged crowns and bridges",
+                "Replacement of old or damaged crowns and bridges"
               ],
               outro: "A thorough clinical examination and digital X-rays help determine the most appropriate restorative solution.",
             },
@@ -6009,7 +5750,7 @@ export const treatmentsDetail = {
                 "Strengthens weakened teeth",
                 "Prevents teeth from shifting",
                 "Long-lasting and durable",
-                "Improves overall smile and confidence",
+                "Improves overall smile and confidence"
               ],
             },
             {
@@ -6022,7 +5763,7 @@ export const treatmentsDetail = {
                 "Tooth preparation and shade matching.",
                 "Digital or conventional impressions.",
                 "Fabrication of custom crown or bridge in the lab.",
-                "Trial fitting and final cementation.",
+                "Trial fitting and final cementation."
               ],
             },
             {
@@ -6030,7 +5771,7 @@ export const treatmentsDetail = {
               heading: "Recovery After Treatment",
               content: [
                 "Recovery is usually minimal. Patients may experience mild sensitivity or minor gum tenderness for a few days, along with a temporary adjustment period to the new bite.",
-                "Most individuals resume normal eating and daily activities immediately after crown or bridge placement. Maintaining good oral hygiene and regular dental check-ups helps maximize the lifespan of your restoration.",
+                "Most individuals resume normal eating and daily activities immediately after crown or bridge placement. Maintaining good oral hygiene and regular dental check-ups helps maximize the lifespan of your restoration."
               ],
             },
             {
@@ -6045,7 +5786,7 @@ export const treatmentsDetail = {
                 "Number of teeth involved",
                 "Laboratory charges",
                 "Tooth preparation requirements",
-                "Implant-supported restorations (if applicable)",
+                "Implant-supported restorations (if applicable)"
               ],
             },
             {
@@ -6060,30 +5801,23 @@ export const treatmentsDetail = {
                 "Durable and Natural-Looking Results",
                 "Personalized Treatment Plans",
                 "Comfortable Patient Care",
-                "Modern Dental Facility in Kandivali West, Mumbai",
+                "Modern Dental Facility in Kandivali West, Mumbai"
               ],
             },
             {
               type: "text",
               heading: "Best Dental Crown & Bridge Clinic in Kandivali West, Mumbai",
               content: [
-                "If you are looking for Dental Crowns, Tooth Caps, Zirconia Crowns, Ceramic Crowns, or Dental Bridges in Kandivali West, Mumbai, visit NFSC – Dr. Nikhil Face Surgical & Aesthetic Centre. We provide advanced restorative dentistry solutions to restore damaged or missing teeth with strong, aesthetic, and long-lasting restorations.",
+                "If you are looking for Dental Crowns, Tooth Caps, Zirconia Crowns, Ceramic Crowns, or Dental Bridges in Kandivali West, Mumbai, visit NFSC – Dr. Nikhil Face Surgical & Aesthetic Centre. We provide advanced restorative dentistry solutions to restore damaged or missing teeth with strong, aesthetic, and long-lasting restorations."
               ],
             },
             {
               type: "text",
               heading: "Book Your Consultation Today",
               content: [
-                "Restore your smile, confidence, and chewing ability with expertly crafted Dental Crowns & Bridges. Schedule your consultation at NFSC – Dr. Nikhil Face Surgical & Aesthetic Centre and discover the best restorative treatment for your dental needs.",
+                "Restore your smile, confidence, and chewing ability with expertly crafted Dental Crowns & Bridges. Schedule your consultation at NFSC – Dr. Nikhil Face Surgical & Aesthetic Centre and discover the best restorative treatment for your dental needs."
               ],
-            },
-            {
-              type: "text",
-              heading: "SEO Keywords",
-              content: [
-                "Dental Crown Kandivali, Tooth Cap Cost Mumbai, Zirconia Crown Mumbai, Dental Bridge Kandivali, Ceramic Crown Price, Tooth Restoration, Missing Tooth Replacement, Dr. Nikhil Angre.",
-              ],
-            },
+            }
           ],
         },
       },
@@ -6104,7 +5838,7 @@ export const treatmentsDetail = {
               content: [
                 "Targets gum inflammation (gingivitis) and bone-resorbing infection (periodontitis).",
                 "Non-surgical scaling and root planing to remove plaque, calculus, and bacteria.",
-                "Surgical techniques to manage deep pockets, recessions, and bone loss.",
+                "Surgical techniques to manage deep pockets, recessions, and bone loss."
               ],
             },
             {
@@ -6121,7 +5855,7 @@ export const treatmentsDetail = {
                 "Pain while chewing",
                 "Pus discharge around the gums",
                 "Tooth sensitivity due to exposed roots",
-                "Spaces developing between teeth",
+                "Spaces developing between teeth"
               ],
               outro: "Early diagnosis greatly improves treatment outcomes and helps prevent permanent damage.",
             },
@@ -6138,7 +5872,7 @@ export const treatmentsDetail = {
                 "Bleeding Gums",
                 "Bone Loss Around Teeth",
                 "Peri-Implant Mucositis & Peri-Implantitis",
-                "Chronic Bad Breath Related to Gum Disease",
+                "Chronic Bad Breath Related to Gum Disease"
               ],
             },
             {
@@ -6154,7 +5888,7 @@ export const treatmentsDetail = {
                 "Periodontal Maintenance Therapy",
                 "Local Antimicrobial Therapy",
                 "Laser-Assisted Gum Therapy (where available)",
-                "Minor Periodontal Surgical Procedures (when indicated)",
+                "Minor Periodontal Surgical Procedures (when indicated)"
               ],
               outro: "Each treatment plan is tailored to the patient's clinical condition and oral health needs.",
             },
@@ -6171,7 +5905,7 @@ export const treatmentsDetail = {
                 "Protects the supporting bone",
                 "Improves oral hygiene",
                 "Enhances overall oral health",
-                "Supports long-term success of dental implants and restorations",
+                "Supports long-term success of dental implants and restorations"
               ],
             },
             {
@@ -6185,7 +5919,7 @@ export const treatmentsDetail = {
                 "Dental X-rays",
                 "Digital Periodontal Charting",
                 "Evaluation of Bone Loss",
-                "Oral Hygiene Assessment",
+                "Oral Hygiene Assessment"
               ],
               outro: "This detailed examination helps determine the stage of gum disease and the most appropriate treatment plan.",
             },
@@ -6194,7 +5928,7 @@ export const treatmentsDetail = {
               heading: "Recovery After Periodontal Therapy",
               content: [
                 "Recovery depends on the type of treatment performed. Patients may experience mild gum sensitivity, temporary bleeding, and minor soreness. Gums typically feel healthier within a few days.",
-                "Most patients can return to normal activities immediately after non-surgical treatment. Maintaining good oral hygiene, regular professional cleaning, and periodic follow-up visits are essential for preventing recurrence.",
+                "Most patients can return to normal activities immediately after non-surgical treatment. Maintaining good oral hygiene, regular professional cleaning, and periodic follow-up visits are essential for preventing recurrence."
               ],
             },
             {
@@ -6209,7 +5943,7 @@ export const treatmentsDetail = {
                 "Type of periodontal procedure",
                 "Need for deep cleaning or surgical therapy",
                 "Number of treatment sessions",
-                "Follow-up periodontal maintenance",
+                "Follow-up periodontal maintenance"
               ],
             },
             {
@@ -6224,33 +5958,26 @@ export const treatmentsDetail = {
                 "Advanced Diagnostic Technology",
                 "Focus on Long-Term Oral Health",
                 "Preventive and Maintenance Care",
-                "Modern Dental Facility in Kandivali West, Mumbai",
+                "Modern Dental Facility in Kandivali West, Mumbai"
               ],
             },
             {
               type: "text",
               heading: "Best Gum Disease Treatment in Kandivali West, Mumbai",
               content: [
-                "If you have bleeding gums, gum recession, bad breath, loose teeth, or signs of gum infection, visit NFSC – Dr. Nikhil Face Surgical & Aesthetic Centre for expert Periodontal Therapy. Our gum care treatments are designed to restore healthy gums, preserve your natural teeth, and improve overall oral health.",
+                "If you have bleeding gums, gum recession, bad breath, loose teeth, or signs of gum infection, visit NFSC – Dr. Nikhil Face Surgical & Aesthetic Centre for expert Periodontal Therapy. Our gum care treatments are designed to restore healthy gums, preserve your natural teeth, and improve overall oral health."
               ],
             },
             {
               type: "text",
               heading: "Book Your Consultation Today",
               content: [
-                "Healthy gums are essential for a healthy smile. Schedule your consultation at NFSC – Dr. Nikhil Face Surgical & Aesthetic Centre to receive expert periodontal care and protect your teeth for years to come.",
+                "Healthy gums are essential for a healthy smile. Schedule your consultation at NFSC – Dr. Nikhil Face Surgical & Aesthetic Centre to receive expert periodontal care and protect your teeth for years to come."
               ],
-            },
-            {
-              type: "text",
-              heading: "SEO Keywords",
-              content: [
-                "Periodontal Therapy Kandivali, Gum Disease Treatment Mumbai, Scaling and Root Planing, Bleeding Gums Treatment, Gum Infection Doctor, Deep Cleaning Cost Mumbai, Periodontist Kandivali, Dr. Nikhil Angre.",
-              ],
-            },
+            }
           ],
         },
-      },
+      }
 
     ],
     faqs: [
@@ -6263,7 +5990,7 @@ export const treatmentsDetail = {
         question: "How long does a teeth whitening treatment take?",
         answer:
           "In-clinic teeth whitening usually takes about 60 to 90 minutes and provides immediate, noticeable results.",
-      },
+      }
     ],
   },
 
@@ -6293,7 +6020,7 @@ export const treatmentsDetail = {
               content: [
                 "Blocked follicles with dead skin cells and excess sebum.",
                 "Bacterial proliferation leading to inflammation.",
-                "Can cause long-term scarring and post-inflammatory pigmentation if left untreated.",
+                "Can cause long-term scarring and post-inflammatory pigmentation if left untreated."
               ],
             },
             {
@@ -6305,7 +6032,7 @@ export const treatmentsDetail = {
                 "Whiteheads & Blackheads (Comedonal Acne)",
                 "Papules & Pustules (Inflammatory Acne)",
                 "Nodular & Cystic Acne (Severe Acne)",
-                "Hormonal Acne & Adult Acne",
+                "Hormonal Acne & Adult Acne"
               ],
               outro: "A detailed skin assessment helps identify the underlying cause and determine the most effective treatment.",
             },
@@ -6321,7 +6048,7 @@ export const treatmentsDetail = {
                 "Rolling Scars (shallow, wave-like depressions)",
                 "Atrophic Scars (flat, thin scars)",
                 "Hypertrophic Scars (thick, raised scars)",
-                "Post-Acne Pigmentation (dark or red spots)",
+                "Post-Acne Pigmentation (dark or red spots)"
               ],
             },
             {
@@ -6338,7 +6065,7 @@ export const treatmentsDetail = {
                 "Subcision & PRP (Platelet-Rich Plasma) Therapy",
                 "Dermal Fillers for Selected Acne Scars",
                 "Scar Revision Procedures",
-                "Medical-Grade Skincare",
+                "Medical-Grade Skincare"
               ],
               outro: "Combination therapy often provides the best results for acne scars and long-term skin improvement.",
             },
@@ -6355,7 +6082,7 @@ export const treatmentsDetail = {
                 "Minimizes enlarged pores",
                 "Stimulates collagen production",
                 "Restores skin confidence",
-                "Promotes healthy, radiant skin",
+                "Promotes healthy, radiant skin"
               ],
             },
             {
@@ -6369,7 +6096,7 @@ export const treatmentsDetail = {
                 "Patients with acne scars",
                 "Individuals with acne pigmentation",
                 "Patients seeking smoother, healthier skin",
-                "Those looking for non-surgical skin rejuvenation",
+                "Those looking for non-surgical skin rejuvenation"
               ],
               outro: "A consultation with our M.D. Dermatologist ensures the most appropriate treatment plan based on your skin type and concerns.",
             },
@@ -6378,7 +6105,7 @@ export const treatmentsDetail = {
               heading: "Recovery & Results",
               content: [
                 "Recovery depends on the treatment performed. Patients may experience mild redness, temporary swelling, or slight skin peeling after chemical peels, with minimal downtime for most procedures.",
-                "Multiple sessions are often recommended for acne scars to achieve gradual and natural-looking improvement. Using sunscreen, prescribed skincare products, and following post-treatment instructions help maximize results.",
+                "Multiple sessions are often recommended for acne scars to achieve gradual and natural-looking improvement. Using sunscreen, prescribed skincare products, and following post-treatment instructions help maximize results."
               ],
             },
             {
@@ -6393,7 +6120,7 @@ export const treatmentsDetail = {
                 "Number of treatment sessions required",
                 "Combination therapies used",
                 "Individual skin condition",
-                "Medical skincare prescribed",
+                "Medical skincare prescribed"
               ],
             },
             {
@@ -6408,30 +6135,23 @@ export const treatmentsDetail = {
                 "Customized Combination Treatments",
                 "Safe for Indian Skin Types",
                 "Modern Dermatology Facility",
-                "Conveniently Located in Kandivali West, Mumbai",
+                "Conveniently Located in Kandivali West, Mumbai"
               ],
             },
             {
               type: "text",
               heading: "Best Acne & Acne Scar Treatment Clinic in Kandivali West, Mumbai",
               content: [
-                "If you are struggling with persistent acne, acne scars, pigmentation, or uneven skin texture, visit NFSC – Dr. Nikhil Face Surgical & Aesthetic Centre. Our comprehensive acne management programs combine medical dermatology with advanced aesthetic procedures to help you achieve clearer, healthier, and smoother skin.",
+                "If you are struggling with persistent acne, acne scars, pigmentation, or uneven skin texture, visit NFSC – Dr. Nikhil Face Surgical & Aesthetic Centre. Our comprehensive acne management programs combine medical dermatology with advanced aesthetic procedures to help you achieve clearer, healthier, and smoother skin."
               ],
             },
             {
               type: "text",
               heading: "Book Your Skin Consultation Today",
               content: [
-                "Take the first step toward acne-free, healthy skin with expert care at NFSC – Dr. Nikhil Face Surgical & Aesthetic Centre. Schedule your consultation with our M.D. Dermatologist for a customized acne and acne scar treatment plan.",
+                "Take the first step toward acne-free, healthy skin with expert care at NFSC – Dr. Nikhil Face Surgical & Aesthetic Centre. Schedule your consultation with our M.D. Dermatologist for a customized acne and acne scar treatment plan."
               ],
-            },
-            {
-              type: "text",
-              heading: "SEO Keywords",
-              content: [
-                "Acne Treatment Kandivali, Acne Scar Removal Mumbai, Dermatologist Kandivali, MNRF Cost Mumbai, Hollywood Peel, Chemical Peel Kandivali, Cystic Acne Treatment, Dr. Nikhil Angre.",
-              ],
-            },
+            }
           ],
         },
       },
@@ -6452,7 +6172,7 @@ export const treatmentsDetail = {
               content: [
                 "Genetic predisposition affecting skin barrier proteins.",
                 "Overactive immune response to environmental triggers.",
-                "Can be managed effectively with proper medical treatment and customized skincare.",
+                "Can be managed effectively with proper medical treatment and customized skincare."
               ],
             },
             {
@@ -6468,7 +6188,7 @@ export const treatmentsDetail = {
                 "Thickened skin due to chronic scratching",
                 "Small fluid-filled blisters",
                 "Oozing or crusting in severe cases",
-                "Skin discoloration after healing",
+                "Skin discoloration after healing"
               ],
             },
             {
@@ -6484,7 +6204,7 @@ export const treatmentsDetail = {
                 "Dyshidrotic Eczema",
                 "Hand Eczema",
                 "Asteatotic (Dry Skin) Eczema",
-                "Lichen Simplex Chronicus",
+                "Lichen Simplex Chronicus"
               ],
               outro: "Accurate diagnosis is essential to determine the most effective treatment.",
             },
@@ -6499,7 +6219,7 @@ export const treatmentsDetail = {
                 "Certain soaps, detergents, and harsh skincare products",
                 "Stress, sweat, and excess heat",
                 "Wool or synthetic fabrics",
-                "Food allergies (in some individuals)",
+                "Food allergies (in some individuals)"
               ],
               outro: "Identifying and avoiding triggers is an important part of long-term eczema management.",
             },
@@ -6514,7 +6234,7 @@ export const treatmentsDetail = {
                 "Moisturizing and barrier repair therapy.",
                 "Oral medications (when indicated).",
                 "Treatment for secondary skin infections.",
-                "Lifestyle, skincare, and allergy management.",
+                "Lifestyle, skincare, and allergy management."
               ],
             },
             {
@@ -6529,7 +6249,7 @@ export const treatmentsDetail = {
                 "Minimizes flare-ups",
                 "Improves sleep and daily comfort",
                 "Enhances skin hydration",
-                "Improves quality of life",
+                "Improves quality of life"
               ],
             },
             {
@@ -6542,7 +6262,7 @@ export const treatmentsDetail = {
                 "Clinical Skin Examination",
                 "Evaluation of Symptoms",
                 "Allergy Assessment (when required)",
-                "Skin Tests (in selected cases)",
+                "Skin Tests (in selected cases)"
               ],
             },
             {
@@ -6550,7 +6270,7 @@ export const treatmentsDetail = {
               heading: "Recovery & Skincare Routine",
               content: [
                 "Recovery depends on the type of treatment performed. Patients may experience mild skin sensitivity, temporary dry patches, or minor soreness. Overall skin health improves within a few days.",
-                "Most patients can return to normal activities immediately. Maintaining good skin hygiene, regular professional care, and periodic follow-up visits are essential for preventing recurrence.",
+                "Most patients can return to normal activities immediately. Maintaining good skin hygiene, regular professional care, and periodic follow-up visits are essential for preventing recurrence."
               ],
             },
             {
@@ -6565,30 +6285,23 @@ export const treatmentsDetail = {
                 "Focus on Long-Term Disease Control",
                 "Patient Education on Trigger Avoidance",
                 "Modern Dermatology Care",
-                "Conveniently Located in Kandivali West, Mumbai",
+                "Conveniently Located in Kandivali West, Mumbai"
               ],
             },
             {
               type: "text",
               heading: "Best Eczema Treatment Clinic in Kandivali West, Mumbai",
               content: [
-                "If you are experiencing itchy skin, recurring rashes, dry patches, or chronic eczema, visit NFSC – Dr. Nikhil Face Surgical & Aesthetic Centre. Our experienced dermatology team provides comprehensive eczema care to help relieve symptoms, prevent flare-ups, and restore healthy skin.",
+                "If you are experiencing itchy skin, recurring rashes, dry patches, or chronic eczema, visit NFSC – Dr. Nikhil Face Surgical & Aesthetic Centre. Our experienced dermatology team provides comprehensive eczema care to help relieve symptoms, prevent flare-ups, and restore healthy skin."
               ],
             },
             {
               type: "text",
               heading: "Book Your Dermatology Consultation Today",
               content: [
-                "Don't let eczema affect your comfort and confidence. Schedule a consultation at NFSC – Dr. Nikhil Face Surgical & Aesthetic Centre for expert diagnosis, personalized treatment, and long-term eczema management.",
+                "Don't let eczema affect your comfort and confidence. Schedule a consultation at NFSC – Dr. Nikhil Face Surgical & Aesthetic Centre for expert diagnosis, personalized treatment, and long-term eczema management."
               ],
-            },
-            {
-              type: "text",
-              heading: "SEO Keywords",
-              content: [
-                "Eczema Treatment Kandivali, Atopic Dermatitis Doctor Mumbai, Dry Skin Rash Treatment, Dermatologist in Kandivali, Itchy Skin Treatment, Contact Dermatitis Mumbai, Dr. Nikhil Angre.",
-              ],
-            },
+            }
           ],
         },
       },
@@ -6609,7 +6322,7 @@ export const treatmentsDetail = {
               content: [
                 "Autoimmune etiology where rapid cell reproduction leads to skin buildup.",
                 "Accumulates as thick, silvery-white scales and inflamed plaques.",
-                "Can affect the scalp, elbows, knees, hands, feet, nails, face, and other body parts in cyclical flare-ups.",
+                "Can affect the scalp, elbows, knees, hands, feet, nails, face, and other body parts in cyclical flare-ups."
               ],
             },
             {
@@ -6625,7 +6338,7 @@ export const treatmentsDetail = {
                 "Painful skin lesions",
                 "Scalp scaling and dandruff-like flakes",
                 "Nail thickening, pitting, or discoloration",
-                "Joint pain or stiffness in some patients (Psoriatic Arthritis)",
+                "Joint pain or stiffness in some patients (Psoriatic Arthritis)"
               ],
             },
             {
@@ -6641,7 +6354,7 @@ export const treatmentsDetail = {
                 "Pustular Psoriasis",
                 "Erythrodermic Psoriasis",
                 "Nail Psoriasis",
-                "Palmoplantar Psoriasis",
+                "Palmoplantar Psoriasis"
               ],
               outro: "An accurate diagnosis helps determine the most appropriate treatment approach.",
             },
@@ -6657,7 +6370,7 @@ export const treatmentsDetail = {
                 "Infections and weather changes",
                 "Certain medications",
                 "Smoking and alcohol consumption",
-                "Obesity",
+                "Obesity"
               ],
               outro: "Identifying and managing triggers can help reduce the frequency and severity of flare-ups.",
             },
@@ -6673,7 +6386,7 @@ export const treatmentsDetail = {
                 "Phototherapy (where appropriate)",
                 "Biologic Therapy Referral (for eligible patients)",
                 "Scalp Psoriasis Treatment & Nail Psoriasis Management",
-                "Lifestyle and Skincare Guidance & Long-Term Follow-Up Care",
+                "Lifestyle and Skincare Guidance & Long-Term Follow-Up Care"
               ],
             },
             {
@@ -6688,7 +6401,7 @@ export const treatmentsDetail = {
                 "Protects the skin barrier",
                 "Improves scalp and nail health",
                 "Enhances quality of life",
-                "Supports long-term disease management",
+                "Supports long-term disease management"
               ],
             },
             {
@@ -6701,7 +6414,7 @@ export const treatmentsDetail = {
                 "Clinical Skin Examination",
                 "Nail Examination",
                 "Scalp Assessment",
-                "Skin Biopsy (only in selected cases when required)",
+                "Skin Biopsy (only in selected cases when required)"
               ],
             },
             {
@@ -6709,30 +6422,23 @@ export const treatmentsDetail = {
               heading: "Why Choose NFSC for Psoriasis Treatment?",
               content: [
                 "We offer evidence-based psoriasis management under the supervision of an M.D. Dermatologist, combining personalized treatment plans with comprehensive skin evaluation.",
-                "Long-term disease monitoring, patient education, and trigger/lifestyle guidance are provided at our modern dermatology clinic in Kandivali West, Mumbai.",
+                "Long-term disease monitoring, patient education, and trigger/lifestyle guidance are provided at our modern dermatology clinic in Kandivali West, Mumbai."
               ],
             },
             {
               type: "text",
               heading: "Best Psoriasis Treatment Clinic in Kandivali West, Mumbai",
               content: [
-                "If you are experiencing persistent red, scaly skin patches, scalp psoriasis, nail changes, or recurring skin irritation, visit NFSC – Dr. Nikhil Face Surgical & Aesthetic Centre. Our experienced dermatology team provides comprehensive psoriasis care focused on symptom control, skin health, and long-term disease management.",
+                "If you are experiencing persistent red, scaly skin patches, scalp psoriasis, nail changes, or recurring skin irritation, visit NFSC – Dr. Nikhil Face Surgical & Aesthetic Centre. Our experienced dermatology team provides comprehensive psoriasis care focused on symptom control, skin health, and long-term disease management."
               ],
             },
             {
               type: "text",
               heading: "Book Your Dermatology Consultation Today",
               content: [
-                "Take control of your psoriasis with expert medical care. Schedule a consultation at NFSC – Dr. Nikhil Face Surgical & Aesthetic Centre for a personalized treatment plan designed to help you achieve healthier skin and lasting relief.",
+                "Take control of your psoriasis with expert medical care. Schedule a consultation at NFSC – Dr. Nikhil Face Surgical & Aesthetic Centre for a personalized treatment plan designed to help you achieve healthier skin and lasting relief."
               ],
-            },
-            {
-              type: "text",
-              heading: "SEO Keywords",
-              content: [
-                "Psoriasis Treatment Kandivali, Scalp Psoriasis Mumbai, Psoriasis Dermatologist Kandivali, Skin Plaque Treatment, Psoriatic Arthritis, Autoimmune Skin Treatment, Dr. Nikhil Angre.",
-              ],
-            },
+            }
           ],
         },
       },
@@ -6753,7 +6459,7 @@ export const treatmentsDetail = {
               content: [
                 "Autoimmune destruction of pigment-producing melanocytes.",
                 "Results in white or depigmented patches on the skin, lips, mouth, and scalp.",
-                "Can be managed effectively using modern medical and surgical interventions.",
+                "Can be managed effectively using modern medical and surgical interventions."
               ],
             },
             {
@@ -6767,7 +6473,7 @@ export const treatmentsDetail = {
                 "Loss of pigmentation around the lips or mouth",
                 "Symmetrical white patches on both sides of the body",
                 "Gradual enlargement of existing patches",
-                "Occasionally, pigment loss in the mucous membranes",
+                "Occasionally, pigment loss in the mucous membranes"
               ],
               outro: "Early diagnosis and treatment can improve treatment outcomes.",
             },
@@ -6782,7 +6488,7 @@ export const treatmentsDetail = {
                 "Focal Vitiligo",
                 "Generalized Vitiligo",
                 "Acrofacial Vitiligo",
-                "Universal Vitiligo",
+                "Universal Vitiligo"
               ],
               outro: "Treatment is tailored according to the type, extent, and stability of the disease.",
             },
@@ -6799,7 +6505,7 @@ export const treatmentsDetail = {
                 "Excimer Laser Therapy (where available)",
                 "Topical Calcineurin Inhibitors",
                 "Medical Camouflage Guidance",
-                "Long-Term Disease Monitoring",
+                "Long-Term Disease Monitoring"
               ],
             },
             {
@@ -6813,7 +6519,7 @@ export const treatmentsDetail = {
                 "Suction Blister Epidermal Grafting",
                 "Split-Thickness Skin Grafting",
                 "Melanocyte Transfer Procedures",
-                "Cellular Grafting Techniques (where appropriate)",
+                "Cellular Grafting Techniques (where appropriate)"
               ],
               outro: "Vitiligo surgery is considered only after a thorough evaluation to confirm disease stability and suitability for the procedure.",
             },
@@ -6827,7 +6533,7 @@ export const treatmentsDetail = {
                 "Have localized areas of depigmentation",
                 "Have not achieved satisfactory improvement with medical treatment",
                 "Are in good overall health",
-                "Have realistic expectations regarding outcomes",
+                "Have realistic expectations regarding outcomes"
               ],
               outro: "A detailed dermatological assessment is essential before recommending surgical treatment.",
             },
@@ -6842,7 +6548,7 @@ export const treatmentsDetail = {
                 "Enhances self-confidence",
                 "Provides long-term improvement in suitable cases",
                 "Customized treatment based on individual skin type and disease severity",
-                "Comprehensive medical and surgical care under one roof",
+                "Comprehensive medical and surgical care under one roof"
               ],
             },
             {
@@ -6856,7 +6562,7 @@ export const treatmentsDetail = {
                 "Wood's Lamp Examination (when required)",
                 "Digital Photography for Monitoring",
                 "Evaluation of Disease Stability",
-                "Additional Investigations if indicated",
+                "Additional Investigations if indicated"
               ],
             },
             {
@@ -6864,7 +6570,7 @@ export const treatmentsDetail = {
               heading: "Recovery After Vitiligo Surgery",
               content: [
                 "Recovery depends on the surgical technique used. Patients may experience mild redness or swelling, and a temporary dressing will be applied over the treated area.",
-                "Gradual repigmentation occurs over several weeks to months, requiring regular follow-up visits. Following post-procedure care instructions and continuing supportive medical therapy can improve treatment outcomes.",
+                "Gradual repigmentation occurs over several weeks to months, requiring regular follow-up visits. Following post-procedure care instructions and continuing supportive medical therapy can improve treatment outcomes."
               ],
             },
             {
@@ -6879,30 +6585,23 @@ export const treatmentsDetail = {
                 "Evidence-Based Treatment Protocols",
                 "Modern Dermatology Facility",
                 "Focus on Natural-Looking Results",
-                "Conveniently Located in Kandivali West, Mumbai",
+                "Conveniently Located in Kandivali West, Mumbai"
               ],
             },
             {
               type: "text",
               heading: "Best Vitiligo Treatment Clinic in Kandivali West, Mumbai",
               content: [
-                "If you are experiencing white patches on the skin, pigment loss, or stable vitiligo requiring surgical evaluation, visit NFSC – Dr. Nikhil Face Surgical & Aesthetic Centre. Our experienced dermatology team provides advanced medical and surgical solutions to help restore pigmentation and improve skin appearance.",
+                "If you are experiencing white patches on the skin, pigment loss, or stable vitiligo requiring surgical evaluation, visit NFSC – Dr. Nikhil Face Surgical & Aesthetic Centre. Our experienced dermatology team provides advanced medical and surgical solutions to help restore pigmentation and improve skin appearance."
               ],
             },
             {
               type: "text",
               heading: "Book Your Dermatology Consultation Today",
               content: [
-                "Take the first step toward managing vitiligo with expert care. Schedule your consultation at NFSC – Dr. Nikhil Face Surgical & Aesthetic Centre for a personalized treatment plan tailored to your skin condition and goals.",
+                "Take the first step toward managing vitiligo with expert care. Schedule your consultation at NFSC – Dr. Nikhil Face Surgical & Aesthetic Centre for a personalized treatment plan tailored to your skin condition and goals."
               ],
-            },
-            {
-              type: "text",
-              heading: "SEO Keywords",
-              content: [
-                "Vitiligo Treatment Kandivali, Vitiligo Surgery Mumbai, Skin Pigment Restoration, Melanocyte Transfer Cost, White Patches Treatment, Dermatologist Kandivali, Skin Grafting Vitiligo, Dr. Nikhil Angre.",
-              ],
-            },
+            }
           ],
         },
       },
@@ -6923,7 +6622,7 @@ export const treatmentsDetail = {
               content: [
                 "Velvety, dark hyperpigmentation of body folds and creases.",
                 "Characterized by epidermal hyperplasia and hyperkeratosis.",
-                "Commonly linked to insulin resistance, obesity, metabolic syndrome, and hormonal imbalance.",
+                "Commonly linked to insulin resistance, obesity, metabolic syndrome, and hormonal imbalance."
               ],
             },
             {
@@ -6938,7 +6637,7 @@ export const treatmentsDetail = {
                 "Darkening of the underarms and groin area",
                 "Dark knuckles, elbows, or knees",
                 "Mild itching or odor in some cases",
-                "Gradual progression of skin discoloration",
+                "Gradual progression of skin discoloration"
               ],
             },
             {
@@ -6953,7 +6652,7 @@ export const treatmentsDetail = {
                 "Hormonal and Thyroid disorders",
                 "Certain medications (e.g. systemic corticosteroids, oral contraceptives)",
                 "Genetic factors",
-                "Rarely, internal medical conditions (malignancy-associated)",
+                "Rarely, internal medical conditions (malignancy-associated)"
               ],
               outro: "A detailed medical evaluation helps identify and address the underlying cause.",
             },
@@ -6968,7 +6667,7 @@ export const treatmentsDetail = {
                 "Assessment of Metabolic Risk Factors",
                 "Blood Sugar Evaluation (when indicated)",
                 "Hormonal Assessment (if required)",
-                "Additional laboratory investigations when appropriate",
+                "Additional laboratory investigations when appropriate"
               ],
             },
             {
@@ -6984,7 +6683,7 @@ export const treatmentsDetail = {
                 "Skin Lightening Therapies",
                 "Lifestyle, Nutrition, and Weight Management Guidance",
                 "Management of Insulin Resistance and Hormonal Disorders",
-                "Medical-Grade Skincare Recommendations",
+                "Medical-Grade Skincare Recommendations"
               ],
             },
             {
@@ -6998,7 +6697,7 @@ export const treatmentsDetail = {
                 "Helps manage the underlying medical condition",
                 "Improves self-confidence",
                 "Reduces progression of skin changes",
-                "Promotes long-term skin health",
+                "Promotes long-term skin health"
               ],
             },
             {
@@ -7006,7 +6705,7 @@ export const treatmentsDetail = {
               heading: "Recovery & Results",
               content: [
                 "Most dermatological procedures involve minimal downtime. Patients may experience mild redness after treatment or temporary skin peeling following chemical peels.",
-                "Gradual improvement in pigmentation occurs over multiple sessions. Results vary depending on the underlying cause, severity of pigmentation, and adherence to the recommended treatment plan.",
+                "Gradual improvement in pigmentation occurs over multiple sessions. Results vary depending on the underlying cause, severity of pigmentation, and adherence to the recommended treatment plan."
               ],
             },
             {
@@ -7021,30 +6720,23 @@ export const treatmentsDetail = {
                 "Modern Dermatology Procedures",
                 "Safe Treatments for Indian Skin Types",
                 "Evidence-Based Medical Care",
-                "Conveniently Located in Kandivali West, Mumbai",
+                "Conveniently Located in Kandivali West, Mumbai"
               ],
             },
             {
               type: "text",
               heading: "Best Acanthosis Nigricans Treatment Clinic in Kandivali West, Mumbai",
               content: [
-                "If you have dark pigmentation on the neck, underarms, knuckles, or other body folds, visit NFSC – Dr. Nikhil Face Surgical & Aesthetic Centre for expert evaluation and treatment. Our comprehensive approach focuses on improving skin appearance while identifying and managing any associated medical conditions.",
+                "If you have dark pigmentation on the neck, underarms, knuckles, or other body folds, visit NFSC – Dr. Nikhil Face Surgical & Aesthetic Centre for expert evaluation and treatment. Our comprehensive approach focuses on improving skin appearance while identifying and managing any associated medical conditions."
               ],
             },
             {
               type: "text",
               heading: "Book Your Dermatology Consultation Today",
               content: [
-                "Don't ignore persistent skin darkening, especially if it develops suddenly or is associated with weight gain or metabolic concerns. Schedule your consultation at NFSC – Dr. Nikhil Face Surgical & Aesthetic Centre for personalized treatment and healthier, clearer skin.",
+                "Don't ignore persistent skin darkening, especially if it develops suddenly or is associated with weight gain or metabolic concerns. Schedule your consultation at NFSC – Dr. Nikhil Face Surgical & Aesthetic Centre for personalized treatment and healthier, clearer skin."
               ],
-            },
-            {
-              type: "text",
-              heading: "SEO Keywords",
-              content: [
-                "Acanthosis Nigricans Treatment Kandivali, Dark Neck Treatment Mumbai, Skin Pigmentation Doctor, Underarm Darkening Treatment, Velvety Skin Patch, Dermatologist Kandivali, Insulin Resistance Skin, Dr. Nikhil Angre.",
-              ],
-            },
+            }
           ],
         },
       },
@@ -7065,7 +6757,7 @@ export const treatmentsDetail = {
               content: [
                 "Caused by skin barrier gene defects (e.g. filaggrin mutations) and immune dysregulation.",
                 "Increases susceptibility to environmental allergens, irritants, and secondary microbial infections.",
-                "Can be effectively controlled with early diagnosis, trigger management, and specialized medical care.",
+                "Can be effectively controlled with early diagnosis, trigger management, and specialized medical care."
               ],
             },
             {
@@ -7082,7 +6774,7 @@ export const treatmentsDetail = {
                 "Oozing or crusting during flare-ups",
                 "Darkening or lightening of affected skin",
                 "Recurrent skin infections",
-                "Sensitive skin",
+                "Sensitive skin"
               ],
             },
             {
@@ -7096,7 +6788,7 @@ export const treatmentsDetail = {
                 "Elbows (flexural folds)",
                 "Knees (flexural folds)",
                 "Ankles and Eyelids",
-                "Scalp (especially in infants)",
+                "Scalp (especially in infants)"
               ],
             },
             {
@@ -7111,7 +6803,7 @@ export const treatmentsDetail = {
                 "Inhalant allergens: Dust mites, pollens, and pet dander",
                 "Harsh soaps, detergents, and synthetic fabrics (like wool)",
                 "Emotional stress",
-                "Secondary skin infections",
+                "Secondary skin infections"
               ],
               outro: "Identifying individual triggers is an important part of long-term disease management.",
             },
@@ -7125,7 +6817,7 @@ export const treatmentsDetail = {
                 "Clinical Skin Examination",
                 "Allergy Assessment (when indicated)",
                 "Evaluation of Family History",
-                "Additional investigations in selected cases",
+                "Additional investigations in selected cases"
               ],
             },
             {
@@ -7142,7 +6834,7 @@ export const treatmentsDetail = {
                 "Antihistamines for Itch Relief",
                 "Phototherapy (when indicated)",
                 "Lifestyle and Skincare Guidance",
-                "Long-Term Maintenance Programs",
+                "Long-Term Maintenance Programs"
               ],
             },
             {
@@ -7157,7 +6849,7 @@ export const treatmentsDetail = {
                 "Minimizes future flare-ups",
                 "Improves sleep quality",
                 "Enhances skin hydration",
-                "Improves quality of life",
+                "Improves quality of life"
               ],
             },
             {
@@ -7172,30 +6864,23 @@ export const treatmentsDetail = {
                 "Focus on Long-Term Disease Control",
                 "Advanced Dermatology Services",
                 "Patient Education on Skin Care",
-                "Conveniently Located in Kandivali West, Mumbai",
+                "Conveniently Located in Kandivali West, Mumbai"
               ],
             },
             {
               type: "text",
               heading: "Best Atopic Dermatitis Treatment Clinic in Kandivali West, Mumbai",
               content: [
-                "If you are experiencing persistent itching, dry skin, recurring eczema, or skin rashes, visit NFSC – Dr. Nikhil Face Surgical & Aesthetic Centre. Our experienced dermatology team provides personalized treatment to relieve symptoms, strengthen the skin barrier, and help prevent future flare-ups.",
+                "If you are experiencing persistent itching, dry skin, recurring eczema, or skin rashes, visit NFSC – Dr. Nikhil Face Surgical & Aesthetic Centre. Our experienced dermatology team provides personalized treatment to relieve symptoms, strengthen the skin barrier, and help prevent future flare-ups."
               ],
             },
             {
               type: "text",
               heading: "Book Your Dermatology Consultation Today",
               content: [
-                "Take control of your eczema with expert medical care. Schedule your consultation at NFSC – Dr. Nikhil Face Surgical & Aesthetic Centre for a personalized treatment plan that promotes healthier skin and lasting relief.",
+                "Take control of your eczema with expert medical care. Schedule your consultation at NFSC – Dr. Nikhil Face Surgical & Aesthetic Centre for a personalized treatment plan that promotes healthier skin and lasting relief."
               ],
-            },
-            {
-              type: "text",
-              heading: "SEO Keywords",
-              content: [
-                "Atopic Dermatitis Kandivali, Eczema Treatment Mumbai, Dermatologist for Eczema, Skin Barrier Repair, Pediatric Eczema Doctor, Dry Skin Rashes Mumbai, Dr. Nikhil Angre.",
-              ],
-            },
+            }
           ],
         },
       },
@@ -7220,7 +6905,7 @@ export const treatmentsDetail = {
                 "Fungal Nail Infection (Onychomycosis)",
                 "Scalp Fungal Infection (Tinea Capitis)",
                 "Tinea Versicolor (Pityriasis Versicolor)",
-                "Candidiasis (Yeast Infection)",
+                "Candidiasis (Yeast Infection)"
               ],
             },
             {
@@ -7236,7 +6921,7 @@ export const treatmentsDetail = {
                 "Herpes Zoster (Shingles)",
                 "Chickenpox (Varicella)",
                 "Hand, Foot and Mouth Disease",
-                "Viral Rashes",
+                "Viral Rashes"
               ],
               outro: "Early diagnosis and appropriate treatment help reduce complications and transmission.",
             },
@@ -7254,7 +6939,7 @@ export const treatmentsDetail = {
                 "Painful skin eruptions",
                 "Thickened or discolored nails",
                 "Scalp scaling and hair loss",
-                "Raised bumps or warts",
+                "Raised bumps or warts"
               ],
               outro: "If symptoms persist or recur frequently, consultation with a dermatologist is recommended.",
             },
@@ -7271,7 +6956,7 @@ export const treatmentsDetail = {
                 "Frequent use of public gyms or swimming pools",
                 "Close contact with infected individuals",
                 "Tight or non-breathable clothing",
-                "Prolonged use of antibiotics or steroids",
+                "Prolonged use of antibiotics or steroids"
               ],
             },
             {
@@ -7285,7 +6970,7 @@ export const treatmentsDetail = {
                 "Dermoscopy (when required)",
                 "Skin Scraping for Fungal Examination",
                 "Laboratory Tests (if indicated)",
-                "Nail or Skin Sampling in selected cases",
+                "Nail or Skin Sampling in selected cases"
               ],
             },
             {
@@ -7298,7 +6983,7 @@ export const treatmentsDetail = {
                 "Viral: Antiviral Medications, Cryotherapy, and Supportive Medical Care.",
                 "Wart Removal Procedures: Electrocautery or Radiofrequency Removal.",
                 "Shingles Management: Targeted pain relief and skin healing therapies.",
-                "Skincare Guidance: Individualized hygiene and lifestyle advice.",
+                "Skincare Guidance: Individualized hygiene and lifestyle advice."
               ],
             },
             {
@@ -7313,7 +6998,7 @@ export const treatmentsDetail = {
                 "Minimizes recurrence",
                 "Improves skin health",
                 "Restores confidence",
-                "Protects family members from contagious infections",
+                "Protects family members from contagious infections"
               ],
             },
             {
@@ -7328,7 +7013,7 @@ export const treatmentsDetail = {
                 "Maintain proper foot hygiene",
                 "Control diabetes and other medical conditions",
                 "Wash hands regularly",
-                "Seek early treatment for suspicious skin lesions",
+                "Seek early treatment for suspicious skin lesions"
               ],
             },
             {
@@ -7343,30 +7028,23 @@ export const treatmentsDetail = {
                 "Personalized Treatment Plans",
                 "Comprehensive Skin Evaluation",
                 "Modern Dermatology Facility",
-                "Conveniently Located in Kandivali West, Mumbai",
+                "Conveniently Located in Kandivali West, Mumbai"
               ],
             },
             {
               type: "text",
               heading: "Best Fungal & Viral Skin Infection Treatment Clinic in Kandivali West, Mumbai",
               content: [
-                "If you are experiencing itchy skin, fungal infections, warts, shingles, cold sores, ringworm, nail fungus, or recurring skin infections, visit NFSC – Dr. Nikhil Face Surgical & Aesthetic Centre. Our experienced dermatology team provides effective medical treatment to eliminate infections, relieve symptoms, and promote healthy skin.",
+                "If you are experiencing itchy skin, fungal infections, warts, shingles, cold sores, ringworm, nail fungus, or recurring skin infections, visit NFSC – Dr. Nikhil Face Surgical & Aesthetic Centre. Our experienced dermatology team provides effective medical treatment to eliminate infections, relieve symptoms, and promote healthy skin."
               ],
             },
             {
               type: "text",
               heading: "Book Your Dermatology Consultation Today",
               content: [
-                "Early diagnosis and treatment can prevent skin infections from spreading and reduce the risk of complications. Schedule your consultation at NFSC – Dr. Nikhil Face Surgical & Aesthetic Centre for expert dermatology care and personalized treatment.",
+                "Early diagnosis and treatment can prevent skin infections from spreading and reduce the risk of complications. Schedule your consultation at NFSC – Dr. Nikhil Face Surgical & Aesthetic Centre for expert dermatology care and personalized treatment."
               ],
-            },
-            {
-              type: "text",
-              heading: "SEO Keywords",
-              content: [
-                "Fungal Infection Kandivali, Ringworm Treatment Mumbai, Athlete Foot Doctor, Skin Wart Removal, Shingles Treatment Kandivali, Antifungal Cream Mumbai, Dermatologist Kandivali, Viral Rash Doctor, Dr. Nikhil Angre.",
-              ],
-            },
+            }
           ],
         },
       },
@@ -7387,7 +7065,7 @@ export const treatmentsDetail = {
               content: [
                 "Clusters of pigment-producing melanocytes forming common skin growths.",
                 "Can be flat, raised, congenital, pigmented, or cosmetic facial lesions.",
-                "Harmless in most cases, but changes in size, color, shape, or bleeding require medical examination.",
+                "Harmless in most cases, but changes in size, color, shape, or bleeding require medical examination."
               ],
             },
             {
@@ -7399,7 +7077,7 @@ export const treatmentsDetail = {
               content: [
                 "Caused by Human Papillomavirus (HPV) affecting skin cells.",
                 "Non-cancerous, but can multiply, enlarge, or spread if left untreated.",
-                "Can be successfully treated through targeted medical or ablation procedures.",
+                "Can be successfully treated through targeted medical or ablation procedures."
               ],
             },
             {
@@ -7411,7 +7089,7 @@ export const treatmentsDetail = {
                 "Moles: Raised, Flat, Congenital, Pigmented, and Cosmetic Facial Moles",
                 "Skin Tags (Acrochordons) & Seborrheic Keratoses",
                 "Warts: Common, Flat, Plantar, Filiform, and Periungual Warts",
-                "Multiple Viral Warts",
+                "Multiple Viral Warts"
               ],
               outro: "Each lesion is examined to determine whether removal is recommended and which technique will provide the best cosmetic outcome.",
             },
@@ -7425,7 +7103,7 @@ export const treatmentsDetail = {
                 "Pain, irritation, or recurrent bleeding",
                 "Frequent friction from clothing or jewelry",
                 "Rapid increase in size, color, or shape",
-                "Multiple viral or persistent/recurrent warts",
+                "Multiple viral or persistent/recurrent warts"
               ],
               outro: "Suspicious pigmented lesions should always be examined by a dermatologist before removal.",
             },
@@ -7439,7 +7117,7 @@ export const treatmentsDetail = {
                 "Radiofrequency (RF) Removal",
                 "Electrocautery & Cryotherapy (Freezing)",
                 "Shave Excision & Surgical Excision",
-                "Punch Excision (Selected Cases)",
+                "Punch Excision (Selected Cases)"
               ],
               outro: "The most appropriate technique is selected to maximize cosmetic results while minimizing recurrence and scarring.",
             },
@@ -7454,7 +7132,7 @@ export const treatmentsDetail = {
                 "Removes unwanted skin growths",
                 "Minimal downtime and quick outpatient procedure",
                 "Reduced risk of recurrence in appropriately treated lesions",
-                "Minimal scarring in most cases",
+                "Minimal scarring in most cases"
               ],
             },
             {
@@ -7462,7 +7140,7 @@ export const treatmentsDetail = {
               heading: "Procedure & Recovery Details",
               content: [
                 "Most mole and wart removal procedures are performed as daycare procedures under local anesthesia. The procedure generally takes 15–30 minutes, depending on the size, number, and location of the lesions. Patients can usually return home shortly after treatment.",
-                "Recovery is quick. Patients may experience mild redness, temporary swelling, or small scab formation. The treated area generally heals within 1–3 weeks. Following proper wound care and sun protection helps optimize cosmetic results.",
+                "Recovery is quick. Patients may experience mild redness, temporary swelling, or small scab formation. The treated area generally heals within 1–3 weeks. Following proper wound care and sun protection helps optimize cosmetic results."
               ],
             },
             {
@@ -7477,33 +7155,26 @@ export const treatmentsDetail = {
                 "Minimal Scarring Approach",
                 "Personalized Treatment Plans",
                 "Modern Dermatology Facility",
-                "Conveniently Located in Kandivali West, Mumbai",
+                "Conveniently Located in Kandivali West, Mumbai"
               ],
             },
             {
               type: "text",
               heading: "Best Mole & Wart Removal Clinic in Kandivali West, Mumbai",
               content: [
-                "If you are looking for Mole Removal, Wart Removal, Skin Tag Removal, or Cosmetic Skin Lesion Removal in Kandivali West, Mumbai, visit NFSC – Dr. Nikhil Face Surgical & Aesthetic Centre. Our experienced dermatology team provides safe, effective, and minimally invasive treatments to restore healthy, smooth skin with excellent cosmetic outcomes.",
+                "If you are looking for Mole Removal, Wart Removal, Skin Tag Removal, or Cosmetic Skin Lesion Removal in Kandivali West, Mumbai, visit NFSC – Dr. Nikhil Face Surgical & Aesthetic Centre. Our experienced dermatology team provides safe, effective, and minimally invasive treatments to restore healthy, smooth skin with excellent cosmetic outcomes."
               ],
             },
             {
               type: "text",
               heading: "Book Your Dermatology Consultation Today",
               content: [
-                "Whether you want to remove a cosmetic mole, treat persistent warts, or evaluate a changing skin lesion, schedule your consultation at NFSC – Dr. Nikhil Face Surgical & Aesthetic Centre. We provide expert dermatological care using advanced technology and personalized treatment plans.",
+                "Whether you want to remove a cosmetic mole, treat persistent warts, or evaluate a changing skin lesion, schedule your consultation at NFSC – Dr. Nikhil Face Surgical & Aesthetic Centre. We provide expert dermatological care using advanced technology and personalized treatment plans."
               ],
-            },
-            {
-              type: "text",
-              heading: "SEO Keywords",
-              content: [
-                "Mole Removal Kandivali, Wart Removal Mumbai, Skin Tag Removal Cost, Laser Mole Removal, RF Wart Removal, Dermatologist Kandivali, Cryotherapy Warts Mumbai, Dr. Nikhil Angre.",
-              ],
-            },
+            }
           ],
         },
-      },
+      }
     ],
     faqs: [
       {
@@ -7515,7 +7186,7 @@ export const treatmentsDetail = {
         question: "Do you offer mole checks and removal?",
         answer:
           "Yes, we provide comprehensive skin evaluations to check for suspicious moles and offer safe removal options for both medical and cosmetic reasons.",
-      },
+      }
     ],
   },
 
@@ -7545,7 +7216,7 @@ export const treatmentsDetail = {
               content: [
                 "Follicles are harvested from DHT-resistant donor areas (back/sides of scalp).",
                 "Implanted precisely to grow naturally and permanently in balding zones.",
-                "Performed under local anesthesia as a comfortable daycare procedure.",
+                "Performed under local anesthesia as a comfortable daycare procedure."
               ],
             },
             {
@@ -7560,7 +7231,7 @@ export const treatmentsDetail = {
                 "Thinning Hair & Diffuse Hair Loss",
                 "Beard & Moustache Hair Restoration",
                 "Eyebrow Hair Transplant",
-                "Scar Hair Restoration (from trauma or previous surgery)",
+                "Scar Hair Restoration (from trauma or previous surgery)"
               ],
               outro: "A detailed consultation is essential to determine whether you are a suitable candidate.",
             },
@@ -7572,7 +7243,7 @@ export const treatmentsDetail = {
               content: [
                 "FUE (Follicular Unit Extraction): Harvesting individual hair follicles for virtually scarless results and faster recovery.",
                 "FUT (Follicular Unit Transplantation): Strip harvesting of donor follicles, ideal in selected high-density needs.",
-                "Beard & Eyebrow Transplant: Highly precise follicle placement to restore facial hair density and symmetry.",
+                "Beard & Eyebrow Transplant: Highly precise follicle placement to restore facial hair density and symmetry."
               ],
               outro: "The most appropriate technique is recommended after evaluating your hair loss pattern and donor area.",
             },
@@ -7587,7 +7258,7 @@ export const treatmentsDetail = {
                 "Minimal scarring (with FUE method)",
                 "Improves confidence and youthfulness",
                 "Quick daycare procedure with minimal downtime",
-                "Safe, minimally invasive, and long-lasting results",
+                "Safe, minimally invasive, and long-lasting results"
               ],
             },
             {
@@ -7600,7 +7271,7 @@ export const treatmentsDetail = {
                 "Hairline Design & Local Anesthesia Administration",
                 "Precise Hair Follicle Extraction & Graft Preparation",
                 "Accurate Follicle Implantation into Recipient Sites",
-                "Post-Procedure Care Instructions & Regular Follow-Up Visits",
+                "Post-Procedure Care Instructions & Regular Follow-Up Visits"
               ],
               outro: "The procedure usually takes 4–8 hours, depending on the number of grafts required.",
             },
@@ -7609,7 +7280,7 @@ export const treatmentsDetail = {
               heading: "Recovery & Expected Results",
               content: [
                 "Recovery is generally quick. Patients may experience mild swelling, temporary redness, or small scabs around the transplanted follicles, with minimal discomfort for a few days. Most patients resume office work within 2–5 days.",
-                "Strenuous physical activities should be avoided for approximately two weeks. New hair growth begins within 3–4 months, with noticeable improvement by 6–9 months, and full results visible between 12–18 months.",
+                "Strenuous physical activities should be avoided for approximately two weeks. New hair growth begins within 3–4 months, with noticeable improvement by 6–9 months, and full results visible between 12–18 months."
               ],
             },
             {
@@ -7622,7 +7293,7 @@ export const treatmentsDetail = {
                 "Possess adequate healthy donor hair",
                 "Are in good general health",
                 "Have realistic expectations",
-                "Wish to restore hair naturally without wigs or artificial hair",
+                "Wish to restore hair naturally without wigs or artificial hair"
               ],
             },
             {
@@ -7637,7 +7308,7 @@ export const treatmentsDetail = {
                 "Hair transplant technique (FUE/FUT)",
                 "Beard or eyebrow transplant needs",
                 "Donor hair quality and procedure complexity",
-                "Additional regenerative treatments such as PRP or GFC (if recommended)",
+                "Additional regenerative treatments such as PRP or GFC (if recommended)"
               ],
             },
             {
@@ -7649,30 +7320,23 @@ export const treatmentsDetail = {
                 "Expertise in Facial Aesthetic Surgery and natural hairline design",
                 "Advanced FUE techniques ensuring dense, natural-looking results",
                 "High standards of sterility, surgical safety, and comprehensive post-procedure care",
-                "Modern surgical facility in Kandivali West, Mumbai",
+                "Modern surgical facility in Kandivali West, Mumbai"
               ],
             },
             {
               type: "text",
               heading: "Best Hair Transplant Clinic in Kandivali West, Mumbai",
               content: [
-                "If you are looking for the best Hair Transplant Surgery in Kandivali West, Mumbai, visit NFSC – Dr. Nikhil Face Surgical & Aesthetic Centre. Dr. Nikhil Angre combines surgical expertise with aesthetic precision to deliver natural, permanent, and confidence-boosting hair restoration results.",
+                "If you are looking for the best Hair Transplant Surgery in Kandivali West, Mumbai, visit NFSC – Dr. Nikhil Face Surgical & Aesthetic Centre. Dr. Nikhil Angre combines surgical expertise with aesthetic precision to deliver natural, permanent, and confidence-boosting hair restoration results."
               ],
             },
             {
               type: "text",
               heading: "Book Your Hair Transplant Consultation Today",
               content: [
-                "Take the first step toward restoring your hair and confidence. Schedule a consultation at NFSC – Dr. Nikhil Face Surgical & Aesthetic Centre to receive a personalized hair restoration plan tailored to your needs.",
+                "Take the first step toward restoring your hair and confidence. Schedule a consultation at NFSC – Dr. Nikhil Face Surgical & Aesthetic Centre to receive a personalized hair restoration plan tailored to your needs."
               ],
-            },
-            {
-              type: "text",
-              heading: "SEO Keywords",
-              content: [
-                "Hair Transplant Kandivali, FUE Hair Transplant Mumbai, Hair Transplant Cost Kandivali, Dr. Nikhil Angre, Best Hair Restoration Mumbai, Beard Transplant Cost, Eyebrow Transplant Mumbai, Hair Graft Price.",
-              ],
-            },
+            }
           ],
         },
       },
@@ -7693,7 +7357,7 @@ export const treatmentsDetail = {
               content: [
                 "Follicles harvested from donor areas and implanted individually to replicate natural beard hair.",
                 "Enables regular shaving, trimming, and styling once fully healed.",
-                "Performed under local anesthesia as a daycare surgery, allowing same-day return home.",
+                "Performed under local anesthesia as a daycare surgery, allowing same-day return home."
               ],
             },
             {
@@ -7707,7 +7371,7 @@ export const treatmentsDetail = {
                 "Beard hair loss after injury, trauma, or burns",
                 "Facial scars without hair growth",
                 "Previous unsuccessful beard transplant",
-                "Desire for a fuller moustache, goatee, sideburns, or complete beard",
+                "Desire for a fuller moustache, goatee, sideburns, or complete beard"
               ],
               outro: "A detailed consultation and donor hair assessment help determine your suitability for the procedure.",
             },
@@ -7721,7 +7385,7 @@ export const treatmentsDetail = {
                 "Moustache & Goatee",
                 "Sideburns & Chin Beard",
                 "Jawline Beard",
-                "Beard Scar Correction",
+                "Beard Scar Correction"
               ],
               outro: "Each graft is implanted individually to replicate the natural direction, angle, and density of facial hair.",
             },
@@ -7735,7 +7399,7 @@ export const treatmentsDetail = {
                 "Minimally invasive procedure with faster healing",
                 "Extremely natural beard appearance and direction matching",
                 "Minimal post-procedure discomfort",
-                "Permanent hair growth with high graft survival",
+                "Permanent hair growth with high graft survival"
               ],
             },
             {
@@ -7747,7 +7411,7 @@ export const treatmentsDetail = {
                 "Detailed Facial Hair Assessment & Customized Beard Design",
                 "Donor Area Evaluation & Administration of Local Anesthesia",
                 "Individual Hair Follicle Extraction & Precise Graft Implantation",
-                "Post-Procedure Care Instructions & Scheduled Follow-Up Visits",
+                "Post-Procedure Care Instructions & Scheduled Follow-Up Visits"
               ],
               outro: "The procedure usually takes 4–8 hours, depending on the number of grafts required.",
             },
@@ -7756,7 +7420,7 @@ export const treatmentsDetail = {
               heading: "Recovery & Expected Results",
               content: [
                 "Recovery is generally smooth. Patients may experience mild swelling, temporary redness, or small crusts around transplanted follicles, with mild tenderness for a few days. Most patients return to work within 2–5 days.",
-                "The transplanted hairs shed within the first few weeks (normal shedding phase). New hair growth usually begins after 3–4 months, with significant improvement by 6–9 months, and full results achieved within 12 months.",
+                "The transplanted hairs shed within the first few weeks (normal shedding phase). New hair growth usually begins after 3–4 months, with significant improvement by 6–9 months, and full results achieved within 12 months."
               ],
             },
             {
@@ -7772,7 +7436,7 @@ export const treatmentsDetail = {
                 "Covers facial scars",
                 "Minimal downtime",
                 "Long-lasting results",
-                "Personalized beard design",
+                "Personalized beard design"
               ],
             },
             {
@@ -7786,7 +7450,7 @@ export const treatmentsDetail = {
                 "Area to be restored (moustache, goatee, sideburns, etc.)",
                 "Beard density desired",
                 "Existing facial hair and donor hair availability",
-                "Complexity of the procedure",
+                "Complexity of the procedure"
               ],
             },
             {
@@ -7798,30 +7462,23 @@ export const treatmentsDetail = {
                 "Expertise in Facial Aesthetic Surgery and structural planning",
                 "Advanced FUE techniques for natural direction and density planning",
                 "High standards of safety, sterility, and comprehensive follow-up care",
-                "Modern surgical facility in Kandivali West, Mumbai",
+                "Modern surgical facility in Kandivali West, Mumbai"
               ],
             },
             {
               type: "text",
               heading: "Best Beard Transplant Clinic in Kandivali West, Mumbai",
               content: [
-                "If you are looking for the best Beard Transplant Surgery in Kandivali West, Mumbai, visit NFSC – Dr. Nikhil Face Surgical & Aesthetic Centre. Dr. Nikhil Angre combines facial aesthetic expertise with advanced hair transplant techniques to deliver natural, permanent, and well-defined beard restoration.",
+                "If you are looking for the best Beard Transplant Surgery in Kandivali West, Mumbai, visit NFSC – Dr. Nikhil Face Surgical & Aesthetic Centre. Dr. Nikhil Angre combines facial aesthetic expertise with advanced hair transplant techniques to deliver natural, permanent, and well-defined beard restoration."
               ],
             },
             {
               type: "text",
               heading: "Book Your Beard Transplant Consultation Today",
               content: [
-                "Transform your appearance with a fuller, natural-looking beard. Schedule your consultation at NFSC – Dr. Nikhil Face Surgical & Aesthetic Centre to receive a personalized beard restoration plan designed to match your facial features and aesthetic goals.",
+                "Transform your appearance with a fuller, natural-looking beard. Schedule your consultation at NFSC – Dr. Nikhil Face Surgical & Aesthetic Centre to receive a personalized beard restoration plan designed to match your facial features and aesthetic goals."
               ],
-            },
-            {
-              type: "text",
-              heading: "SEO Keywords",
-              content: [
-                "Beard Transplant Kandivali, Beard Restoration Mumbai, FUE Beard Transplant Cost, Moustache Transplant Mumbai, Goatee Restoration, Patchy Beard Treatment, Facial Hair Transplant, Dr. Nikhil Angre.",
-              ],
-            },
+            }
           ],
         },
       },
@@ -7842,7 +7499,7 @@ export const treatmentsDetail = {
               content: [
                 "Follicles harvested from the donor scalp area and transplanted into the eyebrow region.",
                 "Implanted at precise angles and directions to mirror natural growth patterns.",
-                "Performed under local anesthesia as an outpatient daycare surgery.",
+                "Performed under local anesthesia as an outpatient daycare surgery."
               ],
             },
             {
@@ -7855,7 +7512,7 @@ export const treatmentsDetail = {
                 "Patchy eyebrow hair due to over-plucking or aging",
                 "Hair loss following burns, trauma, or medical conditions",
                 "Scarred eyebrows with no hair growth",
-                "Previous unsuccessful eyebrow restoration procedures",
+                "Previous unsuccessful eyebrow restoration procedures"
               ],
               outro: "A consultation helps determine whether you are a suitable candidate based on donor hair availability and your desired eyebrow design.",
             },
@@ -7869,7 +7526,7 @@ export const treatmentsDetail = {
                 "Patchy Eyebrows & Eyebrow Scars",
                 "Congenital & Traumatic Eyebrow Hair Loss",
                 "Burn-Related Eyebrow Defects",
-                "Cosmetic Eyebrow Shape Enhancement",
+                "Cosmetic Eyebrow Shape Enhancement"
               ],
             },
             {
@@ -7883,7 +7540,7 @@ export const treatmentsDetail = {
                 "Precise eyebrow shaping and alignment",
                 "Minimally invasive with minimal scarring",
                 "Faster healing and high graft survival",
-                "Long-lasting aesthetic results",
+                "Long-lasting aesthetic results"
               ],
             },
             {
@@ -7896,7 +7553,7 @@ export const treatmentsDetail = {
                 "Customized Eyebrow Design & Donor Hair Evaluation",
                 "Local Anesthesia administration for patient comfort",
                 "Individual Hair Follicle Extraction & Precise Implantation",
-                "Post-Procedure Care Instructions & Follow-Up Appointments",
+                "Post-Procedure Care Instructions & Follow-Up Appointments"
               ],
               outro: "The procedure usually takes 3–6 hours, depending on the number of grafts required.",
             },
@@ -7906,7 +7563,7 @@ export const treatmentsDetail = {
               content: [
                 "Recovery is generally quick and comfortable. Patients may experience mild redness, temporary swelling around the eyebrows, or small scabs around transplanted follicles, with mild tenderness for a few days. Most individuals can return to work within 2–3 days.",
                 "The transplanted hairs usually shed within the first few weeks (normal shedding phase). New eyebrow growth typically begins after 3–4 months, with noticeable improvement by 6–9 months, and final results visible within 9–12 months.",
-                "Since transplanted hairs are taken from the scalp, they continue to grow at the rate of scalp hair and will require periodic trimming to maintain the desired eyebrow length.",
+                "Since transplanted hairs are taken from the scalp, they continue to grow at the rate of scalp hair and will require periodic trimming to maintain the desired eyebrow length."
               ],
             },
             {
@@ -7918,7 +7575,7 @@ export const treatmentsDetail = {
                 "Fuller, natural-looking eyebrows customized to shape",
                 "Improves facial harmony and enhances facial expressions",
                 "Minimal downtime and long-lasting results",
-                "Increased confidence",
+                "Increased confidence"
               ],
             },
             {
@@ -7931,7 +7588,7 @@ export const treatmentsDetail = {
                 "Number of grafts required",
                 "Degree of eyebrow thinning & desired density",
                 "Existing eyebrow hair & donor hair availability",
-                "Complexity of the procedure",
+                "Complexity of the procedure"
               ],
             },
             {
@@ -7943,30 +7600,23 @@ export const treatmentsDetail = {
                 "Expertise in Facial Plastic & Aesthetic Surgery for precise facial geometry planning",
                 "Advanced FUE techniques ensuring natural direction and density",
                 "High standards of sterility, microsurgical precision, and comprehensive follow-up care",
-                "Modern surgical facility in Kandivali West, Mumbai",
+                "Modern surgical facility in Kandivali West, Mumbai"
               ],
             },
             {
               type: "text",
               heading: "Best Eyebrow Transplant Clinic in Kandivali West, Mumbai",
               content: [
-                "If you are looking for the best Eyebrow Transplant Surgery in Kandivali West, Mumbai, visit NFSC – Dr. Nikhil Face Surgical & Aesthetic Centre. Dr. Nikhil Angre combines expertise in facial aesthetics and hair transplantation to create naturally shaped, fuller eyebrows that complement your facial features.",
+                "If you are looking for the best Eyebrow Transplant Surgery in Kandivali West, Mumbai, visit NFSC – Dr. Nikhil Face Surgical & Aesthetic Centre. Dr. Nikhil Angre combines expertise in facial aesthetics and hair transplantation to create naturally shaped, fuller eyebrows that complement your facial features."
               ],
             },
             {
               type: "text",
               heading: "Book Your Eyebrow Transplant Consultation Today",
               content: [
-                "Enhance your facial appearance with naturally fuller eyebrows. Schedule your consultation at NFSC – Dr. Nikhil Face Surgical & Aesthetic Centre to receive a personalized eyebrow restoration plan designed specifically for you.",
+                "Enhance your facial appearance with naturally fuller eyebrows. Schedule your consultation at NFSC – Dr. Nikhil Face Surgical & Aesthetic Centre to receive a personalized eyebrow restoration plan designed specifically for you."
               ],
-            },
-            {
-              type: "text",
-              heading: "SEO Keywords",
-              content: [
-                "Eyebrow Transplant Kandivali, Eyebrow Restoration Mumbai, FUE Eyebrow Cost, Sparse Eyebrows Treatment, Eyebrow Scar Restoration, Permanent Eyebrow Design, Dr. Nikhil Angre.",
-              ],
-            },
+            }
           ],
         },
       },
@@ -7986,7 +7636,7 @@ export const treatmentsDetail = {
               content: [
                 "PRP (Platelet-Rich Plasma): Drawing your own blood, separating concentrated platelets, and injecting the nutrient-rich plasma to stimulate dormant follicles.",
                 "GFC (Growth Factor Concentrate): An advanced regenerative treatment that isolates highly concentrated growth factors from your blood without inflammatory elements to improve density.",
-                "QR678 Hair Therapy: A patented peptide and growth factor formulation injected directly into the scalp to reduce fall and strengthen follicles.",
+                "QR678 Hair Therapy: A patented peptide and growth factor formulation injected directly into the scalp to reduce fall and strengthen follicles."
               ],
             },
             {
@@ -8000,7 +7650,7 @@ export const treatmentsDetail = {
                 "Diffuse Hair Loss & Stress-Related Hair Loss",
                 "Postpartum Hair Loss & Hair Weakness",
                 "Hair Loss Following Illness",
-                "Supportive Therapy After Hair Transplant Surgery",
+                "Supportive Therapy After Hair Transplant Surgery"
               ],
             },
             {
@@ -8014,7 +7664,7 @@ export const treatmentsDetail = {
                 "Strengthens existing hair follicles and enhances scalp health",
                 "Minimal downtime and safe, minimally invasive outpatient procedures",
                 "Can be combined with medical therapies or hair transplant surgery",
-                "Equally suitable for both men and women",
+                "Equally suitable for both men and women"
               ],
             },
             {
@@ -8027,7 +7677,7 @@ export const treatmentsDetail = {
                 "Blood extraction and preparation of PRP/GFC, or formulation of QR678 solution",
                 "Application of local anesthetic cream for patient comfort (if required)",
                 "Multiple precise microinjections into the target areas of the scalp",
-                "Post-treatment care instructions (patients can return to normal activities immediately)",
+                "Post-treatment care instructions (patients can return to normal activities immediately)"
               ],
             },
             {
@@ -8035,7 +7685,7 @@ export const treatmentsDetail = {
               heading: "Recovery & Expected Results",
               content: [
                 "Recovery is minimal. Patients may experience mild redness, temporary scalp tenderness, or minor swelling at injection sites, which typically resolve within 24–48 hours.",
-                "Hair regrowth is gradual. A noticeable reduction in hair fall is often observed after a few sessions, with improved hair density developing over 3–6 months. For optimal results, multiple sessions are usually recommended at intervals advised by the dermatologist.",
+                "Hair regrowth is gradual. A noticeable reduction in hair fall is often observed after a few sessions, with improved hair density developing over 3–6 months. For optimal results, multiple sessions are usually recommended at intervals advised by the dermatologist."
               ],
             },
             {
@@ -8048,7 +7698,7 @@ export const treatmentsDetail = {
                 "Type of treatment selected (PRP, GFC, or QR678)",
                 "Severity of hair loss and size of the treated scalp area",
                 "Number of sessions required in the treatment plan",
-                "Combination with other hair restoration therapies",
+                "Combination with other hair restoration therapies"
               ],
             },
             {
@@ -8063,30 +7713,23 @@ export const treatmentsDetail = {
                 "Modern Regenerative Hair Treatments",
                 "Safe, Sterile, and Comfortable Procedures",
                 "Suitable for Both Men and Women",
-                "Conveniently Located in Kandivali West, Mumbai",
+                "Conveniently Located in Kandivali West, Mumbai"
               ],
             },
             {
               type: "text",
               heading: "Best PRP, GFC & QR678 Hair Treatment Clinic in Kandivali West, Mumbai",
               content: [
-                "If you are experiencing hair fall, thinning hair, or early-stage baldness, visit NFSC – Dr. Nikhil Face Surgical & Aesthetic Centre for advanced PRP, GFC, and QR678 Hair Regrowth Treatments. Our evidence-based regenerative therapies help strengthen hair follicles, improve scalp health, and promote thicker, healthier hair with minimal downtime.",
+                "If you are experiencing hair fall, thinning hair, or early-stage baldness, visit NFSC – Dr. Nikhil Face Surgical & Aesthetic Centre for advanced PRP, GFC, and QR678 Hair Regrowth Treatments. Our evidence-based regenerative therapies help strengthen hair follicles, improve scalp health, and promote thicker, healthier hair with minimal downtime."
               ],
             },
             {
               type: "text",
               heading: "Book Your Hair Consultation Today",
               content: [
-                "Take the first step toward healthier, stronger hair with advanced non-surgical hair restoration. Schedule your consultation at NFSC – Dr. Nikhil Face Surgical & Aesthetic Centre for a personalized hair regrowth treatment plan tailored to your needs.",
+                "Take the first step toward healthier, stronger hair with advanced non-surgical hair restoration. Schedule your consultation at NFSC – Dr. Nikhil Face Surgical & Aesthetic Centre for a personalized hair regrowth treatment plan tailored to your needs."
               ],
-            },
-            {
-              type: "text",
-              heading: "SEO Keywords",
-              content: [
-                "PRP Treatment Kandivali, GFC Hair Therapy Mumbai, QR678 Cost, Hair Regrowth Injection, Hair Fall Doctor, Non Surgical Hair Restoration, Dermatologist Kandivali, Platelet Rich Plasma Cost, Dr. Nikhil Angre.",
-              ],
-            },
+            }
           ],
         },
       },
@@ -8107,7 +7750,7 @@ export const treatmentsDetail = {
               content: [
                 "Typically caused by Malassezia fungal overgrowth on the scalp.",
                 "Influenced by excess sebum, hygiene, dry skin, stress, and environmental triggers.",
-                "Can become a chronic issue leading to hair fall if left untreated.",
+                "Can become a chronic issue leading to hair fall if left untreated."
               ],
             },
             {
@@ -8121,7 +7764,7 @@ export const treatmentsDetail = {
                 "Scalp Psoriasis & Scalp Eczema",
                 "Fungal Scalp Infections",
                 "Itchy Scalp & Scalp Folliculitis",
-                "Hair Fall Associated with Scalp Disorders",
+                "Hair Fall Associated with Scalp Disorders"
               ],
               outro: "A detailed scalp evaluation helps determine the exact cause and guide effective treatment.",
             },
@@ -8136,7 +7779,7 @@ export const treatmentsDetail = {
                 "Excessive scalp oiliness or dry, tight scalp",
                 "Scalp irritation and scalp odor",
                 "Hair fall associated with dandruff",
-                "Painful scalp bumps or pimples (folliculitis)",
+                "Painful scalp bumps or pimples (folliculitis)"
               ],
               outro: "Early treatment helps prevent worsening of symptoms and supports healthy hair growth.",
             },
@@ -8151,7 +7794,7 @@ export const treatmentsDetail = {
                 "Dry skin and weather changes",
                 "Emotional stress and hormonal changes",
                 "Harsh hair styling or chemical products",
-                "Psoriasis, eczema, or nutritional deficiencies",
+                "Psoriasis, eczema, or nutritional deficiencies"
               ],
             },
             {
@@ -8166,7 +7809,7 @@ export const treatmentsDetail = {
                 "Anti-inflammatory Treatments & Scalp Cleansing Procedures",
                 "PRP or Regenerative Hair Therapy (for associated hair thinning, when appropriate)",
                 "Lifestyle, Nutrition, and Hair Care Guidance",
-                "Long-Term Scalp Maintenance Programs",
+                "Long-Term Scalp Maintenance Programs"
               ],
             },
             {
@@ -8178,7 +7821,7 @@ export const treatmentsDetail = {
                 "Relieves itching, redness, and scalp irritation",
                 "Reduces scalp inflammation and dandruff-related hair fall",
                 "Improves scalp hygiene and restores scalp comfort",
-                "Promotes healthier hair growth and prevents recurrence",
+                "Promotes healthier hair growth and prevents recurrence"
               ],
             },
             {
@@ -8189,7 +7832,7 @@ export const treatmentsDetail = {
               content: [
                 "Detailed Medical History & Clinical Scalp Examination",
                 "Hair and Scalp Analysis & Evaluation of Hair Loss",
-                "Laboratory Tests & Fungal Evaluation in selected cases",
+                "Laboratory Tests & Fungal Evaluation in selected cases"
               ],
             },
             {
@@ -8204,33 +7847,26 @@ export const treatmentsDetail = {
                 "Advanced Hair and Scalp Therapies",
                 "Modern Dermatology Facility",
                 "Safe Treatments for All Hair Types",
-                "Conveniently Located in Kandivali West, Mumbai",
+                "Conveniently Located in Kandivali West, Mumbai"
               ],
             },
             {
               type: "text",
               heading: "Best Dandruff & Scalp Treatment Clinic in Kandivali West, Mumbai",
               content: [
-                "If you are experiencing persistent dandruff, itchy scalp, scalp irritation, excessive hair fall, or other scalp conditions, visit NFSC – Dr. Nikhil Face Surgical & Aesthetic Centre. Our experienced dermatology team provides advanced scalp care to eliminate dandruff, improve scalp health, and support healthy hair growth.",
+                "If you are experiencing persistent dandruff, itchy scalp, scalp irritation, excessive hair fall, or other scalp conditions, visit NFSC – Dr. Nikhil Face Surgical & Aesthetic Centre. Our experienced dermatology team provides advanced scalp care to eliminate dandruff, improve scalp health, and support healthy hair growth."
               ],
             },
             {
               type: "text",
               heading: "Book Your Hair & Scalp Consultation Today",
               content: [
-                "Healthy hair starts with a healthy scalp. Schedule your consultation at NFSC – Dr. Nikhil Face Surgical & Aesthetic Centre for expert diagnosis, personalized dandruff treatment, and comprehensive scalp care.",
+                "Healthy hair starts with a healthy scalp. Schedule your consultation at NFSC – Dr. Nikhil Face Surgical & Aesthetic Centre for expert diagnosis, personalized dandruff treatment, and comprehensive scalp care."
               ],
-            },
-            {
-              type: "text",
-              heading: "SEO Keywords",
-              content: [
-                "Dandruff Treatment Kandivali, Scalp Care Clinic Mumbai, Itchy Scalp Treatment, Seborrheic Dermatitis Doctor, Fungal Scalp Infection, Dermatologist Kandivali, Anti Dandruff Cost Mumbai, Dr. Nikhil Angre.",
-              ],
-            },
+            }
           ],
         },
-      },
+      }
     ],
     faqs: [
       {
@@ -8257,7 +7893,7 @@ export const treatmentsDetail = {
         question: "Will my hair look natural?",
         answer:
           "Naturalness is the foundation. Hairline design, follicle direction, and density distribution are planned to match your facial framing — never one-size-fits-all.",
-      },
+      }
     ],
   },
 };

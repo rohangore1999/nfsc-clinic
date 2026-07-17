@@ -26,10 +26,13 @@ export function ReviewsGrid() {
 
   return (
     <section
-      aria-label="Patient reviews"
+      aria-labelledby="reviews-heading"
       className="bg-background px-6 py-16 md:px-8 md:py-20"
     >
       <div className="mx-auto max-w-6xl">
+        <h2 id="reviews-heading" className="mb-8 text-center font-serif text-3xl font-semibold text-navy md:text-4xl">
+          All Patient Reviews
+        </h2>
         <div className="mb-12">
           <TestimonialFilters
             options={site.testimonials.filters}

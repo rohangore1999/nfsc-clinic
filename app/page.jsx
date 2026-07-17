@@ -1,11 +1,25 @@
+import dynamic from "next/dynamic";
 import { Hero } from "@/components/sections/hero/Hero";
-import { WhyChoose } from "@/components/sections/why-choose/WhyChoose";
-import { AboutPreview } from "@/components/sections/about-preview/AboutPreview";
-import { Quote } from "@/components/sections/quote/Quote";
+
+const WhyChoose = dynamic(() =>
+  import("@/components/sections/why-choose/WhyChoose").then(
+    (mod) => mod.WhyChoose
+  )
+);
+
+const AboutPreview = dynamic(() =>
+  import("@/components/sections/about-preview/AboutPreview").then(
+    (mod) => mod.AboutPreview
+  )
+);
+
+const Quote = dynamic(() =>
+  import("@/components/sections/quote/Quote").then((mod) => mod.Quote)
+);
 
 export default function Home() {
   return (
-    <main>
+    <main id="main-content">
       <Hero />
       <WhyChoose />
       <AboutPreview />

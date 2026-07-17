@@ -41,12 +41,15 @@ export function FeaturedTestimonial() {
 
   return (
     <section
-      aria-label="Featured patient testimonial"
+      aria-labelledby="featured-testimonial-heading"
       className="bg-background px-6 py-16 md:px-8 md:py-20"
       onMouseEnter={() => setPaused(true)}
       onMouseLeave={() => setPaused(false)}
     >
       <div className="mx-auto max-w-6xl rounded-2xl border border-hairline bg-background p-6 md:p-12">
+        <h2 id="featured-testimonial-heading" className="sr-only">
+          Featured Patient Stories
+        </h2>
         <div className="grid grid-cols-1 items-center gap-8 lg:grid-cols-2 lg:gap-12">
           {/* Image — split before/after placeholder */}
           <div className="relative flex aspect-[4/3] gap-px overflow-hidden rounded-xl bg-section-alt">
