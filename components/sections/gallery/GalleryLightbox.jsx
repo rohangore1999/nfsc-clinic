@@ -133,6 +133,8 @@ export function GalleryLightbox({ open, items, index, onClose, onPrev, onNext })
                 <BeforeAfterSlider
                   key={item.title}
                   title={item.title}
+                  imageBefore={item.imageBefore}
+                  imageAfter={item.imageAfter}
                 />
               )
             ) : null}

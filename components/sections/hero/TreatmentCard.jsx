@@ -1,6 +1,7 @@
 "use client";
 
 import Link from "next/link";
+import Image from "next/image";
 import { motion } from "motion/react";
 import { ArrowRight, Scissors, Wind, Droplet } from "lucide-react";
 import { cn } from "@/lib/utils";
@@ -19,7 +20,7 @@ const ICON_MAP = {
  *
  * Modular: when real photography arrives, swap the gradient block for next/image.
  */
-export function TreatmentCard({ title, href, icon, className }) {
+export function TreatmentCard({ title, href, icon, image, className }) {
   const Icon = ICON_MAP[icon];
 
   return (
@@ -37,15 +38,24 @@ export function TreatmentCard({ title, href, icon, className }) {
       >
         {/* Image / placeholder area */}
         <div className="relative mb-4 aspect-[4/3] w-full overflow-hidden rounded-xl bg-gradient-to-br from-section-alt to-hairline">
-          <div className="absolute inset-0 flex items-center justify-center">
-            {Icon ? (
-              <Icon
-                className="h-12 w-12 text-gold/40 transition-transform duration-700 group-hover:scale-110"
-                strokeWidth={1.25}
-                aria-hidden="true"
-              />
-            ) : null}
-          </div>
+          {image ? (
+            <Image
+              src={image}
+              alt={title}
+              fill
+              className="object-cover transition-transform duration-700 group-hover:scale-105"
+            />
+          ) : (
+            <div className="absolute inset-0 flex items-center justify-center">
+              {Icon ? (
+                <Icon
+                  className="h-12 w-12 text-gold/40 transition-transform duration-700 group-hover:scale-110"
+                  strokeWidth={1.25}
+                  aria-hidden="true"
+                />
+              ) : null}
+            </div>
+          )}
         </div>
 
         {/* Title + arrow */}

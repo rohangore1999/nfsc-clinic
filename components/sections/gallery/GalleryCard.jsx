@@ -19,7 +19,7 @@ const cardVariant = {
  * Image halves are currently gradient placeholders. When real photos arrive,
  * replace each placeholder div with <Image src={beforeUrl|afterUrl} ... />.
  */
-export function GalleryCard({ title, category, timeline, image, onClick, className }) {
+export function GalleryCard({ title, category, timeline, image, imageBefore, imageAfter, onClick, className }) {
   return (
     <motion.div
       variants={cardVariant}
@@ -58,20 +58,29 @@ export function GalleryCard({ title, category, timeline, image, onClick, classNa
         ) : (
           <>
             <div className="absolute inset-0 flex">
-              {/* TODO: swap each placeholder for <Image src={...} alt="Before" /> */}
-              <div className="flex h-full w-1/2 items-center justify-center bg-gradient-to-br from-section-alt to-hairline">
-                <User
-                  className="h-12 w-12 text-gold/30"
-                  strokeWidth={1}
-                  aria-hidden="true"
-                />
+              {/* Left half: Before */}
+              <div className="relative h-full w-1/2 overflow-hidden bg-gradient-to-br from-section-alt to-hairline flex items-center justify-center">
+                {imageBefore ? (
+                  <Image src={imageBefore} alt={`${title} - Before`} fill className="object-cover" />
+                ) : (
+                  <User
+                    className="h-12 w-12 text-gold/30"
+                    strokeWidth={1}
+                    aria-hidden="true"
+                  />
+                )}
               </div>
-              <div className="flex h-full w-1/2 items-center justify-center bg-gradient-to-bl from-section-alt to-hairline">
-                <User
-                  className="h-12 w-12 text-gold/40"
-                  strokeWidth={1}
-                  aria-hidden="true"
-                />
+              {/* Right half: After */}
+              <div className="relative h-full w-1/2 overflow-hidden bg-gradient-to-bl from-section-alt to-hairline flex items-center justify-center">
+                {imageAfter ? (
+                  <Image src={imageAfter} alt={`${title} - After`} fill className="object-cover" />
+                ) : (
+                  <User
+                    className="h-12 w-12 text-gold/40"
+                    strokeWidth={1}
+                    aria-hidden="true"
+                  />
+                )}
               </div>
             </div>
 

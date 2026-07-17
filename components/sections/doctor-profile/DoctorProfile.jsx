@@ -156,7 +156,7 @@ export function DoctorProfile() {
         <motion.div
           {...sectionRevealProps}
           variants={reduceMotion ? undefined : imageVariant}
-          className="relative order-1 md:order-2"
+          className="relative order-1 md:order-2 md:sticky md:top-32 md:self-start"
         >
           {/* Decorative offset gold border behind */}
           <div
