@@ -62,22 +62,24 @@ export function ReviewCard({
 
       <div className="mb-4 h-px w-full bg-hairline" />
 
-      <div className="mt-auto flex items-center justify-between gap-3">
+      <div className="mt-auto flex flex-col gap-3">
         <div className="flex items-center gap-3">
           <div
             aria-hidden="true"
-            className="flex h-10 w-10 items-center justify-center rounded-full bg-section-alt text-sm font-medium text-text-muted"
+            className="flex h-9 w-9 shrink-0 items-center justify-center rounded-full bg-section-alt text-sm font-medium text-text-muted"
           >
             {initials}
           </div>
           <div>
             <p className="text-sm font-bold text-text-primary">{author}</p>
-            <p className="text-xs text-text-muted">Verified Patient</p>
+            <p className="text-xs text-text-muted">Verified Google Review</p>
           </div>
         </div>
-        <span className="rounded-full border border-gold px-3 py-1 text-[0.65rem] font-medium uppercase tracking-[0.15em] text-gold">
-          {treatment}
-        </span>
+        {treatment && treatment !== "General" && (
+          <span className="self-start rounded-full border border-gold/60 bg-gold/5 px-3 py-1 text-[0.6rem] font-medium uppercase tracking-[0.15em] text-gold">
+            {treatment}
+          </span>
+        )}
       </div>
     </motion.article>
   );

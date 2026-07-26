@@ -2,7 +2,7 @@
 
 import { useEffect, useState } from "react";
 import { motion, AnimatePresence, useReducedMotion } from "motion/react";
-import { ChevronLeft, ChevronRight, Quote as QuoteIcon, User } from "lucide-react";
+import { ChevronLeft, ChevronRight, Quote as QuoteIcon } from "lucide-react";
 import { site } from "@/content/site";
 import { StarRow } from "@/components/ui/StarRow";
 import { cn } from "@/lib/utils";
@@ -50,8 +50,8 @@ export function FeaturedTestimonial() {
         <h2 id="featured-testimonial-heading" className="sr-only">
           Featured Patient Stories
         </h2>
-        <div className="grid grid-cols-1 items-center gap-8 lg:grid-cols-2 lg:gap-12">
-          {/* Image — split before/after placeholder */}
+        <div className="grid grid-cols-1 items-center gap-8">
+          {/* Before/After placeholder — commented out until real patient photos are available
           <div className="relative flex aspect-[4/3] gap-px overflow-hidden rounded-xl bg-section-alt">
             <div className="relative flex w-1/2 items-center justify-center bg-gradient-to-br from-section-alt to-hairline">
               <User
@@ -78,9 +78,10 @@ export function FeaturedTestimonial() {
               className="pointer-events-none absolute inset-y-0 left-1/2 w-px bg-gold"
             />
           </div>
+          */}
 
           {/* Content — animated on slide change */}
-          <div className="flex flex-col gap-4">
+          <div className="mx-auto flex w-full max-w-3xl flex-col gap-4">
             <AnimatePresence mode="wait">
               <motion.div
                 key={index}
