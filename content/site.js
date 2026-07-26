@@ -88,7 +88,7 @@ export const site = {
   hero: {
     h1: "Expert Facial Surgery & Aesthetic Treatments",
     subhead: "Where surgical precision meets aesthetic artistry.",
-    primaryCta: "Book Free Consultation",
+    primaryCta: "Book Your Consultation",
     secondaryCta: "Call Now",
     socialProof: "Trusted by patients across Mumbai",
     pills: [
@@ -229,6 +229,16 @@ export const site = {
       message: "Tell us about your goals (optional)",
       submit: "Book Now",
     },
+    treatmentOptions: [
+      "Facial Plastic Surgery",
+      "Non-Surgical Facial Aesthetics",
+      "Cosmetic Treatments",
+      "Maxillofacial & Oral Surgery",
+      "Dental",
+      "Dermatology",
+      "Hair Treatments",
+      "Other",
+    ],
     fallback: "or call",
     visit: "Visit Our Clinic",
   },
@@ -577,11 +587,11 @@ export const site = {
 
   contact: {
     address:
-      "1st floor, Avenue Building, Hemukalani Cross Rd 4, near KES International School, Sambhav Darshan, Hemu Colony, Irani Wadi, Kandivali West, Mumbai, Maharashtra 400067",
+      "1st floor, Avenue Building, Hemukalani Cross Rd 4, near by KES International School, Sambhav Darshan, Hemu Colony, Irani Wadi, Kandivali West, Mumbai, Maharashtra 400067, India",
     postalCode: "400067",
-    phone: "+91 7020089539",
+    phone: "+91 9372933315",
     email: "nikhilangre597@gmail.com",
-    hours: "Mon–Sun • 10AM–8PM",
+    hours: "Mon–Sun • 11AM–8PM",
     // Iframe-friendly embed (q-based search lands on the clinic pin without an API key).
     mapEmbedUrl:
       "https://maps.google.com/maps?q=NFSC+-+Dr.+Nikhil+Face+Surgical+%26+Aesthetic+Centre%2C+Kandivali+West%2C+Mumbai&output=embed",

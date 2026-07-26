@@ -30,11 +30,9 @@ export function ReviewCard({
   return (
     <motion.article
       variants={cardVariant}
-      whileHover={{ y: -4 }}
-      transition={{ duration: 0.3, ease: EASE }}
       className={cn(
         "flex h-full flex-col rounded-2xl border border-hairline bg-background p-6",
-        "shadow-sm transition-shadow duration-300 hover:shadow-md",
+        "shadow-sm transition-all duration-300 hover:-translate-y-1 hover:shadow-md",
         className
       )}
     >

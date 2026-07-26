@@ -1,8 +1,5 @@
-"use client";
-
 import Link from "next/link";
 import Image from "next/image";
-import { motion } from "motion/react";
 import { ArrowRight, Scissors, Wind, Droplet } from "lucide-react";
 import { cn } from "@/lib/utils";
 
@@ -24,10 +21,8 @@ export function TreatmentCard({ title, href, icon, image, priority = false, clas
   const Icon = ICON_MAP[icon];
 
   return (
-    <motion.div
-      whileHover={{ y: -4 }}
-      transition={{ duration: 0.3, ease: [0.16, 1, 0.3, 1] }}
-      className={cn("group h-full", className)}
+    <div
+      className={cn("group h-full transition-transform duration-300 hover:-translate-y-1", className)}
     >
       <Link
         href={href}
@@ -72,6 +67,6 @@ export function TreatmentCard({ title, href, icon, image, priority = false, clas
           />
         </div>
       </Link>
-    </motion.div>
+    </div>
   );
 }

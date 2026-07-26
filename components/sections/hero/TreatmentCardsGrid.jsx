@@ -27,7 +27,7 @@ export function TreatmentCardsGrid({ items, className }) {
   return (
     <div className={cn("relative group w-full", className)}>
       {/* Embla Viewport */}
-      <div className="overflow-hidden w-full pb-4" ref={emblaRef}>
+      <div className="overflow-hidden w-full min-h-[280px] md:min-h-[320px] pb-4" ref={emblaRef}>
         {/* Embla Container */}
         <div className="flex gap-6">
           {items.map((item, index) => (

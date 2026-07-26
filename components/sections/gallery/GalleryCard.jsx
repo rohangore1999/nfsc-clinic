@@ -23,8 +23,6 @@ export function GalleryCard({ title, category, timeline, image, imageBefore, ima
   return (
     <motion.div
       variants={cardVariant}
-      whileHover={{ y: -4 }}
-      transition={{ duration: 0.3, ease: EASE }}
       onClick={onClick}
       role={onClick ? "button" : undefined}
       tabIndex={onClick ? 0 : undefined}
@@ -37,7 +35,7 @@ export function GalleryCard({ title, category, timeline, image, imageBefore, ima
       }}
       className={cn(
         "group relative flex flex-col overflow-hidden rounded-2xl border border-hairline bg-background",
-        "cursor-pointer transition-colors duration-300 hover:border-gold hover:shadow-[0_10px_40px_rgba(0,0,0,0.05)]",
+        "cursor-pointer transition-all duration-300 hover:-translate-y-1 hover:border-gold hover:shadow-[0_10px_40px_rgba(0,0,0,0.05)]",
         "focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-gold focus-visible:ring-offset-2",
         className
       )}

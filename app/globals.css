@@ -96,3 +96,16 @@
     scroll-behavior: auto;
   }
 }
+
+/* Treatment pill glow — CSS keyframes (GPU-compositable via opacity) */
+@keyframes pill-glow {
+  0%   { box-shadow: 0 0 0 0 rgba(201, 160, 79, 0); }
+  8%   { box-shadow: 0 0 30px 3px rgba(201, 160, 79, 0.45); }
+  20%  { box-shadow: 0 0 30px 3px rgba(201, 160, 79, 0.45); }
+  75%  { box-shadow: 0 0 14px 1px rgba(201, 160, 79, 0.08); }
+  100% { box-shadow: 0 0 0 0 rgba(201, 160, 79, 0); }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .pill-glow { animation: none !important; }
+}

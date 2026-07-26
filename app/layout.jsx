@@ -43,7 +43,7 @@ export const viewport = {
 export default function RootLayout({ children }) {
   return (
     <html
-      lang="en"
+      lang="en-IN"
       className={cn("font-sans", inter.variable, playfair.variable)}
     >
       <body className="bg-background text-foreground antialiased">

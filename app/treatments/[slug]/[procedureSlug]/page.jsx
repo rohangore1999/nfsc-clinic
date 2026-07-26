@@ -6,7 +6,47 @@ import { treatmentsDetail, treatmentSlugs } from "@/content/treatments-detail";
 import { PageHero } from "@/components/sections/page-hero/PageHero";
 import { TreatmentHero } from "@/components/sections/treatment-detail/TreatmentHero";
 import { ProcedureDetailContent } from "@/components/sections/treatment-detail/ProcedureDetailContent";
+import { RelatedProcedures } from "@/components/sections/treatment-detail/RelatedProcedures";
 import { toSlug } from "@/lib/strings";
+
+/**
+ * Map of category slug → related category slugs for cross-linking.
+ * Only includes logical pairings where a patient exploring one might
+ * also be interested in the other.
+ */
+const RELATED_CATEGORIES = {
+  "facial-plastic-surgery": ["non-surgical-facial-aesthetics", "cosmetic-treatments"],
+  "non-surgical-facial-aesthetics": ["facial-plastic-surgery", "cosmetic-treatments"],
+  "cosmetic-treatments": ["facial-plastic-surgery", "dermatology"],
+  "maxillofacial-and-oral-surgery": ["dental", "facial-plastic-surgery"],
+  dental: ["maxillofacial-and-oral-surgery", "cosmetic-treatments"],
+  dermatology: ["cosmetic-treatments", "hair-treatments"],
+  "hair-treatments": ["dermatology", "cosmetic-treatments"],
+};
+
+/**
+ * Get cross-category procedure links for internal linking.
+ * Returns up to 2 procedures from related categories.
+ */
+function getCrossLinks(categorySlug) {
+  const related = RELATED_CATEGORIES[categorySlug] || [];
+  const links = [];
+  for (const relSlug of related) {
+    const relCat = treatmentsDetail[relSlug];
+    if (!relCat) continue;
+    const proc = relCat.procedures[0];
+    if (proc) {
+      links.push({
+        categorySlug: relSlug,
+        categoryTitle: relCat.title,
+        title: proc.title,
+        description: proc.description,
+      });
+    }
+    if (links.length >= 2) break;
+  }
+  return links;
+}
 
 /**
  * Helper: find a procedure inside a treatment category by its slug.
@@ -94,6 +134,12 @@ export default async function ProcedureDetailPage({ params }) {
           bullets={detail.bullets || []}
           additionalInfo={detail.additionalInfo}
           contentSections={detail.contentSections || []}
+        />
+        <RelatedProcedures
+          categorySlug={slug}
+          currentSlug={procedureSlug}
+          siblings={category.procedures}
+          crossLinks={getCrossLinks(slug)}
         />
       </main>
     </>

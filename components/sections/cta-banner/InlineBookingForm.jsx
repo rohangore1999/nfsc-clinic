@@ -235,9 +235,11 @@ export function InlineBookingForm() {
             <option value="" disabled>
               {site.ctaBanner.fields.treatment}
             </option>
-            <option value="Facial Surgery">Facial Surgery</option>
-            <option value="Hair Treatment">Hair Treatment</option>
-            <option value="Other">Other</option>
+            {site.ctaBanner.treatmentOptions.map((t) => (
+              <option key={t} value={t}>
+                {t}
+              </option>
+            ))}
           </select>
           {/* Gold chevron — `pointer-events-none` so clicks pass through to
               the select beneath. */}
