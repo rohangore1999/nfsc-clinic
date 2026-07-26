@@ -60,36 +60,36 @@ export function GoogleReviewCta() {
           </span>
         </a>
 
-        {/* ── Right: Leave a Review ── */}
+        {/* ── Right: Leave a Review (navy + gold, premium) ── */}
         <a
           href={cta.reviewUrl}
           target="_blank"
           rel="noopener noreferrer"
           className={cn(
-            "group relative flex flex-1 flex-col justify-between gap-3 overflow-hidden rounded-2xl border border-gold bg-gold p-6",
-            "transition-all duration-300 hover:shadow-lg hover:shadow-gold/30",
+            "group relative flex flex-1 flex-col justify-between gap-3 overflow-hidden rounded-2xl border border-navy bg-navy p-6",
+            "transition-all duration-300 hover:shadow-lg hover:shadow-navy/25",
             "focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-gold focus-visible:ring-offset-2"
           )}
         >
-          {/* Decorative glow blob */}
+          {/* Decorative gold glow blob */}
           <div
             aria-hidden="true"
-            className="pointer-events-none absolute -right-6 -top-6 h-24 w-24 rounded-full bg-white/15 blur-2xl transition-all duration-500 group-hover:scale-150"
+            className="pointer-events-none absolute -right-8 -top-8 h-28 w-28 rounded-full bg-gold/25 blur-2xl transition-all duration-500 group-hover:scale-150"
           />
 
-          {/* 5 stars */}
-          <div className="flex items-center gap-1">
+          {/* 5 gold stars */}
+          <div className="relative flex items-center gap-1">
             {[1,2,3,4,5].map((i) => (
-              <Star key={i} className="h-4 w-4 fill-white text-white" strokeWidth={0} aria-hidden="true" />
+              <Star key={i} className="h-4 w-4 fill-gold text-gold" strokeWidth={0} aria-hidden="true" />
             ))}
           </div>
 
-          <div>
+          <div className="relative">
             <p className="font-serif text-base font-bold text-white">{cta.reviewCta}</p>
-            <p className="mt-0.5 text-xs text-white/70">{cta.reviewSubtitle}</p>
+            <p className="mt-0.5 text-xs text-white/60">{cta.reviewSubtitle}</p>
           </div>
 
-          <span className="flex items-center gap-1 text-xs font-medium text-white/90 transition-all duration-300 group-hover:gap-2">
+          <span className="relative flex items-center gap-1 text-xs font-semibold text-gold transition-all duration-300 group-hover:gap-2">
             Open Google review form
             <ArrowRight className="h-3.5 w-3.5" strokeWidth={2} aria-hidden="true" />
           </span>
