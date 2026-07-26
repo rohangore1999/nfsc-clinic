@@ -1,32 +1,38 @@
 import { SITE_URL } from "@/lib/seo";
-
-/**
- * Add a route here when the page actually exists.
- * Don't list 404s — Search Console flags them as errors.
- */
-const routes = [
-  { path: "/", changeFrequency: "monthly", priority: 1.0 },
-  { path: "/about", changeFrequency: "monthly", priority: 0.9 },
-  { path: "/treatments", changeFrequency: "monthly", priority: 0.9 },
-  { path: "/treatments/facial-surgery", changeFrequency: "monthly", priority: 0.8 },
-  { path: "/treatments/hair-treatments", changeFrequency: "monthly", priority: 0.8 },
-  { path: "/gallery", changeFrequency: "weekly", priority: 0.7 },
-  { path: "/testimonials", changeFrequency: "weekly", priority: 0.7 },
-  // Uncomment as pages are built:
-  // { path: "/treatments", changeFrequency: "monthly", priority: 0.9 },
-  // { path: "/treatments/facial-surgery", changeFrequency: "monthly", priority: 0.8 },
-  // { path: "/treatments/hair-treatments", changeFrequency: "monthly", priority: 0.8 },
-  // { path: "/gallery", changeFrequency: "weekly", priority: 0.7 },
-  // { path: "/testimonials", changeFrequency: "weekly", priority: 0.7 },
-  // { path: "/contact", changeFrequency: "yearly", priority: 0.6 },
-];
+import { treatmentsDetail, treatmentSlugs } from "@/content/treatments-detail";
+import { toSlug } from "@/lib/strings";
 
 export default function sitemap() {
   const lastModified = new Date();
-  return routes.map(({ path, changeFrequency, priority }) => ({
-    url: `${SITE_URL}${path}`,
-    lastModified,
-    changeFrequency,
-    priority,
+
+  const staticRoutes = [
+    { path: "/", changeFrequency: "monthly", priority: 1.0 },
+    { path: "/about", changeFrequency: "monthly", priority: 0.9 },
+    // /treatments index redirects to / — excluded from sitemap to avoid indexing a redirect
+    { path: "/gallery", changeFrequency: "weekly", priority: 0.7 },
+    { path: "/testimonials", changeFrequency: "weekly", priority: 0.7 },
+  ];
+
+  const categoryRoutes = treatmentSlugs.map((slug) => ({
+    path: `/treatments/${slug}`,
+    changeFrequency: "monthly",
+    priority: 0.8,
   }));
+
+  const procedureRoutes = treatmentSlugs.flatMap((slug) =>
+    treatmentsDetail[slug].procedures.map((proc) => ({
+      path: `/treatments/${slug}/${toSlug(proc.title)}`,
+      changeFrequency: "monthly",
+      priority: 0.7,
+    }))
+  );
+
+  return [...staticRoutes, ...categoryRoutes, ...procedureRoutes].map(
+    ({ path, changeFrequency, priority }) => ({
+      url: `${SITE_URL}${path}`,
+      lastModified,
+      changeFrequency,
+      priority,
+    })
+  );
 }

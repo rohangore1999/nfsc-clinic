@@ -31,11 +31,9 @@ export function TeamMemberCard({
   return (
     <motion.div
       variants={cardVariant}
-      whileHover={{ y: -4 }}
-      transition={{ duration: 0.3, ease: EASE }}
       className={cn(
         "group flex flex-col overflow-hidden rounded-xl border border-hairline bg-background",
-        "transition-colors duration-300 hover:border-gold",
+        "transition-all duration-300 hover:-translate-y-1 hover:border-gold",
         className
       )}
     >

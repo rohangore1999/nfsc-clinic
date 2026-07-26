@@ -88,7 +88,7 @@ export const site = {
   hero: {
     h1: "Expert Facial Surgery & Aesthetic Treatments",
     subhead: "Where surgical precision meets aesthetic artistry.",
-    primaryCta: "Book Free Consultation",
+    primaryCta: "Book Your Consultation",
     secondaryCta: "Call Now",
     socialProof: "Trusted by patients across Mumbai",
     pills: [
@@ -181,7 +181,7 @@ export const site = {
     rows: [
       {
         index: "01",
-        slug: "facial-surgery",
+        slug: "facial-plastic-surgery",
         label: "FACIAL SURGERY",
         title: "Facial Surgery",
         icon: "scissors",
@@ -229,6 +229,16 @@ export const site = {
       message: "Tell us about your goals (optional)",
       submit: "Book Now",
     },
+    treatmentOptions: [
+      "Facial Plastic Surgery",
+      "Non-Surgical Facial Aesthetics",
+      "Cosmetic Treatments",
+      "Maxillofacial & Oral Surgery",
+      "Dental",
+      "Dermatology",
+      "Hair Treatments",
+      "Other",
+    ],
     fallback: "or call",
     visit: "Visit Our Clinic",
   },
@@ -445,126 +455,101 @@ export const site = {
       "Real experiences",
       "Real results",
     ],
-    // TODO: replace placeholder testimonials with real, consented reviews
-    // before launch. Authentic reviews matter for trust + Google E-E-A-T.
+    // Real Google reviews — verified patients (source: Google Business Profile, July 2026)
     featured: [
       {
         quote:
-          "The level of care and precision at NFSC is unparalleled. I felt completely understood during my consultation, and the results are incredibly natural. It has truly restored my confidence.",
+          "I recently underwent buccal fat removal surgery with Dr. Nikhil Angre, and I'm very satisfied with my overall experience. The entire team was professional, caring, and made me feel at ease throughout the process.",
         rating: 5,
-        author: "Rajesh M.",
-        treatment: "Rhinoplasty",
-        timeline: "3 months post-procedure",
+        author: "Neha Dhadve",
+        treatment: "Buccal Fat Removal",
+        timeline: "Google Review",
       },
       {
         quote:
-          "From consultation to recovery, every step was handled with care and professionalism. Dr. Nikhil's attention to detail is remarkable, and the outcome speaks for itself.",
+          "I am extremely happy with my ear repair surgery. From consultation to the final result, the entire experience was smooth, professional, and reassuring. Dr. Nikhil and the team truly exceeded my expectations.",
         rating: 5,
-        author: "Priya S.",
-        treatment: "Facelift",
-        timeline: "6 months post-procedure",
+        author: "Bhavana Dhamane",
+        treatment: "Ear Repair Surgery",
+        timeline: "Google Review",
       },
       {
         quote:
-          "After years of hesitation, I am so glad I chose NFSC for my hair transplant. The procedure was painless, the team was supportive, and the result feels completely natural.",
+          "Very nice consultation, service, genuine advice for any procedure. Thanks Dr Nikhil for your valuable time. Highly recommended.",
         rating: 5,
-        author: "Vikram K.",
-        treatment: "Hair Transplant",
-        timeline: "1 year post-procedure",
+        author: "Archana Dhamane",
+        treatment: "Consultation",
+        timeline: "Google Review",
       },
     ],
     statsStrip: [
-      { icon: "star", label: "4.9 ★ Average Rating" },
+      { icon: "star", label: "5.0 ★ Google Rating" },
       { icon: "heart", label: "100% Would Recommend" },
-      { icon: "verified", label: "Verified Patient Reviews" },
+      { icon: "verified", label: "Verified Google Reviews" },
     ],
     filters: [
       "All Reviews",
       "Facial Surgery",
-      "Hair Treatments",
+      "Dental",
+      "Dermatology",
       "5 Star Only",
     ],
     reviews: [
       {
         rating: 5,
-        text:
-          "The team at NFSC made me feel so comfortable from day one. The results of my facelift exceeded all my expectations and look completely natural.",
-        author: "Sarah A.",
-        initials: "SA",
+        text: "I'm genuinely impressed with the overall experience and care I received. Dr. Nikhil has completely earned my trust and I would highly recommend NFSC to anyone looking for quality aesthetic care.",
+        author: "Rohan Gore",
+        initials: "RG",
         category: "Facial Surgery",
-        treatment: "Facelift",
+        treatment: "Aesthetic Consultation",
       },
       {
         rating: 5,
-        text:
-          "Dr. Nikhil's expertise is evident from the first consultation. My rhinoplasty was a transformative experience and the recovery was smoother than expected.",
-        author: "Aarav G.",
-        initials: "AG",
+        text: "We had a great experience at the clinic. My mom underwent an ear lobe surgery here, and the entire procedure went very smoothly. The team was attentive and made her feel comfortable throughout.",
+        author: "Pari Kini",
+        initials: "PK",
         category: "Facial Surgery",
-        treatment: "Rhinoplasty",
+        treatment: "Ear Lobe Surgery",
       },
       {
         rating: 5,
-        text:
-          "I struggled with hair loss for years. The PRP treatments at NFSC made a remarkable difference and I now feel confident again.",
-        author: "Kabir T.",
-        initials: "KT",
-        category: "Hair Treatments",
-        treatment: "PRP Therapy",
+        text: "I had a great and non-painful experience with my tooth extraction — completely smooth. Everything was handled with great care and professionalism from start to finish.",
+        author: "Priti Karelia",
+        initials: "PK",
+        category: "Dental",
+        treatment: "Tooth Extraction",
       },
       {
         rating: 5,
-        text:
-          "My blepharoplasty results are subtle yet transformative. I look refreshed without anyone being able to tell I had work done.",
-        author: "Meera P.",
-        initials: "MP",
+        text: "I recently visited Dr. Nikhil Face Surgical and Aesthetic Centre in Kandivali and had an amazing experience. I got laser treatment done and the results have been wonderful.",
+        author: "Aishwarya Angre",
+        initials: "AA",
+        category: "Dermatology",
+        treatment: "Laser Treatment",
+      },
+      {
+        rating: 5,
+        text: "The doctor was very professional, patient, and took time to understand my concerns. The procedure was clearly explained at every step. Truly a comforting experience.",
+        author: "Abhidnya Kadam",
+        initials: "AK",
         category: "Facial Surgery",
-        treatment: "Blepharoplasty",
+        treatment: "Aesthetic Procedure",
       },
       {
-        rating: 4,
-        text:
-          "Excellent clinic experience overall. Communication was clear at every stage and the staff were welcoming. Recovery took a little longer than I anticipated.",
-        author: "Rohan D.",
-        initials: "RD",
+        rating: 5,
+        text: "Some people choose a profession. Some people truly live it. Dr. Nikhil is one of those rare doctors who genuinely cares about his patients.",
+        author: "Vrushti Lopen",
+        initials: "VL",
         category: "Facial Surgery",
-        treatment: "Jaw Contouring",
+        treatment: "General",
       },
       {
         rating: 5,
-        text:
-          "The hair transplant procedure was meticulously planned. Watching my hairline restore over months has been incredible. Truly a confidence-changing experience.",
-        author: "Neha R.",
-        initials: "NR",
-        category: "Hair Treatments",
-        treatment: "Hair Transplant",
-      },
-      {
-        rating: 5,
-        text:
-          "Dr. Nikhil takes the time to understand exactly what you want. The result of my rhinoplasty is exactly the natural refinement I had hoped for.",
-        author: "Ishaan V.",
-        initials: "IV",
+        text: "Dr. Nikhil is a very good person. The clinic is well-maintained and the staff is warm and welcoming. Highly satisfied with my visit.",
+        author: "Sanket Warlikar",
+        initials: "SW",
         category: "Facial Surgery",
-        treatment: "Rhinoplasty",
-      },
-      {
-        rating: 5,
-        text:
-          "GFC treatment delivered noticeable density and shine within months. The clinic environment is peaceful and the team is genuinely caring.",
-        author: "Aanya B.",
-        initials: "AB",
-        category: "Hair Treatments",
-        treatment: "GFC Treatment",
-      },
-      {
-        rating: 5,
-        text:
-          "My otoplasty experience was exceptional. The honesty during consultation and the precision of the procedure made all the difference.",
-        author: "Dev L.",
-        initials: "DL",
-        category: "Facial Surgery",
-        treatment: "Otoplasty",
+        treatment: "General",
       },
     ],
     googleCta: {
@@ -572,16 +557,19 @@ export const site = {
       subtitle: "We value every patient's feedback",
       // Reuses site.contact.mapDirectionsUrl — the Google Maps place page
       // shows the clinic's reviews tab. Single source of truth.
+      reviewUrl: "https://g.page/r/CcQbxPTHKRwxEBM/review",
+      reviewCta: "Leave a Review",
+      reviewSubtitle: "Takes less than a minute",
     },
   },
 
   contact: {
     address:
-      "1st floor, Avenue Building, Hemukalani Cross Rd 4, near KES International School, Sambhav Darshan, Hemu Colony, Irani Wadi, Kandivali West, Mumbai, Maharashtra 400067",
+      "1st floor, Avenue Building, Hemukalani Cross Rd 4, near by KES International School, Sambhav Darshan, Hemu Colony, Irani Wadi, Kandivali West, Mumbai, Maharashtra 400067, India",
     postalCode: "400067",
-    phone: "+91 7020089539",
+    phone: "+91 9372933315",
     email: "nikhilangre597@gmail.com",
-    hours: "Mon–Sun • 10AM–8PM",
+    hours: "Mon–Sun • 11AM–8PM",
     // Iframe-friendly embed (q-based search lands on the clinic pin without an API key).
     mapEmbedUrl:
       "https://maps.google.com/maps?q=NFSC+-+Dr.+Nikhil+Face+Surgical+%26+Aesthetic+Centre%2C+Kandivali+West%2C+Mumbai&output=embed",
@@ -604,7 +592,6 @@ export const site = {
       "© 2026 NFSC — Dr. Nikhil Face Surgical & Aesthetic Centre. All rights reserved.",
     quickLinks: [
       { label: "About", href: "/about" },
-      { label: "Treatments", href: "/treatments" },
       { label: "Gallery", href: "/gallery" },
       { label: "Testimonials", href: "/testimonials" },
       { label: "Contact", href: "#contact" },

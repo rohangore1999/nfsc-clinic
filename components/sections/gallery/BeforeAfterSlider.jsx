@@ -80,7 +80,7 @@ export function BeforeAfterSlider({ title, imageBefore, imageAfter, initialPosit
       {/* After half — full-bleed base layer */}
       <div className="absolute inset-0 flex items-center justify-center bg-gradient-to-br from-gold/10 to-gold/30">
         {imageAfter ? (
-          <Image src={imageAfter} alt={`${title} - After`} fill className="object-cover pointer-events-none" />
+          <Image src={imageAfter} alt={`${title} - After`} fill sizes="(min-width: 768px) 50vw, 100vw" className="object-cover pointer-events-none" />
         ) : (
           <User
             className="h-24 w-24 text-gold/70"
@@ -96,7 +96,7 @@ export function BeforeAfterSlider({ title, imageBefore, imageAfter, initialPosit
         style={{ clipPath: `inset(0 ${100 - position}% 0 0)` }}
       >
         {imageBefore ? (
-          <Image src={imageBefore} alt={`${title} - Before`} fill className="object-cover pointer-events-none" />
+          <Image src={imageBefore} alt={`${title} - Before`} fill sizes="(min-width: 768px) 50vw, 100vw" className="object-cover pointer-events-none" />
         ) : (
           <User
             className="h-24 w-24 text-text-muted"

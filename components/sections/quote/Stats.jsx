@@ -18,11 +18,7 @@ function CountUp({ value, suffix }) {
   const [display, setDisplay] = useState(reduceMotion ? value : 0);
 
   useEffect(() => {
-    if (!inView) return;
-    if (reduceMotion) {
-      setDisplay(value);
-      return;
-    }
+    if (!inView || reduceMotion) return;
     const controls = animate(0, value, {
       duration: 1.8,
       ease: EASE,

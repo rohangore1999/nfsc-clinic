@@ -23,8 +23,6 @@ export function GalleryCard({ title, category, timeline, image, imageBefore, ima
   return (
     <motion.div
       variants={cardVariant}
-      whileHover={{ y: -4 }}
-      transition={{ duration: 0.3, ease: EASE }}
       onClick={onClick}
       role={onClick ? "button" : undefined}
       tabIndex={onClick ? 0 : undefined}
@@ -37,7 +35,7 @@ export function GalleryCard({ title, category, timeline, image, imageBefore, ima
       }}
       className={cn(
         "group relative flex flex-col overflow-hidden rounded-2xl border border-hairline bg-background",
-        "cursor-pointer transition-colors duration-300 hover:border-gold hover:shadow-[0_10px_40px_rgba(0,0,0,0.05)]",
+        "cursor-pointer transition-all duration-300 hover:-translate-y-1 hover:border-gold hover:shadow-[0_10px_40px_rgba(0,0,0,0.05)]",
         "focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-gold focus-visible:ring-offset-2",
         className
       )}
@@ -46,7 +44,7 @@ export function GalleryCard({ title, category, timeline, image, imageBefore, ima
         {category === "Clinic" ? (
           <div className="absolute inset-0 flex items-center justify-center bg-gradient-to-br from-section-alt to-hairline">
             {image ? (
-              <Image src={image} alt={title} fill className="object-cover" />
+              <Image src={image} alt={title} fill sizes="(min-width: 768px) 33vw, 100vw" className="object-cover" />
             ) : (
               <User
                 className="h-12 w-12 text-gold/30"
@@ -61,7 +59,7 @@ export function GalleryCard({ title, category, timeline, image, imageBefore, ima
               {/* Left half: Before */}
               <div className="relative h-full w-1/2 overflow-hidden bg-gradient-to-br from-section-alt to-hairline flex items-center justify-center">
                 {imageBefore ? (
-                  <Image src={imageBefore} alt={`${title} - Before`} fill className="object-cover" />
+                  <Image src={imageBefore} alt={`${title} - Before`} fill sizes="(min-width: 768px) 17vw, 50vw" className="object-cover" />
                 ) : (
                   <User
                     className="h-12 w-12 text-gold/30"
@@ -73,7 +71,7 @@ export function GalleryCard({ title, category, timeline, image, imageBefore, ima
               {/* Right half: After */}
               <div className="relative h-full w-1/2 overflow-hidden bg-gradient-to-bl from-section-alt to-hairline flex items-center justify-center">
                 {imageAfter ? (
-                  <Image src={imageAfter} alt={`${title} - After`} fill className="object-cover" />
+                  <Image src={imageAfter} alt={`${title} - After`} fill sizes="(min-width: 768px) 17vw, 50vw" className="object-cover" />
                 ) : (
                   <User
                     className="h-12 w-12 text-gold/40"
@@ -114,11 +112,11 @@ export function GalleryCard({ title, category, timeline, image, imageBefore, ima
 
       {/* Footer */}
       <div className="flex flex-col gap-3 p-6">
-        <div className="flex items-center justify-between gap-3">
-          <h3 className="font-serif text-2xl font-semibold text-navy">
+        <div className="flex flex-wrap items-center justify-between gap-2">
+          <h2 className="min-w-0 font-serif text-xl font-semibold text-navy md:text-2xl">
             {title}
-          </h3>
-          <span className="rounded-full border border-gold px-3 py-1 text-[0.65rem] font-medium uppercase tracking-[0.15em] text-gold">
+          </h2>
+          <span className="shrink-0 rounded-full border border-gold px-3 py-1 text-[0.65rem] font-medium uppercase tracking-[0.15em] text-gold">
             {category}
           </span>
         </div>

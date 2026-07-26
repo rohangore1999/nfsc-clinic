@@ -1,6 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
-import { MapPin } from "lucide-react";
+import { MapPin, Star } from "lucide-react";
 import { site } from "@/content/site";
 import { Logo } from "@/components/layout/Logo";
 import { FooterColumn } from "./FooterColumn";
@@ -99,15 +99,26 @@ export function Footer() {
             />
           </div>
 
-          <a
-            href={site.contact.mapDirectionsUrl}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="mt-3 inline-flex items-center gap-1.5 text-xs font-medium uppercase tracking-[0.18em] text-gold transition-colors duration-200 hover:text-white"
-          >
-            <MapPin className="h-3.5 w-3.5" strokeWidth={1.5} aria-hidden="true" />
-            Get Directions
-          </a>
+          <div className="mt-3 flex flex-wrap items-center gap-4">
+            <a
+              href={site.contact.mapDirectionsUrl}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center gap-1.5 text-xs font-medium uppercase tracking-[0.18em] text-gold transition-colors duration-200 hover:text-white"
+            >
+              <MapPin className="h-3.5 w-3.5" strokeWidth={1.5} aria-hidden="true" />
+              Get Directions
+            </a>
+            <a
+              href={site.testimonials.googleCta.reviewUrl}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center gap-1.5 text-xs font-medium uppercase tracking-[0.18em] text-gold transition-colors duration-200 hover:text-white"
+            >
+              <Star className="h-3.5 w-3.5" strokeWidth={1.5} aria-hidden="true" />
+              Review Us
+            </a>
+          </div>
         </div>
       </div>
 

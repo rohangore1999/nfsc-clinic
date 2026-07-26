@@ -32,28 +32,12 @@ export function WhyChoose() {
       aria-labelledby="why-choose-heading"
       className="relative overflow-hidden bg-gradient-to-b from-navy to-[#0F0F1A] px-6 py-24 md:px-8 md:py-32"
     >
-      {/* Decorative gold orb (slow ambient pulse) */}
+      {/* Decorative gold orb — static CSS gradient (GPU-friendly) */}
       <div
         aria-hidden="true"
         className="pointer-events-none absolute inset-0 z-0 flex items-center justify-center"
       >
-        <motion.div
-          initial={reduceMotion ? false : { scale: 0.95, opacity: 0.12 }}
-          animate={
-            reduceMotion
-              ? false
-              : {
-                  scale: [0.95, 1.03, 0.95],
-                  opacity: [0.12, 0.18, 0.12],
-                }
-          }
-          transition={
-            reduceMotion
-              ? undefined
-              : { duration: 10, repeat: Infinity, ease: "easeInOut" }
-          }
-          className="h-[600px] w-[600px] rounded-full bg-gold mix-blend-screen blur-[120px]"
-        />
+        <div className="h-[600px] w-[600px] rounded-full bg-[radial-gradient(circle,rgba(201,160,79,0.15)_0%,transparent_70%)] mix-blend-screen" />
       </div>
 
       <motion.div

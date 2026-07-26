@@ -31,11 +31,9 @@ export function EquipmentCard({ icon, title, description, tag, image, className 
   return (
     <motion.div
       variants={cardVariant}
-      whileHover={{ y: -8 }}
-      transition={{ duration: 0.3, ease: EASE }}
       className={cn(
         "group flex h-full flex-col overflow-hidden rounded-2xl border border-hairline bg-background",
-        "transition-shadow duration-300 hover:shadow-lg",
+        "transition-all duration-300 hover:-translate-y-2 hover:shadow-lg",
         className
       )}
     >

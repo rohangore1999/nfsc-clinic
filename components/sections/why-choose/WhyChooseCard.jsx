@@ -32,13 +32,11 @@ export function WhyChooseCard({ icon, title, description, className }) {
   return (
     <motion.div
       variants={cardVariant}
-      whileHover={{ y: -5 }}
-      transition={{ duration: 0.3, ease: EASE }}
       className={cn(
         "flex flex-col items-center rounded-[20px] border border-white/20 border-t-[3px] border-t-gold",
         "bg-white/10 p-8 text-center backdrop-blur-[20px]",
         "shadow-[0_8px_32px_rgba(0,0,0,0.2)]",
-        "transition-colors duration-300 hover:bg-white/[0.18]",
+        "transition-all duration-300 hover:-translate-y-[5px] hover:bg-white/[0.18]",
         className
       )}
     >

@@ -89,7 +89,6 @@ export function AboutPreview() {
                 fill
                 sizes="(min-width: 768px) 28rem, 100vw"
                 className="object-cover"
-                priority
               />
             </div>
           </div>

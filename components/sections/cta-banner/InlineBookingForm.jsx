@@ -128,6 +128,14 @@ export function InlineBookingForm() {
         <p className="mt-2 text-sm text-white/60">
           We&apos;ll reach out shortly to confirm your consultation.
         </p>
+        <a
+          href={site.testimonials.googleCta.reviewUrl}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="mt-4 inline-flex items-center gap-2 rounded-full border border-gold/50 px-4 py-2 text-xs font-medium uppercase tracking-[0.12em] text-gold transition-colors duration-200 hover:bg-gold/10"
+        >
+          ⭐ Had a great visit? Leave us a Google review
+        </a>
       </div>
     );
   }
@@ -136,7 +144,7 @@ export function InlineBookingForm() {
     <form
       onSubmit={onSubmit}
       noValidate
-      className="flex w-full max-w-md flex-col gap-4"
+      className="flex w-full flex-col gap-4"
       aria-label="Book a free consultation"
     >
       {/* Name */}
@@ -235,9 +243,11 @@ export function InlineBookingForm() {
             <option value="" disabled>
               {site.ctaBanner.fields.treatment}
             </option>
-            <option value="Facial Surgery">Facial Surgery</option>
-            <option value="Hair Treatment">Hair Treatment</option>
-            <option value="Other">Other</option>
+            {site.ctaBanner.treatmentOptions.map((t) => (
+              <option key={t} value={t}>
+                {t}
+              </option>
+            ))}
           </select>
           {/* Gold chevron — `pointer-events-none` so clicks pass through to
               the select beneath. */}

@@ -68,12 +68,12 @@ export function TreatmentRow({ row, reverse }) {
           {row.index} — {row.label}
         </motion.span>
 
-        <motion.h3
+        <motion.h2
           variants={itemVariant}
           className="mb-6 font-serif text-3xl font-semibold text-navy md:text-4xl"
         >
           {row.title}
-        </motion.h3>
+        </motion.h2>
 
         <motion.p
           variants={itemVariant}

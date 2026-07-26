@@ -1,8 +1,5 @@
-"use client";
-
 import Link from "next/link";
 import Image from "next/image";
-import { motion } from "motion/react";
 import { ArrowRight, Scissors, Wind, Droplet } from "lucide-react";
 import { cn } from "@/lib/utils";
 
@@ -20,14 +17,12 @@ const ICON_MAP = {
  *
  * Modular: when real photography arrives, swap the gradient block for next/image.
  */
-export function TreatmentCard({ title, href, icon, image, className }) {
+export function TreatmentCard({ title, href, icon, image, priority = false, className }) {
   const Icon = ICON_MAP[icon];
 
   return (
-    <motion.div
-      whileHover={{ y: -4 }}
-      transition={{ duration: 0.3, ease: [0.16, 1, 0.3, 1] }}
-      className={cn("group h-full", className)}
+    <div
+      className={cn("group h-full transition-transform duration-300 hover:-translate-y-1", className)}
     >
       <Link
         href={href}
@@ -43,6 +38,8 @@ export function TreatmentCard({ title, href, icon, image, className }) {
               src={image}
               alt={title}
               fill
+              sizes="(min-width: 768px) 33vw, 100vw"
+              priority={priority}
               className="object-cover transition-transform duration-700 group-hover:scale-105"
             />
           ) : (
@@ -60,9 +57,9 @@ export function TreatmentCard({ title, href, icon, image, className }) {
 
         {/* Title + arrow */}
         <div className="flex flex-1 flex-col items-center text-center">
-          <h3 className="font-serif text-lg font-semibold tracking-wide text-navy">
+          <h2 className="font-serif text-lg font-semibold tracking-wide text-navy">
             {title}
-          </h3>
+          </h2>
           <ArrowRight
             className="mt-3 h-5 w-5 text-gold transition-transform duration-300 group-hover:translate-x-1"
             strokeWidth={1.5}
@@ -70,6 +67,6 @@ export function TreatmentCard({ title, href, icon, image, className }) {
           />
         </div>
       </Link>
-    </motion.div>
+    </div>
   );
 }
