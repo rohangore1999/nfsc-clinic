@@ -20,7 +20,7 @@
 - [x] **Canonical URLs** — set on every page via `buildMetadata()` in `lib/seo.js`
 - [x] **OG + Twitter tags** — present on every page with `summary_large_image` card type
 - [x] **Generated OG image** — `app/opengraph-image.jsx` and `app/twitter-image.jsx` (code-generated at build time with brand colors)
-- [x] **Favicon + Apple icon** — `app/icon.jsx` and `app/apple-icon.jsx` (code-generated with "N" logo)
+- [x] **Favicon + Apple icon** — `app/icon.png` (32x32) and `app/apple-icon.png` (180x180) using real NFSC logo (`public/images/nfsc-logo.jpg`)
 - [x] **Heading hierarchy** — single H1 per page, proper H1→H2→H3 flow (no level skipping)
 - [x] **Skip-to-content link** — accessibility landmark in root layout
 - [x] **Semantic HTML** — `<main>`, `<nav>`, `<section>`, `<article>`, `<header>`, `<footer>` used throughout
@@ -43,127 +43,80 @@
 - [x] **CSS-based hover effects** — card hover animations use CSS `transition-transform` instead of JS-driven Motion `whileHover`, reducing main-thread work
 - [x] **GPU-friendly animations** — WhyChoose blur orb replaced with static CSS `radial-gradient`; TreatmentPills glow uses CSS `@keyframes` instead of Motion `boxShadow`
 
-### Still Needs Action Before Launch
+### Still Needs Action
 
-- [x] **Set `NEXT_PUBLIC_SITE_URL`** to `https://www.drnikhilangre.com` in `.env.local` — also set in Vercel env vars
-- [ ] **Replace social `href="#"` placeholders** in `content/site.js` lines 599–601 with real Instagram/Facebook/YouTube URLs
-- [ ] **Add missing treatment hero images** for ~10 procedure slugs (currently fallback to icon placeholder after 404s)
-- [x] **Google Analytics 4** — `G-Y2FN7G27SJ` wired into `app/layout.jsx` via `next/script` with `afterInteractive` strategy
-- [ ] **Set up Google Business Profile** (see Phase 2.2)
-- [ ] **Submit sitemap to Google Search Console** (see Phase 2.1)
-- [ ] **Update `AggregateRating` values** in `lib/schema.js` to match real Google review count once profile is established
-- [ ] **Replace mock testimonials** in `content/site.js` with real, consented patient reviews
+- [x] **Domain live** — `https://www.drnikhilangre.com` on Vercel
+- [x] **`NEXT_PUBLIC_SITE_URL`** set to `https://www.drnikhilangre.com` in Vercel env vars + `.env.local`
+- [x] **Google Search Console** — verified (DNS), sitemap submitted, homepage indexing requested
+- [x] **Google Business Profile** — created, primary category "Plastic surgeon", website + address + phone + hours set
+- [x] **Google Analytics 4** — `G-Y2FN7G27SJ` wired into `app/layout.jsx` via `next/script`
+- [x] **Microsoft Clarity** — `xsfpfqo8kr` wired into `app/layout.jsx` for heatmaps & session recordings
+- [x] **Bing Webmaster Tools** — verified (meta tag `E223DFA6D62C21A505C85FB233F46890`), sitemap submitted, URL inspection done
+- [ ] **Replace social `href="#"` placeholders** in `content/site.js` with real Instagram/Facebook/YouTube URLs — update `sameAs` in schema auto-updates too
+- [ ] **Add missing treatment hero images** for ~10 procedure slugs (currently shows icon placeholder)
+- [x] **Update `AggregateRating`** in `lib/schema.js` — now reflects real data: 5.0★, 12 reviews (Google Business Profile, July 2026)
+- [x] **Real testimonials live** — 10 verified Google reviews in `content/site.js` (featured: 3, grid: 7)
+- [ ] **Add clinic photos to Google Business Profile** — reception, surgery room, doctor portrait, equipment
+- [ ] **Verify Google Business Profile** — Google will send a postcard or call to verify address
 - [ ] **Delete unused `public/images/nikhil/about-nikhil3.jpg`** (2.9 MB, not referenced anywhere)
 
 ---
 
-## Phase 1: Domain & DNS Setup (Day 1)
+## Phase 1: Domain & DNS Setup ✅ COMPLETE
 
-### 1.1 Choose a domain
-
-| Option                      | SEO notes                                                     |
-| --------------------------- | ------------------------------------------------------------- |
-| `nfscclinic.com`            | Brand-match, short, memorable                                 |
-| `drnikhilangre.com`         | Doctor-name keyword — ranks for "Dr Nikhil Angre Mumbai"      |
-| `nfsc.clinic`               | `.clinic` TLD is accepted by Google but less trusted by users |
-| `drnikhilfacialsurgery.com` | Keyword-rich but long                                         |
-
-**Recommendation:** Pick a `.com` with the brand or doctor name. Avoid hyphens.
-
-### 1.2 DNS & SSL
-
-- Point the domain to Vercel via CNAME or A records (Vercel dashboard → Domains)
-- Vercel auto-provisions SSL — confirm HTTPS works
-- Redirect `www` → non-www (or vice versa) — pick ONE canonical version
-- Update `NEXT_PUBLIC_SITE_URL` in Vercel env vars to the production URL (e.g. `https://drnikhilangre.com`)
-
-### 1.3 Redirect the old Vercel URL
-
-In Vercel dashboard (Settings → Domains), the `nfsc-clinic.vercel.app` URL will auto-redirect to the custom domain once configured. Alternatively, add a 301 redirect in `next.config.mjs`:
-
-```js
-async redirects() {
-  return [
-    {
-      source: '/:path*',
-      has: [{ type: 'host', value: 'nfsc-clinic.vercel.app' }],
-      destination: 'https://yourdomain.com/:path*',
-      permanent: true,
-    },
-  ];
-}
-```
-
-This prevents duplicate content penalties.
+- **Domain:** `https://www.drnikhilangre.com` — live on Vercel
+- **SSL:** Auto-provisioned by Vercel (HTTPS enforced)
+- **`NEXT_PUBLIC_SITE_URL`:** Set in Vercel env vars → sitemap, canonicals, JSON-LD all use production URL
+- **Old Vercel URL:** `nfsc-clinic.vercel.app` auto-redirects to the custom domain via Vercel dashboard
 
 ---
 
-## Phase 2: Google & Bing Setup (Day 1–3)
+## Phase 2: Google & Bing Setup ✅ COMPLETE
 
-### 2.1 Google Search Console
+### 2.1 Google Search Console ✅
 
-1. Go to [search.google.com/search-console](https://search.google.com/search-console)
-2. Add your domain as a **Domain property** (verifies all subdomains at once)
-3. Verify via DNS TXT record
-4. Submit sitemap: `https://yourdomain.com/sitemap.xml`
-5. Request indexing for your homepage
-6. Monitor the **Coverage** report for crawl errors
+- **Verified:** DNS TXT record method
+- **Sitemap submitted:** `https://www.drnikhilangre.com/sitemap.xml`
+- **URL Inspection:** Homepage indexing requested
+- **Monitor:** [search.google.com/search-console](https://search.google.com/search-console) → Coverage report for crawl errors
 
-### 2.2 Google Business Profile (CRITICAL for local SEO)
+### 2.2 Google Business Profile ✅
 
-This is **the single most important step** for a clinic.
+- **Name:** Dr. Nikhil Face Surgical & Aesthetic Centre
+- **Primary Category:** Plastic surgeon (closest available — "Facial plastic surgeon" not a Google category)
+- **Address:** 1st floor, Avenue Building, Hemukalani Cross Rd 4, Kandivali West, Mumbai 400067
+- **Phone:** +91 9372933315
+- **Website:** `https://www.drnikhilangre.com`
+- **Hours:** Mon–Sun 10AM–8PM
 
-1. Go to [business.google.com](https://business.google.com)
-2. Claim or create your business listing:
-   - Name: **Dr. Nikhil Face Surgical & Aesthetic Centre**
-   - Category: `Facial plastic surgeon` (primary), add secondary: `Dermatologist`, `Hair transplant clinic`, `Cosmetic dentist`
-   - Address: 1st floor, Avenue Building, Hemukalani Cross Rd 4, Kandivali West, Mumbai 400067
-   - Phone: +91 9372933315
-   - Website: `https://yourdomain.com`
-   - Hours: Mon–Sun 10AM–8PM
-3. Add photos: clinic reception, surgery room, doctor portrait, equipment
-4. Write a 750-char business description with keywords:
-   > "Dr. Nikhil Face Surgical & Aesthetic Centre (NFSC) in Kandivali West, Mumbai, offers expert facial surgery, hair transplant, aesthetic dentistry, and dermatology. Led by Dr. Nikhil Angre, MDS, a fellowship-trained maxillofacial and facial plastic surgeon with 5+ years of experience. Services include rhinoplasty, facelift, blepharoplasty, jaw contouring, hair transplant (FUE/FUT), PRP therapy, Botox, dermal fillers, smile designing, dental implants, and advanced skin treatments. State-of-the-art facility with digital microscope, advanced laser, and high-speed PRP centrifuge. Book a free consultation today."
-5. Set up **appointment link** → `https://yourdomain.com/#contact`
-6. Post weekly updates (Google Posts) — treatment tips, before/after results
-7. Ask patients to leave Google reviews (this directly impacts local pack ranking)
+> ⚠️ **Still pending:** Add photos (clinic reception, surgery room, doctor portrait, equipment) + complete address verification (postcard/call from Google).
 
-### 2.3 Bing Webmaster Tools
+**Suggested business description (750 chars):**
+> "Dr. Nikhil Face Surgical & Aesthetic Centre (NFSC) in Kandivali West, Mumbai, offers expert facial surgery, hair transplant, aesthetic dentistry, and dermatology. Led by Dr. Nikhil Angre, MDS, a fellowship-trained maxillofacial and facial plastic surgeon with 5+ years of experience. Services include rhinoplasty, facelift, blepharoplasty, jaw contouring, hair transplant (FUE/FUT), PRP therapy, Botox, dermal fillers, smile designing, dental implants, and advanced skin treatments. State-of-the-art facility with digital microscope, advanced laser, and high-speed PRP centrifuge. Book a free consultation today."
 
-1. Go to [bing.com/webmasters](https://www.bing.com/webmasters)
-2. Import from Google Search Console (easiest)
-3. Submit sitemap
+**Ongoing actions (weekly):**
+- Post Google Posts — treatment tips, before/after results
+- Reply to every Google review (positive and negative)
+- Ask patients to leave reviews after treatment (direct link: `https://g.page/r/YOURID/review`)
 
-### 2.4 Google Analytics 4
+### 2.3 Bing Webmaster Tools ✅
 
-1. Create a GA4 property at [analytics.google.com](https://analytics.google.com)
-2. Get the Measurement ID (`G-XXXXXXXXXX`)
-3. Add to Next.js via `next/script`:
+- **Verified:** HTML meta tag (`msvalidate.01: E223DFA6D62C21A505C85FB233F46890`) — already live in `lib/seo.js`
+- **Imported:** From Google Search Console
+- **Sitemap submitted:** `https://www.drnikhilangre.com/sitemap.xml`
+- **URL Inspection:** Done
 
-```jsx
-// app/layout.jsx — add inside <body>
-import Script from "next/script";
+### 2.4 Google Analytics 4 ✅
 
-<Script
-  src={`https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX`}
-  strategy="afterInteractive"
-/>
-<Script id="gtag-init" strategy="afterInteractive">
-  {`window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}gtag('js',new Date());gtag('config','G-XXXXXXXXXX');`}
-</Script>
-```
+- **Measurement ID:** `G-Y2FN7G27SJ`
+- **Implementation:** `app/layout.jsx` via `next/script` with `afterInteractive` strategy
+- **Dashboard:** [analytics.google.com](https://analytics.google.com)
 
-Alternatively, use `@vercel/analytics` (simpler, privacy-friendly, built into Vercel):
+### 2.5 Microsoft Clarity ✅
 
-```bash
-npm install @vercel/analytics
-```
-
-```jsx
-// app/layout.jsx
-import { Analytics } from "@vercel/analytics/react";
-// Add <Analytics /> inside <body>
-```
+- **Project ID:** `xsfpfqo8kr`
+- **Implementation:** `app/layout.jsx` via `next/script` with `afterInteractive` strategy
+- **Dashboard:** [clarity.microsoft.com](https://clarity.microsoft.com) — heatmaps + session recordings available after ~24hrs of traffic
 
 ---
 
@@ -336,21 +289,24 @@ npx sharp-cli -i path/to/image.jpg -o path/to/image.jpg resize 1200 --withoutEnl
 - [x] Internal cross-linking on procedure pages
 - [x] Hero server/client split for LCP
 - [x] `lang="en-IN"` consistent with OG locale
-- [ ] `NEXT_PUBLIC_SITE_URL` set to production domain in Vercel env vars
-- [ ] Sitemap submitted to Google Search Console & Bing
-- [ ] All old `nfsc-clinic.vercel.app` URLs 301 redirect to new domain
-- [ ] HTTPS enforced (Vercel does this automatically)
-- [ ] `www` → `non-www` redirect (or vice versa) — pick one
-- [ ] Google Analytics 4 or `@vercel/analytics` installed and tracking
-- [ ] Google Business Profile verified and complete
-- [ ] Social media profile URLs updated in `content/site.js` lines 599–601
-- [ ] `robots.txt` allows all public pages — verify at `yourdomain.com/robots.txt`
-- [ ] Add missing treatment hero images for procedure slugs with no matching file
-- [ ] Delete unused `public/images/nikhil/about-nikhil3.jpg` (2.9 MB, not referenced anywhere)
-- [ ] Update `AggregateRating` in `lib/schema.js` with real review counts
-- [ ] Replace mock testimonials with real patient reviews
-- [ ] Run Google PageSpeed Insights — target 90+ on mobile
-- [ ] Run Google Rich Results Test on every page type
+- [x] `NEXT_PUBLIC_SITE_URL` set to `https://www.drnikhilangre.com` in Vercel env vars
+- [x] Sitemap submitted to Google Search Console & Bing Webmaster Tools
+- [x] Old `nfsc-clinic.vercel.app` URLs auto-redirect via Vercel dashboard
+- [x] HTTPS enforced (Vercel automatic)
+- [x] Google Analytics 4 (`G-Y2FN7G27SJ`) installed and tracking
+- [x] Microsoft Clarity (`xsfpfqo8kr`) installed — heatmaps + sessions
+- [x] Bing Webmaster Tools verified + sitemap submitted
+- [x] Google Business Profile created (pending: photos + address verification)
+- [x] `robots.txt` allows all public pages — live at `https://www.drnikhilangre.com/robots.txt`
+- [ ] **Social media URLs** — update `content/site.js` lines 599–601 with real Instagram/Facebook/YouTube URLs
+- [ ] **Add clinic photos** to Google Business Profile (reception, surgery room, doctor portrait, equipment)
+- [ ] **Complete Google Business Profile verification** (Google postcard or phone call)
+- [ ] **Add missing treatment hero images** for procedure slugs showing icon placeholder
+- [x] **`AggregateRating` updated** in `lib/schema.js` — 5.0★, 12 reviews (real Google data, July 2026)
+- [x] **Real testimonials live** — 10 verified Google reviews replaced all mock data in `content/site.js` (featured: 3, grid: 7)
+- [ ] **Delete unused image:** `public/images/nikhil/about-nikhil3.jpg` (2.9 MB, not referenced anywhere)
+- [ ] Run [Google PageSpeed Insights](https://pagespeed.web.dev) — target 90+ on mobile
+- [ ] Run [Google Rich Results Test](https://search.google.com/test/rich-results) on homepage + procedure page
 - [ ] Test structured data with [Schema Markup Validator](https://validator.schema.org)
 
 ---
@@ -402,8 +358,8 @@ npx sharp-cli -i path/to/image.jpg -o path/to/image.jpg resize 1200 --withoutEnl
 | `app/sitemap.js`               | Dynamic sitemap (auto-includes all procedures)                |
 | `app/robots.js`                | Robots.txt configuration                                      |
 | `app/opengraph-image.jsx`      | Code-generated OG image (1200x630, brand colors)              |
-| `app/icon.jsx`                 | Code-generated favicon (32x32, "N" logo)                      |
-| `app/apple-icon.jsx`           | Code-generated Apple touch icon (180x180)                     |
+| `app/icon.png`                 | Static favicon (32x32, NFSC logo)                             |
+| `app/apple-icon.png`           | Static Apple touch icon (180x180, NFSC logo)                  |
 | `next.config.mjs`              | Security headers, image formats, bundle analyzer, package optimization |
 | `content/site.js`              | NAP, social links, all site copy                              |
 | `content/treatments-detail.js` | 7 categories, 55 procedures, FAQs, descriptions               |
@@ -432,9 +388,10 @@ The `MedicalClinic` schema includes:
 | PageSpeed Insights      | pagespeed.web.dev                   |
 | Rich Results Test       | search.google.com/test/rich-results |
 | Schema Validator        | validator.schema.org                |
-| Your Sitemap            | yourdomain.com/sitemap.xml          |
-| Your Robots.txt         | yourdomain.com/robots.txt           |
+| Your Sitemap            | drnikhilangre.com/sitemap.xml       |
+| Your Robots.txt         | drnikhilangre.com/robots.txt        |
+| Microsoft Clarity       | clarity.microsoft.com               |
 
 ---
 
-_Last updated: July 26, 2026_
+_Last updated: July 26, 2026 — Site live at [drnikhilangre.com](https://www.drnikhilangre.com)_
