@@ -45,10 +45,10 @@
 
 ### Still Needs Action Before Launch
 
-- [ ] **Set `NEXT_PUBLIC_SITE_URL`** in Vercel env vars to production domain (currently set to `nfsc-clinic.vercel.app` in `.env.local`)
+- [x] **Set `NEXT_PUBLIC_SITE_URL`** to `https://www.drnikhilangre.com` in `.env.local` — also set in Vercel env vars
 - [ ] **Replace social `href="#"` placeholders** in `content/site.js` lines 599–601 with real Instagram/Facebook/YouTube URLs
 - [ ] **Add missing treatment hero images** for ~10 procedure slugs (currently fallback to icon placeholder after 404s)
-- [ ] **Install analytics** — Google Analytics 4 or `@vercel/analytics` for Core Web Vitals monitoring
+- [x] **Google Analytics 4** — `G-Y2FN7G27SJ` wired into `app/layout.jsx` via `next/script` with `afterInteractive` strategy
 - [ ] **Set up Google Business Profile** (see Phase 2.2)
 - [ ] **Submit sitemap to Google Search Console** (see Phase 2.1)
 - [ ] **Update `AggregateRating` values** in `lib/schema.js` to match real Google review count once profile is established

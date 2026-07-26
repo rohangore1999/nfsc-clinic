@@ -1,5 +1,6 @@
 import "./globals.css";
 import dynamic from "next/dynamic";
+import Script from "next/script";
 import { Inter, Playfair_Display } from "next/font/google";
 import { cn } from "@/lib/utils";
 import { ROOT_METADATA } from "@/lib/seo";
@@ -8,6 +9,8 @@ import { clinicSchema, localBusinessSchema } from "@/lib/schema";
 import { Navbar } from "@/components/layout/navbar/Navbar";
 import { Footer } from "@/components/layout/footer/Footer";
 import { HashCleanup } from "@/components/layout/HashCleanup";
+
+const GA_ID = "G-Y2FN7G27SJ";
 
 const CtaBanner = dynamic(
   () =>
@@ -47,6 +50,14 @@ export default function RootLayout({ children }) {
       className={cn("font-sans", inter.variable, playfair.variable)}
     >
       <body className="bg-background text-foreground antialiased">
+        {/* Google Analytics 4 */}
+        <Script
+          src={`https://www.googletagmanager.com/gtag/js?id=${GA_ID}`}
+          strategy="afterInteractive"
+        />
+        <Script id="gtag-init" strategy="afterInteractive">
+          {`window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}gtag('js',new Date());gtag('config','${GA_ID}');`}
+        </Script>
         <a
           href="#main-content"
           className="sr-only focus:not-sr-only focus:fixed focus:left-4 focus:top-4 focus:z-9999 focus:rounded-md focus:bg-navy focus:px-4 focus:py-2 focus:text-white"
