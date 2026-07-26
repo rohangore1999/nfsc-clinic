@@ -11,6 +11,7 @@ import { Footer } from "@/components/layout/footer/Footer";
 import { HashCleanup } from "@/components/layout/HashCleanup";
 
 const GA_ID = "G-Y2FN7G27SJ";
+const CLARITY_ID = "xsfpfqo8kr";
 
 const CtaBanner = dynamic(
   () =>
@@ -57,6 +58,10 @@ export default function RootLayout({ children }) {
         />
         <Script id="gtag-init" strategy="afterInteractive">
           {`window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}gtag('js',new Date());gtag('config','${GA_ID}');`}
+        </Script>
+        {/* Microsoft Clarity — heatmaps & session recordings */}
+        <Script id="clarity-init" strategy="afterInteractive">
+          {`(function(c,l,a,r,i,t,y){c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);})(window,document,"clarity","script","${CLARITY_ID}");`}
         </Script>
         <a
           href="#main-content"
