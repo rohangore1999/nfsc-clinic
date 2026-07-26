@@ -56,8 +56,8 @@
 - [ ] **Add missing treatment hero images** for ~10 procedure slugs (currently shows icon placeholder)
 - [x] **Update `AggregateRating`** in `lib/schema.js` — now reflects real data: 5.0★, 12 reviews (Google Business Profile, July 2026)
 - [x] **Real testimonials live** — 10 verified Google reviews in `content/site.js` (featured: 3, grid: 7)
-- [ ] **Add clinic photos to Google Business Profile** — reception, surgery room, doctor portrait, equipment
-- [ ] **Verify Google Business Profile** — Google will send a postcard or call to verify address
+- [x] **Clinic photos added to Google Business Profile** — reception, surgery room, doctor portrait, equipment
+- [x] **Google Business Profile verified** — 366 customer interactions, blue checkmark confirmed (July 2026)
 - [ ] **Delete unused `public/images/nikhil/about-nikhil3.jpg`** (2.9 MB, not referenced anywhere)
 
 ---

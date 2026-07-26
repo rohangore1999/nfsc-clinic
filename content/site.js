@@ -589,7 +589,6 @@ export const site = {
       "© 2026 NFSC — Dr. Nikhil Face Surgical & Aesthetic Centre. All rights reserved.",
     quickLinks: [
       { label: "About", href: "/about" },
-      { label: "Treatments", href: "/treatments" },
       { label: "Gallery", href: "/gallery" },
       { label: "Testimonials", href: "/testimonials" },
       { label: "Contact", href: "#contact" },

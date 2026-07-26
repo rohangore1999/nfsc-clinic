@@ -12,6 +12,18 @@ const nextConfig = {
   experimental: {
     optimizePackageImports: ["motion"],
   },
+  async redirects() {
+    return [
+      {
+        // /treatments index is no longer a standalone page — redirect to homepage
+        // Individual category pages (/treatments/[slug]) are unaffected
+        source: "/treatments",
+        destination: "/",
+        permanent: true, // 301 — passes SEO equity to homepage
+      },
+    ];
+  },
+
   async headers() {
     return [
       {

@@ -8,7 +8,7 @@ export default function sitemap() {
   const staticRoutes = [
     { path: "/", changeFrequency: "monthly", priority: 1.0 },
     { path: "/about", changeFrequency: "monthly", priority: 0.9 },
-    { path: "/treatments", changeFrequency: "monthly", priority: 0.9 },
+    // /treatments index redirects to / — excluded from sitemap to avoid indexing a redirect
     { path: "/gallery", changeFrequency: "weekly", priority: 0.7 },
     { path: "/testimonials", changeFrequency: "weekly", priority: 0.7 },
   ];
