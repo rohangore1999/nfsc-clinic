@@ -97,12 +97,16 @@
   }
 }
 
-/* Treatment pill glow — CSS keyframes (GPU-compositable via opacity) */
+/* Treatment pill glow — CSS keyframes (GPU-compositable via box-shadow)
+ * Duration = count × STAGGER (e.g. 5 pills × 2s = 10s total cycle).
+ * Glow occupies the first 20% of the cycle (~2s), then stays dark.
+ * This guarantees only one pill glows at a time — no overlaps. */
 @keyframes pill-glow {
   0%   { box-shadow: 0 0 0 0 rgba(201, 160, 79, 0); }
-  8%   { box-shadow: 0 0 30px 3px rgba(201, 160, 79, 0.45); }
-  20%  { box-shadow: 0 0 30px 3px rgba(201, 160, 79, 0.45); }
-  75%  { box-shadow: 0 0 14px 1px rgba(201, 160, 79, 0.08); }
+  8%   { box-shadow: 0 0 28px 3px rgba(201, 160, 79, 0.5); }
+  12%  { box-shadow: 0 0 28px 3px rgba(201, 160, 79, 0.5); }
+  20%  { box-shadow: 0 0 12px 1px rgba(201, 160, 79, 0.1); }
+  25%  { box-shadow: 0 0 0 0 rgba(201, 160, 79, 0); }
   100% { box-shadow: 0 0 0 0 rgba(201, 160, 79, 0); }
 }
 

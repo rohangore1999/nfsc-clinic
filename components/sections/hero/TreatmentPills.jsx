@@ -4,8 +4,7 @@ import { motion, useReducedMotion } from "motion/react";
 import { cn } from "@/lib/utils";
 import { EASE, makeContainerVariant } from "@/lib/motion";
 
-const ACTIVE = 5;
-const STAGGER = 2;
+const STAGGER = 2; // seconds between each pill's glow start
 
 const containerVariant = makeContainerVariant({ stagger: 0.04, delay: 0.1 });
 
@@ -34,7 +33,9 @@ const pillVariant = {
 export function TreatmentPills({ items, className }) {
   const reduceMotion = useReducedMotion();
   const count = items.length;
-  const totalCycle = (count - 1) * STAGGER + ACTIVE;
+  // Total cycle = full lap through all pills so they never overlap:
+  // pill 0 won't restart until all other pills have had their turn.
+  const totalCycle = count * STAGGER;
 
   return (
     <motion.ul
@@ -55,7 +56,7 @@ export function TreatmentPills({ items, className }) {
             reduceMotion
               ? undefined
               : {
-                  animation: `pill-glow ${ACTIVE}s ease-in-out infinite`,
+                  animation: `pill-glow ${totalCycle}s ease-in-out infinite`,
                   animationDelay: `${0.8 + index * STAGGER}s`,
                 }
           }

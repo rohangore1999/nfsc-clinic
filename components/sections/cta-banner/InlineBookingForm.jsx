@@ -128,6 +128,14 @@ export function InlineBookingForm() {
         <p className="mt-2 text-sm text-white/60">
           We&apos;ll reach out shortly to confirm your consultation.
         </p>
+        <a
+          href={site.testimonials.googleCta.reviewUrl}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="mt-4 inline-flex items-center gap-2 rounded-full border border-gold/50 px-4 py-2 text-xs font-medium uppercase tracking-[0.12em] text-gold transition-colors duration-200 hover:bg-gold/10"
+        >
+          ⭐ Had a great visit? Leave us a Google review
+        </a>
       </div>
     );
   }

@@ -557,6 +557,9 @@ export const site = {
       subtitle: "We value every patient's feedback",
       // Reuses site.contact.mapDirectionsUrl — the Google Maps place page
       // shows the clinic's reviews tab. Single source of truth.
+      reviewUrl: "https://g.page/r/CcQbxPTHKRwxEBM/review",
+      reviewCta: "Leave a Review",
+      reviewSubtitle: "Takes less than a minute",
     },
   },
 
