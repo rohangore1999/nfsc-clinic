@@ -121,7 +121,7 @@ export const site = {
         title: "Maxillofacial & Oral Surgery",
         href: "/treatments/maxillofacial-and-oral-surgery",
         icon: "wind",
-        image: "/images/Clinic/SurgeryRoom1.jpeg",
+        image: "/images/treatments/maxillofacial-and-oral-surgery.png",
       },
       {
         title: "Dental Treatments",
@@ -220,7 +220,7 @@ export const site = {
 
   ctaBanner: {
     title: "Begin Your Aesthetic Journey",
-    subtitle: "Book your free consultation — we'll guide you through every step",
+    subtitle: "Book your consultation — we'll guide you through every step",
     fields: {
       name: "Your Name",
       phone: "Phone Number",
@@ -423,6 +423,8 @@ export const site = {
         title: "Orthognathic Surgery",
         category: "maxillofacial & oral surgery",
         timeline: "3 months post-procedure",
+        imageBefore: "/images/gallery/orthognatic-before.png",
+        imageAfter: "/images/gallery/orthognatic-after.png",
       },
       {
         title: "Tongue Tie Surgery",
@@ -584,9 +586,9 @@ export const site = {
       "Elevating confidence through expert facial surgical and aesthetic care in a world-class environment.",
     // TODO: replace placeholder hrefs with real social URLs before launch.
     socials: [
-      { name: "Instagram", href: "#", icon: "instagram" },
-      { name: "Facebook", href: "#", icon: "facebook" },
-      { name: "YouTube", href: "#", icon: "youtube" },
+      { name: "Instagram", href: "https://www.instagram.com/dr.nikhil_nfsc/", icon: "instagram" },
+      { name: "LinkedIn", href: "https://www.linkedin.com/in/nfscdrnikhil", icon: "linkedin" },
+      { name: "YouTube", href: "https://youtube.com/@nfsc_dr.nikhilangre?si=aSPxW08BDjC8kwlS", icon: "youtube" },
     ],
     copyright:
       "© 2026 NFSC — Dr. Nikhil Face Surgical & Aesthetic Centre. All rights reserved.",

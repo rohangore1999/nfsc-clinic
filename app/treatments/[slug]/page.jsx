@@ -46,7 +46,7 @@ export default async function TreatmentDetailPage({ params }) {
         ])}
       />
       <JsonLd data={faqSchema(data.faqs)} />
-        <main id="main-content">
+      <main id="main-content">
         <PageHero
           breadcrumbs={[
             { label: "Home", href: "/" },
