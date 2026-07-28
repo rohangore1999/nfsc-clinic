@@ -18,36 +18,235 @@ export const treatmentsDetail = {
       {
         title: "Rhinoplasty (Nose Surgery)",
         description:
-          "Reshaping the nose for both aesthetic refinement and functional improvement, with techniques tailored to skin type and underlying anatomy.",
+          "Rhinoplasty Surgery in Kandivali West, Mumbai | Nose Reshaping Surgery at NFSC. Achieve a balanced and attractive facial profile.",
         detailContent: {
-          intro: "Rhinoplasty at NFSC is performed with a deep understanding of nasal anatomy and facial proportions. Dr. Nikhil tailors each procedure — whether open or closed — to the patient's skin thickness, cartilage structure, and aesthetic goals, ensuring results that look natural and balanced from every angle.",
-          bullets: [
-            "Open and closed rhinoplasty techniques available",
-            "Customized approach based on skin type and nasal anatomy",
-            "Functional correction for breathing difficulties (septoplasty)",
-            "Tip refinement, bridge reshaping, and nostril adjustment",
-            "Revision rhinoplasty for prior unsatisfactory results",
-            "Minimal scarring with discreet incision placement",
-            "Recovery guidance with structured post-operative follow-up"
+          intro:
+            "Rhinoplasty, commonly known as Nose Reshaping Surgery, is a specialized facial plastic surgery procedure designed to improve the appearance, shape, size, and function of the nose. At NFSC – Dr. Nikhil Face Surgical & Aesthetic Centre, Kandivali West, Dr. Nikhil Angre, MDS, Maxillofacial Surgeon and Fellow in Facial Plastic Surgery, performs advanced rhinoplasty procedures tailored to enhance facial harmony while maintaining natural-looking results.\n\nThe nose is one of the most prominent facial features, and even subtle changes can significantly improve overall facial balance and confidence. Rhinoplasty can address cosmetic concerns as well as functional issues such as breathing difficulties caused by structural abnormalities.",
+          contentSections: [
+            {
+              type: "list",
+              listType: "unordered",
+              heading: "What Can Rhinoplasty Correct?",
+              intro: "Rhinoplasty surgery can help improve:",
+              content: [
+                "Large or prominent nose",
+                "Hump on the nasal bridge",
+                "Broad or wide nose",
+                "Drooping nasal tip",
+                "Bulbous nasal tip",
+                "Crooked or asymmetrical nose",
+                "Wide nostrils",
+                "Flat nasal bridge",
+                "Post-traumatic nasal deformities",
+                "Breathing problems due to nasal structural issues",
+                "Congenital nasal deformities"
+              ],
+            },
+            {
+              type: "list",
+              listType: "unordered",
+              heading: "Benefits of Rhinoplasty Surgery",
+              content: [
+                "Improves facial balance and symmetry",
+                "Enhances nasal shape and contour",
+                "Refines the nasal tip",
+                "Corrects nasal humps and irregularities",
+                "Improves breathing function when required",
+                "Boosts self-confidence and facial aesthetics",
+                "Provides permanent and natural-looking results"
+              ],
+            },
+            {
+              type: "table",
+              heading: "Types of Rhinoplasty Procedures Offered",
+              intro: "At NFSC, Dr. Nikhil Angre offers customized rhinoplasty solutions based on individual facial anatomy and treatment goals, including:",
+              headers: ["Procedure", "Description & Focus"],
+              rows: [
+                [
+                  "Cosmetic Rhinoplasty",
+                  "Improves the appearance and shape of the nose for better facial harmony."
+                ],
+                [
+                  "Functional Rhinoplasty",
+                  "Corrects structural problems that affect breathing and nasal airflow."
+                ],
+                [
+                  "Revision Rhinoplasty",
+                  "Performed to improve or correct results from a previous nose surgery."
+                ],
+                [
+                  "Post-Traumatic Nasal Reconstruction",
+                  "Restores nasal form and function following injury or facial trauma."
+                ],
+                [
+                  "Tip Rhinoplasty",
+                  "Focuses on refining and reshaping the nasal tip."
+                ],
+                [
+                  "Ethnic Rhinoplasty",
+                  "Preserves ethnic identity while enhancing nasal aesthetics."
+                ]
+              ],
+            },
+            {
+              type: "text",
+              heading: "Rhinoplasty Procedure",
+              content: [
+                "Rhinoplasty is typically performed under general anesthesia. Depending on the patient's requirements, the procedure may involve reshaping bone, cartilage, and soft tissues to achieve the desired outcome. Dr. Nikhil Angre utilizes advanced surgical techniques to create balanced, proportionate, and natural-looking results that complement the patient's facial features.",
+                "Following surgery, patients may experience temporary swelling and bruising, which gradually subsides over the following weeks. Final results continue to refine over several months."
+              ],
+            },
+            {
+              type: "list",
+              listType: "unordered",
+              heading: "Rhinoplasty Surgery Cost in Kandivali West, Mumbai",
+              intro:
+                "The cost of Rhinoplasty Surgery at NFSC – Dr. Nikhil Face Surgical & Aesthetic Centre, Kandivali West, typically ranges between:\n₹1,50,000 – ₹2,50,000\n\nThe final cost may vary depending on:",
+              content: [
+                "Complexity of the procedure",
+                "Cosmetic or functional correction required",
+                "Primary or revision rhinoplasty",
+                "Surgical technique used",
+                "Hospital and anesthesia charges",
+                "Individual treatment goals"
+              ],
+              outro:
+                "A detailed consultation with Dr. Nikhil Angre is essential to determine the most suitable treatment plan and provide an accurate cost estimate.",
+            },
+            {
+              type: "list",
+              listType: "unordered",
+              heading: "Why Choose NFSC for Rhinoplasty Surgery?",
+              content: [
+                "Fellowship-Trained Facial Plastic Surgery Specialist",
+                "Expertise in Facial Aesthetic and Reconstructive Surgery",
+                "Personalized Surgical Planning",
+                "Advanced Rhinoplasty Techniques",
+                "Natural and Harmonious Results",
+                "Comprehensive Pre- and Post-Operative Care",
+                "Modern Surgical Facility in Kandivali West, Mumbai",
+                "Focus on Safety, Precision, and Patient Satisfaction"
+              ],
+            },
+            {
+              type: "text",
+              heading: "Best Rhinoplasty Surgeon in Kandivali West, Mumbai",
+              content: [
+                "If you are considering Rhinoplasty Surgery in Kandivali West, Mumbai, consult Dr. Nikhil Angre at NFSC – Dr. Nikhil Face Surgical & Aesthetic Centre. Whether your goal is cosmetic enhancement, correction of a nasal deformity, or improvement in breathing function, we provide personalized treatment plans designed to achieve beautiful, natural, and long-lasting results."
+              ],
+            },
+            {
+              type: "text",
+              heading: "Book Your Rhinoplasty Consultation Today",
+              content: [
+                "Take the first step toward a more balanced facial profile and enhanced confidence. Schedule your consultation with Dr. Nikhil Angre and discover how rhinoplasty can transform both the appearance and function of your nose."
+              ],
+            }
           ],
-          additionalInfo: "Most patients resume daily activities within 7–10 days. Subtle swelling resolves progressively over 6–12 months as the nose settles into its final refined shape.",
         },
       },
       {
         title: "Face lift Surgery",
         description:
-          "Comprehensive rejuvenation that restores youthful contours through natural-looking refinement of the lower face and neck.",
+          "Facelift Surgery in Kandivali West, Mumbai | NFSC – Dr. Nikhil Face Surgical & Aesthetic Centre. Restore a younger, refreshed appearance.",
         detailContent: {
-          intro: "A facelift at NFSC addresses sagging skin, deep folds, and loss of definition along the jawline and neck. Using modern deep-plane techniques, Dr. Nikhil repositions underlying tissue — not just skin — for results that look refreshed, never pulled or artificial.",
-          bullets: [
-            "Deep-plane and SMAS facelift techniques",
-            "Addresses jowls, nasolabial folds, and neck laxity",
-            "Natural-looking results with long-lasting improvement",
-            "Incisions concealed within the hairline and natural creases",
-            "Can be combined with neck lift or eyelid surgery",
-            "Tailored to individual aging patterns and facial structure"
+          intro:
+            "Facelift surgery, also known as Rhytidectomy, is an advanced facial rejuvenation procedure designed to reduce visible signs of aging and restore a youthful, natural-looking appearance. At NFSC – Dr. Nikhil Face Surgical & Aesthetic Centre, Kandivali West, Dr. Nikhil Angre, MDS, Maxillofacial Surgeon and Fellow in Facial Plastic Surgery, specializes in customized facelift procedures that address facial sagging, deep wrinkles, jowls, and loss of facial definition.\n\nA facelift works by tightening underlying facial tissues, repositioning sagging skin, and removing excess skin to create smoother contours and a more youthful facial profile. The goal is not to change your appearance but to help you look naturally refreshed and rejuvenated.",
+          contentSections: [
+            {
+              type: "list",
+              listType: "unordered",
+              heading: "Who is a Good Candidate for Facelift Surgery?",
+              intro: "You may be a suitable candidate for facelift surgery if you have:",
+              content: [
+                "Sagging skin on the face and neck",
+                "Deep nasolabial folds (smile lines)",
+                "Jowls along the jawline",
+                "Loose skin under the chin",
+                "Loss of facial volume and definition",
+                "Signs of facial aging despite skincare treatments"
+              ],
+              outro:
+                "Facelift surgery is ideal for individuals seeking long-lasting facial rejuvenation with natural-looking results.",
+            },
+            {
+              type: "list",
+              listType: "unordered",
+              heading: "Benefits of Facelift Surgery",
+              content: [
+                "Restores a youthful facial appearance",
+                "Improves jawline and neck definition",
+                "Reduces deep wrinkles and folds",
+                "Tightens loose and sagging skin",
+                "Enhances facial contours",
+                "Provides long-lasting anti-aging results",
+                "Boosts self-confidence and appearance"
+              ],
+            },
+            {
+              type: "list",
+              listType: "unordered",
+              heading: "Types of Facelift Procedures Offered",
+              intro: "At NFSC, treatment plans are customized according to the patient's facial anatomy and aging concerns. Procedures may include:",
+              content: [
+                "Mini Facelift",
+                "Full Facelift",
+                "Deep Plane Facelift",
+                "Neck Lift Combination",
+                "Mid-Face Lift",
+                "Facelift with Facial Fat Grafting",
+                "Facelift with Chin Augmentation"
+              ],
+              outro:
+                "Dr. Nikhil Angre carefully evaluates each patient to recommend the most suitable technique for achieving balanced and natural outcomes.",
+            },
+            {
+              type: "text",
+              heading: "Facelift Surgery Procedure",
+              content: [
+                "The procedure is typically performed under anesthesia. Incisions are strategically placed around the hairline and natural contours of the ears to minimize visible scarring. The underlying facial tissues are repositioned, excess skin is removed, and the skin is gently redraped to create a smoother, firmer appearance.",
+                "Recovery time varies depending on the extent of surgery, but most patients can resume routine activities within a few weeks."
+              ],
+            },
+            {
+              type: "list",
+              listType: "unordered",
+              heading: "Facelift Surgery Cost in Kandivali West, Mumbai",
+              intro:
+                "The cost of facelift surgery at NFSC – Dr. Nikhil Face Surgical & Aesthetic Centre, Kandivali West, typically ranges from:\n₹80,000 – ₹2,50,000\n\nThe final cost depends on several factors, including:",
+              content: [
+                "Type of facelift procedure",
+                "Extent of facial correction required",
+                "Anesthesia and operating facility charges",
+                "Additional procedures performed alongside the facelift",
+                "Individual treatment goals"
+              ],
+              outro:
+                "A detailed consultation with Dr. Nikhil Angre is recommended for a personalized treatment plan and accurate cost estimate.",
+            },
+            {
+              type: "list",
+              listType: "unordered",
+              heading: "Why Choose NFSC for Facelift Surgery?",
+              content: [
+                "Experienced Facial Plastic Surgery Specialist",
+                "Advanced Surgical Techniques",
+                "Natural-Looking Results",
+                "Personalized Treatment Plans",
+                "Comprehensive Facial Aesthetic Care",
+                "Modern Surgical Facility in Kandivali West",
+                "Focus on Patient Safety and Satisfaction"
+              ],
+            },
+            {
+              type: "text",
+              heading: "Book a Facelift Consultation in Kandivali West",
+              content: [
+                "If you are looking for the best facelift surgery in Kandivali West, Mumbai, consult Dr. Nikhil Angre at NFSC – Dr. Nikhil Face Surgical & Aesthetic Centre. Whether you want to reduce signs of aging, improve facial contours, or achieve a refreshed appearance, our clinic offers advanced facelift solutions tailored to your unique needs.",
+                "Schedule your consultation today and take the first step toward a naturally youthful and confident appearance."
+              ],
+            }
           ],
-          additionalInfo: "Recovery typically involves 10–14 days of visible swelling. Final results become apparent over 3–6 months as tissues settle into their rejuvenated position.",
         },
       },
       {
@@ -7301,7 +7500,7 @@ export const treatmentsDetail = {
               listType: "unordered",
               heading: "Hair Transplant Surgery Cost in Kandivali West, Mumbai",
               intro:
-                "The cost of Hair Transplant Surgery at NFSC – Dr. Nikhil Face Surgical & Aesthetic Centre, Kandivali West, generally ranges from:\n₹3,000 – ₹2,00,000\n\nThe final cost depends on several factors, including:",
+                "The cost of Hair Transplant Surgery at NFSC – Dr. Nikhil Face Surgical & Aesthetic Centre, Kandivali West, generally ranges from:\n₹30,000 – ₹2,00,000\n\nThe final cost depends on several factors, including:",
               content: [
                 "Number of grafts required",
                 "Extent of baldness",
