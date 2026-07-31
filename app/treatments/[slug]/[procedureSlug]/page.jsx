@@ -25,6 +25,22 @@ const RELATED_CATEGORIES = {
 };
 
 /**
+ * Default MedicalProcedure "kind" per category for JSON-LD accuracy.
+ * Individual procedures can override this with a `procedureKind` field
+ * in content/treatments-detail.js (e.g. surgical implants inside a
+ * mostly-noninvasive dental category).
+ */
+const CATEGORY_PROCEDURE_KIND = {
+  "facial-plastic-surgery": "surgical",
+  "non-surgical-facial-aesthetics": "percutaneous",
+  "cosmetic-treatments": "noninvasive",
+  "maxillofacial-and-oral-surgery": "surgical",
+  dental: "noninvasive",
+  dermatology: "noninvasive",
+  "hair-treatments": "surgical",
+};
+
+/**
  * Get cross-category procedure links for internal linking.
  * Returns up to 2 procedures from related categories.
  */
@@ -115,6 +131,10 @@ export default async function ProcedureDetailPage({ params }) {
           name: procedure.title,
           slug: `${slug}/${procedureSlug}`,
           description: procedure.description,
+          kind:
+            procedure.procedureKind ||
+            CATEGORY_PROCEDURE_KIND[slug] ||
+            "surgical",
         })}
       />
       <main id="main-content">

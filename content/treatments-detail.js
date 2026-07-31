@@ -3062,6 +3062,7 @@ export const treatmentsDetail = {
       },
       {
         title: "MNRF (Microneedling Radiofrequency)",
+        procedureKind: "percutaneous",
         description:
           "MNRF (Microneedling Radiofrequency) Treatment in Kandivali West, Mumbai | Advanced Skin Tightening & Acne Scar Treatment at NFSC. Rejuvenate Your Skin with Advanced MNRF Technology.",
         detailContent: {
@@ -3633,6 +3634,7 @@ export const treatmentsDetail = {
       },
       {
         title: "Glutathione Therapy",
+        procedureKind: "percutaneous",
         description:
           "Glutathione Therapy in Kandivali West, Mumbai | Skin Brightening & Antioxidant Treatment at NFSC. Achieve Healthier, Brighter Skin with Glutathione Therapy.",
         detailContent: {
@@ -5170,6 +5172,7 @@ export const treatmentsDetail = {
       },
       {
         title: "Dental Implants",
+        procedureKind: "surgical",
         description:
           "Dental Implants in Kandivali West, Mumbai | Permanent Tooth Replacement at NFSC. Restore Your Smile with Advanced Dental Implant Treatment by Dr. Nikhil Angre.",
         detailContent: {
@@ -5450,6 +5453,7 @@ export const treatmentsDetail = {
       },
       {
         title: "Wisdom Tooth Removal",
+        procedureKind: "surgical",
         description:
           "Wisdom Tooth Removal in Kandivali West, Mumbai | Impacted Wisdom Tooth Extraction at NFSC. Safe & Painless Wisdom Tooth Removal by Dr. Nikhil Angre.",
         detailContent: {
@@ -6643,6 +6647,7 @@ export const treatmentsDetail = {
       },
       {
         title: "Vitiligo Treatment & Surgery",
+        procedureKind: "surgical",
         description:
           "Vitiligo Treatment & Surgery in Kandivali West, Mumbai | Advanced Vitiligo Care at NFSC. Expert Vitiligo Treatment & Surgical Management for Natural Skin Repigmentation.",
         detailContent: {
@@ -7249,6 +7254,7 @@ export const treatmentsDetail = {
       },
       {
         title: "Mole & Wart Removal",
+        procedureKind: "surgical",
         description:
           "Mole & Wart Removal in Kandivali West, Mumbai | Safe Laser & Surgical Removal at NFSC. Safe & Effective Mole and Wart Removal by an M.D. Dermatologist.",
         detailContent: {
@@ -7821,6 +7827,7 @@ export const treatmentsDetail = {
       },
       {
         title: "PRP & GFC & QR678 Therapy",
+        procedureKind: "percutaneous",
         description:
           "PRP, GFC & QR678 Hair Loss Treatment in Kandivali West, Mumbai | Advanced Hair Regrowth Therapy at NFSC. Advanced Non-Surgical Hair Regrowth Treatments by an M.D. Dermatologist.",
         detailContent: {
@@ -7934,6 +7941,7 @@ export const treatmentsDetail = {
       },
       {
         title: "Dandruff & Scalp Treatment",
+        procedureKind: "noninvasive",
         description:
           "Dandruff & Scalp Treatment in Kandivali West, Mumbai | Expert Scalp Care at NFSC. Effective Dandruff & Scalp Treatment by an M.D. Dermatologist.",
         detailContent: {
