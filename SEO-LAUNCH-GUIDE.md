@@ -5,6 +5,19 @@
 
 ---
 
+## Changelog
+
+### July 31, 2026
+
+- **Accurate `MedicalProcedure` structured data** — `procedureSchema` in `lib/schema.js` now maps a `kind` to the correct schema.org shape instead of hardcoding the invalid `procedureType: "SurgicalProcedure"`. Non-surgical treatments (Botox, fillers, facials, peels, dermatology, PRP, etc.) are no longer mislabeled as surgery. Per-procedure overrides (`procedureKind`) added for MNRF, Glutathione, Dental Implants, Wisdom Tooth Removal, Vitiligo Surgery, Mole & Wart Removal, PRP/GFC/QR678, and Dandruff & Scalp.
+- **Opening hours corrected & aligned** — footer in `content/site.js` fixed from `11AM` to `10AM` so it matches the JSON-LD (`10:00–20:00`) and Google Business Profile (Mon–Sun 10 AM–8 PM). NAP + hours now consistent across site, schema, and GBP.
+- **Removed stray `/test` page** — deleted `app/test/page.jsx` (`<div>Test</div>`), which was publicly crawlable/indexable.
+- **Social `sameAs` links** confirmed live (Instagram, LinkedIn, YouTube).
+
+> **Open recommendation (not yet applied):** every page emits both `MedicalClinic` and `LocalBusiness` with the *same* self-referential `aggregateRating`. Since `MedicalClinic` is a subtype of `LocalBusiness`, this is redundant and self-serving review markup isn't eligible for star rich-results. Consider consolidating to a single primary entity (`MedicalClinic`).
+
+---
+
 ## Current SEO Status (as of July 2026)
 
 ### Already Implemented
@@ -12,6 +25,7 @@
 - [x] **Dynamic sitemap** — all 67 URLs (5 static + 7 categories + 55 procedures) auto-generated from `treatments-detail.js`
 - [x] **Security headers** — `X-Content-Type-Options`, `X-Frame-Options`, `Referrer-Policy`, `Permissions-Policy` in `next.config.mjs`
 - [x] **JSON-LD schema** on every page: `MedicalClinic`, `LocalBusiness`, `Physician`, `MedicalProcedure`, `BreadcrumbList`, `FAQPage`, `AggregateRating`
+- [x] **Accurate procedure-type schema** — each procedure emits the correct schema.org shape via a `kind` (`surgical` → `@type: SurgicalProcedure`; `noninvasive`/`percutaneous` → `@type: MedicalProcedure` + valid `procedureType`). Category defaults live in `app/treatments/[slug]/[procedureSlug]/page.jsx` (`CATEGORY_PROCEDURE_KIND`), overridable per procedure via a `procedureKind` field in `treatments-detail.js`. Fixes the earlier bug where all 55 procedures were hardcoded as `procedureType: "SurgicalProcedure"` (an invalid `MedicalProcedureType` value)
 - [x] **AggregateRating schema** — star ratings (4.9/5) on `MedicalClinic` + `LocalBusiness` schemas for Google rich results
 - [x] **Local SEO schema** — `GeoCoordinates` (lat/lng), `areaServed` (Kandivali, Borivali, Malad, Goregaon, Andheri, Dahisar), `hasMap`
 - [x] **Meta descriptions** — unique per page, auto-truncated to ≤155 chars on procedure pages
@@ -52,7 +66,7 @@
 - [x] **Google Analytics 4** — `G-Y2FN7G27SJ` wired into `app/layout.jsx` via `next/script`
 - [x] **Microsoft Clarity** — `xsfpfqo8kr` wired into `app/layout.jsx` for heatmaps & session recordings
 - [x] **Bing Webmaster Tools** — verified (meta tag `E223DFA6D62C21A505C85FB233F46890`), sitemap submitted, URL inspection done
-- [ ] **Replace social `href="#"` placeholders** in `content/site.js` with real Instagram/Facebook/YouTube URLs — update `sameAs` in schema auto-updates too
+- [x] **Real social links live** — `content/site.js` `footer.socials` now has real Instagram, LinkedIn & YouTube URLs; `sameAs` in schema auto-populates from these
 - [ ] **Add missing treatment hero images** for ~10 procedure slugs (currently shows icon placeholder)
 - [x] **Update `AggregateRating`** in `lib/schema.js` — now reflects real data: 5.0★, 12 reviews (Google Business Profile, July 2026)
 - [x] **Real testimonials live** — 10 verified Google reviews in `content/site.js` (featured: 3, grid: 7)
@@ -347,7 +361,7 @@ npx sharp-cli -i path/to/image.jpg -o path/to/image.jpg resize 1200 --withoutEnl
 | `/gallery`, `/testimonials`          | `BreadcrumbList`                                              |
 | `/treatments`                        | `BreadcrumbList`                                              |
 | `/treatments/[slug]`                 | `BreadcrumbList` + `FAQPage`                                  |
-| `/treatments/[slug]/[procedureSlug]` | `BreadcrumbList` + `MedicalProcedure`                         |
+| `/treatments/[slug]/[procedureSlug]` | `BreadcrumbList` + `MedicalProcedure`/`SurgicalProcedure` (type per procedure `kind`) |
 
 ### Key Files
 
@@ -394,4 +408,4 @@ The `MedicalClinic` schema includes:
 
 ---
 
-_Last updated: July 26, 2026 — Site live at [drnikhilangre.com](https://www.drnikhilangre.com)_
+_Last updated: July 31, 2026 — Site live at [drnikhilangre.com](https://www.drnikhilangre.com)_

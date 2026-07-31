@@ -571,7 +571,7 @@ export const site = {
     postalCode: "400067",
     phone: "+91 9372933315",
     email: "nikhilangre597@gmail.com",
-    hours: "Mon–Sun • 11AM–8PM",
+    hours: "Mon–Sun • 10AM–8PM",
     // Iframe-friendly embed (q-based search lands on the clinic pin without an API key).
     mapEmbedUrl:
       "https://maps.google.com/maps?q=NFSC+-+Dr.+Nikhil+Face+Surgical+%26+Aesthetic+Centre%2C+Kandivali+West%2C+Mumbai&output=embed",
