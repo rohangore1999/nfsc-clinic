@@ -1,6 +1,6 @@
 import { buildMetadata } from "@/lib/seo";
 import { JsonLd } from "@/components/seo/JsonLd";
-import { breadcrumbSchema } from "@/lib/schema";
+import { breadcrumbSchema, clinicReviewsSchema } from "@/lib/schema";
 import { site } from "@/content/site";
 import { PageHero } from "@/components/sections/page-hero/PageHero";
 import { FeaturedTestimonial } from "@/components/sections/testimonials/FeaturedTestimonial";
@@ -23,6 +23,7 @@ export default function TestimonialsPage() {
           { name: "Testimonials", path: "/testimonials" },
         ])}
       />
+      <JsonLd data={clinicReviewsSchema()} />
       <main id="main-content">
         <PageHero
           breadcrumbs={[

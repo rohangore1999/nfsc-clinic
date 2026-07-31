@@ -14,7 +14,7 @@
 - **Removed stray `/test` page** — deleted `app/test/page.jsx` (`<div>Test</div>`), which was publicly crawlable/indexable.
 - **Social `sameAs` links** confirmed live (Instagram, LinkedIn, YouTube).
 
-> **Open recommendation (not yet applied):** every page emits both `MedicalClinic` and `LocalBusiness` with the *same* self-referential `aggregateRating`. Since `MedicalClinic` is a subtype of `LocalBusiness`, this is redundant and self-serving review markup isn't eligible for star rich-results. Consider consolidating to a single primary entity (`MedicalClinic`).
+- **Consolidated business entity + compliant reviews** — removed the redundant `LocalBusiness` node (`MedicalClinic` is already a `LocalBusiness` subtype). The global `MedicalClinic` (`#clinic`) no longer carries a self-serving `aggregateRating`. Instead, a new `clinicReviewsSchema()` attaches `aggregateRating` + individual `Review` items (built from the real reviews in `content/site.js`) to `#clinic` **only on `/testimonials`**, where those reviews are visibly on the page. This mirrors markup to on-page content and avoids self-serving-review warnings. (Stars in search/Maps still come from Google Business Profile.)
 
 ---
 
@@ -24,9 +24,9 @@
 
 - [x] **Dynamic sitemap** — all 67 URLs (5 static + 7 categories + 55 procedures) auto-generated from `treatments-detail.js`
 - [x] **Security headers** — `X-Content-Type-Options`, `X-Frame-Options`, `Referrer-Policy`, `Permissions-Policy` in `next.config.mjs`
-- [x] **JSON-LD schema** on every page: `MedicalClinic`, `LocalBusiness`, `Physician`, `MedicalProcedure`, `BreadcrumbList`, `FAQPage`, `AggregateRating`
+- [x] **JSON-LD schema**: `MedicalClinic` (single business entity on every page), `Physician`, `MedicalProcedure`/`SurgicalProcedure`, `BreadcrumbList`, `FAQPage`; `AggregateRating` + `Review` scoped to `/testimonials`
 - [x] **Accurate procedure-type schema** — each procedure emits the correct schema.org shape via a `kind` (`surgical` → `@type: SurgicalProcedure`; `noninvasive`/`percutaneous` → `@type: MedicalProcedure` + valid `procedureType`). Category defaults live in `app/treatments/[slug]/[procedureSlug]/page.jsx` (`CATEGORY_PROCEDURE_KIND`), overridable per procedure via a `procedureKind` field in `treatments-detail.js`. Fixes the earlier bug where all 55 procedures were hardcoded as `procedureType: "SurgicalProcedure"` (an invalid `MedicalProcedureType` value)
-- [x] **AggregateRating schema** — star ratings (4.9/5) on `MedicalClinic` + `LocalBusiness` schemas for Google rich results
+- [x] **AggregateRating + Review schema** — 5.0★ rating with individual patient `Review` items, attached to the clinic entity and rendered only on `/testimonials` (where reviews are visible on the page), for policy-compliant markup
 - [x] **Local SEO schema** — `GeoCoordinates` (lat/lng), `areaServed` (Kandivali, Borivali, Malad, Goregaon, Andheri, Dahisar), `hasMap`
 - [x] **Meta descriptions** — unique per page, auto-truncated to ≤155 chars on procedure pages
 - [x] **Page titles** — unique per page, ≤60 chars with `| NFSC` suffix, include "Mumbai" location keyword
@@ -356,9 +356,10 @@ npx sharp-cli -i path/to/image.jpg -o path/to/image.jpg resize 1200 --withoutEnl
 
 | Page                                 | Schemas                                                       |
 | ------------------------------------ | ------------------------------------------------------------- |
-| All pages (root layout)              | `MedicalClinic` (with `AggregateRating`) + `LocalBusiness` (with `AggregateRating`) |
+| All pages (root layout)              | `MedicalClinic` (single business entity `#clinic`, no self-serving rating) |
 | `/about`                             | `BreadcrumbList` + `Physician`                                |
-| `/gallery`, `/testimonials`          | `BreadcrumbList`                                              |
+| `/gallery`                           | `BreadcrumbList`                                              |
+| `/testimonials`                      | `BreadcrumbList` + `AggregateRating` & `Review` (merged into `#clinic`) |
 | `/treatments`                        | `BreadcrumbList`                                              |
 | `/treatments/[slug]`                 | `BreadcrumbList` + `FAQPage`                                  |
 | `/treatments/[slug]/[procedureSlug]` | `BreadcrumbList` + `MedicalProcedure`/`SurgicalProcedure` (type per procedure `kind`) |

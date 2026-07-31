@@ -5,7 +5,7 @@ import { Inter, Playfair_Display } from "next/font/google";
 import { cn } from "@/lib/utils";
 import { ROOT_METADATA } from "@/lib/seo";
 import { JsonLd } from "@/components/seo/JsonLd";
-import { clinicSchema, localBusinessSchema } from "@/lib/schema";
+import { clinicSchema } from "@/lib/schema";
 import { Navbar } from "@/components/layout/navbar/Navbar";
 import { Footer } from "@/components/layout/footer/Footer";
 import { HashCleanup } from "@/components/layout/HashCleanup";
@@ -70,7 +70,6 @@ export default function RootLayout({ children }) {
           Skip to content
         </a>
         <JsonLd data={clinicSchema()} />
-        <JsonLd data={localBusinessSchema()} />
         <HashCleanup />
         <Navbar />
         {children}
