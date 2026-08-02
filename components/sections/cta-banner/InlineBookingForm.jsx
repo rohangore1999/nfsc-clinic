@@ -154,6 +154,7 @@ export function InlineBookingForm() {
           type="text"
           required
           placeholder={site.ctaBanner.fields.name}
+          aria-label={site.ctaBanner.fields.name}
           autoComplete="name"
           maxLength={FIELD_LIMITS.name}
           value={values.name}
@@ -178,6 +179,7 @@ export function InlineBookingForm() {
           required
           inputMode="tel"
           placeholder={site.ctaBanner.fields.phone}
+          aria-label={site.ctaBanner.fields.phone}
           autoComplete="tel"
           maxLength={FIELD_LIMITS.phone}
           value={values.phone}
@@ -201,6 +203,7 @@ export function InlineBookingForm() {
           type="email"
           inputMode="email"
           placeholder={site.ctaBanner.fields.email}
+          aria-label={site.ctaBanner.fields.email}
           autoComplete="email"
           maxLength={FIELD_LIMITS.email}
           value={values.email}
@@ -226,6 +229,7 @@ export function InlineBookingForm() {
             value={values.treatment}
             onChange={handleChange}
             onBlur={handleBlur}
+            aria-label={site.ctaBanner.fields.treatment}
             aria-invalid={!!visibleError("treatment")}
             aria-describedby={
               visibleError("treatment") ? "treatment-error" : undefined
@@ -271,6 +275,7 @@ export function InlineBookingForm() {
           rows={4}
           maxLength={FIELD_LIMITS.message}
           placeholder={site.ctaBanner.fields.message}
+          aria-label={site.ctaBanner.fields.message}
           value={values.message}
           onChange={handleChange}
           onBlur={handleBlur}

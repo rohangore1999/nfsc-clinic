@@ -31,7 +31,8 @@ const inter = Inter({
 const playfair = Playfair_Display({
   subsets: ["latin"],
   weight: ["400", "600", "700"],
-  style: ["normal", "italic"],
+  // Only "normal" is used (no component pairs font-serif with italic); dropping
+  // the italic files frees bandwidth on slow connections for the LCP <h1> font.
   variable: "--font-serif",
   display: "swap",
 });

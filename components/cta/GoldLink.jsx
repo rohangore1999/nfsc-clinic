@@ -14,8 +14,11 @@ import { cn } from "@/lib/utils";
  * @param {string} props.href
  * @param {React.ReactNode} props.children   - link label
  * @param {string} [props.className]
+ * @param {string} [props.ariaLabel]         - accessible name; set this when the
+ *   visible text is generic (e.g. "Learn More") so screen readers and AI agents
+ *   get a descriptive destination.
  */
-export function GoldLink({ href, children, className }) {
+export function GoldLink({ href, children, className, ariaLabel }) {
   const isExternal = /^https?:\/\//i.test(href);
 
   const classes = cn(
@@ -44,6 +47,7 @@ export function GoldLink({ href, children, className }) {
         target="_blank"
         rel="noopener noreferrer"
         className={classes}
+        aria-label={ariaLabel}
       >
         {inner}
       </a>
@@ -51,7 +55,7 @@ export function GoldLink({ href, children, className }) {
   }
 
   return (
-    <Link href={href} className={classes}>
+    <Link href={href} className={classes} aria-label={ariaLabel}>
       {inner}
     </Link>
   );

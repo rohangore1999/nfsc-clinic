@@ -71,7 +71,9 @@ export function AboutPreview() {
           </motion.div>
 
           <motion.div {...itemProps}>
-            <GoldLink href="/about">Learn More</GoldLink>
+            <GoldLink href="/about" ariaLabel={`Learn more about ${site.doctor.name}`}>
+              Learn More
+            </GoldLink>
           </motion.div>
         </motion.div>
 

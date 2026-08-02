@@ -22,7 +22,7 @@ export function TreatmentCard({ title, href, icon, image, priority = false, clas
 
   return (
     <div
-      className={cn("group h-full transition-transform duration-300 hover:-translate-y-1", className)}
+      className={cn("group/card h-full transition-transform duration-300 hover:-translate-y-1", className)}
     >
       <Link
         href={href}
@@ -40,13 +40,13 @@ export function TreatmentCard({ title, href, icon, image, priority = false, clas
               fill
               sizes="(min-width: 768px) 33vw, 100vw"
               priority={priority}
-              className="object-cover transition-transform duration-700 group-hover:scale-105"
+              className="object-cover transition-transform duration-700 group-hover/card:scale-105"
             />
           ) : (
             <div className="absolute inset-0 flex items-center justify-center">
               {Icon ? (
                 <Icon
-                  className="h-12 w-12 text-gold/40 transition-transform duration-700 group-hover:scale-110"
+                  className="h-12 w-12 text-gold/40 transition-transform duration-700 group-hover/card:scale-110"
                   strokeWidth={1.25}
                   aria-hidden="true"
                 />
@@ -61,7 +61,7 @@ export function TreatmentCard({ title, href, icon, image, priority = false, clas
             {title}
           </h2>
           <ArrowRight
-            className="mt-3 h-5 w-5 text-gold transition-transform duration-300 group-hover:translate-x-1"
+            className="mt-3 h-5 w-5 text-gold transition-transform duration-300 group-hover/card:translate-x-1"
             strokeWidth={1.5}
             aria-hidden="true"
           />
