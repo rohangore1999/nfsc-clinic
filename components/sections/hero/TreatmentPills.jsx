@@ -56,8 +56,9 @@ export function TreatmentPills({ items, className }) {
             reduceMotion
               ? undefined
               : {
-                  animation: `pill-glow ${totalCycle}s ease-in-out infinite`,
-                  animationDelay: `${0.8 + index * STAGGER}s`,
+                  // Consumed by `.pill-glow::after` (opacity animation) in globals.css.
+                  "--glow-cycle": `${totalCycle}s`,
+                  "--glow-delay": `${0.8 + index * STAGGER}s`,
                 }
           }
         >

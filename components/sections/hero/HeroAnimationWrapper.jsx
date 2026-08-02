@@ -1,51 +1,21 @@
-"use client";
-
-import { motion, useReducedMotion } from "motion/react";
-import { EASE, makeContainerVariant } from "@/lib/motion";
-
-const containerVariant = makeContainerVariant({ stagger: 0.05, delay: 0.05 });
-
-const itemVariant = {
-  hidden: { opacity: 0, y: 12 },
-  show: { opacity: 1, y: 0, transition: { duration: 0.5, ease: EASE } },
-};
+import { cn } from "@/lib/utils";
 
 /**
- * Thin client boundary for Hero entrance animations.
- * The children (H1, tagline, etc.) are server-rendered and visible
- * immediately in the HTML. This wrapper only adds the fade-in effect
- * once JS hydrates — the content is never invisible.
+ * Hero entrance — CSS-only staggered fade-up (see `.hero-enter` in globals.css).
+ *
+ * This is intentionally a plain server component, NOT a Motion client boundary.
+ * The hero <h1> is the LCP element; the previous Motion version set the hero to
+ * `opacity: 0` in the SSR HTML and only revealed it after React hydrated, which
+ * delayed mobile LCP by several seconds on slow connections. CSS keyframes run
+ * at first paint (no JS required), so the text is visible immediately.
+ *
+ * The stagger + reduced-motion handling live in CSS, so both components below
+ * just render plain markup and let `.hero-enter > *` drive the animation.
  */
 export function HeroAnimationWrapper({ children, className }) {
-  const reduceMotion = useReducedMotion();
-
-  const containerProps = reduceMotion
-    ? {}
-    : {
-        variants: containerVariant,
-        initial: "hidden",
-        animate: "show",
-      };
-
-  return (
-    <motion.div {...containerProps} className={className}>
-      {children}
-    </motion.div>
-  );
+  return <div className={cn("hero-enter", className)}>{children}</div>;
 }
 
-/**
- * Animated slot inside the Hero. Wraps each content block.
- * On the server, renders as a plain div. On the client, adds
- * Motion variant-based entrance.
- */
 export function HeroAnimatedItem({ children, className }) {
-  const reduceMotion = useReducedMotion();
-  const itemProps = reduceMotion ? {} : { variants: itemVariant };
-
-  return (
-    <motion.div {...itemProps} className={className}>
-      {children}
-    </motion.div>
-  );
+  return <div className={className}>{children}</div>;
 }

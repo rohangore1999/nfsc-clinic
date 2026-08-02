@@ -97,19 +97,57 @@
   }
 }
 
-/* Treatment pill glow — CSS keyframes (GPU-compositable via box-shadow)
- * Duration = count × STAGGER (e.g. 5 pills × 2s = 10s total cycle).
- * Glow occupies the first 20% of the cycle (~2s), then stays dark.
- * This guarantees only one pill glows at a time — no overlaps. */
+/* Hero entrance — CSS-only staggered fade-up.
+ * Deliberately NOT a Motion/JS animation: the hero <h1> is the LCP element,
+ * and gating it behind hydration (opacity:0 until JS runs) delayed mobile LCP
+ * by several seconds. CSS keyframes run at first paint, so the text is visible
+ * immediately regardless of when JS loads. */
+@keyframes hero-enter {
+  from { opacity: 0; transform: translateY(12px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+.hero-enter > * {
+  animation: hero-enter 0.5s cubic-bezier(0.16, 1, 0.3, 1) both;
+}
+.hero-enter > *:nth-child(1) { animation-delay: 0.05s; }
+.hero-enter > *:nth-child(2) { animation-delay: 0.10s; }
+.hero-enter > *:nth-child(3) { animation-delay: 0.15s; }
+.hero-enter > *:nth-child(4) { animation-delay: 0.20s; }
+.hero-enter > *:nth-child(5) { animation-delay: 0.25s; }
+.hero-enter > *:nth-child(6) { animation-delay: 0.30s; }
+.hero-enter > *:nth-child(7) { animation-delay: 0.35s; }
+.hero-enter > *:nth-child(8) { animation-delay: 0.40s; }
+.hero-enter > *:nth-child(9) { animation-delay: 0.45s; }
+
+/* Treatment pill glow — animates the OPACITY of a glow pseudo-element so the
+ * effect is GPU-composited (animating box-shadow directly is not, and was
+ * flagged by Lighthouse). Each pill's delay/cycle comes from CSS vars set
+ * inline, preserving the sequential one-at-a-time pulse. */
+.pill-glow {
+  position: relative;
+}
+.pill-glow::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: inherit;
+  box-shadow: 0 0 28px 3px rgba(201, 160, 79, 0.5);
+  opacity: 0;
+  pointer-events: none;
+  animation: pill-glow var(--glow-cycle, 10s) ease-in-out infinite;
+  animation-delay: var(--glow-delay, 0s);
+  will-change: opacity;
+}
 @keyframes pill-glow {
-  0%   { box-shadow: 0 0 0 0 rgba(201, 160, 79, 0); }
-  8%   { box-shadow: 0 0 28px 3px rgba(201, 160, 79, 0.5); }
-  12%  { box-shadow: 0 0 28px 3px rgba(201, 160, 79, 0.5); }
-  20%  { box-shadow: 0 0 12px 1px rgba(201, 160, 79, 0.1); }
-  25%  { box-shadow: 0 0 0 0 rgba(201, 160, 79, 0); }
-  100% { box-shadow: 0 0 0 0 rgba(201, 160, 79, 0); }
+  0%   { opacity: 0; }
+  8%   { opacity: 1; }
+  12%  { opacity: 1; }
+  20%  { opacity: 0.2; }
+  25%  { opacity: 0; }
+  100% { opacity: 0; }
 }
 
 @media (prefers-reduced-motion: reduce) {
-  .pill-glow { animation: none !important; }
+  .hero-enter > * { animation: none; }
+  .pill-glow::after { animation: none; }
 }
