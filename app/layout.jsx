@@ -25,7 +25,13 @@ const inter = Inter({
   subsets: ["latin"],
   weight: ["400", "500", "600"],
   variable: "--font-sans",
-  display: "swap",
+  // "optional" (not "swap") for the body/UI font: on Slow 4G the late font swap
+  // was repainting the LCP text (navbar subtitle) at ~3.6s. `optional` keeps the
+  // metric-adjusted system fallback if Inter isn't ready in ~100ms, so text
+  // paints once near FCP with no late LCP repaint. Inter's fallback is
+  // near-identical, and repeat/cached visits still get Inter.
+  display: "optional",
+  adjustFontFallback: true,
 });
 
 const playfair = Playfair_Display({
